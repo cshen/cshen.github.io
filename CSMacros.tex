@@ -1,0 +1,284 @@
+%
+% V1: 1 Feb. 2013
+% V2: 22 Nov. 2020; Added notion for tensors. Moved to overleaf.com
+% 
+% C . Shen: 4:04:01 pm, 1st January, 2021 commented: 
+%   
+%
+%
+% remove space around paragraphs
+%
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}%
+  {\z@}{0.5ex \@plus 1ex \@minus .1ex}{-1em}%
+  {\normalfont\normalsize\bfseries}%
+}
+\makeatother
+
+%
+% remove space around equations
+%
+\AtBeginDocument{%
+ \abovedisplayskip=8pt plus 3pt minus 5pt
+ \abovedisplayshortskip=0pt plus 3pt
+ \belowdisplayskip=8pt plus 3pt minus 5pt
+ \belowdisplayshortskip=5pt plus 3pt minus 4pt
+}
+
+
+%
+% fonts; Do not use times package. Use the following
+% 
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+
+\usepackage[]{amsmath}                  % Handy tools for mathematical typesetting
+\usepackage[]{mathtools}                % Mathtools package requires and fixes amsmath
+\usepackage[]{amsthm}
+\usepackage[]{amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{bbm}
+
+\usepackage[]{xcolor}
+\usepackage[mathscr]{eucal}
+
+\usepackage[]{xparse}
+\usepackage[]{xstring}
+\usepackage{etoolbox}
+\usepackage[]{xspace}
+\usepackage[]{comment}
+
+\usepackage{nicefrac}
+
+\usepackage[margin=4pt,font=small,labelfont=bf,labelsep=endash,tableposition=top]{caption}
+
+\usepackage{multirow}
+
+\usepackage{url}
+\def\UrlFont{\rm\small\ttfamily}
+
+ 
+%
+% -- math symbols --
+% http://tex.stackexchange.com/questions/83939/new-command-based-on-command-name
+%
+% Define vectors in boldface, lowercase; matrices in
+% boldface, uppercase.
+% Examples: This is a vector $\vx$ and this is a matrix
+% $\mA$.  This is a vector $\vec{x}$ and this is a matrix
+% $\mat{A}$.  Also $\mat{\Gamma}$ works.
+%
+% \DeclareMathAlphabet{\mathbmit}{OML}{cmm}{b}{it}               
+% \DeclareMathAlphabet{<math-alph>}{<encoding>}{<family>}{<series>}{<shape>}                           %  it: italic;  n: `normal' math 
+                  %
+               
+\renewcommand{\vec}[1]{\ensuremath{\pmb{#1}}}
+\newcommand{\mat}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\set}[1]{\ensuremath{\mathscr{#1}}}
+
+%\newcommand{\tensor}[1]{\ensuremath{\pmb{ \mathtt{ #1} }  }}
+
+\newcommand{\tensor}[1]{\ensuremath{ {\sf #1}\hspace{-0.24659cm} {\sf #1} }}
+
+
+
+
+\makeatletter
+\@tfor\next:=abcdefghijklmnopqrstuvwxyxz\do
+{\begingroup\edef\x{\endgroup
+        \noexpand\@namedef{v\next}{\noexpand\vec{\next}}%
+    }\x}
+%
+\@tfor\next:=ABCDEFGHIJKLMNOPQRSTUVWXYZ\do
+{\begingroup\edef\x{\endgroup
+        \noexpand\@namedef{m\next}{\noexpand\mat{\next}}%
+    }\x}
+%
+\@tfor\next:=ABCDEFGHIJKLMNOPQRSTUVWXYZ\do
+{\begingroup\edef\x{\endgroup
+        \noexpand\@namedef{s\next}{\noexpand\set{\next}}%
+    }\x}
+%
+% tensor
+%
+\@tfor\next:=ABCDEFGHIJKLMNOPQRSTUVWXYZ\do
+{\begingroup\edef\x{\endgroup
+        \noexpand\@namedef{t\next}{\noexpand\tensor{\next}}%
+    }\x}
+\makeatother
+
+
+\def\sG{\mathcal{G}}                                % Override \sG to make it look nicer;
+
+\newcommand{\Transpose}{\ensuremath{{\!\top}} }     % Transpose ^T
+\let\T\Transpose
+
+
+\newcommand{\opt}{\ensuremath{\textsc{Opt}}}
+
+\newcommand{\norm}[1]{\ensuremath{\left\|#1 \right\|}}
+
+\newcommand{\eyes}{\ensuremath{{\mathbf{I}}}}
+
+% Set indicator function
+\newcommand{\1}{{\mathbbm{1}}}           
+                                                
+
+
+
+% getting a dot the size between \cdot and \bullet
+% \newcommand\bcdot{\ensuremath{\vcenter{\hbox{\tiny$\bullet$}}}}
+\newcommand{\bcdot}{\raisebox{1pt}{\textbf{\large .}}}
+%
+
+% smaller than \bcdot
+\newcommand{\sdot}{\raisebox{1pt}{{.}}}
+
+
+
+\noexpandarg
+\newcommand\col[1]{%
+\StrBefore{#1}{_}[\matrix]%
+\StrBehind{#1}{_}[\colindex]%
+{\ensuremath{{\matrix}_{ \bcdot    \mkern-1.5mu    \colindex}}}%
+}
+
+\noexpandarg
+\newcommand\row[1]{%
+\StrBefore{#1}{_}[\matrix]%
+\StrBehind{#1}{_}[\rowindex]%
+{\ensuremath{{\matrix}_{ \rowindex  \bcdot }^\T}}%
+}
+
+                                        % \inprod{ \mA, \mB } calculates matrix inner product
+\noexpandarg
+\DeclareDocumentCommand{\inprod}{ O{,} m }{%
+\StrBefore{#2}{#1}[\leftmat]%
+\StrBehind{#2}{#1}[\rightmat]%
+{\ensuremath{  \left\langle \leftmat, \rightmat \right\rangle }}%
+}
+
+
+
+
+
+
+% -- text in math mode --
+% \newcommand{\ppoly}[0]{{\rm poly}}
+% \newcommand{\poly}[1]{\ensuremath{{\rm poly}\left(#1\right)}}
+% \newcommand{\polylog}[1]{\ensuremath{{\rm polylog}\left(#1\right)}}
+\renewcommand{\Pr}{\ensuremath{{\rm Pr}}}
+\renewcommand{\th}{\ensuremath{^{\rm th}}}
+\newcommand{\myexp}{\ensuremath{\mathbb{E}}}                    % expectation
+\newcommand{\EE}{{\mathbb{E}}}
+
+\newcommand{\const}{\mathop{\bf   const}\nolimits}
+\newcommand{\diag}{\mathop{\bf    diag}\nolimits}
+\newcommand{\grad}{\mathop{\bf    grad}\nolimits}
+\newcommand{\Range}{\mathop{\bf   Range}\nolimits}
+\newcommand{\rank}{\mathop{\bf    rank}\nolimits}
+\newcommand{\supp}{\mathop{\bf    supp}\nolimits}
+\newcommand{\trace}{\mathop{\bf   trace}\nolimits}
+\newcommand{\tr}{\mathop{\bf      tr}\nolimits}                 % in one doc, you should stick to
+                                                                % either trace or tr
+
+
+% Bold first sentence of a floats caption using \bcaption{...}
+% This solution only works when your sentence ends with a (single) period.
+\makeatletter
+\newcommand\@bff[1]{%
+    \noexpandarg
+    \IfSubStr{#1}{.}{%
+      \StrBefore{#1}{.}[\firstcaption]%
+      \StrBehind{#1}{.}[\secondcaption]%
+      \textbf{\firstcaption.} \secondcaption}{%
+      #1}%
+}
+\newcommand{\bcaption}[1]{\caption{\protect\@bff{#1}}}
+\makeatother
+
+
+
+% Smaller \circ How to "exchange" the \circ command with the
+                                        % new one? Just replace the given code with
+\let\latexcirc=\circ
+\newcommand{\ccirc}{\mathbin{\mathchoice
+  {\xcirc\scriptstyle}
+  {\xcirc\scriptstyle}
+  {\xcirc\scriptscriptstyle}
+  {\xcirc\scriptscriptstyle}
+}}
+\newcommand{\xcirc}[1]{\vcenter{\hbox{$#1\latexcirc$}}}
+\let\circ\ccirc
+
+
+%
+%
+%
+\newcommand\strong[1]{\textbf{#1}}
+\newcommand\foreign[1]{\emph{#1}}
+
+\newcommand\abbrev[1]{\textsc{\lowercase{#1}}\xspace}
+\let\acronym\abbrev
+
+\newcommand{\email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
+\newcommand{\code}{\texttt}
+\newcommand{\command}{\texttt}
+
+
+% Define some colors
+\newcommand\blue[1]{\color{blue}{{#1}}}
+\newcommand\gray[1]{\color{lightgray}{{#1}}}
+
+\let\grey\gray
+
+
+\makeatletter
+\newcommand\ensurecomma{\@ifnextchar,{}{\@latex@error{Don't forget the comma!}{}}}
+\makeatother
+
+%
+% undefine some commands
+%
+\let\eg=\relax
+\let\ie=\relax
+\let\cf=\relax
+\let\etc=\relax
+\let\etal=\relax
+
+\newcommand\eg{\foreign{e.g.}\ensurecomma}
+\newcommand\ie{\foreign{i.e.}\ensurecomma}
+\newcommand\cf{\foreign{cf.\xspace}}
+
+                                        % The \@ ensures that no extra space is added after the
+                                        % period as it would if the period ended a sentence.
+\makeatletter
+\newcommand\ensuresingleperiod{\@ifnextchar.{}{.\xspace}}
+\makeatother
+
+\newcommand\etc{\foreign{etc}\ensuresingleperiod}
+\newcommand\etal{\foreign{et al}\ensuresingleperiod}
+
+
+                                        % Elements of Typographic Style, recommends to use upright
+                                        % parentheses in italic text xparse allows us to easily
+                                        % define \emph to do what you asked for, and \emph* to do
+                                        % the old version of \emph
+\usepackage{expl3,xparse}               % These two are LaTeX3 packages
+\ExplSyntaxOn
+\cs_new_eq:Nc \emph_old:n { emph~ }     % Copying the old definition of `\emph`
+\cs_new_eq:NN \emph_braces:n \textup    % Set up how braces should be typeset.
+\cs_new:Npn \emph_new:n #1 {
+  \tl_set:Nn \l_emph_tl {#1}
+  \tl_replace_all:Nnn \l_emph_tl {(}{\emph_braces:n{(}}
+  \tl_replace_all:Nnn \l_emph_tl {)}{\emph_braces:n{)}}
+  \tl_replace_all:Nnn \l_emph_tl {[}{\emph_braces:n{[}}
+  \tl_replace_all:Nnn \l_emph_tl {]}{\emph_braces:n{]}}
+  \exp_args:NV \emph_old:n \l_emph_tl
+}
+\RenewDocumentCommand {\emph} {sm} {
+  \IfBooleanTF {#1} {\emph_old:n {#2}} {\emph_new:n {#2}}
+}
+\ExplSyntaxOff
