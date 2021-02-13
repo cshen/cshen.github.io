@@ -1,0 +1,125 @@
+%%
+%% ZhangPerson2021AAAI
+\id{1~~2021}\decoauthor{X. Zhang, X. Wang, J. Bian, \highlight{C. Shen}, M. You}
+\decoyear{2021}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Diverse+Knowledge+Distillation+for+End-to-end+Person+Search+Zhang,+Xinyu+and+Wang,+Xinlong+and+Bian,+Jia-Wang+and+Shen,+Chunhua+and+You,+Minyu}{Diverse knowledge distillation for end-to-end person search}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'21)}\decopage{}\\[.125cm]
+%%
+%% LiuBNN2021AAAI
+\id{2}\decoauthor{C. Liu, P. Chen, B. Zhuang, \highlight{C. Shen}, B. Zhang, W. Ding}
+\decoyear{2021}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=SA-BNN:+State-Aware+Binary+Neural+Network+Liu,+Chunlei+and+Chen,+Peng+and+Zhuang,+Bohan+and+Shen,+Chunhua+and+Zhang,+Baochang+and+Ding,+Wenrui}{SA-BNN: state-aware binary neural network}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'21)}\decopage{}\\[.125cm]
+%%
+%% AAAI20Teney
+\id{3~~2020}\decoauthor{D. Teney, P. Wang, J. Cao, L. Liu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=V-PROM:+A+Benchmark+for+Visual+Reasoning+Using+Visual+Progressive+Matrices+Teney,+Damien+and+Wang,+Peng+and+Cao,+Jiewei+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{V-PROM: a benchmark for visual reasoning using visual progressive matrices}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'20)}\decopage{}\\[.125cm]
+%%
+%% AAAI20Wang
+\id{4}\decoauthor{X. Wang, W. Yin, T. Kong, Y. Jiang, L. Li, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Task-Aware+Monocular+Depth+Estimation+for+3D+Object+Detection+Wang,+Xinlong+and+Yin,+Wei+and+Kong,+Tao+and+Jiang,+Yuning+and+Li,+Lei+and+Shen,+Chunhua}{Task-aware monocular depth estimation for 3D object detection}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'20)}\decopage{}\\[.125cm]
+%%
+%% Wang2020IJCAI
+\id{5}\decoauthor{H. Wang, G. Pang, \highlight{C. Shen}, C. Ma}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Unsupervised+Representation+Learning+by+Predicting+Random+Distances+Wang,+Hu+and+Pang,+Guansong+and+Shen,+Chunhua+and+Ma,+Congbo}{Unsupervised representation learning by predicting random distances}}
+\decoconf{Int'l\ Joint Conferences on Artificial Intelligence (IJCAI'20)}\decopage{}\\[.125cm]
+%%
+%% YXie2020MICCAI
+\id{6}\decoauthor{Y. Xie, J. Zhang, Z. Liao, \highlight{C. Shen}, J. Verjans, Y. Xia}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Pairwise+Relation+Learning+for+Semi-supervised+Gland+Segmentation+Xie,+Yutong+and+Zhang,+Jianpeng+and+Liao,+Zhibin+and+Shen,+Chunhua+and+Verjans,+Johan+and+Xia,+Yong}{Pairwise relation learning for semi-supervised gland segmentation}}
+\decoconf{Int'l\ Conf.\ Medical Image Computing and Computer Assisted Intervention (MICCAI'20)}\decopage{}\\[.125cm]
+%%
+%% AAAI19Li
+\id{7~~2019}\decoauthor{H. Li, P. Wang, \highlight{C. Shen}, G. Zhang}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Show,+attend+and+read:+a+simple+and+strong+baseline+for+irregular+text+recognition+Li,+Hui+and+Wang,+Peng+and+Shen,+Chunhua+and+Zhang,+Guyu}{Show, attend and read: a simple and strong baseline for irregular text recognition}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'19)}\decopage{}\\[.125cm]
+%%
+%% MM2019Yan
+\id{8}\decoauthor{C. Yan, G. Pang, X. Bai, \highlight{C. Shen}, J. Zhou, E. Hancock}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Hashing+by+Discriminating+Hard+Examples+Yan,+Cheng+and+Pang,+Guansong+and+Bai,+Xiao+and+Shen,+Chunhua+and+Zhou,+Jun+and+Hancock,+Edwin}{Deep hashing by discriminating hard examples}}
+\decoconf{ACM Int'l\ Conf.\ Multimedia (ACMMM'19)}\decopage{}\\[.125cm]
+%%
+%% ICRA19Nekrasov
+\id{9}\decoauthor{V. Nekrasov, T. Dharmasiri, A. Spek, T. Drummond, \highlight{C. Shen}, I. Reid}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Real-Time+Joint+Semantic+Segmentation+and+Depth+Estimation+Using+Asymmetric+Annotations+Nekrasov,+Vladimir+and+Dharmasiri,+Thanuja+and+Spek,+Andrew+and+Drummond,+Tom+and+Shen,+Chunhua+and+Reid,+Ian}{Real-time joint semantic segmentation and depth estimation using asymmetric annotations}}
+\decoconf{Int'l\ Conf.\ Robotics and Automation (ICRA'19)}\decopage{}\\[.125cm]
+%%
+%% IJCAI19Zhang
+\id{10}\decoauthor{J. Zhang, Y. Xie, P. Zhang, H. Chen, Y. Xia, \highlight{C. Shen}}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Light-Weight+Hybrid+Convolutional+Network+for+Liver+Tumor+Segmentation+Zhang,+Jianpeng+and+Xie,+Yutong+and+Zhang,+Pingping+and+Chen,+Hao+and+Xia,+Yong+and+Shen,+Chunhua}{Light-weight hybrid convolutional network for liver tumor segmentation}}
+\decoconf{Int'l\ Joint Conf.\ Artificial Intelligence (IJCAI'19)}\decopage{}\\[.125cm]
+%%
+%% KDD19Pang
+\id{11}\decoauthor{G. Pang, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Anomaly+Detection+with+Deviation+Networks+Pang,+Guansong+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Deep anomaly detection with deviation networks}}
+\decoconf{ACM SIGKDD Conf.\ Knowledge Discovery and Data Mining (KDD'19)}\decopage{}\\[.125cm]
+%%
+%% MICCAI2019Xie
+\id{12}\decoauthor{Y. Xie, H. Lu, J. Zhang, \highlight{C. Shen}, Y. Xia}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Segmentation-Emendation+Model+for+Gland+Instance+Segmentation+Xie,+Yutong+and+Lu,+Hao+and+Zhang,+Jianpeng+and+Shen,+Chunhua+and+Xia,+Yong}{Deep segmentation-emendation model for gland instance segmentation}}
+\decoconf{Int'l\ Conf.\ Medical Image Computing and Computer Assisted Intervention (MICCAI'19)}\decopage{}\\[.125cm]
+%%
+%% AAAI2018Zhang
+\id{13~~2018}\decoauthor{J. Zhang, Q. Wu, J. Zhang, \highlight{C. Shen}, J. Lu}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Kill+Two+Birds+with+One+Stone:+Weakly-Supervised+Neural+Network+for+Image+Annotation+and+Tag+Refinement+Zhang,+Junjie+and+Wu,+Qi+and+Zhang,+Jian+and+Shen,+Chunhua+and+Lu,+Jianfeng}{Kill two birds with one stone: weakly-supervised neural network for image annotation and tag refinement}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'18)}\decopage{}\\[.125cm]
+%%
+%% AAAI2018Zhuang
+\id{14}\decoauthor{B. Zhuang, Q. Wu, \highlight{C. Shen}, I. Reid, A. van den Hengel}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=HCVRD:+a+benchmark+for+large-scale+Human-Centered+Visual+Relationship+Detection+Zhuang,+Bohan+and+Wu,+Qi+and+Shen,+Chunhua+and+Reid,+Ian+and+van+den+Hengel,+Anton}{HCVRD: a benchmark for large-scale human-centered visual relationship detection}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'18)}\decopage{}\\[.125cm]
+%%
+%% BMVC18Nekrasov
+\id{15}\decoauthor{V. Nekrasov, \highlight{C. Shen}, I. Reid}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Light-Weight+RefineNet+for+Real-Time+Semantic+Segmentation+Nekrasov,+Vladimir+and+Shen,+Chunhua+and+Reid,+Ian}{Light-weight refinenet for real-time semantic segmentation}}
+\decoconf{British Machine Vision Conference (BMVC'18)}\decopage{}\\[.125cm]
+%%
+%% BMVC18Cai
+\id{16}\decoauthor{M. Cai, \highlight{C. Shen}, I. Reid}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Hybrid+Probabilistic+Model+for+Camera+Relocalization+Cai,+Ming+and+Shen,+Chunhua+and+Reid,+Ian}{A hybrid probabilistic model for camera relocalization}}
+\decoconf{British Machine Vision Conference (BMVC'18)}\decopage{}\\[.125cm]
+%%
+%% Zhang2018IJCAI
+\id{17}\decoauthor{P. Zhang, W. Liu, H. Lu, \highlight{C. Shen}}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Salient+Object+Detection+by+Lossless+Feature+Reflection+Zhang,+Pingping+and+Liu,+Wei+and+Lu,+Huchuan+and+Shen,+Chunhua}{Salient object detection by lossless feature reflection}}
+\decoconf{Int'l\ Joint Conf.\ Artificial Intelligence (IJCAI'18)}\decopage{}\\[.125cm]
+%%
+%% BMVC17Zeroshot
+\id{18~~2017}\decoauthor{R. Qiao, L. Liu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Visually+Aligned+Word+Embeddings+for+Improving+Zero-shot+Learning+Qiao,+Ruizhi+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Visually aligned word embeddings for improving zero-shot learning}}
+\decoconf{British Machine Vision Conference (BMVC'17)}\decopage{}\\[.125cm]
+%%
+%% BMVC2017Tong
+\id{19}\decoauthor{T. Shen, G. Lin, L. Liu, \highlight{C. Shen}, I. Reid}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Weakly+supervised+semantic+segmentation+based+on+co-segmentation+Shen,+Tong+and+Lin,+Guosheng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Reid,+Ian}{Weakly supervised semantic segmentation based on co-segmentation}}
+\decoconf{British Machine Vision Conference (BMVC'17)}\decopage{}\\[.125cm]
+%%
+%% ICRA2017Chen
+\id{20}\decoauthor{Z. Chen, A. Jacobson, N. Sunderhauf, B. Upcroft, L. Liu, \highlight{C. Shen}, I. Reid, M. Milford}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Learning+Features+at+Scale+for+Visual+Place+Recognition+Chen,+Zetao+and+Jacobson,+Adam+and+Sunderhauf,+Niko+and+Upcroft,+Ben+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Reid,+Ian+and+Milford,+Michael}{Deep learning features at scale for visual place recognition}}
+\decoconf{IEEE Int'l\ Conf.\ Robotics and Automation (ICRA'17)}\decopage{}\\[.125cm]
+%%
+%% IJCAI2017Tong
+\id{21}\decoauthor{T. Shen, G. Lin, \highlight{C. Shen}, I. Reid}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Learning+Multi-level+Region+Consistency+with+Dense+Multi-label+Networks+for+Semantic+Segmentation+Shen,+Tong+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Reid,+Ian}{Learning multi-level region consistency with dense multi-label networks for semantic segmentation}}
+\decoconf{Int'l\ Joint Conf.\ Artificial Intelligence (IJCAI'17)}\decopage{}\\[.125cm]
+%%
+%% IJCAI2017Wei
+\id{22}\decoauthor{X. Wei, C. Zhang, Y. Li, C. Xie, J. Wu, \highlight{C. Shen}, Z. Zhou}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Descriptor+Transforming+for+Image+Co-Localization+Wei,+Xiu-Shen+and+Zhang,+Chen-Lin+and+Li,+Yao+and+Xie,+Chen-Wei+and+Wu,+Jianxin+and+Shen,+Chunhua+and+Zhou,+Zhi-Hua}{Deep descriptor transforming for image co-localization}}
+\decoconf{Int'l\ Joint Conf.\ Artificial Intelligence (IJCAI'17)}\decopage{}\\[.125cm]
+%%
+%% IJCAI2017Wang
+\id{23}\decoauthor{P. Wang, Q. Wu, \highlight{C. Shen}, A. van den Hengel, A. Dick}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Explicit+Knowledge-based+Reasoning+for+Visual+Question+Answering+Wang,+Peng+and+Wu,+Qi+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Dick,+Anthony}{Explicit knowledge-based reasoning for visual question answering}}
+\decoconf{Int'l\ Joint Conf.\ Artificial Intelligence (IJCAI'17)}\decopage{}\\[.125cm]
+%%
+%% AAAI2011
+\id{24~~2011}\decoauthor{K. Park, \highlight{C. Shen}, Z. Hao, J. Kim}
+\decoyear{2011}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Efficiently+learning+a+distance+metric+for+large+margin+nearest+neighbor+classification+Park,+Kyoungup+and+Shen,+Chunhua+and+Hao,+Zhihui+and+Kim,+Junae}{Efficiently learning a distance metric for large margin nearest neighbor classification}}
+\decoconf{AAAI Conf.\ Artificial Intelligence (AAAI'11)}\decopage{453$-$458}\\[.125cm]
+%%
+%% Zhou2010MICCAI
+\id{25~~2010}\decoauthor{L. Zhou, L. Wang, \highlight{C. Shen}, N. Barnes}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Hippocampal+shape+classification+using+redundancy+constrained+feature+selection+Zhou,+Luping+and+Wang,+Lei+and+Shen,+Chunhua+and+Barnes,+Nick}{Hippocampal shape classification using redundancy constrained feature selection}}
+\decoconf{Int'l\ Conf.\ Medical Image Computing and Computer Assisted Intervention (MICCAI'10)}\decopage{266$-$273}\\[.125cm]

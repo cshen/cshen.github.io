@@ -1,0 +1,670 @@
+%%
+%% Tian2021Adversarial
+\id{1~~2021}\decoauthor{L. Tian, P. Wang, G. Liang, \highlight{C. Shen}}
+\decoyear{2021}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=An+Adversarial+Human+Pose+Estimation+Network+Injected+with+Graph+Structure+Tian,+Lei+and+Wang,+Peng+and+Liang,+Guoqiang+and+Shen,+Chunhua}{An adversarial human pose estimation network injected with graph structure}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Pan2020ACMSurvey
+\id{2~~2020}\decoauthor{G. Pang, \highlight{C. Shen}, L. Cao, A. van den Hengel}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Learning+for+Anomaly+Detection:+A+Review+Pang,+Guansong+and+Shen,+Chunhua+and+Cao,+Longbing+and+van+den+Hengel,+Anton}{Deep learning for anomaly detection: a review}}
+\decojournal{ACM Computing Surveys}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Daiyt2020
+\id{3}\decoauthor{Y. Dai, H. Lu, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Towards+Light-Weight+Portrait+Matting+via+Parameter+Sharing+Dai,+Yutong+and+Lu,+Hao+and+Shen,+Chunhua}{Towards light-weight portrait matting via parameter sharing}}
+\decojournal{Computer Graphics Forum}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Luo2020IJCV
+\id{4}\decoauthor{C. Luo, Q. Lin, Y. Liu, L. Jin, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild+Luo,+Canjie+and+Lin,+Qingxiang+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Shen,+Chunhua}{Separating content from style using adversarial learning for recognizing text in the wild}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TasselNet2020
+\id{5}\decoauthor{H. Xiong, Z. Cao, H. Lu, S. Madec, L. Liu, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=TasselNetv2:+in-field+counting+of+wheat+spikes+with+context-augmented+local+regression+networks+Xiong,+Haipeng+and+Cao,+Zhiguo+and+Lu,+Hao+and+Madec,+Simon+and+Liu,+Liang+and+Shen,+Chunhua}{TasselNetv2: in-field counting of wheat spikes with context-augmented local regression networks}}
+\decojournal{Plant Methods}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% MobileFAN2020
+\id{6}\decoauthor{Y. Zhao, Y. Liu, \highlight{C. Shen}, Y. Gao, S. Xiong}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=MobileFAN:+Transferring+Deep+Hidden+Representation+for+Face+Alignment+Zhao,+Yang+and+Liu,+Yifan+and+Shen,+Chunhua+and+Gao,+Yongsheng+and+Xiong,+Shengwu}{MobileFAN: transferring deep hidden representation for face alignment}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhangx2020T-ITS
+\id{7}\decoauthor{X. Zhang, R. Zhang, J. Cao, D. Gong, M. You, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Part-Guided+Attention+Learning+for+Vehicle+Instance+Retrieval+Zhang,+Xinyu+and+Zhang,+Rufeng+and+Cao,+Jiewei+and+Gong,+Dong+and+You,+Mingyu+and+Shen,+Chunhua}{Part-guided attention learning for vehicle instance retrieval}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Dong2020segmentation
+\id{8}\decoauthor{G. Dong, Y. Yan, \highlight{C. Shen}, H. Wang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Real-time+high-performance+semantic+image+segmentation+of+urban+street+scenes+Dong,+Genshun+and+Yan,+Yan+and+Shen,+Chunhua+and+Wang,+Hanzi}{Real-time high-performance semantic image segmentation of urban street scenes}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Li2020Carlicense
+\id{9}\decoauthor{L. Zhang, P. Wang, H. Li, Z. Li, \highlight{C. Shen}, Y. Zhang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+robust+attentional+framework+for+license+plate+recognition+in+the+wild+Zhang,+Linjiang+and+Wang,+Peng+and+Li,+Hui+and+Li,+Zhen+and+Shen,+Chunhua+and+Zhang,+Yanning}{A robust attentional framework for license plate recognition in the wild}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% LiuL2020CSVT
+\id{10}\decoauthor{L. Liu, Z. Cao, H. Lu, H. Xiong, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=NSSNet:+Scale-aware+object+counting+with+non-scale+suppression+Liu,+Liang+and+Cao,+Zhiguo+and+Lu,+Hao+and+Xiong,+Haipeng+and+Shen,+Chunhua}{NSSNet: scale-aware object counting with non-scale suppression}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2020Zeroshot
+\id{11}\decoauthor{L. Zhang, P. Wang, L. Liu, \highlight{C. Shen}, W. Wei, Y. Zhang, A. van den Hengel}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Towards+Effective+Deep+Embedding+for+Zero-Shot+Learning+Zhang,+Lei+and+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Wei,+Wei+and+Zhang,+Yanning+and+van+den+Hengel,+Anton}{Towards effective deep embedding for zero-shot learning}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2020Covid
+\id{12}\decoauthor{J. Zhang, Y. Xie, Z. Liao, G. Pang, J. Verjans, W. Li, Z. Sun, J. He, Y. Li, \highlight{C. Shen}, Y. Xia}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Viral+Pneumonia+Screening+on+Chest+X-ray+Images+Using+Confidence-Aware+Anomaly+Detection+Zhang,+Jianpeng+and+Xie,+Yutong+and+Liao,+Zhibin+and+Pang,+Guansong+and+Verjans,+Johan+and+Li,+Wenxin+and+Sun,+Zongji+and+He,+Jian+and+Li,+Yi+and+Shen,+Chunhua+and+Xia,+Yong}{Viral pneumonia screening on chest x-ray images using confidence-aware anomaly detection}}
+\decojournal{IEEE Trans.\ Medical Imaging}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Xie2020TMIb
+\id{13}\decoauthor{Y. Xie, J. Zhang, H. Lu, \highlight{C. Shen}, Y. Xia}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=SESV:+Accurate+Medical+Image+Segmentation+by+Predicting+and+Correcting+Errors+Xie,+Yutong+and+Zhang,+Jianpeng+and+Lu,+Hao+and+Shen,+Chunhua+and+Xia,+Yong}{SESV: accurate medical image segmentation by predicting and correcting errors}}
+\decojournal{IEEE Trans.\ Medical Imaging}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Xie2020TMIa
+\id{14}\decoauthor{Y. Xie, J. Zhang, Y. Xia, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Mutual+Bootstrapping+Model+for+Automated+Skin+Lesion+Segmentation+and+Classification+Xie,+Yutong+and+Zhang,+Jianpeng+and+Xia,+Yong+and+Shen,+Chunhua}{A mutual bootstrapping model for automated skin lesion segmentation and classification}}
+\decojournal{IEEE Trans.\ Medical Imaging}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% ShengZhang2020TMM
+\id{15}\decoauthor{S. Zhang, Y. Liu, L. Jin, Z. Wei, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=OPMP:+An+Omni-directional+Pyramid+Mask+Proposal+Network+for+Arbitrary-shape+Scene+Text+Detection+Zhang,+Sheng+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Wei,+Zhongrong+and+Shen,+Chunhua}{OPMP: an omni-directional pyramid mask proposal network for arbitrary-shape scene text detection}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Yan2020TMM
+\id{16}\decoauthor{Y. Yan, Y. Huang, S. Chen, \highlight{C. Shen}, H. Wang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Joint+deep+learning+of+facial+expression+synthesis+and+recognition+Yan,+Yan+and+Huang,+Ying+and+Chen,+Si+and+Shen,+Chunhua+and+Wang,+Hanzi}{Joint deep learning of facial expression synthesis and recognition}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Peng2020TNNLS
+\id{17}\decoauthor{X. Peng, H. Zhu, J. Feng, \highlight{C. Shen}, H. Zhang, J. Zhou}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Clustering+with+Sample-Assignment+Invariance+Prior+Peng,+Xi+and+Zhu,+Hongyuan+and+Feng,+Jiashi+and+Shen,+Chunhua+and+Zhang,+Haixian+and+Zhou,+Joey}{Deep clustering with sample-assignment invariance prior}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Gong2020TNNLS
+\id{18}\decoauthor{D. Gong, Z. Zhang, Q. Shi, A. van den Hengel, \highlight{C. Shen}, Y. Zhang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Learning+Deep+Gradient+Descent+Optimization+for+Image+Deconvolution+Gong,+Dong+and+Zhang,+Zhen+and+Shi,+Qinfeng+and+van+den+Hengel,+Anton+and+Shen,+Chunhua+and+Zhang,+Yanning}{Learning deep gradient descent optimization for image deconvolution}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2020TNNLS
+\id{19}\decoauthor{L. Zhang, W. Wei, Q. Shi, \highlight{C. Shen}, A. van den Hengel, Y. Zhang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Accurate+Tensor+Completion+via+Adaptive+Low-Rank+Representation+Zhang,+Lei+and+Wei,+Wei+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Zhang,+Yanning}{Accurate tensor completion via adaptive low-rank representation}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Liu2020TOG
+\id{20}\decoauthor{W. Liu, P. Zhang, X. Huang, J. Yang, \highlight{C. Shen}, I. Reid}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Real-time+image+smoothing+via+iterative+least+squares+Liu,+Wei+and+Zhang,+Pingping+and+Huang,+Xiaolin+and+Yang,+Jie+and+Shen,+Chunhua+and+Reid,+Ian}{Real-time image smoothing via iterative least squares}}
+\decojournal{ACM Trans.\ Graphics}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Cao2020GAN
+\id{21}\decoauthor{J. Cao, Y. Guo, Q. Wu, \highlight{C. Shen}, J. Huang, M. Tan}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Improving+Generative+Adversarial+Networks+with+Local+Coordinate+Coding+Cao,+Jiezhang+and+Guo,+Yong+and+Wu,+Qingyao+and+Shen,+Chunhua+and+Huang,+Junzhou+and+Tan,+Mingkui}{Improving generative adversarial networks with local coordinate coding}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Lu2020PAMIIndexNet
+\id{22}\decoauthor{H. Lu, Y. Dai, \highlight{C. Shen}, S. Xu}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Index+Networks+Lu,+Hao+and+Dai,+Yutong+and+Shen,+Chunhua+and+Xu,+Songcen}{Index networks}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Liu2020PAMI
+\id{23}\decoauthor{Y. Liu, C. Shun, J. Wang, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Structured+Knowledge+Distillation+for+Dense+Prediction+Liu,+Yifan+and+Shun,+Changyong+and+Wang,+Jingdong+and+Shen,+Chunhua}{Structured knowledge distillation for dense prediction}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhou2020TPAMIZhou
+\id{24}\decoauthor{Y. Zhou, R. Ji, J. Su, X. Sun, D. Meng, Y. Gao, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Plenty+Is+Plague:+Fine-Grained+Learning+for+Visual+Question+Answering+Zhou,+Yiyi+and+Ji,+Rongrong+and+Su,+Jinsong+and+Sun,+Xiaoshuai+and+Meng,+Deyu+and+Gao,+Yue+and+Shen,+Chunhua}{Plenty is plague: fine-grained learning for visual question answering}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2020OrderlessReID
+\id{25}\decoauthor{L. Zhang, Z. Shi, J. Zhou, M. Cheng, Y. Liu, J. Bian, Z. Zeng, \highlight{C. Shen}}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Ordered+or+Orderless:+A+Revisit+for+Video+based+Person+Re-Identification+Zhang,+Le+and+Shi,+Zenglin+and+Zhou,+Joey+Tianyi+and+Cheng,+Ming-Ming+and+Liu,+Yun+and+Bian,+Jia-Wang+and+Zeng,+Zeng+and+Shen,+Chunhua}{Ordered or orderless: a revisit for video based person re-identification}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Chen2019PAMI
+\id{26}\decoauthor{Y. Chen, \highlight{C. Shen}, H. Chen, X. Wei, L. Liu, J. Yang}
+\decoyear{2020}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Adversarial+Learning+of+Structure-Aware+Fully+Convolutional+Networks+for+Landmark+Localization+Chen,+Yu+and+Shen,+Chunhua+and+Chen,+Hao+and+Wei,+Xiu-Shen+and+Liu,+Lingqiao+and+Yang,+Jian}{Adversarial learning of structure-aware fully convolutional networks for landmark localization}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{42}\decopage{1654$-$1669}\\[.125cm]
+%%
+%% Adaptive2019Zhang
+\id{27~~2019}\decoauthor{L. Zhang, P. Wang, \highlight{C. Shen}, L. Liu, W. Wei, Y. Zhang, A. van den Hengel}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Adaptive+Importance+Learning+for+Improving+Lightweight+Image+Super-resolution+Network+Zhang,+Lei+and+Wang,+Peng+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Wei,+Wei+and+Zhang,+Yanning+and+van+den+Hengel,+Anton}{Adaptive importance learning for improving lightweight image super-resolution network}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2019Accurate
+\id{28}\decoauthor{L. Zhang, W. Wei, Q. Shen, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Accurate+Imagery+Recovery+Using+a+Multi-Observation+Patch+Model+Zhang,+Lei+and+Wei,+Wei+and+Shen,+Qiang+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Accurate imagery recovery using a multi-observation patch model}}
+\decojournal{Information Sciences}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2019PR
+\id{29}\decoauthor{J. Zhang, Q. Wu, J. Zhang, \highlight{C. Shen}, J. Lu, Q. Wu}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Heritage+Image+Annotation+via+Collective+Knowledge+Zhang,+Junjie+and+Wu,+Qi+and+Zhang,+Jian+and+Shen,+Chunhua+and+Lu,+Jianfeng+and+Wu,+Qiang}{Heritage image annotation via collective knowledge}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wang2019PR
+\id{30}\decoauthor{P. Wang, L. Liu, \highlight{C. Shen}, H. Shen}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Order-aware+Convolutional+Pooling+for+Video+Based+Action+Recognition+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Shen,+Heng+Tao}{Order-aware convolutional pooling for video based action recognition}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wu2019PR
+\id{31}\decoauthor{Z. Wu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Wider+or+Deeper:+Revisiting+the+ResNet+Model+for+Visual+Recognition+Wu,+Zifeng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Wider or deeper: revisiting the ResNet model for visual recognition}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhao2019Structural
+\id{32}\decoauthor{Y. Zhao, \highlight{C. Shen}, H. Wang, S. Chen}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Structural+Analysis+of+Attributes+for+Vehicle+Re-identification+and+Retrieval+Zhao,+Yanzhu+and+Shen,+Chunhua+and+Wang,+Huibing+and+Chen,+Shengyong}{Structural analysis of attributes for vehicle re-identification and retrieval}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wangxy2019CSVT
+\id{33}\decoauthor{X. Wang, \highlight{C. Shen}, H. Li, S. Xu}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Human+Detection+Aided+by+Deeply+Learned+Semantic+Masks+Wang,+Xinyu+and+Shen,+Chunhua+and+Li,+Hanxi+and+Xu,+Shugong}{Human detection aided by deeply learned semantic masks}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Counting2019CSVT
+\id{34}\decoauthor{L. Liu, H. Lu, H. Xiong, K. Xian, Z. Cao, \highlight{C. Shen}}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Counting+Objects+by+Blockwise+Classification+Liu,+Liang+and+Lu,+Hao+and+Xiong,+Haipeng+and+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua}{Counting objects by blockwise classification}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Liu2019CSVT
+\id{35}\decoauthor{W. Liu, P. Zhang, X. Chen, \highlight{C. Shen}, X. Huang, J. Yang}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Embedding+Bilateral+Filter+in+Least+Squares+for+Efficient+Edge-preserving+Image+Smoothing+Liu,+Wei+and+Zhang,+Pingping+and+Chen,+Xiaogang+and+Shen,+Chunhua+and+Huang,+Xiaolin+and+Yang,+Jie}{Embedding bilateral filter in least squares for efficient edge-preserving image smoothing}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2019Lightweight
+\id{36}\decoauthor{H. Zhang, Y. Li, Y. Jiang, P. Wang, Q. Shen, \highlight{C. Shen}}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Hyperspectral+Classification+Based+on+Lightweight+3D-CNN+With+Transfer+Learning+Zhang,+Haokui+and+Li,+Ying+and+Jiang,+Yenan+and+Wang,+Peng+and+Shen,+Qiang+and+Shen,+Chunhua}{Hyperspectral classification based on lightweight 3D-CNN with transfer learning}}
+\decojournal{IEEE Trans.\ Geoscience and Remote Sensing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wei2019TIP
+\id{37}\decoauthor{X. Wei, P. Wang, L. Liu, \highlight{C. Shen}, J. Wu}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Piecewise+classifier+mappings:+Learning+fine-grained+learners+for+novel+categories+with+few+examples+Wei,+Xiu-Shen+and+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Wu,+Jianxin}{Piecewise classifier mappings: learning fine-grained learners for novel categories with few examples}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2019Salient
+\id{38}\decoauthor{P. Zhang, W. Liu, H. Lu, \highlight{C. Shen}}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Salient+Object+Detection+with+Lossless+Feature+Reflection+and+Weighted+Structural+Loss+Zhang,+Pingping+and+Liu,+Wei+and+Lu,+Huchuan+and+Shen,+Chunhua}{Salient object detection with lossless feature reflection and weighted structural loss}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wei2019TKDE
+\id{39}\decoauthor{X. Wei, H. Ye, X. Mu, J. Wu, \highlight{C. Shen}, Z. Zhou}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Multiple+Instance+Learning+with+Emerging+Novel+Class+Wei,+Xiu-Shen+and+Ye,+Han-Jia+and+Mu,+Xin+and+Wu,+Jianxin+and+Shen,+Chunhua+and+Zhou,+Zhi-Hua}{Multiple instance learning with emerging novel class}}
+\decojournal{IEEE Trans.\ Knowledge and Data Engineering}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2019Attn
+\id{40}\decoauthor{J. Zhang, Y. Xie, Y. Xia, \highlight{C. Shen}}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Attention+residual+learning+for+skin+lesion+classification+Zhang,+Jianpeng+and+Xie,+Yutong+and+Xia,+Yong+and+Shen,+Chunhua}{Attention residual learning for skin lesion classification}}
+\decojournal{IEEE Trans.\ Medical Imaging}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TZhang2019TMM
+\id{41}\decoauthor{T. Zhang, G. Lin, J. Cai, T. Shen, \highlight{C. Shen}, A. Kot}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Decoupled+Spatial+Neural+Attention+for+Weakly+Supervised+Semantic+Segmentation+Zhang,+Tianyi+and+Lin,+Guosheng+and+Cai,+Jianfei+and+Shen,+Tong+and+Shen,+Chunhua+and+Kot,+Alex+C.}{Decoupled spatial neural attention for weakly supervised semantic segmentation}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Fayao2019PAMI
+\id{42}\decoauthor{G. Lin, F. Liu, A. Milan, \highlight{C. Shen}, I. Reid}
+\decoyear{2019}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=RefineNet:+Multi-Path+Refinement+Networks+for+Dense+Prediction+Lin,+Guosheng+and+Liu,+Fayao+and+Milan,+Anton+and+Shen,+Chunhua+and+Reid,+Ian}{RefineNet: multi-path refinement networks for dense prediction}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2018IJCV
+\id{43~~2018}\decoauthor{L. Zhang, W. Wei, Y. Zhang, \highlight{C. Shen}, A. van den Hengel, Q. Shi}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Cluster+Sparsity+Field:+An+Internal+Hyperspectral+Imagery+Prior+for+Reconstruction+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Shi,+Qinfeng}{Cluster sparsity field: an internal hyperspectral imagery prior for reconstruction}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Li2018IVC
+\id{44}\decoauthor{H. Li, P. Wang, M. You, \highlight{C. Shen}}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Reading+Car+License+Plates+Using+Deep+Neural+Networks+Li,+Hui+and+Wang,+Peng+and+You,+Mingyu+and+Shen,+Chunhua}{Reading car license plates using deep neural networks}}
+\decojournal{Image and Vision Computing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wei2018PR
+\id{45}\decoauthor{X. Wei, C. Zhang, J. Wu, \highlight{C. Shen}, Z. Zhou}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Unsupervised+Object+Discovery+and+Co-Localization+by+Deep+Descriptor+Transforming+Wei,+Xiu-Shen+and+Zhang,+Chen-Lin+and+Wu,+Jianxin+and+Shen,+Chunhua+and+Zhou,+Zhi-Hua}{Unsupervised object discovery and co-localization by deep descriptor transforming}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhuang2018PR
+\id{46}\decoauthor{N. Zhuang, Y. Yan, S. Chen, H. Wang, \highlight{C. Shen}}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Multi-label+Learning+Based+Deep+Transfer+Neural+Network+for+Facial+Attribute+Classification+Zhuang,+Ni+and+Yan,+Yan+and+Chen,+Si+and+Wang,+Hanzi+and+Shen,+Chunhua}{Multi-label learning based deep transfer neural network for facial attribute classification}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Li2018T-ITSa
+\id{47}\decoauthor{H. Li, P. Wang, \highlight{C. Shen}}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Towards+End-to-End+Car+License+Plates+Detection+and+Recognition+with+Deep+Neural+Networks+Li,+Hui+and+Wang,+Peng+and+Shen,+Chunhua}{Towards end-to-end car license plates detection and recognition with deep neural networks}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% You2018T-ITS
+\id{48}\decoauthor{M. You, Y. Zhang, \highlight{C. Shen}, X. Zhang}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=An+extended+filtered+channel+framework+for+pedestrian+detection+You,+Minyu+and+Zhang,+Yubin+and+Shen,+Chunhua+and+Zhang,+Xinyu}{An extended filtered channel framework for pedestrian detection}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{19}\decopage{1640$-$1651}\\[.125cm]
+%%
+%% Yao2018TCSVT
+\id{49}\decoauthor{R. Yao, G. Lin, \highlight{C. Shen}, Y. Zhang, Q. Shi}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Semantics-Aware+Visual+Object+Tracking+Yao,+Rui+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+Shi,+Qinfeng}{Semantics-aware visual object tracking}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2018TCSVT
+\id{50}\decoauthor{L. Zhang, P. Wang, W. Wei, H. Lu, \highlight{C. Shen}, A. van den Hengel, Y. Zhang}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Unsupervised+Domain+Adaptation+Using+Robust+Class-Wise+Matching+Zhang,+Lei+and+Wang,+Peng+and+Wei,+Wei+and+Lu,+Hao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Zhang,+Yanning}{Unsupervised domain adaptation using robust class-wise matching}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TCSVT2017Hu
+\id{51}\decoauthor{Q. Hu, P. Wang, \highlight{C. Shen}, A. van den Hengel, F. Porikli}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Pushing+the+Limits+of+Deep+CNNs+for+Pedestrian+Detection+Hu,+Qichang+and+Wang,+Peng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Porikli,+Fatih}{Pushing the limits of deep CNNs for pedestrian detection}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{28}\decopage{}\\[.125cm]
+%%
+%% Lu2018TIP
+\id{52}\decoauthor{H. Lu, \highlight{C. Shen}, Z. Cao, Y. Xiao, A. van den Hengel}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=An+Embarrassingly+Simple+Approach+to+Visual+Domain+Adaptation+Lu,+Hao+and+Shen,+Chunhua+and+Cao,+Zhiguo+and+Xiao,+Yang+and+van+den+Hengel,+Anton}{An embarrassingly simple approach to visual domain adaptation}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{27}\decopage{3403$-$3417}\\[.125cm]
+%%
+%% Zhang2018TMM
+\id{53}\decoauthor{J. Zhang, Q. Wu, \highlight{C. Shen}, J. Zhang, J. Lu}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Multi-Label+Image+Classification+with+Regional+Latent+Semantic+Dependencies+Zhang,+Junjie+and+Wu,+Qi+and+Shen,+Chunhua+and+Zhang,+Jian+and+Lu,+Jianfeng}{Multi-label image classification with regional latent semantic dependencies}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Guo2018TMM
+\id{54}\decoauthor{G. Guo, H. Wang, \highlight{C. Shen}, Y. Yan, H. Liao}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Automatic+image+cropping+for+visual+aesthetic+enhancement+using+deep+neural+networks+and+cascaded+regression+Guo,+Guanjun+and+Wang,+Hanzi+and+Shen,+Chunhua+and+Yan,+Yan+and+Liao,+Hong-Yuan}{Automatic image cropping for visual aesthetic enhancement using deep neural networks and cascaded regression}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% HLiu2018TPAMI
+\id{55}\decoauthor{H. Liu, R. Ji, J. Wang, \highlight{C. Shen}}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Ordinal+Constraint+Binary+Coding+for+Approximate+Nearest+Neighbor+Search+Liu,+Hong+and+Ji,+Rongrong+and+Wang,+Jingdong+and+Shen,+Chunhua}{Ordinal constraint binary coding for approximate nearest neighbor search}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wang2017FVQA
+\id{56}\decoauthor{P. Wang, Q. Wu, \highlight{C. Shen}, A. Dick, A. van den Hengel}
+\decoyear{2018}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=FVQA:+Fact-based+Visual+Question+Answering+Wang,+Peng+and+Wu,+Qi+and+Shen,+Chunhua+and+Dick,+Anthony+and+van+den+Hengel,+Anton}{FVQA: fact-based visual question answering}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{40}\decopage{2413$-$2427}\\[.125cm]
+%%
+%% IJCV2017Lin
+\id{57~~2017}\decoauthor{G. Lin, F. Liu, \highlight{C. Shen}, J. Wu, H. Shen}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Structured+Learning+of+Binary+Codes+with+Column+Generation+for+Optimizing+Ranking+Measures+Lin,+Guosheng+and+Liu,+Fayao+and+Shen,+Chunhua+and+Wu,+Jianxin+and+Shen,+Heng+Tao}{Structured learning of binary codes with column generation for optimizing ranking measures}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Li2017Removal
+\id{58}\decoauthor{Y. Li, W. Li, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Removal+of+Optically+Thick+Clouds+From+High-resolution+Satellite+Imagery+Using+Dictionary+Group+Learning+and+Interdictionary+Nonlocal+Joint+Sparse+Coding+Li,+Ying+and+Li,+Wenbo+and+Shen,+Chunhua}{Removal of optically thick clouds from high-resolution satellite imagery using dictionary group learning and interdictionary nonlocal joint sparse coding}}
+\decojournal{IEEE J.\ Selected Topics in Applied Earth Observations and Remote Sensing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Lu2017Counting
+\id{59}\decoauthor{H. Lu, Z. Cao, Y. Xiao, B. Zhuang, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=TasselNet:+Counting+maize+tassels+in+the+wild+via+local+counts+regression+network+Lu,+Hao+and+Cao,+Zhiguo+and+Xiao,+Yang+and+Zhuang,+Bohan+and+Shen,+Chunhua}{TasselNet: counting maize tassels in the wild via local counts regression network}}
+\decojournal{Plant Methods}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wei2017PR
+\id{60}\decoauthor{X. Wei, C. Xie, J. Wu, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Mask-CNN:+Localizing+parts+and+selecting+descriptors+for+bird+species+categorization+Wei,+Xiu-Shen+and+Xie,+Chen-Wei+and+Wu,+Jianxin+and+Shen,+Chunhua}{Mask-CNN: localizing parts and selecting descriptors for bird species categorization}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% PR2017Qiao
+\id{61}\decoauthor{R. Qiao, L. Liu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Learning+discriminative+trajectorylet+detector+sets+for+accurate+skeleton-based+action+recognition+Qiao,+Ruizhi+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Learning discriminative trajectorylet detector sets for accurate skeleton-based action recognition}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wu2017PR
+\id{62}\decoauthor{L. Wu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+Linear+Discriminant+Analysis+on+Fisher+Networks:+A+Hybrid+Architecture+for+Person+Re-identification+Wu,+Lin+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Deep linear discriminant analysis on Fisher networks: a hybrid architecture for person re-identification}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% SWP2017Hu
+\id{63}\decoauthor{Q. Hu, H. Wang, T. Li, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Deep+CNNs+with+Spatially+Weighted+Pooling+for+Fine-grained+Car+Recognition+Hu,+Qichang+and+Wang,+Huibing+and+Li,+Teng+and+Shen,+Chunhua}{Deep CNNs with spatially weighted pooling for fine-grained car recognition}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Cao2017
+\id{64}\decoauthor{Y. Cao, Z. Wu, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Estimating+Depth+from+Monocular+Images+as+Classification+Using+Deep+Fully+Convolutional+Residual+Networks+Cao,+Yuanzhouhan+and+Wu,+Zifeng+and+Shen,+Chunhua}{Estimating depth from monocular images as classification using deep fully convolutional residual networks}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TCSVT2017Sheng
+\id{65}\decoauthor{B. Sheng, \highlight{C. Shen}, G. Lin, J. Li, W. Yang, C. Sun}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Crowd+Counting+via+Weighted+VLAD+on+Dense+Attribute+Feature+Maps+Sheng,+Biyun+and+Shen,+Chunhua+and+Lin,+Guosheng+and+Li,+Jun+and+Yang,+Wankou+and+Sun,+Changyin}{Crowd counting via weighted VLAD on dense attribute feature maps}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TIP2017Liu
+\id{66}\decoauthor{F. Liu, G. Lin, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Discriminative+Training+of+Deep+Fully-connected+Continuous+CRF+with+Task-specific+Loss+Liu,+Fayao+and+Lin,+Guosheng+and+Shen,+Chunhua}{Discriminative training of deep fully-connected continuous CRF with task-specific loss}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TIP2016Cao
+\id{67}\decoauthor{Y. Cao, \highlight{C. Shen}, H. Shen}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Exploiting+Depth+from+Single+Monocular+Images+for+Object+Detection+and+Semantic+Segmentation+Cao,+Yuanzhouhan+and+Shen,+Chunhua+and+Shen,+Heng+Tao}{Exploiting depth from single monocular images for object detection and semantic segmentation}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TNNLS2017Liu
+\id{68}\decoauthor{F. Liu, G. Lin, R. Qiao, \highlight{C. Shen}}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Structured+Learning+of+Tree+Potentials+in+CRF+for+Image+Segmentation+Liu,+Fayao+and+Lin,+Guosheng+and+Qiao,+Ruizhi+and+Shen,+Chunhua}{Structured learning of tree potentials in CRF for image segmentation}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Lin2017Semantic
+\id{69}\decoauthor{G. Lin, \highlight{C. Shen}, A. van den Hengel, I. Reid}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Exploring+Context+with+Deep+Structured+models+for+Semantic+Segmentation+Lin,+Guosheng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Reid,+Ian}{Exploring context with deep structured models for semantic segmentation}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Wu2017External
+\id{70}\decoauthor{Q. Wu, \highlight{C. Shen}, P. Wang, A. Dick, A. van den Hengel}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Image+Captioning+and+Visual+Question+Answering+Based+on+Attributes+and+External+Knowledge+Wu,+Qi+and+Shen,+Chunhua+and+Wang,+Peng+and+Dick,+Anthony+and+van+den+Hengel,+Anton}{Image captioning and visual question answering based on attributes and external knowledge}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% TPAMI2017Liu
+\id{71}\decoauthor{L. Liu, P. Wang, \highlight{C. Shen}, L. Wang, A. van den Hengel, C. Wang, H. Shen}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Compositional+Model+based+Fisher+Vector+Coding+for+Image+Classification+Liu,+Lingqiao+and+Wang,+Peng+and+Shen,+Chunhua+and+Wang,+Lei+and+van+den+Hengel,+Anton+and+Wang,+Chao+and+Shen,+Heng+Tao}{Compositional model based Fisher vector coding for image classification}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Cross2017Liu
+\id{72}\decoauthor{L. Liu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2017}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Cross-convolutional-layer+Pooling+for+Image+Recognition+Liu,+Lingqiao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Cross-convolutional-layer pooling for image recognition}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{39}\decopage{2305$-$2313}\\[.125cm]
+%%
+%% CVIU2016
+\id{73~~2016}\decoauthor{S. Paisitkriangkrai, L. Wu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Structured+learning+of+metric+ensembles+with+application+to+person+re-identification+Paisitkriangkrai,+Sakrapee+and+Wu,+Lin+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Structured learning of metric ensembles with application to person re-identification}}
+\decojournal{Computer Vision and Image Understanding}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Yao2016IJCV
+\id{74}\decoauthor{Y. Li, L. Liu, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Mining+Mid-level+Visual+Patterns+with+Deep+CNN+Activations+Li,+Yao+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Mining mid-level visual patterns with deep CNN activations}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% BnB2015Wang
+\id{75}\decoauthor{P. Wang, \highlight{C. Shen}, A. van den Hengel, P. Torr}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Efficient+Semidefinite+Branch-and-Cut+for+MAP-MRF+Inference+Wang,+Peng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Torr,+Philip}{Efficient semidefinite branch-and-cut for MAP-MRF inference}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{117}\decopage{269$-$289}\\[.125cm]
+%%
+%% Zhang2015IJCV
+\id{76}\decoauthor{C. Zhang, \highlight{C. Shen}, T. Shen}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Unsupervised+Feature+Learning+for+Dense+Correspondences+across+Scenes+Zhang,+Chao+and+Shen,+Chunhua+and+Shen,+Tingzhi}{Unsupervised feature learning for dense correspondences across scenes}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{116}\decopage{90$-$107}\\[.125cm]
+%%
+%% Liu2016Tracking
+\id{77}\decoauthor{F. Liu, \highlight{C. Shen}, I. Reid, A. van den Hengel}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Online+Unsupervised+Feature+Learning+for+Visual+Tracking+Liu,+Fayao+and+Shen,+Chunhua+and+Reid,+Ian+and+van+den+Hengel,+Anton}{Online unsupervised feature learning for visual tracking}}
+\decojournal{Image and Vision Computing}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Canonical2016Wang
+\id{78}\decoauthor{S. Wang, J. Lu, X. Gu, \highlight{C. Shen}, R. Xia, J. Yang}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Canonical+principal+angles+correlation+analysis+for+two-view+data+Wang,+Sheng+and+Lu,+Jianfeng+and+Gu,+Xingjian+and+Shen,+Chunhua+and+Xia,+Rui+and+Yang,+Jingyu}{Canonical principal angles correlation analysis for two-view data}}
+\decojournal{J.\ Visual Communication and Image Representation}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Face2016Li
+\id{79}\decoauthor{H. Li, F. Shen, \highlight{C. Shen}, Y. Yang, Y. Gao}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Face+Recognition+Using+Linear+Representation+Ensembles+Li,+Hanxi+and+Shen,+Fumin+and+Shen,+Chunhua+and+Yang,+Yang+and+Gao,+Yongsheng}{Face recognition using linear representation ensembles}}
+\decojournal{Pattern Recognition}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% PRFace2016Shen
+\id{80}\decoauthor{F. Shen, \highlight{C. Shen}, X. Zhou, Y. Yang, H. Shen}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Face+Image+Classification+by+Pooling+Raw+Features+Shen,+Fumin+and+Shen,+Chunhua+and+Zhou,+Xiang+and+Yang,+Yang+and+Shen,+Heng+Tao}{Face image classification by pooling raw features}}
+\decojournal{Pattern Recognition}\decovolume{54}\decopage{94$-$103}\\[.125cm]
+%%
+%% Hu2015T-ITS
+\id{81}\decoauthor{Q. Hu, S. Paisitkriangkrai, \highlight{C. Shen}, A. van den Hengel, F. Porikli}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fast+Detection+of+Multiple+Objects+in+Traffic+Scenes+with+a+Common+Detection+Framework+Hu,+Qichang+and+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Porikli,+Fatih}{Fast detection of multiple objects in traffic scenes with a common detection framework}}
+\decojournal{IEEE Trans.\ Intelligent Transportation Systems}\decovolume{17}\decopage{1002$-$1014}\\[.125cm]
+%%
+%% Pooling2016Wang
+\id{82}\decoauthor{P. Wang, Y. Cao, \highlight{C. Shen}, L. Liu, H. Shen}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Temporal+Pyramid+Pooling+Based+Convolutional+Neural+Network+for+Action+Recognition+Wang,+Peng+and+Cao,+Yuanzhouhan+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Shen,+Heng+Tao}{Temporal pyramid pooling based convolutional neural network for action recognition}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Part2016Yao
+\id{83}\decoauthor{R. Yao, Q. Shi, \highlight{C. Shen}, Y. Zhang, A. van den Hengel}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Part-based+robust+tracking+using+online+latent+structured+learning+Yao,+Rui+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+van+den+Hengel,+Anton}{Part-based robust tracking using online latent structured learning}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Zhang2016TGSE
+\id{84}\decoauthor{L. Zhang, W. Wei, Y. Zhang, \highlight{C. Shen}, A. van den Hengel, Q. Shi}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Dictionary+Learning+for+Promoting+Structured+Sparsity+in+Hyerpsectral+Compressive+Sensing+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Shi,+Qinfeng}{Dictionary learning for promoting structured sparsity in hyerpsectral compressive sensing}}
+\decojournal{IEEE Trans.\ Geoscience and Remote Sensing}\decovolume{54}\decopage{7223$-$7235}\\[.125cm]
+%%
+%% Zhao2015TNN
+\id{85}\decoauthor{X. Zhao, X. Li, Z. Zhang, \highlight{C. Shen}, L. Gao, X. Li}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Scalable+Linear+Visual+Feature+Learning+via+Online+Parallel+Nonnegative+Matrix+Factorization+Zhao,+Xueyi+and+Li,+Xi+and+Zhang,+Zhongfei+and+Shen,+Chunhua+and+Gao,+Lixin+and+Li,+Xuelong}{Scalable linear visual feature learning via online parallel nonnegative matrix factorization}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% BQP2015Wang
+\id{86}\decoauthor{P. Wang, \highlight{C. Shen}, A. van den Hengel, P. Torr}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Large-scale+Binary+Quadratic+Optimization+Using+Semidefinite+Relaxation+and+Applications+Wang,+Peng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Torr,+Philip+H.+S.}{Large-scale binary quadratic optimization using semidefinite relaxation and applications}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Depth2015Liu
+\id{87}\decoauthor{F. Liu, \highlight{C. Shen}, G. Lin, I. Reid}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Learning+Depth+from+Single+Monocular+Images+Using+Deep+Convolutional+Neural+Fields+Liu,+Fayao+and+Shen,+Chunhua+and+Lin,+Guosheng+and+Reid,+Ian}{Learning depth from single monocular images using deep convolutional neural fields}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% Xi2015TPAMI
+\id{88}\decoauthor{X. Li, \highlight{C. Shen}, A. Dick, Z. Zhang, Y. Zhuang}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Online+Metric-Weighted+Linear+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Shen,+Chunhua+and+Dick,+Anthony+and+Zhang,+Zhongfei+and+Zhuang,+Yueting}{Online metric-weighted linear representations for robust visual tracking}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{38}\decopage{931$-$950}\\[.125cm]
+%%
+%% Paisitkriangkrai2015TPAMI
+\id{89}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Pedestrian+Detection+with+Spatially+Pooled+Features+and+Structured+Ensemble+Learning+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Pedestrian detection with spatially pooled features and structured ensemble learning}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{38}\decopage{1243$-$1257}\\[.125cm]
+%%
+%% Liu2015TPAMI
+\id{90}\decoauthor{L. Liu, L. Wang, \highlight{C. Shen}}
+\decoyear{2016}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Generalized+Probabilistic+Framework+for+Compact+Codebook+Creation+Liu,+Lingqiao+and+Wang,+Lei+and+Shen,+Chunhua}{A generalized probabilistic framework for compact codebook creation}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{38}\decopage{224$-$237}\\[.125cm]
+%%
+%% Harandi2015IJCV
+\id{91~~2015}\decoauthor{M. Harandi, R. Hartley, \highlight{C. Shen}, B. Lovell, C. Sanderson}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Extrinsic+Methods+for+Coding+and+Dictionary+Learning+on+Grassmann+Manifolds+Harandi,+Mehrtash+and+Hartley,+Richard+and+Shen,+Chunhua+and+Lovell,+Brian+and+Sanderson,+Conrad}{Extrinsic methods for coding and dictionary learning on Grassmann manifolds}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{114}\decopage{113$-$136}\\[.125cm]
+%%
+%% Liu2015CRFPR
+\id{92}\decoauthor{F. Liu, G. Lin, \highlight{C. Shen}}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=CRF+Learning+with+CNN+Features+for+Image+Segmentation+Liu,+Fayao+and+Lin,+Guosheng+and+Shen,+Chunhua}{CRF learning with CNN features for image segmentation}}
+\decojournal{Pattern Recognition}\decovolume{48}\decopage{2983$-$2992}\\[.125cm]
+%%
+%% Hashing2015Shen
+\id{93}\decoauthor{F. Shen, \highlight{C. Shen}, Q. Shi, A. van den Hengel, Z. Tang, H. Shen}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Hashing+on+Nonlinear+Manifolds+Shen,+Fumin+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+van+den+Hengel,+Anton+and+Tang,+Zhenmin+and+Shen,+Heng+Tao}{Hashing on nonlinear manifolds}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{24}\decopage{1839$-$1851}\\[.125cm]
+%%
+%% SDP2015Li
+\id{94}\decoauthor{H. Li, \highlight{C. Shen}, A. van den Hengel, Q. Shi}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Worst-Case+Linear+Discriminant+Analysis+as+Scalable+Semidefinite+Feasibility+Problems+Li,+Hui+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Shi,+Qinfeng}{Worst-case linear discriminant analysis as scalable semidefinite feasibility problems}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{24}\decopage{2382$-$2392}\\[.125cm]
+%%
+%% TIP2014Shortcut
+\id{95}\decoauthor{L. Luo, \highlight{C. Shen}, X. Liu, C. Zhang}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Computational+Model+of+the+Short-Cut+Rule+for+2D+Shape+Decomposition+Luo,+Lei+and+Shen,+Chunhua+and+Liu,+Xinwang+and+Zhang,+Chunyuan}{A computational model of the short-cut rule for 2D shape decomposition}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{24}\decopage{}\\[.125cm]
+%%
+%% FastHash2015Lin
+\id{96}\decoauthor{G. Lin, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2015}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Supervised+Hashing+Using+Graph+Cuts+and+Boosted+Decision+Trees+Lin,+Guosheng+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Supervised hashing using graph cuts and boosted decision trees}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{37}\decopage{2317$-$2331}\\[.125cm]
+%%
+%% Shen2014Outlier
+\id{97~~2014}\decoauthor{F. Shen, \highlight{C. Shen}, R. Hill, A. van den Hengel, Z. Tang}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fast+approximate+$L_\infty$+minimization:+Speeding+up+robust+regression+Shen,+Fumin+and+Shen,+Chunhua+and+Hill,+Rhys+and+van+den+Hengel,+Anton+and+Tang,+Zhenmin}{Fast approximate $l_\infty$ minimization: Speeding up robust regression}}
+\decojournal{Computational Statistics and Data Analysis}\decovolume{77}\decopage{25$-$37}\\[.125cm]
+%%
+%% Liu2014MKL
+\id{98}\decoauthor{F. Liu, L. Zhou, \highlight{C. Shen}, J. Yin}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Multiple+Kernel+Learning+in+the+Primal+for+Multi-modal+Alzheimer's+Disease+Classification+Liu,+Fayao+and+Zhou,+Luping+and+Shen,+Chunhua+and+Yin,+Jianping}{Multiple kernel learning in the primal for multi-modal Alzheimer's disease classification}}
+\decojournal{IEEE J.\ Biomedical and Health Informatics}\decovolume{}\decopage{}\\[.125cm]
+%%
+%% MKL2014
+\id{99}\decoauthor{Y. Lu, L. Wang, J. Lu, J. Yang, \highlight{C. Shen}}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Multiple+kernel+clustering+based+on+centered+kernel+alignment+Lu,+Yanting+and+Wang,+Liantao+and+Lu,+Jianfeng+and+Yang,+Jingyu+and+Shen,+Chunhua}{Multiple kernel clustering based on centered kernel alignment}}
+\decojournal{Pattern Recognition}\decovolume{47}\decopage{3656$-$3664}\\[.125cm]
+%%
+%% Paul2014TIPb
+\id{100}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Large-margin+Learning+of+Compact+Binary+Image+Encodings+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Large-margin learning of compact binary image encodings}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{23}\decopage{4041$-$4054}\\[.125cm]
+%%
+%% Yan2014TIPa
+\id{101}\decoauthor{Y. Yan, \highlight{C. Shen}, H. Wang}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Efficient+Semidefinite+Spectral+Clustering+via+Lagrange+Duality+Yan,+Yan+and+Shen,+Chunhua+and+Wang,+Hanzi}{Efficient semidefinite spectral clustering via Lagrange duality}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{23}\decopage{3522$-$3534}\\[.125cm]
+%%
+%% Li2014TIP
+\id{102}\decoauthor{Y. Li, W. Jia, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Characterness:+An+Indicator+of+Text+in+the+Wild+Li,+Yao+and+Jia,+Wenjing+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Characterness: An indicator of text in the wild}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{23}\decopage{1666$-$1677}\\[.125cm]
+%%
+%% Li2013Hyper
+\id{103}\decoauthor{X. Li, W. Hu, \highlight{C. Shen}, A. Dick, Z. Zhang}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Context-aware+hypergraph+construction+for+robust+spectral+clustering+Li,+Xi+and+Hu,+Weiming+and+Shen,+Chunhua+and+Dick,+Anthony+and+Zhang,+Zhongfei}{Context-aware hypergraph construction for robust spectral clustering}}
+\decojournal{IEEE Trans.\ Knowledge and Data Engineering}\decovolume{26}\decopage{2588$-$2597}\\[.125cm]
+%%
+%% Paul2013TMM
+\id{104}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Asymmetric+pruning+for+learning+cascade+detectors+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{Asymmetric pruning for learning cascade detectors}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{16}\decopage{1254$-$1267}\\[.125cm]
+%%
+%% Shen2014Metric
+\id{105}\decoauthor{\highlight{C. Shen}, J. Kim, F. Liu, L. Wang, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Efficient+Dual+Approach+to+Distance+Metric+Learning+Shen,+Chunhua+and+Kim,+Junae+and+Liu,+Fayao+and+Wang,+Lei+and+van+den+Hengel,+Anton}{Efficient dual approach to distance metric learning}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{25}\decopage{394$-$406}\\[.125cm]
+%%
+%% Paul2013Fastboosting
+\id{106}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+scalable+stage-wise+approach+to+large-margin+multi-class+loss+based+boosting+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+van+den+Hengel,+Anton}{A scalable stage-wise approach to large-margin multi-class loss based boosting}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{25}\decopage{1002$-$1013}\\[.125cm]
+%%
+%% Paisitkriangkrai2013RandomBoost
+\id{107}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, Q. Shi, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=RandomBoost:+Simplified+Multi-class+Boosting+through+Randomization+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+van+den+Hengel,+Anton}{RandomBoost: Simplified multi-class boosting through randomization}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{25}\decopage{764$-$779}\\[.125cm]
+%%
+%% Shen2014SBoosting
+\id{108}\decoauthor{\highlight{C. Shen}, G. Lin, A. van den Hengel}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=StructBoost:+Boosting+Methods+for+Predicting+Structured+Output+Variables+Shen,+Chunhua+and+Lin,+Guosheng+and+van+den+Hengel,+Anton}{StructBoost: Boosting methods for predicting structured output variables}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{36}\decopage{2089$-$2103}\\[.125cm]
+%%
+%% Wang2014PAMI
+\id{109}\decoauthor{L. Wang, L. Zhou, \highlight{C. Shen}, L. Liu, H. Liu}
+\decoyear{2014}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Hierarchical+Word-merging+Algorithm+with+Class+Separability+Measure+Wang,+Lei+and+Zhou,+Luping+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Liu,+Huan}{A hierarchical word-merging algorithm with class separability measure}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{36}\decopage{417$-$435}\\[.125cm]
+%%
+%% FisherBoost2013IJCV
+\id{110~~2013}\decoauthor{\highlight{C. Shen}, P. Wang, S. Paisitkriangkrai, A. van den Hengel}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Training+Effective+Node+Classifiers+for+Cascade+Classification+Shen,+Chunhua+and+Wang,+Peng+and+Paisitkriangkrai,+Sakrapee+and+van+den+Hengel,+Anton}{Training effective node classifiers for cascade classification}}
+\decojournal{Int'l\ J.\ Computer Vision}\decovolume{103}\decopage{326$-$347}\\[.125cm]
+%%
+%% Shen2013NN
+\id{111}\decoauthor{\highlight{C. Shen}, H. Li, A. van den Hengel}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fully+Corrective+Boosting+with+Arbitrary+Loss+and+Regularization+Shen,+Chunhua+and+Li,+Hanxi+and+van+den+Hengel,+Anton}{Fully corrective boosting with arbitrary loss and regularization}}
+\decojournal{Neural Networks}\decovolume{48}\decopage{44$-$58}\\[.125cm]
+%%
+%% Xi2013TIP
+\id{112}\decoauthor{X. Li, A. Dick, \highlight{C. Shen}, Z. Zhang, A. van den Hengel, H. Wang}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Visual+Tracking+with+Spatio-Temporal+Dempster-Shafer+Information+Fusion+Li,+Xi+and+Dick,+Anthony+and+Shen,+Chunhua+and+Zhang,+Zhongfei+and+van+den+Hengel,+Anton+and+Wang,+Hanzi}{Visual tracking with spatio-temporal Dempster-Shafer information fusion}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{22}\decopage{3028$-$3040}\\[.125cm]
+%%
+%% LMS2013TIP
+\id{113}\decoauthor{F. Shen, \highlight{C. Shen}, A. van den Hengel, Z. Tang}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Approximate+Least+Trimmed+Sum+of+Squares+Fitting+and+Applications+in+Image+Analysis+Shen,+Fumin+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Tang,+Zhenmin}{Approximate least trimmed sum of squares fitting and applications in image analysis}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{22}\decopage{1836$-$1847}\\[.125cm]
+%%
+%% Xi2013Survey
+\id{114}\decoauthor{X. Li, W. Hu, \highlight{C. Shen}, Z. Zhang, A. Dick, A. van den Hengel}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=A+Survey+of+Appearance+Models+in+Visual+Object+Tracking+Li,+Xi+and+Hu,+Weiming+and+Shen,+Chunhua+and+Zhang,+Zhongfei+and+Dick,+Anthony+and+van+den+Hengel,+Anton}{A survey of appearance models in visual object tracking}}
+\decojournal{ACM Trans.\ Intelligent Systems and Technology}\decovolume{4}\decopage{}\\[.125cm]
+%%
+%% TMM2013Shape
+\id{115}\decoauthor{L. Luo, \highlight{C. Shen}, C. Zhang, A. van den Hengel}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Shape+Similarity+Analysis+by+Self-Tuning+Locally+Constrained+Mixed-Diffusion+Luo,+Lei+and+Shen,+Chunhua+and+Zhang,+Chunyuan+and+van+den+Hengel,+Anton}{Shape similarity analysis by self-tuning locally constrained mixed-diffusion}}
+\decojournal{IEEE Trans.\ Multimedia}\decovolume{15}\decopage{1174$-$1183}\\[.125cm]
+%%
+%% TPAMI2013Xi
+\id{116}\decoauthor{X. Li, A. Dick, \highlight{C. Shen}, A. van den Hengel, H. Wang}
+\decoyear{2013}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Incremental+Learning+of+3D-DCT+Compact+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Dick,+Anthony+and+Shen,+Chunhua+and+van+den+Hengel,+Anton+and+Wang,+Hanzi}{Incremental learning of 3D-DCT compact representations for robust visual tracking}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{35}\decopage{863$-$881}\\[.125cm]
+%%
+%% JMLR2012Shen
+\id{117~~2012}\decoauthor{\highlight{C. Shen}, J. Kim, L. Wang, A. van den Hengel}
+\decoyear{2012}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Positive+Semidefinite+Metric+Learning+Using+Boosting-like+Algorithms+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei+and+van+den+Hengel,+Anton}{Positive semidefinite metric learning using boosting-like algorithms}}
+\decojournal{J.\ Machine Learning Research}\decovolume{13}\decopage{1007$-$1036}\\[.125cm]
+%%
+%% AsymBoost2011Wang
+\id{118}\decoauthor{P. Wang, \highlight{C. Shen}, N. Barnes, H. Zheng}
+\decoyear{2012}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fast+and+Robust+Object+Detection+Using+Asymmetric+Totally-corrective+Boosting+Wang,+Peng+and+Shen,+Chunhua+and+Barnes,+Nick+and+Zheng,+Hong}{Fast and robust object detection using asymmetric totally-corrective boosting}}
+\decojournal{IEEE Trans.\ Neural Networks and Learning Systems}\decovolume{23}\decopage{33$-$46}\\[.125cm]
+%%
+%% UBoost2011Shen
+\id{119}\decoauthor{\highlight{C. Shen}, P. Wang, F. Shen, H. Wang}
+\decoyear{2012}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=UBoost:+Boosting+with+the+Universum+Shen,+Chunhua+and+Wang,+Peng+and+Shen,+Fumin+and+Wang,+Hanzi}{UBoost: Boosting with the Universum}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{34}\decopage{825$-$832}\\[.125cm]
+%%
+%% GSLDA2010Shen
+\id{120~~2011}\decoauthor{\highlight{C. Shen}, S. Paisitkriangkrai, J. Zhang}
+\decoyear{2011}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Efficiently+Learning+a+Detection+Cascade+with+Sparse+Eigenvectors+Shen,+Chunhua+and+Paisitkriangkrai,+Sakrapee+and+Zhang,+Jian}{Efficiently learning a detection cascade with sparse eigenvectors}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{20}\decopage{22$-$35}\\[.125cm]
+%%
+%% Incremental2010Shen
+\id{121}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, J. Zhang}
+\decoyear{2011}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Incremental+Training+of+a+Detector+Using+Online+Sparse+Eigen-decomposition+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+Zhang,+Jian}{Incremental training of a detector using online sparse eigen-decomposition}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{20}\decopage{213$-$226}\\[.125cm]
+%%
+%% Li2010Interactive
+\id{122~~2010}\decoauthor{H. Li, \highlight{C. Shen}}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Interactive+Color+Image+Segmentation+with+Linear+Programming+Li,+Hongdong+and+Shen,+Chunhua}{Interactive color image segmentation with linear programming}}
+\decojournal{Machine Vision and Applications}\decovolume{21}\decopage{403$-$412}\\[.125cm]
+%%
+%% Generalized2010Shen
+\id{123}\decoauthor{\highlight{C. Shen}, J. Kim, H. Wang}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Generalized+Kernel-based+Visual+Tracking+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Hanzi}{Generalized kernel-based visual tracking}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{20}\decopage{119$-$130}\\[.125cm]
+%%
+%% Scalable2010Shen
+\id{124}\decoauthor{\highlight{C. Shen}, J. Kim, L. Wang}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Scalable+Large-Margin+Mahalanobis+Distance+Metric+Learning+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei}{Scalable large-margin Mahalanobis distance metric learning}}
+\decojournal{IEEE Trans.\ Neural Networks}\decovolume{21}\decopage{1524$-$1530}\\[.125cm]
+%%
+%% Zhou2010FS
+\id{125}\decoauthor{L. Zhou, L. Wang, \highlight{C. Shen}}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Feature+Selection+With+Redundancy-Constrained+Class+Separability+Zhou,+Luping+and+Wang,+Lei+and+Shen,+Chunhua}{Feature selection with redundancy-constrained class separability}}
+\decojournal{IEEE Trans.\ Neural Networks}\decovolume{21}\decopage{853$-$858}\\[.125cm]
+%%
+%% MDBoost2010Shen
+\id{126}\decoauthor{\highlight{C. Shen}, H. Li}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Boosting+through+optimization+of+margin+distributions+Shen,+Chunhua+and+Li,+Hanxi}{Boosting through optimization of margin distributions}}
+\decojournal{IEEE Trans.\ Neural Networks}\decovolume{21}\decopage{659$-$666}\\[.125cm]
+%%
+%% Dual2010Shen
+\id{127}\decoauthor{\highlight{C. Shen}, H. Li}
+\decoyear{2010}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=On+the+Dual+Formulation+of+Boosting+Algorithms+Shen,+Chunhua+and+Li,+Hanxi}{On the dual formulation of boosting algorithms}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{32}\decopage{2216$-$2231}\\[.125cm]
+%%
+%% Performance2008Paul
+\id{128~~2008}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, J. Zhang}
+\decoyear{2008}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Performance+Evaluation+of+Local+Features+in+Human+Classification+and+Detection+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+Zhang,+Jian}{Performance evaluation of local features in human classification and detection}}
+\decojournal{IET Computer Vision}\decovolume{2}\decopage{236$-$246}\\[.125cm]
+%%
+%% SDP2008Shen
+\id{129}\decoauthor{\highlight{C. Shen}, H. Li, M. Brooks}
+\decoyear{2008}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Supervised+Dimensionality+Reduction+via+Sequential+Semidefinite+Programming+Shen,+Chunhua+and+Li,+Hongdong+and+Brooks,+Michael+J.}{Supervised dimensionality reduction via sequential semidefinite programming}}
+\decojournal{Pattern Recognition}\decovolume{41}\decopage{3644$-$3652}\\[.125cm]
+%%
+%% Human2008Paul
+\id{130}\decoauthor{S. Paisitkriangkrai, \highlight{C. Shen}, J. Zhang}
+\decoyear{2008}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fast+Pedestrian+Detection+Using+a+Cascade+of+Boosted+Covariance+Features+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+Zhang,+Jian}{Fast pedestrian detection using a cascade of boosted covariance features}}
+\decojournal{IEEE Trans.\ Circuits and Systems for Video Technology}\decovolume{18}\decopage{1140$-$1151}\\[.125cm]
+%%
+%% Fast2007Shen
+\id{131~~2007}\decoauthor{\highlight{C. Shen}, M. Brooks, A. van den Hengel}
+\decoyear{2007}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Fast+global+kernel+density+mode+seeking:+applications+to+localization+and+tracking+Shen,+Chunhua+and+Brooks,+Michael+J.+and+van+den+Hengel,+Anton}{Fast global kernel density mode seeking: applications to localization and tracking}}
+\decojournal{IEEE Trans.\ Image Processing}\decovolume{16}\decopage{1457$-$1469}\\[.125cm]
+%%
+%% Adaptive2007Wang
+\id{132}\decoauthor{H. Wang, D. Suter, K. Schindler, \highlight{C. Shen}}
+\decoyear{2007}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua}{Adaptive object tracking based on an effective appearance filter}}
+\decojournal{IEEE Trans.\ Pattern Analysis and Machine Intelligence}\decovolume{29}\decopage{1661$-$1667}\\[.125cm]
+%%
+%% Lin2004Active
+\id{133~~2004}\decoauthor{Z. Lin, J. Lu, \highlight{C. Shen}, X. Qiu, B. Xu}
+\decoyear{2004}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Active+control+of+radiation+from+a+piston+set+in+a+rigid+sphere+Lin,+Zhibin+and+Lu,+Jing+and+Shen,+Chunhua+and+Qiu,+Xiaojun+and+Xu,+Boling}{Active control of radiation from a piston set in a rigid sphere}}
+\decojournal{J.\ Acoustical Society of America}\decovolume{115}\decopage{2954$-$2963}\\[.125cm]
+%%
+%% Lu2003Lattice
+\id{134~~2003}\decoauthor{J. Lu, \highlight{C. Shen}, X. Qiu, B. Xu}
+\decoyear{2003}\decotitle{\href{http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q=Lattice+form+adaptive+infinite+impulse+response+filtering+algorithm+for+active+noise+control+Lu,+Jing+and+Shen,+Chunhua+and+Qiu,+Xiaojun+and+Xu,+Boling}{Lattice form adaptive infinite impulse response filtering algorithm for active noise control}}
+\decojournal{J.\ Acoustical Society of America}\decovolume{113}\decopage{327$-$335}\\[.125cm]
