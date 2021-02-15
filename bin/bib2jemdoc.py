@@ -29,7 +29,7 @@ pdflink_dict, __x, __y = pdl.readlinkfile('_PDFLink.txt')
 
 
 
-print ('# jemdoc: title{Chunhua Shen | The University of Adelaide}, addcss{css/full_publication.css}' )
+print ('# jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}' )
 print ('= Publications (Full List)' )
 
 

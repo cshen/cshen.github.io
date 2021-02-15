@@ -25,7 +25,7 @@ from   functools  import cmp_to_key
 
 pdflink_dict, __x, __y = pdl.readlinkfile('_PDFLink.txt')
 
-print ( '# jemdoc: title{Chunhua Shen | The University of Adelaide},addcss{css/full_publication.css},eqsize{140}' )
+print ( '# jemdoc: title{Chunhua Shen},addcss{css/full_publication.css},eqsize{140}' )
 print ( '= Selected Publications' )
 
 mybibtexfile = '../data/cs.bib'
