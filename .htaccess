@@ -1,0 +1,5 @@
+AddType text/plain .txt
+AddType text/plain .bib
+AddType text/plain .tex
+AddType text/plain .sty
+
