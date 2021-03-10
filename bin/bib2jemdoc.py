@@ -317,13 +317,22 @@ for key, value in bib_sorted:
         s = s + "\\n$\cdot$"
         printreturn = 0
 
+    # google scholar
     # pre_str="http://www.google.com/search?lr=&ie=UTF-8&oe=UTF-8&q="
 
     pre_str="https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q="
     t1 = value.fields['title'] + "+" + value.fields['author']
     t2 = pre_str + re.sub(r' +', '+', t1.strip() )
     t2 = t2.replace("$","")
-    s = s + "[" + t2 + " search]"
+    s = s + "[" + t2 + " google scholar]"
+
+    # semantic scholar, 10 March 2021
+    pre_str="https://www.semanticscholar.org/search?q="
+    t1 = value.fields['title'] + "+" + value.fields['author']
+    t2 = pre_str + re.sub(r' +', '+', t1.strip() )
+    t2 = t2.replace("$","")
+    s = s + "[" + t2 + " semantic scholar]"
+
 
 
     # print project link, if any
