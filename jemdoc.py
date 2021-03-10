@@ -559,13 +559,14 @@ def replaceequations(b, f):
 
       if wl:
         b = b[:m.start()] + \
+            '{{\n<div class="eqwl"><img class="eqwl" src="%s"  />\n<br /></div>}}' % (fullfn) + b[m.end():]
+
 #            '{{\n<div class="eqwl"><img class="eqwl" src="%s" alt="%s" />\n<br /></div>}}' % (fullfn, eqtext) + b[m.end():]
 #            CS: MARCH 2021: remove alt
-            '{{\n<div class="eqwl"><img class="eqwl" src="%s"  />\n<br /></div>}}' % (fullfn, eqtext) + b[m.end():]
       else:
         b = b[:m.start()] + \
+               '{{<img class="eq" src="%s"  style="vertical-align: -%dpx" />}}' % (fullfn,  offset) + b[m.end():]
 #          '{{<img class="eq" src="%s" alt="%s" style="vertical-align: -%dpx" />}}' % (fullfn, eqtext, offset) + b[m.end():]
-          '{{<img class="eq" src="%s"  style="vertical-align: -%dpx" />}}' % (fullfn, eqtext, offset) + b[m.end():]
 
       # jem: also clean out line breaks in the alttext?
       m = r.search(b, m.start())
