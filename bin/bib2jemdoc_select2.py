@@ -359,7 +359,7 @@ for key, value in bib_sorted:
     t1 = value.fields['title'] + "+" + value.fields['author']
     t2 = pre_str + re.sub(r' +', '+', t1.strip() )
     t2 = t2.replace("$","")
-    s = s + "[" + t2 + " search]"
+    s = s + "[" + t2 + " google scholar]"
 
     # print project link, if any
     if 'project' in value.fields and len(value.fields['project']) > 0:

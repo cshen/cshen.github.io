@@ -366,7 +366,7 @@ for key, value in bib_sorted:
 
     # time.sleep(3)
 
-    s = s + "[" + t2 + " scholar"  + ccinfo + "]"
+    s = s + "[" + t2 + " google scholar"  + ccinfo + "]"
 
 
     # print project link, if any
