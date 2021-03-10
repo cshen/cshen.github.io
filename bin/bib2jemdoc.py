@@ -328,7 +328,7 @@ for key, value in bib_sorted:
 
     # semantic scholar, 10 March 2021
     pre_str="https://www.semanticscholar.org/search?q="
-    t1 = value.fields['title'] + "+" + value.fields['author']
+    t1 = value.fields['title']                                # + "+" + value.fields['author']
     t2 = pre_str + re.sub(r' +', '+', t1.strip() )
     t2 = t2.replace("$","")
     s = s + "[" + t2 + " semantic scholar]"

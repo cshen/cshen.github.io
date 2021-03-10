@@ -369,6 +369,16 @@ for key, value in bib_sorted:
     s = s + "[" + t2 + " google scholar"  + ccinfo + "]"
 
 
+    # semantic scholar, 10 March 2021
+    pre_str="https://www.semanticscholar.org/search?q="
+    t1 = value.fields['title']                                # + "+" + value.fields['author']
+    t2 = pre_str + re.sub(r' +', '+', t1.strip() )
+    t2 = t2.replace("$","")
+    s = s + "[" + t2 + " semantic scholar]"
+
+
+
+
     # print project link, if any
     if 'project' in value.fields and len(value.fields['project']) > 0:
         if printreturn:
