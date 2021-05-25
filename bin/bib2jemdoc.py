@@ -68,6 +68,11 @@ def capitalize_string(x):
             transform = 1
             continue
 
+        # CS: May 2021
+        # escape + ---> \+
+        if x[i] == "+":
+            y = y + "\\" + x[ i ]
+
         if transform:
             y = y + x[ i ].lower()
         else:
