@@ -66,6 +66,7 @@ headerinfo.init( mybibtexfile, Selected_Conf_List  )
 def capitalize_string( x ):
     y=''
     transform = 1
+
     for i in range(len(x)):
         if x[ i ] == "{":
             transform = 0
@@ -74,6 +75,12 @@ def capitalize_string( x ):
         if x[ i ] == "}":
             transform = 1
             continue
+
+        # CS: May 2021
+        # escape + ---> \+
+        if x[ i ] == "+":
+            y = y + "\\" + x[ i ]
+
 
         if transform:
             y = y + x[ i ].lower()
