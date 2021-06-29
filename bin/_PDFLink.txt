@@ -9,6 +9,7 @@ Adaptive2019Zhang_arXiv.jpg 	 | https://arxiv.org/pdf/1806.01576.pdf
 AsymBoost2011Wang_PDF.jpg 	 | http://hdl.handle.net/2440/66763
 BMVC2017Tong_arXiv.jpg 	 | https://arxiv.org/pdf/1701.07122.pdf
 BQP2015Wang_arXiv.jpg 	 | https://arxiv.org/pdf/1411.7564.pdf
+Bian2021IJCV_arXiv.jpg 	 | https://arxiv.org/pdf/2105.11610.pdf
 BnB2015Wang_arXiv.jpg 	 | https://arxiv.org/pdf/1404.5009.pdf
 CVIU2016_arXiv.jpg 	 | https://arxiv.org/pdf/1511.08531.pdf
 CVPR12a_PDF.jpg 	 | http://hdl.handle.net/2440/70244
@@ -60,6 +61,8 @@ Cao2019GAN_arXiv.jpg 	 | https://arxiv.org/pdf/1911.00888.pdf
 Cao2020GAN_arXiv.jpg 	 | https://arxiv.org/pdf/2008.00942.pdf
 Chen2018CVPR_arXiv.jpg 	 | https://arxiv.org/pdf/1711.10703.pdf
 Chen2019PAMI_arXiv.jpg 	 | https://arxiv.org/pdf/1711.00253.pdf
+Chen2021CVPR3_arXiv.jpg 	 | https://arxiv.org/pdf/2007.06919.pdf
+Cross2017Liu_arXiv.jpg 	 | https://arxiv.org/pdf/1510.00921.pdf
 Dai2021CVPR8_arXiv.jpg 	 | https://arxiv.org/pdf/2011.14288.pdf
 Deng2018ECCV_arXiv.jpg 	 | https://arxiv.org/pdf/1807.10097.pdf
 Depth2015Liu_arXiv.jpg 	 | https://arxiv.org/pdf/1502.07411.pdf
@@ -105,6 +108,7 @@ Li2011CVPR_PDF.jpg 	 | http://goo.gl/dsjsoM
 Li2013Hyper_arXiv.jpg 	 | https://arxiv.org/pdf/1401.0764.pdf
 Li2014TIP_arXiv.jpg 	 | https://arxiv.org/pdf/1309.6691.pdf
 Li2018IVC_arXiv.jpg 	 | https://arxiv.org/pdf/1601.05610.pdf
+Li2021Text_arXiv.jpg 	 | https://arxiv.org/pdf/1906.06013.pdf
 Lin2004Active_PDF.jpg 	 | http://goo.gl/nc4SjU
 Lin2017Semantic_arXiv.jpg 	 | https://arxiv.org/pdf/1603.03183.pdf
 Liu2011CVPR_PDF.jpg 	 | http://hdl.handle.net/2440/63014
@@ -131,7 +135,6 @@ PR2017Qiao_arXiv.jpg 	 | https://arxiv.org/pdf/1504.04923.pdf
 PRFace2016Shen_arXiv.jpg 	 | https://arxiv.org/pdf/1406.6811.pdf
 Paisitkriangkrai2009CVPR_arXiv.jpg 	 | https://arxiv.org/pdf/0903.3103.pdf
 Paisitkriangkrai2013RandomBoost_arXiv.jpg 	 | https://arxiv.org/pdf/1302.0963.pdf
-Paisitkriangkrai2015TPAMI_arXiv.jpg 	 | https://arxiv.org/pdf/1409.5209.pdf
 Pan2020ACMSurvey_arXiv.jpg 	 | https://arxiv.org/pdf/2007.02500.pdf
 Pang2021KDD_arXiv.jpg 	 | https://arxiv.org/pdf/2009.06847.pdf
 Paul2013Fastboosting_arXiv.jpg 	 | https://arxiv.org/pdf/1307.5497.pdf
@@ -203,3 +206,4 @@ Zhangx2020T-ITS_arXiv.jpg 	 | https://arxiv.org/pdf/1909.06023.pdf
 Zhuang2018CVPR_a_arXiv.jpg 	 | https://arxiv.org/pdf/1711.06370.pdf
 Zhuang2018CVPR_b_arXiv.jpg 	 | https://arxiv.org/pdf/1711.00205.pdf
 Zhuang2018PR_arXiv.jpg 	 | https://arxiv.org/pdf/1805.01282.pdf
+Zhuang2021Quantization_arXiv.jpg 	 | https://arxiv.org/pdf/1908.04680.pdf
