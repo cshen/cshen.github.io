@@ -45,22 +45,13 @@ CVPR2017YaoLi_arXiv.jpg 	 | https://arxiv.org/pdf/1611.09967.pdf
 CVPR2017Zhuang_arXiv.jpg 	 | https://arxiv.org/pdf/1611.09960.pdf
 CVPR2020BlendMask7_arXiv.jpg 	 | https://arxiv.org/pdf/2001.00309.pdf
 CVPR2020EMD9_arXiv.jpg 	 | https://arxiv.org/pdf/2003.06777.pdf
-CVPR2020Liu6_arXiv.jpg 	 | https://arxiv.org/pdf/2002.10200.pdf
 CVPR2020NAS11_arXiv.jpg 	 | https://arxiv.org/pdf/1909.08228.pdf
 CVPR2020NASFCOS10_arXiv.jpg 	 | https://arxiv.org/pdf/1906.04423.pdf
-CVPR2020REVERIE1_arXiv.jpg 	 | https://arxiv.org/pdf/1904.10151.pdf
 CVPR2020Self12_arXiv.jpg 	 | https://arxiv.org/pdf/2003.06780.pdf
 CVPR2020Wang4_arXiv.jpg 	 | https://arxiv.org/pdf/2002.10215.pdf
-CVPR2020Xie8_arXiv.jpg 	 | https://arxiv.org/pdf/1909.13226.pdf
-CVPR2020Yu2_arXiv.jpg 	 | https://arxiv.org/pdf/2004.01547.pdf
 CVPR2020Zhang3_arXiv.jpg 	 | https://arxiv.org/pdf/2003.11712.pdf
 CVPR2020Zhuang5_arXiv.jpg 	 | https://arxiv.org/pdf/1903.11236.pdf
 Cao2017_arXiv.jpg 	 | https://arxiv.org/pdf/1605.02305.pdf
-Cao2018ICML_arXiv.jpg 	 | https://arxiv.org/pdf/1806.04895.pdf
-Cao2019GAN_arXiv.jpg 	 | https://arxiv.org/pdf/1911.00888.pdf
-Cao2020GAN_arXiv.jpg 	 | https://arxiv.org/pdf/2008.00942.pdf
-Chen2018CVPR_arXiv.jpg 	 | https://arxiv.org/pdf/1711.10703.pdf
-Chen2019PAMI_arXiv.jpg 	 | https://arxiv.org/pdf/1711.00253.pdf
 Chen2021CVPR3_arXiv.jpg 	 | https://arxiv.org/pdf/2007.06919.pdf
 Cross2017Liu_arXiv.jpg 	 | https://arxiv.org/pdf/1510.00921.pdf
 Dai2021CVPR8_arXiv.jpg 	 | https://arxiv.org/pdf/2011.14288.pdf
@@ -81,6 +72,7 @@ Guo2018TMM_arXiv.jpg 	 | https://arxiv.org/pdf/1712.09048.pdf
 Guo2021CVPR14_arXiv.jpg 	 | https://arxiv.org/pdf/2011.11204.pdf
 HLiu2018TPAMI_PDF.jpg 	 | https://www.researchgate.net/publication/324053386_Ordinal_Constraint_Binary_Coding_for_Approximate_Nearest_Neighbor_Search
 Harandi2015IJCV_arXiv.jpg 	 | https://arxiv.org/pdf/1401.8126.pdf
+Hashing2015Shen_arXiv.jpg 	 | https://arxiv.org/pdf/1412.0826.pdf
 He2018CVPR_arXiv.jpg 	 | https://arxiv.org/pdf/1803.03474.pdf
 He2021CVPR7_arXiv.jpg 	 | https://arxiv.org/pdf/2011.13328.pdf
 ICASSP2018Dong_arXiv.jpg 	 | https://arxiv.org/pdf/1611.09119.pdf
@@ -135,6 +127,7 @@ PR2017Qiao_arXiv.jpg 	 | https://arxiv.org/pdf/1504.04923.pdf
 PRFace2016Shen_arXiv.jpg 	 | https://arxiv.org/pdf/1406.6811.pdf
 Paisitkriangkrai2009CVPR_arXiv.jpg 	 | https://arxiv.org/pdf/0903.3103.pdf
 Paisitkriangkrai2013RandomBoost_arXiv.jpg 	 | https://arxiv.org/pdf/1302.0963.pdf
+Paisitkriangkrai2015TPAMI_arXiv.jpg 	 | https://arxiv.org/pdf/1409.5209.pdf
 Pan2020ACMSurvey_arXiv.jpg 	 | https://arxiv.org/pdf/2007.02500.pdf
 Pang2021KDD_arXiv.jpg 	 | https://arxiv.org/pdf/2009.06847.pdf
 Paul2013Fastboosting_arXiv.jpg 	 | https://arxiv.org/pdf/1307.5497.pdf
@@ -150,7 +143,6 @@ Shen2009PSD_arXiv.jpg 	 | https://arxiv.org/pdf/0910.2279.pdf
 Shen2010ECCV_arXiv.jpg 	 | https://arxiv.org/pdf/1005.4103.pdf
 Shen2011CVPRa_PDF.jpg 	 | http://hdl.handle.net/2440/62919
 Shen2013NN_PDF.jpg 	 | http://hdl.handle.net/2440/78929
-Shen2014Metric_arXiv.jpg 	 | https://arxiv.org/pdf/1302.3219.pdf
 Shen2014Outlier_arXiv.jpg 	 | https://arxiv.org/pdf/1304.1250.pdf
 Shen2014SBoosting_arXiv.jpg 	 | https://arxiv.org/pdf/1302.3283.pdf
 Shi2011CVPR_PDF.jpg 	 | http://hdl.handle.net/2440/67036
@@ -193,6 +185,7 @@ Xie2020TMIa_arXiv.jpg 	 | https://arxiv.org/pdf/1903.03313.pdf
 Yan2014TIPa_arXiv.jpg 	 | https://arxiv.org/pdf/1402.5497.pdf
 Yao2016IJCV_arXiv.jpg 	 | https://arxiv.org/pdf/1506.06343.pdf
 Yin2021CVPR6_arXiv.jpg 	 | https://arxiv.org/pdf/2012.09365.pdf
+Yin2021PAMIvn_arXiv.jpg 	 | https://arxiv.org/pdf/2103.04216.pdf
 Yu2020RepGraphNet_arXiv.jpg 	 | https://arxiv.org/pdf/2008.05202.pdf
 Zhang2015IJCV_arXiv.jpg 	 | https://arxiv.org/pdf/1501.00642.pdf
 Zhang2018ECCV_arXiv.jpg 	 | https://arxiv.org/pdf/1711.07614.pdf
