@@ -46,8 +46,8 @@ print ("== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arro
 
 # print 'I wrote some [https://www.dropbox.com/sh/6vj10tiodqt2ht1/xJLnlUv5Eh/bib2web  python script] to generate this page and [./cshen_papers.pdf a list in pdf]  from [data/cs.bib my bibtex file].  {[./copyright.txt copyright]}\n'
 
-print ( "[http://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}]," )
-print ( "[http://dblp.uni-trier.de/pers/hd/s/Shen:Chunhua DBLP {{<i class='ai ai-dblp ai-1x'></i>}}]," )
+print ( "[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}]," )
+print ( "[https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}]," )
 print ( "[https://tinyurl.com/ww4dlqm   arXiv {{<i class='ai ai-biorxiv ai-1x'></i>}}]." )
 
 

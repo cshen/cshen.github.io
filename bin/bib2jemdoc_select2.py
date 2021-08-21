@@ -57,8 +57,8 @@ print ( "[fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidd
 # print '[http://dblp.uni-trier.de/pers/hd/s/Shen:Chunhua DBLP],'
 # print '[https://arxiv.org/a/shen_c_1.html arXiv Preprints].'
 
-print ( "[http://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}]," )
-print ( "[http://dblp.uni-trier.de/pers/hd/s/Shen:Chunhua DBLP {{<i class='ai ai-dblp ai-1x'></i>}}]," )
+print ( "[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}]," )
+print ( "[https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}]," )
 print ( "[https://tinyurl.com/ww4dlqm   arXiv {{<i class='ai ai-biorxiv ai-1x'></i>}}]." )
 
 
