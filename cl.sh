@@ -77,6 +77,8 @@ cat index.html | sed s/"INSERT_CHINESE_NAME"/"\&#27784;\&#26149;\&#33775;"/g > _
 ./gen_pdf_list.sh
 
 
+chmod 777 data/data/bibtex/*.bib
+
 
 if [  -z "$1"  ]; then
       echo " . "
@@ -85,6 +87,8 @@ if [  -z "$1"  ]; then
       echo "... sync ..."
 	  ./scp2srv
 fi
+
+
 
 
 
