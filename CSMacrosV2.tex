@@ -233,7 +233,28 @@
   {\xcirc\scriptscriptstyle}
 }}
 \newcommand{\xcirc}[1]{\vcenter{\hbox{$#1\latexcirc$}}}
-\let\circ\ccirc
+\let \circ \ccirc
+
+
+
+
+\usepackage{color}
+\newcommand\blue[1]{\color{blue}{{#1}}}
+\newcommand\cscomment[1]{{\color{blue}{{#1}}}}
+
+
+% 28 Aug. 2021. CS:
+% Change the font face of \texttt 
+\newcommand{\mycode}[1]{{\ensuremath{\tt #1}}}
+%
+% CS: refine \texttt to \mycode
+%
+\let \oldtexttt \texttt 
+\let \texttt    \mycode 
+
+
+
+
 
 
 %
