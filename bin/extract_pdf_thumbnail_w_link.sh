@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Compared with extract_pdf_thumbnail.sh,  this script also generate the PDF files' links in an
-# associated text file 
+# associated text file
 #
 
 
@@ -36,7 +36,7 @@ function download_pdf()
 
 kk=0
 
-echo "" > $_LinkFile
+# echo "" > $_LinkFile
 
 for ff in `ls -1 $BIBDir/*.bib`
 do
@@ -63,15 +63,19 @@ do
     echo $PDF | grep http 2>/dev/null
 
     [  $?  ] && [  x$PDF != 'x'  ]  && [ ! -f  $TD/`basename $ff  .bib`_PDF.jpg  ]  &&  \
-                echo "PDF downloading:  $PDF"   &&  curl -L -o     $WorkD/$F1  $PDF &&  \
-                echo -n -e $J1" \t | " >> $_LinkFile    && echo "$PDF" >> $_LinkFile
+                echo "PDF downloading:  $PDF"   &&  curl -L -o     $WorkD/$F1  $PDF
+
+                # &&  \
+                # echo -n -e $J1" \t | " >> $_LinkFile    && echo "$PDF" >> $_LinkFile
 
 
-    [ ! -f  $TD/`basename $ff  .bib`_arXiv.jpg    ]   &&    [ x$PDFURL != 'x' ]           &&  \ 
-                echo "arXiv downloading:  $PDFURL" &&  curl -L -o     $WorkD/$F2  $PDFURL &&  \
-                echo -n -e $J2" \t | " >> $_LinkFile    && echo "$PDFURL" >> $_LinkFile
+    [ ! -f  $TD/`basename $ff  .bib`_arXiv.jpg    ]   &&    [ x$PDFURL != 'x' ]           &&  \
+                echo "arXiv downloading:  $PDFURL" &&  curl -L -o     $WorkD/$F2  $PDFURL
+#
+#                &&  \
+#                echo -n -e $J2" \t | " >> $_LinkFile    && echo "$PDFURL" >> $_LinkFile
 
-    
+
     kk=`echo "$kk + 1" | bc `
     echo "."
     echo "."
@@ -101,7 +105,7 @@ function gen_jpg()
         && \
         convert -thumbnail "900x600>" -density 300 -background white -alpha remove  _1.pdf  _out.jpg \
         && \
-        mv _out.jpg $F.jpg  &&  rm  -f  _1.pdf  
+        mv _out.jpg $F.jpg  &&  rm  -f  _1.pdf
 
     done
 
@@ -125,4 +129,5 @@ mkdir -p  ../data/thumbnail/
 mv $HOME/Downloads/00_download_my_papers/thumbnail/*   $TD
 
 
-# EoF 
+
+# EoF
