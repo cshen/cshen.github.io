@@ -1,13 +1,15 @@
-#!/usr/bin/env python3
-# Author:        Chunhua Shen {chhshen@gmail.com}
-# Creation:      Saturday 09/07/2011 21:55.
-# Last Revision: Saturday 18/05/2013 18:43.
+#!/usr/local/Caskroom/miniconda/base/envs/www/bin/python
+#
+# /usr/bin/env python3
 #
 # You need to install pybtex first
+#           conda install -c omnia pybtex 
+# https://anaconda.org/omnia/pybtex
 #
 
-import pkg_resources
-pkg_resources.require("pybtex==0.18")
+# import pkg_resources
+# pkg_resources.require("pybtex==0.18")
+import pybtex
 from pybtex.database.input import bibtex
 
 
