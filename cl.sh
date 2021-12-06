@@ -5,6 +5,9 @@
 # Last Revision: Saturday 18/05/2013 18:48.
 
 
+conda activate www
+
+
 jemdoc=./jemdoc.py
 
 
