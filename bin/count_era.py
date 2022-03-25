@@ -1,7 +1,4 @@
-#!/usr/local/Caskroom/miniconda/base/envs/www/bin/python
-
-
-# /usr/bin/env python3
+#!/usr/bin/env python3
 
 # Author:        Chunhua Shen {chhshen@gmail.com}
 # Creation:      Saturday 09/07/2011 21:55.

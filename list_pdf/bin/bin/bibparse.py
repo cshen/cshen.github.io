@@ -1,11 +1,8 @@
-#!/usr/local/Caskroom/miniconda/base/envs/www/bin/python
-
-
-#  /usr/bin/env python3
+#! /usr/bin/env python3
 #
 # Author:        Chunhua Shen [http://cs.adelaide.edu.au/~chhshen/], The University of Adelaide
 # Creation:      Tuesday 08/01/2013 19:15.
-# Last Revision: Monday 11/02/2013 11:43.
+# Last Revision: Monday 11/02/2022 11:43.
 # CS, 11 Feb 2013, add link to the title
 # CS, 2020 July, now using Python3
 

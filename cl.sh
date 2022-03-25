@@ -4,7 +4,8 @@
 # Creation:      Wednesday 13/08/2008 12:06.
 # Last Revision: Saturday 18/05/2013 18:48.
 
-
+Conda_profile=$CONDA_PREFIX_1/etc/profile.d/conda.sh
+source $Conda_profile
 conda activate www
 
 

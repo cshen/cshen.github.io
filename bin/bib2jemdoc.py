@@ -1,9 +1,10 @@
-#!/usr/local/Caskroom/miniconda/base/envs/www/bin/python
+#!/usr/bin/env python3
 #
-# /usr/bin/env python3
+#/usr/local/Caskroom/miniconda/base/envs/www/bin/python
+#
 #
 # You need to install pybtex first
-#           conda install -c omnia pybtex 
+#           conda install -c omnia pybtex
 # https://anaconda.org/omnia/pybtex
 #
 
