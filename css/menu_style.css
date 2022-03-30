@@ -16,10 +16,7 @@ body {
     padding:0;
 
     font-family: 
-    'EB Garamond', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, sans-serif;
-    /*
     Georgia, 'Palatino Linotype', 'Book Antiqua', 'Lucida Grande', helvetica,  sans-serif, serif;
-    */
 
     color: #333333;
 
@@ -111,7 +108,9 @@ body {
 
 	background:#FFEBBF;
 	margin-left:2px;
-    font-family: 'Comfortaa', 'EB Garamond', Georgia, sans-serif, Serif;
+    font-family:
+    /* 'Comfortaa', */
+    'EB Garamond', Georgia, sans-serif, Serif;
 
     -webkit-transition: color 1s;
 	-moz-transition: color 1s;
