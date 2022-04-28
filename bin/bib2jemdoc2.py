@@ -53,7 +53,7 @@ print ( "== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arr
 
 print ( "[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}]," )
 print ( "[https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}]," )
-print ( "[https://tinyurl.com/ww4dlqm   arXiv {{<i class='ai ai-biorxiv ai-1x'></i>}}]." )
+print ( "[https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-biorxiv ai-1x'></i>}}]." )
 
 
 
