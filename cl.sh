@@ -56,7 +56,11 @@ do
 #         `basename $jfile .jemdoc`.html > 0
 #    mv -f 0 `basename $jfile .jemdoc`.html
 
+     htmlmin  `basename $jfile .jemdoc`.html  _0
+     mv -f _0 `basename $jfile .jemdoc`.html
+
 done
+
 
 
 
