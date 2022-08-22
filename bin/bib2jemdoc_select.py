@@ -13,8 +13,6 @@
 #
 
 
-import pkg_resources
-pkg_resources.require("pybtex==0.18")
 
 from   pybtex.database.input import bibtex
 

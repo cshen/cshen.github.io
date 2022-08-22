@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 #
-#/usr/local/Caskroom/miniconda/base/envs/www/bin/python
-#
 #
 # You need to install pybtex first
 #           conda install -c omnia pybtex
@@ -108,6 +106,7 @@ def sort_list_cmp(y, x):
     if x[1].fields['venue'] < y[1].fields['venue']:
         return 1
 
+    print (x[1])
     if x[1].fields['author'] > y[1].fields['author']:
         return 1
     else:
