@@ -384,8 +384,11 @@ def out(f, s):
     f.write(s)
 
 def mathjaxussub(link):
-  link = link.replace('_', 'UNDERSCORE65358')
-
+#
+#  CS: DO NOT REPLACE _ IN A LINK. WHY WOULD YOU DO THAT ???????
+#  link = link.replace('_', 'UNDERSCORE65358')
+#
+#
   return link
 
 def mathjaxusresub(r):
