@@ -1,12 +1,12 @@
 #!/bin/bash
 #
-# Author:        Chunhua Shen {chhshen@gmail.com}
+# Author:        Chunhua Shen
 # Creation:      Wednesday 13/08/2008 12:06.
-# Last Revision: Saturday 18/05/2013 18:48.
+# Last Revision: Saturday 18/05/2022 18:48.
 
 
 
-jemdoc=./jemdoc.py
+jemdoc="./jemdoc.py"
 
 
 rm -f eqs/*

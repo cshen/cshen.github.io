@@ -106,7 +106,6 @@ def sort_list_cmp(y, x):
     if x[1].fields['venue'] < y[1].fields['venue']:
         return 1
 
-    print (x[1])
     if x[1].fields['author'] > y[1].fields['author']:
         return 1
     else:
