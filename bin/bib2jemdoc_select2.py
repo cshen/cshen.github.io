@@ -46,7 +46,7 @@ bib_data = parser.parse_file( mybibtexfile )
 
 print ( "== Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  " )
 
-# print "[fullpaper.html Full publication list]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].\n"
+# print "[fullpaper.html Full publication list]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].\n"
 print ( "[fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].\n" )
 
 # print '[http://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (XXX citations)],'
