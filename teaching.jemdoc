@@ -1,0 +1,57 @@
+# jemdoc: addpackage{xcolor},eqsize{100},title{Chunhua Shen}
+= Courses
+
+= Teaching at Zhejiang University
+~~~
+{}{table}{tabteach}
+2023  |	机器学习导论 Introduction to Machine Learning|          ||	
+~~~
+
+
+= Teaching at The University of Adelaide
+~~~
+{}{table}{tabteach}
+2020 |   Master of Data Science                        |  Program coordinator  ||
+2020 |   Master of Machine Learning                    |  Program coordinator  ||
+2020 |   Mining Big Data                               |  Course code: COMPSCI 3306\/7306, 1st Semester  ||
+2020 |   Master of Data Science Research Project Part A   |  Course code: COMPSCI 7097A, 1st Semester       ||
+2020 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 3314\/7314, 2nd Semester  ||
+2020 |   Master of Data Science Research Project Part B   |  Course code: COMPSCI 7097B,   2nd Semesters    ||
+2020 |   Big Data Analysis and Project                 |  Course code: COMPSCI 7209,        2nd Semester ||
+2019 |   Master of Data Science                        |  Program coordinator                            ||
+2019 |   Mining Big Data                               |  Course code: COMPSCI 3306\/7306, 1st Semester  ||
+2019 |   Master of Data Science Research Project Part A   |  Course code: COMPSCI 7097A, 1st and 2nd Semesters ||
+2019 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 3314\/7314, 2nd Semester  ||
+2019 |   Master of Data Science Research Project Part B   |  Course code: COMPSCI 7097B,  2nd Semester ||
+2018 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 4401\/7401, 2nd Semester  ||
+2018 |   Big Data Analysis and Project                 |  Course code: COMPSCI 7209, 2nd Semester        ||
+2018 |   Advanced Topics in Computer Science           |  Course code: COMPSCI 3020, 1st       Semester  ||
+2018 |   Algorithm and Data Structure Analysis (Small-Group Discovery Experience)  |   Course code: COMPSCI 2201, 1st Semester ||
+2017 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 4401\/7401, 2nd Semester  ||
+2017 |   Introduction to Geometric Algorithms          |  Course code: COMP SCI 4802\/7402, 2nd Semester ||
+2016 |   Mining Big Data                               |  Course code: COMPSCI 4403, 2nd Semester         ||
+2016 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 4401\/7401, 2nd Semester   ||
+2015 |   Algorithm and Data Structure Analysis (Small-Group Discovery Experience)  |   Course code: COMPSCI 2201, 2nd Semester ||
+2015 |   Operating Systems  |   Course code: COMPSCI 3004NA\/7064NA, 3rd Trimester                           ||
+2015 |   Computer Graphics  |   Course code: COMPSCI 3014NA, 2nd Trimester                                   ||
+2015 |   Introduction to Statistical Machine Learning  |  Course code: COMPSCI 4401\/7401, 2nd Semester      ||
+2015 |   Scientific Computing (Small-Group Discovery Experience)  |  Course code: COMPSCI 1012, 1st Semester ||
+2014 |   Introduction to Statistical Machine Learning             |  Course code: COMPSCI 7012, 2nd Semester ||
+2014 |   Scientific Computing (Small-Group Discovery Experience)  |  Course code: COMPSCI 1012, 1st Semester ||
+2013 |   Introduction to Statistical Machine Learning |   Course code: COMPSCI 7012, 2nd Semester ||
+2012 |   Introduction to Statistical Machine Learning |   Course code: COMPSCI 7012, 2nd Semester ||
+2012 |   Master of Computing and Innovation Project   |   Course code: COMPSCI 7098, 1st Semester ||
+2012 |   Foundations of Computer Science              |   Course code: COMPSCI 2202, 1st Semester ||
+2011 |   Computer Vision                              |   Course code: COMPSCI 4022\/7022, 2nd Semester; Guest lecturer
+~~~
+
+= Teaching at Australian National University
+~~~
+{}{table}{tabteach}
+2010  |  Robotics   | Course code: ENGN 4627, 2nd Semester; Guest lecturer  ||
+2010  |  Artificial Intelligence  | Course code: COMP 3620, 1st Semester; Guest lecturer ||
+2010  |  Computer Vision  | Course code: ENGN 4528, 1st Semester; Guest lecturer ||
+2009  |  Statistical Pattern Recognition  | Course code: ENGN 4520\/6520, 2nd Semester ||
+2008  |  Statistical Pattern Recognition  | Course code: ENGN 4522\/6520, 2nd Semester; Guest lecturer ||
+2007  |  Computer Vision & Image Understanding  | Course code: ENGN 8530, 1st Semester
+~~~

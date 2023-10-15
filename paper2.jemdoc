@@ -1,0 +1,982 @@
+# jemdoc: title{Chunhua Shen},addcss{css/full_publication.css},eqsize{140}
+= Selected Publications
+== Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
+[fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
+
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (61280 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
+[https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
+  
+== Journal: 64
+===  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI): 40
+===  International Journal of Computer Vision (IJCV): 22
+===  Journal of Machine Learning Research (JMLR): 1
+===  ACM Transactions on Graphics (TOG): 1
+\n
+. *Super vision transformer*  
+\n$\cdot$ /M. Lin, M. Chen, Y. Zhang, C. Shen, R. Ji, L. Cao/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2205.11397 arXiv][data/bibtex/Lin2023IJCVSuper.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Super+Vision+Transformer+Lin,+Mingbao+and+Chen,+Mengzhao+and+Zhang,+Yuxin+and+Shen,+Chunhua+and+Ji,+Rongrong+and+Cao,+Liujuan google scholar][https://www.semanticscholar.org/search?q=Super+Vision+Transformer semantic scholar][https://github.com/lmbxmu/SuperViT   project webpage]
+. *A dynamic feature interaction framework for multi-task visual perception*  
+\n$\cdot$ /Y. Xi, H. Chen, N. Wang, P. Wang, Y. Zhang, C. Shen, Y. Liu/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
+\n$\cdot$ [data/bibtex/XiY2023IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Dynamic+Feature+Interaction+Framework+for+Multi-task+Visual+Perception+Xi,+Yuling+and+Chen,+Hao+and+Wang,+Ning+and+Wang,+Peng+and+Zhang,+Yanning+and+Shen,+Chunhua+and+Liu,+Yifan google scholar][https://www.semanticscholar.org/search?q=A+Dynamic+Feature+Interaction+Framework+for+Multi-task+Visual+Perception semantic scholar]
+. *From open set to closed set: supervised spatial divide-and-conquer for object counting*  
+\n$\cdot$ /H. Xiong, H. Lu, C. Liu, L. Liu, C. Shen, Z. Cao/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2001.01886 arXiv][data/bibtex/Lu2023IJCVCounting.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=From+Open+Set+to+Closed+Set:+Supervised+Spatial+Divide-and-Conquer+for+Object+Counting+Xiong,+Haipeng+and+Lu,+Hao+and+Liu,+Chengxin+and+Liu,+Liang+and+Shen,+Chunhua+and+Cao,+Zhiguo google scholar][https://www.semanticscholar.org/search?q=From+Open+Set+to+Closed+Set:+Supervised+Spatial+Divide-and-Conquer+for+Object+Counting semantic scholar]
+. *SPL-Net: spatial-semantic patch learning network for facial attribute recognition with limited labeled data*  
+\n$\cdot$ /Y. Yan, Y. Shu, S. Chen, J. Xue, C. Shen, H. Wang/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
+\n$\cdot$ [data/bibtex/YAN2023IJCVSPL.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SPL-Net}:+Spatial-Semantic+Patch+Learning+Network+for+Facial+Attribute+Recognition+with+Limited+Labeled+Data+Yan,+Yan+and+Shu,+Ying+and+Chen,+Si+and+Xue,+Jing-Hao+and+Shen,+Chunhua+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q={SPL-Net}:+Spatial-Semantic+Patch+Learning+Network+for+Facial+Attribute+Recognition+with+Limited+Labeled+Data semantic scholar]
+. *SegViT v2: exploring efficient and continual semantic segmentation with plain vision transformers*  
+\n$\cdot$ /B. Zhang, L. Liu, M. Phan, Z. Tian, C. Shen, Y. Liu/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2306.06289 arXiv][data/bibtex/Zhang2023SegVITv2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SegViT}+v2:+Exploring+Efficient+and+Continual+Semantic+Segmentation+with+Plain+Vision+Transformers+Zhang,+Bowen+and+Liu,+Liyang+and+Phan,+Minh+Hieu+and+Tian,+Zhi+and+Shen,+Chunhua+and+Liu,+Yifan google scholar][https://www.semanticscholar.org/search?q={SegViT}+v2:+Exploring+Efficient+and+Continual+Semantic+Segmentation+with+Plain+Vision+Transformers semantic scholar][https://github.com/zbwxp/SegVit   project webpage]
+. *Structured binary neural networks for image recognition*  
+\n$\cdot$ /B. Zhuang, C. Shen, M. Tan, P. Chen, L. Liu, I. Reid/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/1909.09934 arXiv][data/bibtex/Zhuang2022IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Structured+Binary+Neural+Networks+for+Image+Recognition+Zhuang,+Bohan+and+Shen,+Chunhua+and+Tan,+Mingkui+and+Chen,+Peng+and+Liu,+Lingqiao+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Structured+Binary+Neural+Networks+for+Image+Recognition semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2105.11610.pdf"><img class="imgP  right"   src="data/thumbnail/Bian2021IJCV_arXiv.jpg"></a>}}*Unsupervised scale-consistent depth learning from video*  
+\n$\cdot$ /J. Bian, H. Zhan, N. Wang, Z. Li, L. Zhang, C. Shen, M. Cheng, I. Reid/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2105.11610 arXiv][data/bibtex/Bian2021IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Unsupervised+Scale-consistent+Depth+Learning+from+Video+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Wang,+Naiyan+and+Li,+Zhichao+and+Zhang,+Le+and+Shen,+Chunhua+and+Cheng,+Ming-Ming+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Unsupervised+Scale-consistent+Depth+Learning+from+Video semantic scholar][https://github.com/JiawangBian/SC-SfMLearner-Release   project webpage]
+. *Joint classification and regression for visual tracking with fully convolutional Siamese networks*  
+\n$\cdot$ /Y. Cui, D. Guo, Y. Shao, Z. Wang, C. Shen, L. Zhang, S. Chen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [data/bibtex/Cui2021Joint.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Joint+classification+and+regression+for+visual+tracking+with+fully+convolutional+{S}iamese+networks+Cui,+Ying+and+Guo,+Dongyan+and+Shao,+Yanyan+and+Wang,+Zhenhua+and+Shen,+Chunhua+and+Zhang,+Liyan+and+Chen,+Shengyong google scholar][https://www.semanticscholar.org/search?q=Joint+classification+and+regression+for+visual+tracking+with+fully+convolutional+{S}iamese+networks semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/IJCV2021Liuyl_arXiv.jpg">}}*Exploring the capacity of an orderless box discretization network for multi-orientation scene text detection*  
+\n$\cdot$ /Y. Liu, T. He, H. Chen, X. Wang, C. Luo, S. Zhang, C. Shen, L. Jin/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/1912.09629 arXiv][data/bibtex/IJCV2021Liuyl.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Exploring+the+Capacity+of+an+Orderless+Box+Discretization+Network+for+Multi-orientation+Scene+Text+Detection+Liu,+Yuliang+and+He,+Tong+and+Chen,+Hao+and+Wang,+Xinyu+and+Luo,+Canjie+and+Zhang,+Shuaitao+and+Shen,+Chunhua+and+Jin,+Lianwen google scholar][https://www.semanticscholar.org/search?q=Exploring+the+Capacity+of+an+Orderless+Box+Discretization+Network+for+Multi-orientation+Scene+Text+Detection semantic scholar][https://git.io/TextDet   project webpage]
+. *NAS-FCOS: efficient search for object detection architectures*  
+\n$\cdot$ /N. Wang, Y. Gao, H. Chen, P. Wang, Z. Tian, C. Shen, Y. Zhang/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [data/bibtex/Wang2021IJCV_NAS.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={NAS-FCOS}:+Efficient+Search+for+Object+Detection+Architectures+Wang,+Ning+and+Gao,+Yang+and+Chen,+Hao+and+Wang,+Peng+and+Tian,+Zhi+and+Shen,+Chunhua+and+Zhang,+Yanning google scholar][https://www.semanticscholar.org/search?q={NAS-FCOS}:+Efficient+Search+for+Object+Detection+Architectures semantic scholar][https://github.com/Lausannen/NAS-FCOS   project webpage]
+. *A dual-attention-guided network for ghost-free high dynamic range imaging*  
+\n$\cdot$ /Q. Yan, D. Gong, Q. Shi, A. van den Hengel, C. Shen, I. Reid, Y. Zhang/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [data/bibtex/Yan2021Ghostfree.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Dual-Attention-guided+network+for+ghost-free+high+dynamic+range+imaging+Yan,+Qingsen+and+Gong,+Dong+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Shen,+Chunhua+and+Reid,+Ian+and+Zhang,+Yanning google scholar][https://www.semanticscholar.org/search?q=A+Dual-Attention-guided+network+for+ghost-free+high+dynamic+range+imaging semantic scholar][https://github.com/qingsenyangit/AHDRNet   project webpage]
+. *BiSeNet v2: bilateral network with guided aggregation for real-time semantic segmentation*  
+\n$\cdot$ /C. Yu, C. Gao, J. Wang, G. Yu, C. Shen, N. Sang/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2004.02147 arXiv][data/bibtex/Yu2021BiSegV2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={BiSeNet}+v2:+Bilateral+Network+with+Guided+Aggregation+for+Real-time+Semantic+Segmentation+Yu,+Changqian+and+Gao,+Changxin+and+Wang,+Jingbo+and+Yu,+Gang+and+Shen,+Chunhua+and+Sang,+Nong google scholar][https://www.semanticscholar.org/search?q={BiSeNet}+v2:+Bilateral+Network+with+Guided+Aggregation+for+Real-time+Semantic+Segmentation semantic scholar]
+. *Memory-efficient hierarchical neural architecture search for image restoration*  
+\n$\cdot$ /H. Zhang, Y. Li, H. Chen, C. Gong, Z. Bai, C. Shen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2012.13212 arXiv][data/bibtex/Haokui2021NAS.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Memory-Efficient+Hierarchical+Neural+Architecture+Search+for+Image+Restoration+Zhang,+Haokui+and+Li,+Ying+and+Chen,+Hao+and+Gong,+Chengrong+and+Bai,+Zongwen+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Memory-Efficient+Hierarchical+Neural+Architecture+Search+for+Image+Restoration semantic scholar][https://github.com/hkzhang91/HiNAS   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Luo2020IJCV_arXiv.jpg">}}*Separating content from style using adversarial learning for recognizing text in the wild*  
+\n$\cdot$ /C. Luo, Q. Lin, Y. Liu, L. Jin, C. Shen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2001.04189 arXiv][data/bibtex/Luo2020IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild+Luo,+Canjie+and+Lin,+Qingxiang+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1806.01576.pdf"><img class="imgP  right"   src="data/thumbnail/Adaptive2019Zhang_arXiv.jpg"></a>}}*Adaptive importance learning for improving lightweight image super-resolution network*  
+\n$\cdot$ /L. Zhang, P. Wang, C. Shen, L. Liu, W. Wei, Y. Zhang, A. van den Hengel/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1806.01576 arXiv][data/bibtex/Adaptive2019Zhang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+Importance+Learning+for+Improving+Lightweight+Image+Super-resolution+Network+Zhang,+Lei+and+Wang,+Peng+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Wei,+Wei+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Adaptive+Importance+Learning+for+Improving+Lightweight+Image+Super-resolution+Network semantic scholar][https://tinyurl.com/Super-resolution-Network   project webpage]
+. *Cluster sparsity field: an internal hyperspectral imagery prior for reconstruction*  
+\n$\cdot$ /L. Zhang, W. Wei, Y. Zhang, C. Shen, A. van den Hengel, Q. Shi/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2018/.
+\n$\cdot$ [https://www.researchgate.net/publication/323914969_Cluster_Sparsity_Field_An_Internal_Hyperspectral_Imagery_Prior_for_Reconstruction  pdf][data/bibtex/Zhang2018IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Cluster+Sparsity+Field:+An+Internal+Hyperspectral+Imagery+Prior+for+Reconstruction+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng google scholar][https://www.semanticscholar.org/search?q=Cluster+Sparsity+Field:+An+Internal+Hyperspectral+Imagery+Prior+for+Reconstruction semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/IJCV2017Lin_arXiv.jpg">}}*Structured learning of binary codes with column generation for optimizing ranking measures*  
+\n$\cdot$ /G. Lin, F. Liu, C. Shen, J. Wu, H. Shen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1602.06654 arXiv][data/bibtex/IJCV2017Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Structured+Learning+of+Binary+Codes+with+Column+Generation+for+Optimizing+Ranking+Measures+Lin,+Guosheng+and+Liu,+Fayao+and+Shen,+Chunhua+and+Wu,+Jianxin+and+Shen,+Heng+Tao google scholar][https://www.semanticscholar.org/search?q=Structured+Learning+of+Binary+Codes+with+Column+Generation+for+Optimizing+Ranking+Measures semantic scholar][https://bitbucket.org/guosheng/structhash   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Yao2016IJCV_arXiv.jpg">}}*Mining mid-level visual patterns with deep CNN activations*  
+\n$\cdot$ /Y. Li, L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1506.06343 arXiv][http://rdcu.be/j1mA  link][data/bibtex/Yao2016IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Mining+Mid-level+Visual+Patterns+with+Deep+{CNN}+Activations+Li,+Yao+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Mining+Mid-level+Visual+Patterns+with+Deep+{CNN}+Activations semantic scholar][https://github.com/yaoliUoA/MDPM   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1404.5009.pdf"><img class="imgP  right"   src="data/thumbnail/BnB2015Wang_arXiv.jpg"></a>}}*Efficient semidefinite branch-and-cut for MAP-MRF inference*  
+\n$\cdot$ /P. Wang, C. Shen, A. van den Hengel, P. Torr/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1404.5009 arXiv][http://doi.org/10.1007/s11263-015-0865-2  link][data/bibtex/BnB2015Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+Semidefinite+Branch-and-Cut+for+{MAP-MRF}+Inference+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Torr,+Philip google scholar][https://www.semanticscholar.org/search?q=Efficient+Semidefinite+Branch-and-Cut+for+{MAP-MRF}+Inference semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhang2015IJCV_arXiv.jpg">}}*Unsupervised feature learning for dense correspondences across scenes*  
+\n$\cdot$ /C. Zhang, C. Shen, T. Shen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1501.00642 arXiv][data/bibtex/Zhang2015IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Unsupervised+Feature+Learning+for+Dense+Correspondences+across+Scenes+Zhang,+Chao+and+Shen,+Chunhua+and+Shen,+Tingzhi google scholar][https://www.semanticscholar.org/search?q=Unsupervised+Feature+Learning+for+Dense+Correspondences+across+Scenes semantic scholar][https://bitbucket.org/chhshen/ufl   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1401.8126.pdf"><img class="imgP  right"   src="data/thumbnail/Harandi2015IJCV_arXiv.jpg"></a>}}*Extrinsic methods for coding and dictionary learning on Grassmann manifolds*  
+\n$\cdot$ /M. Harandi, R. Hartley, C. Shen, B. Lovell, C. Sanderson/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1401.8126 arXiv][data/bibtex/Harandi2015IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Extrinsic+Methods+for+Coding+and+Dictionary+Learning+on+{G}rassmann+Manifolds+Harandi,+Mehrtash+and+Hartley,+Richard+and+Shen,+Chunhua+and+Lovell,+Brian+and+Sanderson,+Conrad google scholar][https://www.semanticscholar.org/search?q=Extrinsic+Methods+for+Coding+and+Dictionary+Learning+on+{G}rassmann+Manifolds semantic scholar][https://github.com/chhshen/Grassmann/   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1301.2032.pdf"><img class="imgP  right"   src="data/thumbnail/FisherBoost2013IJCV_arXiv.jpg"></a>}}*Training effective node classifiers for cascade classification*  
+\n$\cdot$ /C. Shen, P. Wang, S. Paisitkriangkrai, A. van den Hengel/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1301.2032 arXiv][http://link.springer.com/article/10.1007%2Fs11263-013-0608-1  link][data/bibtex/FisherBoost2013IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Training+Effective+Node+Classifiers+for+Cascade+Classification+Shen,+Chunhua+and+Wang,+Peng+and+Paisitkriangkrai,+Sakrapee+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Training+Effective+Node+Classifiers+for+Cascade+Classification semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/JMLR2012Shen_arXiv.jpg">}}*Positive semidefinite metric learning using boosting-like algorithms*  
+\n$\cdot$ /C. Shen, J. Kim, L. Wang, A. van den Hengel/.
+\n$\cdot$ /Journal of Machine Learning Research (JMLR), 2012/.
+\n$\cdot$ [http://arxiv.org/abs/1104.4704 arXiv][http://jmlr.csail.mit.edu/papers/v13/shen12a.html  link][data/bibtex/JMLR2012Shen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Positive+Semidefinite+Metric+Learning+Using+Boosting-like+Algorithms+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Positive+Semidefinite+Metric+Learning+Using+Boosting-like+Algorithms semantic scholar][https://code.google.com/archive/p/boosting/downloads   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2020TOG_arXiv.jpg">}}*Real-time image smoothing via iterative least squares*  
+\n$\cdot$ /W. Liu, P. Zhang, X. Huang, J. Yang, C. Shen, I. Reid/.
+\n$\cdot$ /ACM Transactions on Graphics (TOG), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.07504 arXiv][https://doi.org/10.1145/3388887  link][data/bibtex/Liu2020TOG.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Real-time+image+smoothing+via+iterative+least+squares+Liu,+Wei+and+Zhang,+Pingping+and+Huang,+Xiaolin+and+Yang,+Jie+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Real-time+image+smoothing+via+iterative+least+squares semantic scholar][https://github.com/wliusjtu/Real-time-Image-Smoothing-via-Iterative-Least-Squares   project webpage]
+. *Single-path bit sharing for automatic loss-aware model compression*  
+\n$\cdot$ /J. Liu, B. Zhuang, P. Chen, C. Shen, J. Cai, M. Tan/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2101.04935 arXiv][data/bibtex/Liu2023TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Single-path+Bit+Sharing+for+Automatic+Loss-aware+Model+Compression+Liu,+Jing+and+Zhuang,+Bohan+and+Chen,+Peng+and+Shen,+Chunhua+and+Cai,+Jianfei+and+Tan,+Mingkui google scholar][https://www.semanticscholar.org/search?q=Single-path+Bit+Sharing+for+Automatic+Loss-aware+Model+Compression semantic scholar]
+. *SPTS v2: single-point scene text spotting*  
+\n$\cdot$ /Y. Liu, J. Zhang, D. Peng, M. Huang, X. Wang, J. Tang, C. Huang, D. Lin, C. Shen, X. Bai, L. Jin/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2301.01635 arXiv][data/bibtex/SPTSv2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SPTS+v2}:+Single-Point+Scene+Text+Spotting+Liu,+Yuliang+and+Zhang,+Jiaxin+and+Peng,+Dezhi+and+Huang,+Mingxin+and+Wang,+Xinyu+and+Tang,+Jingqun+and+Huang,+Can+and+Lin,+Dahua+and+Shen,+Chunhua+and+Bai,+Xiang+and+Jin,+Lianwen google scholar][https://www.semanticscholar.org/search?q={SPTS+v2}:+Single-Point+Scene+Text+Spotting semantic scholar][https://github.com/Yuliang-Liu/SPTSv2   project webpage]
+. *SC-DepthV3: robust self-supervised monocular depth estimation for dynamic scenes*  
+\n$\cdot$ /L. Sun, J. Bian, H. Zhan, W. Yin, I. Reid, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2211.03660 arXiv][data/bibtex/Sun2023TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SC-DepthV3}:+Robust+Self-supervised+Monocular+Depth+Estimation+for+Dynamic+Scenes+Sun,+Libo+and+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Yin,+Wei+and+Reid,+Ian+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={SC-DepthV3}:+Robust+Self-supervised+Monocular+Depth+Estimation+for+Dynamic+Scenes semantic scholar][https://github.com/JiawangBian/sc_depth_pl   project webpage]
+. *Learning from partially labeled data for multi-organ and tumor segmentation*  
+\n$\cdot$ /Y. Xie, J. Zhang, Y. Xia, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2211.06894 arXiv][data/bibtex/Xie2023DodNet.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+from+partially+labeled+data+for+multi-organ+and+tumor+segmentation+Xie,+Yutong+and+Zhang,+Jianpeng+and+Xia,+Yong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Learning+from+partially+labeled+data+for+multi-organ+and+tumor+segmentation semantic scholar][https://git.io/DoDNet   project webpage]
+. *Dynamic convolution for 3D point cloud instance segmentation*  
+\n$\cdot$ /T. He, C. Shen, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2107.08392 arXiv][data/bibtex/Tong2022TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Dynamic+Convolution+for+{3D}+Point+Cloud+Instance+Segmentation+He,+Tong+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Dynamic+Convolution+for+{3D}+Point+Cloud+Instance+Segmentation semantic scholar]
+. *Instance and panoptic segmentation using conditional convolutions*  
+\n$\cdot$ /Z. Tian, B. Zhang, H. Chen, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2102.03026 arXiv][data/bibtex/CondInst2022Tian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Instance+and+Panoptic+Segmentation+Using+Conditional+Convolutions+Tian,+Zhi+and+Zhang,+Bowen+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Instance+and+Panoptic+Segmentation+Using+Conditional+Convolutions semantic scholar][https://github.com/aim-uofa/AdelaiDet/   project webpage]
+. *Towards accurate reconstruction of 3D scene shape from a single monocular image*  
+\n$\cdot$ /W. Yin, J. Zhang, O. Wang, S. Niklaus, S. Chen, Y. Liu, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2208.13241 arXiv][data/bibtex/Weiyin2022TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+Accurate+Reconstruction+of+{3D}+Scene+Shape+from+A+Single+Monocular+Image+Yin,+Wei+and+Zhang,+Jianming+and+Wang,+Oliver+and+Niklaus,+Simon+and+Chen,+Simon+and+Liu,+Yifan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Towards+Accurate+Reconstruction+of+{3D}+Scene+Shape+from+A+Single+Monocular+Image semantic scholar][https://github.com/aim-uofa/depth/   project webpage]
+. *DeepEMD: differentiable earth mover's distance for few-shot learning*  
+\n$\cdot$ /C. Zhang, Y. Cai, G. Lin, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2003.06777 arXiv][data/bibtex/Chi2022TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DeepEMD}:+Differentiable+Earth+Mover's+Distance+for+Few-Shot+Learning+Zhang,+Chi+and+Cai,+Yujun+and+Lin,+Guosheng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DeepEMD}:+Differentiable+Earth+Mover's+Distance+for+Few-Shot+Learning semantic scholar]
+. *Auto-rectify network for unsupervised indoor depth estimation*  
+\n$\cdot$ /J. Bian, H. Zhan, N. Wang, T. Chin, C. Shen, I. Reid/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [data/bibtex/Autorectify2021Bian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Auto-Rectify+Network+for+Unsupervised+Indoor+Depth+Estimation+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Wang,+Naiyan+and+Chin,+Tat-Jun+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Auto-Rectify+Network+for+Unsupervised+Indoor+Depth+Estimation semantic scholar]
+. *ABCNet v2: adaptive bezier-curve network for real-time end-to-end text spotting*  
+\n$\cdot$ /Y. Liu, C. Shen, L. Jin, T. He, P. Chen, C. Liu, H. Chen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2105.03620 arXiv][data/bibtex/Liu2021ABCNetv2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={ABCNet}+v2:+Adaptive+Bezier-Curve+Network+for+Real-time+End-to-end+Text+Spotting+Liu,+Yuliang+and+Shen,+Chunhua+and+Jin,+Lianwen+and+He,+Tong+and+Chen,+Peng+and+Liu,+Chongyu+and+Chen,+Hao google scholar][https://www.semanticscholar.org/search?q={ABCNet}+v2:+Adaptive+Bezier-Curve+Network+for+Real-time+End-to-end+Text+Spotting semantic scholar][https://git.io/AdelaiDet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Li2021Text_arXiv.jpg">}}*Towards end-to-end text spotting in natural scenes*  
+\n$\cdot$ /P. Wang, H. Li, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/1906.06013 arXiv][data/bibtex/Li2021Text.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+End-to-End+Text+Spotting+in+Natural+Scenes+Wang,+Peng+and+Li,+Hui+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Towards+End-to-End+Text+Spotting+in+Natural+Scenes semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2021PANplus_arXiv.jpg">}}*PAN\+\+: towards efficient and accurate end-to-end spotting of arbitrarily-shaped text*  
+\n$\cdot$ /W. Wang, E. Xie, X. Li, X. Liu, D. Liang, Z. Yang, T. Lu, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2105.00405 arXiv][data/bibtex/Wang2021PANplus.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PAN++}:+Towards+Efficient+and+Accurate+End-to-End+Spotting+of+Arbitrarily-Shaped+Text+Wang,+Wenhai+and+Xie,+Enze+and+Li,+Xiang+and+Liu,+Xuebo+and+Liang,+Ding+and+Yang,+Zhibo+and+Lu,+Tong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={PAN++}:+Towards+Efficient+and+Accurate+End-to-End+Spotting+of+Arbitrarily-Shaped+Text semantic scholar]
+. *SOLO: a simple framework for instance segmentation*  
+\n$\cdot$ /X. Wang, R. Zhang, C. Shen, T. Kong, L. Li/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2106.15947 arXiv][data/bibtex/WXL2021SOLO.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SOLO}:+A+Simple+Framework+for+Instance+Segmentation+Wang,+Xinlong+and+Zhang,+Rufeng+and+Shen,+Chunhua+and+Kong,+Tao+and+Li,+Lei google scholar][https://www.semanticscholar.org/search?q={SOLO}:+A+Simple+Framework+for+Instance+Segmentation semantic scholar][https://git.io/AdelaiDet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Yin2021PAMIvn_arXiv.jpg">}}*Virtual normal: enforcing geometric constraints for accurate and robust depth prediction*  
+\n$\cdot$ /W. Yin, Y. Liu, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2103.04216 arXiv][data/bibtex/Yin2021PAMIvn.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Virtual+Normal:+Enforcing+Geometric+Constraints+for+Accurate+and+Robust+Depth+Prediction+Yin,+Wei+and+Liu,+Yifan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Virtual+Normal:+Enforcing+Geometric+Constraints+for+Accurate+and+Robust+Depth+Prediction semantic scholar][https://git.io/Depth   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhuang2021Quantization_arXiv.jpg">}}*Effective training of convolutional neural networks with low-bitwidth weights and activations*  
+\n$\cdot$ /B. Zhuang, J. Liu, M. Tan, L. Liu, I. Reid, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/1908.04680 arXiv][data/bibtex/Zhuang2021Quantization.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Effective+Training+of+Convolutional+Neural+Networks+with+Low-bitwidth+Weights+and+Activations+Zhuang,+Bohan+and+Liu,+Jing+and+Tan,+Mingkui+and+Liu,+Lingqiao+and+Reid,+Ian+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Effective+Training+of+Convolutional+Neural+Networks+with+Low-bitwidth+Weights+and+Activations semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2008.00942.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2020GAN_arXiv.jpg"></a>}}*Improving generative adversarial networks with local coordinate coding*  
+\n$\cdot$ /J. Cao, Y. Guo, Q. Wu, C. Shen, J. Huang, M. Tan/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2008.00942 arXiv][data/bibtex/Cao2020GAN.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Improving+Generative+Adversarial+Networks+with+Local+Coordinate+Coding+Cao,+Jiezhang+and+Guo,+Yong+and+Wu,+Qingyao+and+Shen,+Chunhua+and+Huang,+Junzhou+and+Tan,+Mingkui google scholar][https://www.semanticscholar.org/search?q=Improving+Generative+Adversarial+Networks+with+Local+Coordinate+Coding semantic scholar][https://github.com/SCUTjinchengli/LCCGAN-v2   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1711.00253.pdf"><img class="imgP  right"   src="data/thumbnail/Chen2019PAMI_arXiv.jpg"></a>}}*Adversarial learning of structure-aware fully convolutional networks for landmark localization*  
+\n$\cdot$ /Y. Chen, C. Shen, H. Chen, X. Wei, L. Liu, J. Yang/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1711.00253 arXiv][https://doi.org/10.1109/TPAMI.2019.2901875  link][data/bibtex/Chen2019PAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adversarial+Learning+of+Structure-Aware+Fully+Convolutional+Networks+for+Landmark+Localization+Chen,+Yu+and+Shen,+Chunhua+and+Chen,+Hao+and+Wei,+Xiu-Shen+and+Liu,+Lingqiao+and+Yang,+Jian google scholar][https://www.semanticscholar.org/search?q=Adversarial+Learning+of+Structure-Aware+Fully+Convolutional+Networks+for+Landmark+Localization semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2020PAMI_arXiv.jpg">}}*Structured knowledge distillation for dense prediction*  
+\n$\cdot$ /Y. Liu, C. Shun, J. Wang, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1903.04197 arXiv][https://ieeexplore.ieee.org/document/9115859  link][data/bibtex/Liu2020PAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Structured+Knowledge+Distillation+for+Dense+Prediction+Liu,+Yifan+and+Shun,+Changyong+and+Wang,+Jingdong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Structured+Knowledge+Distillation+for+Dense+Prediction semantic scholar][https://github.com/irfanICMLL/structure_knowledge_distillation   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Lu2020PAMIIndexNet_arXiv.jpg">}}*Index networks*  
+\n$\cdot$ /H. Lu, Y. Dai, C. Shen, S. Xu/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1908.09895 arXiv][https://doi.org/10.1109/TPAMI.2020.3004474  link][data/bibtex/Lu2020PAMIIndexNet.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Index+Networks+Lu,+Hao+and+Dai,+Yutong+and+Shen,+Chunhua+and+Xu,+Songcen google scholar][https://www.semanticscholar.org/search?q=Index+Networks semantic scholar][https://git.io/IndexNet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhang2020OrderlessReID_arXiv.jpg">}}*Ordered or orderless: a revisit for video based person re-identification*  
+\n$\cdot$ /L. Zhang, Z. Shi, J. Zhou, M. Cheng, Y. Liu, J. Bian, Z. Zeng, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1912.11236 arXiv][https://doi.org/10.1109/TPAMI.2020.2976969  link][data/bibtex/Zhang2020OrderlessReID.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Ordered+or+Orderless:+A+Revisit+for+Video+based+Person+Re-Identification+Zhang,+Le+and+Shi,+Zenglin+and+Zhou,+Joey+Tianyi+and+Cheng,+Ming-Ming+and+Liu,+Yun+and+Bian,+Jia-Wang+and+Zeng,+Zeng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Ordered+or+Orderless:+A+Revisit+for+Video+based+Person+Re-Identification semantic scholar][https://github.com/ZhangLeUestc/VideoReid-TPAMI2020   project webpage]
+. *Plenty is plague: fine-grained learning for visual question answering*  
+\n$\cdot$ /Y. Zhou, R. Ji, J. Su, X. Sun, D. Meng, Y. Gao, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
+\n$\cdot$ [https://doi.org/10.1109/TPAMI.2019.2956699  link][data/bibtex/Zhou2020TPAMIZhou.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Plenty+Is+Plague:+Fine-Grained+Learning+for+Visual+Question+Answering+Zhou,+Yiyi+and+Ji,+Rongrong+and+Su,+Jinsong+and+Sun,+Xiaoshuai+and+Meng,+Deyu+and+Gao,+Yue+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Plenty+Is+Plague:+Fine-Grained+Learning+for+Visual+Question+Answering semantic scholar]
+. *RefineNet: multi-path refinement networks for dense prediction*  
+\n$\cdot$ /G. Lin, F. Liu, A. Milan, C. Shen, I. Reid/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019/.
+\n$\cdot$ [https://doi.org/10.1109/TPAMI.2019.2893630  link][data/bibtex/Fayao2019PAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={RefineNet}:+Multi-Path+Refinement+Networks+for+Dense+Prediction+Lin,+Guosheng+and+Liu,+Fayao+and+Milan,+Anton+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q={RefineNet}:+Multi-Path+Refinement+Networks+for+Dense+Prediction semantic scholar][https://github.com/guosheng/refinenet   project webpage]
+        .. Pytorch code is [https://github.com/DrSleep/refinenet-pytorch here].
+. *Ordinal constraint binary coding for approximate nearest neighbor search*  
+\n$\cdot$ /H. Liu, R. Ji, J. Wang, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018/.
+\n$\cdot$ [https://www.researchgate.net/publication/324053386_Ordinal_Constraint_Binary_Coding_for_Approximate_Nearest_Neighbor_Search  pdf][data/bibtex/HLiu2018TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Ordinal+Constraint+Binary+Coding+for+Approximate+Nearest+Neighbor+Search+Liu,+Hong+and+Ji,+Rongrong+and+Wang,+Jingdong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Ordinal+Constraint+Binary+Coding+for+Approximate+Nearest+Neighbor+Search semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2017FVQA_arXiv.jpg">}}*FVQA: fact-based visual question answering*  
+\n$\cdot$ /P. Wang, Q. Wu, C. Shen, A. Dick, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1606.05433 arXiv][data/bibtex/Wang2017FVQA.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FVQA}:+Fact-based+Visual+Question+Answering+Wang,+Peng+and+Wu,+Qi+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={FVQA}:+Fact-based+Visual+Question+Answering semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Lin2017Semantic_arXiv.jpg">}}*Exploring context with deep structured models for semantic segmentation*  
+\n$\cdot$ /G. Lin, C. Shen, A. van den Hengel, I. Reid/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1603.03183 arXiv][data/bibtex/Lin2017Semantic.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Exploring+Context+with+Deep+Structured+models+for+Semantic+Segmentation+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Exploring+Context+with+Deep+Structured+models+for+Semantic+Segmentation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1510.00921.pdf"><img class="imgP  right"   src="data/thumbnail/Cross2017Liu_arXiv.jpg"></a>}}*Cross-convolutional-layer pooling for image recognition*  
+\n$\cdot$ /L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1510.00921 arXiv][http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7779086  link][data/bibtex/Cross2017Liu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Cross-convolutional-layer+Pooling+for+Image+Recognition+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Cross-convolutional-layer+Pooling+for+Image+Recognition semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/TPAMI2017Liu_arXiv.jpg">}}*Compositional model based Fisher vector coding for image classification*  
+\n$\cdot$ /L. Liu, P. Wang, C. Shen, L. Wang, A. van den Hengel, C. Wang, H. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1601.04143 arXiv][data/bibtex/TPAMI2017Liu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Compositional+Model+based+{F}isher+Vector+Coding+for+Image+Classification+Liu,+Lingqiao+and+Wang,+Peng+and+Shen,+Chunhua+and+Wang,+Lei+and+{van+den+Hengel},+Anton+and+Wang,+Chao+and+Shen,+Heng+Tao google scholar][https://www.semanticscholar.org/search?q=Compositional+Model+based+{F}isher+Vector+Coding+for+Image+Classification semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Wu2017External_arXiv.jpg">}}*Image captioning and visual question answering based on attributes and external knowledge*  
+\n$\cdot$ /Q. Wu, C. Shen, P. Wang, A. Dick, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1603.02814 arXiv][data/bibtex/Wu2017External.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Image+Captioning+and+Visual+Question+Answering+Based+on+Attributes+and+External+Knowledge+Wu,+Qi+and+Shen,+Chunhua+and+Wang,+Peng+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Image+Captioning+and+Visual+Question+Answering+Based+on+Attributes+and+External+Knowledge semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Xi2015TPAMI_arXiv.jpg">}}*Online metric-weighted linear representations for robust visual tracking*  
+\n$\cdot$ /X. Li, C. Shen, A. Dick, Z. Zhang, Y. Zhuang/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1507.05737 arXiv][data/bibtex/Xi2015TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Online+Metric-Weighted+Linear+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Shen,+Chunhua+and+Dick,+Anthony+and+Zhang,+Zhongfei+and+Zhuang,+Yueting google scholar][https://www.semanticscholar.org/search?q=Online+Metric-Weighted+Linear+Representations+for+Robust+Visual+Tracking semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Depth2015Liu_arXiv.jpg">}}*Learning depth from single monocular images using deep convolutional neural fields*  
+\n$\cdot$ /F. Liu, C. Shen, G. Lin, I. Reid/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1502.07411 arXiv][http://dx.doi.org/10.1109/TPAMI.2015.2505283  link][data/bibtex/Depth2015Liu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Depth+from+Single+Monocular+Images+Using+Deep+Convolutional+Neural+Fields+Liu,+Fayao+and+Shen,+Chunhua+and+Lin,+Guosheng+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Learning+Depth+from+Single+Monocular+Images+Using+Deep+Convolutional+Neural+Fields semantic scholar][http://goo.gl/rAKWrS   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2015TPAMI_arXiv.jpg">}}*A generalized probabilistic framework for compact codebook creation*  
+\n$\cdot$ /L. Liu, L. Wang, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1401.7713 arXiv][http://doi.org/10.1109/TPAMI.2015.2441069  link][data/bibtex/Liu2015TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Generalized+Probabilistic+Framework+for+Compact+Codebook+Creation+Liu,+Lingqiao+and+Wang,+Lei+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=A+Generalized+Probabilistic+Framework+for+Compact+Codebook+Creation semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Paisitkriangkrai2015TPAMI_arXiv.jpg">}}*Pedestrian detection with spatially pooled features and structured ensemble learning*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1409.5209 arXiv][http://doi.org/10.1109/TPAMI.2015.2474388  link][data/bibtex/Paisitkriangkrai2015TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Pedestrian+Detection+with+Spatially+Pooled+Features+and+Structured+Ensemble+Learning+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Pedestrian+Detection+with+Spatially+Pooled+Features+and+Structured+Ensemble+Learning semantic scholar][https://github.com/chhshen/pedestrian-detection   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1411.7564.pdf"><img class="imgP  right"   src="data/thumbnail/BQP2015Wang_arXiv.jpg"></a>}}*Large-scale binary quadratic optimization using semidefinite relaxation and applications*  
+\n$\cdot$ /P. Wang, C. Shen, A. van den Hengel, P. Torr/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1411.7564 arXiv][http://dx.doi.org/10.1109/TPAMI.2016.2541146  link][data/bibtex/BQP2015Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Large-scale+Binary+Quadratic+Optimization+Using+Semidefinite+Relaxation+and+Applications+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Torr,+Philip+H.+S. google scholar][https://www.semanticscholar.org/search?q=Large-scale+Binary+Quadratic+Optimization+Using+Semidefinite+Relaxation+and+Applications semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1408.5574.pdf"><img class="imgP  right"   src="data/thumbnail/FastHash2015Lin_arXiv.jpg"></a>}}*Supervised hashing using graph cuts and boosted decision trees*  
+\n$\cdot$ /G. Lin, C. Shen, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1408.5574 arXiv][http://dx.doi.org/10.1109/TPAMI.2015.2404776  link][data/bibtex/FastHash2015Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Supervised+Hashing+Using+Graph+Cuts+and+Boosted+Decision+Trees+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Supervised+Hashing+Using+Graph+Cuts+and+Boosted+Decision+Trees semantic scholar][https://bitbucket.org/chhshen/fasthash/   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2014SBoosting_PDF.jpg">}}*StructBoost: Boosting methods for predicting structured output variables*  
+\n$\cdot$ /C. Shen, G. Lin, A. van den Hengel/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014/.
+\n$\cdot$ [http://arxiv.org/abs/1302.3283 arXiv][http://dx.doi.org/10.1109/TPAMI.2014.2315792  link][http://goo.gl/goCVLK  pdf][data/bibtex/Shen2014SBoosting.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={StructBoost}:+{B}oosting+Methods+for+Predicting+Structured+Output+Variables+Shen,+Chunhua+and+Lin,+Guosheng+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={StructBoost}:+{B}oosting+Methods+for+Predicting+Structured+Output+Variables semantic scholar]
+. *A hierarchical word-merging algorithm with class separability measure*  
+\n$\cdot$ /L. Wang, L. Zhou, C. Shen, L. Liu, H. Liu/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014/.
+\n$\cdot$ [https://bitbucket.org/chhshen/chhshen.bitbucket.org/src/be12d4ef8deb6207ec97f0fdac6efbe2df151b59/_download/TPAMI14Wang.pdf  pdf][data/bibtex/Wang2014PAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Hierarchical+Word-merging+Algorithm+with+Class+Separability+Measure+Wang,+Lei+and+Zhou,+Luping+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Liu,+Huan google scholar][https://www.semanticscholar.org/search?q=A+Hierarchical+Word-merging+Algorithm+with+Class+Separability+Measure semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/TPAMI2013Xi_PDF.jpg">}}*Incremental learning of 3D-DCT compact representations for robust visual tracking*  
+\n$\cdot$ /X. Li, A. Dick, C. Shen, A. van den Hengel, H. Wang/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1207.3389 arXiv][http://dx.doi.org/10.1109/TPAMI.2012.166  link][https://sites.google.com/site/chhshen/publication/tpami12xi.pdf?attredirects=1  pdf][data/bibtex/TPAMI2013Xi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Incremental+Learning+of+{3D-DCT}+Compact+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Dick,+Anthony+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q=Incremental+Learning+of+{3D-DCT}+Compact+Representations+for+Robust+Visual+Tracking semantic scholar][https://github.com/chhshen/DCT-Tracking/   project webpage]
+. *UBoost: Boosting with the Universum*  
+\n$\cdot$ /C. Shen, P. Wang, F. Shen, H. Wang/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2012/.
+\n$\cdot$ [http://hdl.handle.net/2440/67027  pdf][data/bibtex/UBoost2011Shen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={UBoost}:+{B}oosting+with+the+{U}niversum+Shen,+Chunhua+and+Wang,+Peng+and+Shen,+Fumin+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q={UBoost}:+{B}oosting+with+the+{U}niversum semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Dual2010Shen_arXiv.jpg">}}*On the dual formulation of boosting algorithms*  
+\n$\cdot$ /C. Shen, H. Li/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2010/.
+\n$\cdot$ [http://arxiv.org/abs/0901.3590 arXiv][http://dx.doi.org/10.1109/TPAMI.2010.47  link][data/bibtex/Dual2010Shen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Dual+Formulation+of+Boosting+Algorithms+Shen,+Chunhua+and+Li,+Hanxi google scholar][https://www.semanticscholar.org/search?q=On+the+Dual+Formulation+of+Boosting+Algorithms semantic scholar]
+. *Adaptive object tracking based on an effective appearance filter*  
+\n$\cdot$ /H. Wang, D. Suter, K. Schindler, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2007/.
+\n$\cdot$ [http://dx.doi.org/10.1109/TPAMI.2007.1112  link][http://goo.gl/6rQTA1  pdf][data/bibtex/Adaptive2007Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Adaptive+object+tracking+based+on+an+effective+appearance+filter semantic scholar]
+        .. Featured article of September issue 2007.
+  
+== Conference: 170
+===  Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR): 90
+===  Proc. IEEE International Conference on Computer Vision (ICCV): 34
+===  Proc. European Conference on Computer Vision (ECCV): 24
+===  Proc. International Conference on Machine Learning (ICML): 3
+===  Proc. Advances in Neural Information Processing Systems (NeurIPS): 19
+\n
+. *Learning conditional attributes for compositional zero-shot learning*  
+\n$\cdot$ /Q. Wang, L. Liu, C. Jing, H. Chen, G. Liang, P. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'23), 2023/.
+\n$\cdot$ [data/bibtex/CVPR2023B.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Conditional+Attributes+for+Compositional+Zero-Shot+Learning+Wang,+Qingsheng+and+Liu,+Lingqiao+and+Jing,+Chenchen+and+Chen,+Hao+and+Liang,+Guoqiang+and+Wang,+Peng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Learning+Conditional+Attributes+for+Compositional+Zero-Shot+Learning semantic scholar]
+. *Images speak in images: a generalist painter for in-context visual learning*  
+\n$\cdot$ /X. Wang, W. Wang, Y. Cao, C. Shen, T. Huang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2212.02499 arXiv][data/bibtex/CVPR2023aWang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Images+Speak+in+Images:+A+Generalist+Painter+for+In-Context+Visual+Learning+Wang,+Xinlong+and+Wang,+Wen+and+Cao,+Yue+and+Shen,+Chunhua+and+Huang,+Tiejun google scholar][https://www.semanticscholar.org/search?q=Images+Speak+in+Images:+A+Generalist+Painter+for+In-Context+Visual+Learning semantic scholar][https://github.com/baaivision/Painter   project webpage]
+. *Boosting robustness of image matting with context assembling and strong data augmentation*  
+\n$\cdot$ /Y. Dai, B. Price, H. Zhang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2201.06889 arXiv][data/bibtex/Dai2022Matting.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Boosting+Robustness+of+Image+Matting+with+Context+Assembling+and+Strong+Data+Augmentation+Dai,+Yutong+and+Price,+Brian+and+Zhang,+He+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Boosting+Robustness+of+Image+Matting+with+Context+Assembling+and+Strong+Data+Augmentation semantic scholar]
+. *Catching both gray and black swans: open-set supervised anomaly detection*  
+\n$\cdot$ /C. Ding, G. Pan, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [data/bibtex/Ding2022Catching.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Catching+Both+Gray+and+Black+Swans:+Open-set+Supervised+Anomaly+Detection+Ding,+Choubo+and+Pan,+Guansong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Catching+Both+Gray+and+Black+Swans:+Open-set+Supervised+Anomaly+Detection semantic scholar]
+. *RigidFlow: self-supervised scene flow learning on point clouds by local rigidity prior*  
+\n$\cdot$ /R. Li, C. Zhang, G. Lin, Z. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [data/bibtex/Li2022Rigid.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={RigidFlow}:+Self-Supervised+Scene+Flow+Learning+on+Point+Clouds+by+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Lin,+Guosheng+and+Wang,+Zhe+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={RigidFlow}:+Self-Supervised+Scene+Flow+Learning+on+Point+Clouds+by+Local+Rigidity+Prior semantic scholar]
+. *Retrieval augmented classification for long-tail visual recognition*  
+\n$\cdot$ /A. Long, W. Yin, T. Ajanthan, V. Nguyen, P. Purkait, R. Garg, A. Blair, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2202.11233 arXiv][data/bibtex/Long2022RAC.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval+Augmented+Classification+for+Long-Tail+Visual+Recognition+Long,+Alexander+and+Yin,+Wei+and+Ajanthan,+Thalaiyasingam+and+Nguyen,+Vu+and+Purkait,+Pulak+and+Garg,+Ravi+and+Blair,+Alan+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Retrieval+Augmented+Classification+for+Long-Tail+Visual+Recognition semantic scholar]
+. *FreeSOLO: learning to segment objects without annotations*  
+\n$\cdot$ /X. Wang, Z. Yu, S. De Mello, J. Kautz, A. Anandkumar, C. Shen, J. Alvarez/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2202.12181 arXiv][data/bibtex/Wang2022Solo.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeSOLO}:+Learning+to+Segment+Objects+without+Annotations+Wang,+Xinlong+and+Yu,+Zhiding+and+{De+Mello},+Shalini+and+Kautz,+Jan+and+Anandkumar,+Anima+and+Shen,+Chunhua+and+Alvarez,+Jose google scholar][https://www.semanticscholar.org/search?q={FreeSOLO}:+Learning+to+Segment+Objects+without+Annotations semantic scholar][https://git.io/AdelaiDet   project webpage]
+. *TopFormer: token pyramid transformer for mobile semantic segmentation*  
+\n$\cdot$ /W. Zhang, Z. Huang, G. Yu, T. Chen, G. Luo, X. Wang, W. Liu, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'22), 2022/.
+\n$\cdot$ [data/bibtex/Topformer2022.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={TopFormer}:+Token+Pyramid+Transformer+for+Mobile+Semantic+Segmentation+Zhang,+Wenqiang+and+Huang,+Zilong+and+Yu,+Gang+and+Chen,+Tao+and+Luo,+Guozhong+and+Wang,+Xinggang+and+Liu,+Wenyu+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={TopFormer}:+Token+Pyramid+Transformer+for+Mobile+Semantic+Segmentation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2007.06919.pdf"><img class="imgP  right"   src="data/thumbnail/Chen2021CVPR3_arXiv.jpg"></a>}}*AQD: towards accurate quantized object detection*  
+\n$\cdot$ /P. Chen, J. Liu, B. Zhuang, M. Tan, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2007.06919 arXiv][data/bibtex/Chen2021CVPR3.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={AQD}:+Towards+Accurate+Quantized+Object+Detection+Chen,+Peng+and+Liu,+Jing+and+Zhuang,+Bohan+and+Tan,+Mingkui+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={AQD}:+Towards+Accurate+Quantized+Object+Detection semantic scholar]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2011.14288.pdf"><img class="imgP  right"   src="data/thumbnail/Dai2021CVPR8_arXiv.jpg"></a>}}*Learning affinity-aware upsampling for deep image matting*  
+\n$\cdot$ /Y. Dai, H. Lu, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.14288 arXiv][data/bibtex/Dai2021CVPR8.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Affinity-Aware+Upsampling+for+Deep+Image+Matting+Dai,+Yutong+and+Lu,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Learning+Affinity-Aware+Upsampling+for+Deep+Image+Matting semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2011.11204.pdf"><img class="imgP  right"   src="data/thumbnail/Guo2021CVPR14_arXiv.jpg"></a>}}*Graph attention tracking*  
+\n$\cdot$ /D. Guo, Y. Shao, Y. Cui, Z. Wang, L. Zhang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.11204 arXiv][data/bibtex/Guo2021CVPR14.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Graph+Attention+Tracking+Guo,+Dongyan+and+Shao,+Yanyan+and+Cui,+Ying+and+Wang,+Zhenhua+and+Zhang,+Liyan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Graph+Attention+Tracking semantic scholar][https://git.io/SiamGAT   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/He2021CVPR7_arXiv.jpg">}}*DyCo3D: robust instance segmentation of 3d point clouds through dynamic convolution*  
+\n$\cdot$ /T. He, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.13328 arXiv][data/bibtex/He2021CVPR7.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DyCo3D}:+Robust+Instance+Segmentation+of+3D+Point+Clouds+through+Dynamic+Convolution+He,+Tong+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={DyCo3D}:+Robust+Instance+Segmentation+of+3D+Point+Clouds+through+Dynamic+Convolution semantic scholar][https://git.io/DyCo3D   project webpage]
+. *HCRF-Flow: scene flow from point clouds with continuous high-order CRFs and position-aware flow embedding*  
+\n$\cdot$ /R. Li, G. Lin, T. He, F. Liu, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [data/bibtex/Li2021CVPR12.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={HCRF-Flow}:+Scene+Flow+from+Point+Clouds+with+Continuous+High-order+{CRFs}+and+Position-aware+Flow+Embedding+Li,+Ruibo+and+Lin,+Guosheng+and+He,+Tong+and+Liu,+Fayao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={HCRF-Flow}:+Scene+Flow+from+Point+Clouds+with+Continuous+High-order+{CRFs}+and+Position-aware+Flow+Embedding semantic scholar]
+. *Generic perceptual loss for modelling structured output dependencies*  
+\n$\cdot$ /Y. Liu, W. Yin, Y. Chen, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [data/bibtex/Liu2021CVPR5.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Generic+Perceptual+Loss+for+Modelling+Structured+Output+Dependencies+Liu,+Yifan+and+Yin,+Wei+and+Chen,+Yu+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Generic+Perceptual+Loss+for+Modelling+Structured+Output+Dependencies semantic scholar]
+. *FCPose: fully convolutional multi-person pose estimation with dynamic instance-aware convolutions*  
+\n$\cdot$ /W. Mao, Z. Tian, X. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [data/bibtex/Mao2021CVPR4.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FCPose}:+Fully+Convolutional+Multi-Person+Pose+Estimation+with+Dynamic+Instance-Aware+Convolutions+Mao,+Weian+and+Tian,+Zhi+and+Wang,+Xinlong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FCPose}:+Fully+Convolutional+Multi-Person+Pose+Estimation+with+Dynamic+Instance-Aware+Convolutions semantic scholar][https://git.io/AdelaiDet   project webpage]
+. *Feature decomposition and reconstruction learning for effective facial expression recognition*  
+\n$\cdot$ /D. Ruan, Y. Yan, S. Lai, Z. Chai, C. Shen, H. Wang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [data/bibtex/Ruan2021CVPR9.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Feature+Decomposition+and+Reconstruction+Learning+for+Effective+Facial+Expression+Recognition+Ruan,+Delian+and+Yan,+Yan+and+Lai,+Shenqi+and+Chai,+Zhenhua+and+Shen,+Chunhua+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q=Feature+Decomposition+and+Reconstruction+Learning+for+Effective+Facial+Expression+Recognition semantic scholar]
+. *Learning spatial-semantic relationship for facial attribute recognition with limited labeled data*  
+\n$\cdot$ /Y. Shu, Y. Yan, S. Chen, J. Xue, C. Shen, H. Wang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [data/bibtex/Shu2021CVPR10.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Spatial-Semantic+Relationship+for+Facial+Attribute+Recognition+with+Limited+Labeled+Data+Shu,+Ying+and+Yan,+Yan+and+Chen,+Si+and+Xue,+Jing-Hao+and+Shen,+Chunhua+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q=Learning+Spatial-Semantic+Relationship+for+Facial+Attribute+Recognition+with+Limited+Labeled+Data semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Tian2021CVPR2_arXiv.jpg">}}*BoxInst: high-performance instance segmentation with box annotations*  
+\n$\cdot$ /Z. Tian, C. Shen, X. Wang, H. Chen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2012.02310 arXiv][data/bibtex/Tian2021CVPR2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={BoxInst}:+High-Performance+Instance+Segmentation+with+Box+Annotations+Tian,+Zhi+and+Shen,+Chunhua+and+Wang,+Xinlong+and+Chen,+Hao google scholar][https://www.semanticscholar.org/search?q={BoxInst}:+High-Performance+Instance+Segmentation+with+Box+Annotations semantic scholar][https://git.io/AdelaiDet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2021CVPR13_arXiv.jpg">}}*Dense contrastive learning for self-supervised visual pre-training*  
+\n$\cdot$ /X. Wang, R. Zhang, C. Shen, T. Kong, L. Li/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.09157 arXiv][data/bibtex/Wang2021CVPR13.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Dense+Contrastive+Learning+for+Self-Supervised+Visual+Pre-Training+Wang,+Xinlong+and+Zhang,+Rufeng+and+Shen,+Chunhua+and+Kong,+Tao+and+Li,+Lei google scholar][https://www.semanticscholar.org/search?q=Dense+Contrastive+Learning+for+Self-Supervised+Visual+Pre-Training semantic scholar][https://git.io/AdelaiDet   project webpage]
+        .. Oral presentation.
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2021CVPR11_arXiv.jpg">}}*End-to-end video instance segmentation with Transformers*  
+\n$\cdot$ /Y. Wang, Z. Xu, X. Wang, C. Shen, B. Cheng, H. Shen, H. Xia/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.14503 arXiv][data/bibtex/Wang2021CVPR11.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=End-to-End+Video+Instance+Segmentation+with+{T}ransformers+Wang,+Yuqing+and+Xu,+Zhaoliang+and+Wang,+Xinlong+and+Shen,+Chunhua+and+Cheng,+Baoshan+and+Shen,+Hao+and+Xia,+Huaxia google scholar][https://www.semanticscholar.org/search?q=End-to-End+Video+Instance+Segmentation+with+{T}ransformers semantic scholar]
+        .. Oral presentation.
+. {{<img class="imgP  right"   src="data/thumbnail/Yin2021CVPR6_arXiv.jpg">}}*Learning to recover 3D scene shape from a single image*  
+\n$\cdot$ /W. Yin, J. Zhang, O. Wang, S. Niklaus, L. Mai, S. Chen, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2012.09365 arXiv][data/bibtex/Yin2021CVPR6.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+to+Recover+{3D}+Scene+Shape+from+a+Single+Image+Yin,+Wei+and+Zhang,+Jianming+and+Wang,+Oliver+and+Niklaus,+Simon+and+Mai,+Long+and+Chen,+Simon+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Learning+to+Recover+{3D}+Scene+Shape+from+a+Single+Image semantic scholar][https://git.io/Depth   project webpage]
+        .. Listed as one of the Best Paper Candidates, 32 out of about 6000 submissions.
+. {{<img class="imgP  right"   src="data/thumbnail/Zhang2021CVPR1_arXiv.jpg">}}*DoDNet: learning to segment multi-organ and tumors from multiple partially labeled datasets*  
+\n$\cdot$ /J. Zhang, Y. Xie, Y. Xia, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.10217 arXiv][data/bibtex/Zhang2021CVPR1.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DoDNet}:+Learning+to+segment+multi-organ+and+tumors+from+multiple+partially+labeled+datasets+Zhang,+Jianpeng+and+Xie,+Yutong+and+Xia,+Yong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DoDNet}:+Learning+to+segment+multi-organ+and+tumors+from+multiple+partially+labeled+datasets semantic scholar][https://github.com/aim-uofa/partially-labelled   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2001.00309.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020BlendMask7_arXiv.jpg"></a>}}*BlendMask: top-down meets bottom-up for instance segmentation*  
+\n$\cdot$ /H. Chen, K. Sun, Z. Tian, C. Shen, Y. Huang, Y. Yan/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2001.00309 arXiv][data/bibtex/CVPR2020BlendMask7.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={BlendMask}:+Top-Down+Meets+Bottom-Up+for+Instance+Segmentation+Chen,+Hao+and+Sun,+Kunyang+and+Tian,+Zhi+and+Shen,+Chunhua+and+Huang,+Yongming+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q={BlendMask}:+Top-Down+Meets+Bottom-Up+for+Instance+Segmentation semantic scholar][https://github.com/aim-uofa/AdelaiDet/   project webpage]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2002.10200.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Liu6_arXiv.jpg"></a>}}*ABCNet: arbitrarily-shaped scene text spotting with adaptive Bezier-curve network in real time*  
+\n$\cdot$ /Y. Liu, H. Chen, C. Shen, T. He, L. Jin, L. Wang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2002.10200 arXiv][data/bibtex/CVPR2020Liu6.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={ABCNet}:+Arbitrarily-Shaped+Scene+Text+Spotting+with+Adaptive+{B}ezier-Curve+Network+in+Real+Time+Liu,+Yuliang+and+Chen,+Hao+and+Shen,+Chunhua+and+He,+Tong+and+Jin,+Lianwen+and+Wang,+Liangwei google scholar][https://www.semanticscholar.org/search?q={ABCNet}:+Arbitrarily-Shaped+Scene+Text+Spotting+with+Adaptive+{B}ezier-Curve+Network+in+Real+Time semantic scholar][https://github.com/aim-uofa/AdelaiDet/   project webpage]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2003.06780.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Self12_arXiv.jpg"></a>}}*Self-trained deep ordinal regression for end-to-end video anomaly detection*  
+\n$\cdot$ /G. Pang, C. Yan, C. Shen, A. van den Hengel, X. Bai/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.06780 arXiv][data/bibtex/CVPR2020Self12.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-trained+Deep+Ordinal+Regression+for+End-to-End+Video+Anomaly+Detection+Pang,+Guansong+and+Yan,+Cheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Bai,+Xiao google scholar][https://www.semanticscholar.org/search?q=Self-trained+Deep+Ordinal+Regression+for+End-to-End+Video+Anomaly+Detection semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1904.10151.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020REVERIE1_arXiv.jpg"></a>}}*REVERIE: remote embodied visual referring expression in real indoor environments*  
+\n$\cdot$ /Y. Qi, Q. Wu, P. Anderson, X. Wang, W. Wang, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1904.10151 arXiv][data/bibtex/CVPR2020REVERIE1.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={REVERIE}:+Remote+Embodied+Visual+Referring+Expression+in+Real+Indoor+Environments+Qi,+Yuankai+and+Wu,+Qi+and+Anderson,+Peter+and+Wang,+Xin+and+Wang,+William+Yang+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={REVERIE}:+Remote+Embodied+Visual+Referring+Expression+in+Real+Indoor+Environments semantic scholar]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1906.04423.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020NASFCOS10_arXiv.jpg"></a>}}*NAS-FCOS: fast neural architecture search for object detection*  
+\n$\cdot$ /N. Wang, Y. Gao, H. Chen, P. Wang, Z. Tian, C. Shen, Y. Zhang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1906.04423 arXiv][data/bibtex/CVPR2020NASFCOS10.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={NAS-FCOS}:+Fast+Neural+Architecture+Search+for+Object+Detection+Wang,+Ning+and+Gao,+Yang+and+Chen,+Hao+and+Wang,+Peng+and+Tian,+Zhi+and+Shen,+Chunhua+and+Zhang,+Yanning google scholar][https://www.semanticscholar.org/search?q={NAS-FCOS}:+Fast+Neural+Architecture+Search+for+Object+Detection semantic scholar][https://github.com/Lausannen/NAS-FCOS   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2002.10215.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Wang4_arXiv.jpg"></a>}}*On the general value of evidence, and bilingual scene-text visual question answering*  
+\n$\cdot$ /X. Wang, Y. Liu, C. Shen, C. Ng, C. Luo, L. Jin, C. Chan, A. van den Hengel, L. Wang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2002.10215 arXiv][data/bibtex/CVPR2020Wang4.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+General+Value+of+Evidence,+and+Bilingual+Scene-Text+Visual+Question+Answering+Wang,+Xinyu+and+Liu,+Yuliang+and+Shen,+Chunhua+and+Ng,+Chun+Chet+and+Luo,+Canjie+and+Jin,+Lianwen+and+Chan,+Chee+Seng+and+{van+den+Hengel},+Anton+and+Wang,+Liangwei google scholar][https://www.semanticscholar.org/search?q=On+the+General+Value+of+Evidence,+and+Bilingual+Scene-Text+Visual+Question+Answering semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1909.13226.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Xie8_arXiv.jpg"></a>}}*PolarMask: single shot instance segmentation with polar representation*  
+\n$\cdot$ /E. Xie, P. Sun, X. Song, W. Wang, X. Liu, D. Liang, C. Shen, P. Luo/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1909.13226 arXiv][data/bibtex/CVPR2020Xie8.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PolarMask}:+Single+Shot+Instance+Segmentation+with+Polar+Representation+Xie,+Enze+and+Sun,+Peize+and+Song,+Xiaoge+and+Wang,+Wenhai+and+Liu,+Xuebo+and+Liang,+Ding+and+Shen,+Chunhua+and+Luo,+Ping google scholar][https://www.semanticscholar.org/search?q={PolarMask}:+Single+Shot+Instance+Segmentation+with+Polar+Representation semantic scholar][https://github.com/xieenze/PolarMask   project webpage]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2004.01547.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Yu2_arXiv.jpg"></a>}}*Context prior for scene segmentation*  
+\n$\cdot$ /C. Yu, J. Wang, C. Gao, G. Yu, C. Shen, N. Sang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2004.01547 arXiv][data/bibtex/CVPR2020Yu2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Context+Prior+for+Scene+Segmentation+Yu,+Changqian+and+Wang,+Jingbo+and+Gao,+Changxin+and+Yu,+Gang+and+Shen,+Chunhua+and+Sang,+Nong google scholar][https://www.semanticscholar.org/search?q=Context+Prior+for+Scene+Segmentation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2003.06777.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020EMD9_arXiv.jpg"></a>}}*DeepEMD: few-shot image classification with differentiable earth mover's distance and structured classifiers*  
+\n$\cdot$ /C. Zhang, Y. Cai, G. Lin, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.06777 arXiv][data/bibtex/CVPR2020EMD9.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DeepEMD}:+Few-Shot+Image+Classification+with+Differentiable+Earth+Mover's+Distance+and+Structured+Classifiers+Zhang,+Chi+and+Cai,+Yujun+and+Lin,+Guosheng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DeepEMD}:+Few-Shot+Image+Classification+with+Differentiable+Earth+Mover's+Distance+and+Structured+Classifiers semantic scholar][https://github.com/icoz69/DeepEMD   project webpage]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1909.08228.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020NAS11_arXiv.jpg"></a>}}*Memory-efficient hierarchical neural architecture search for image denoising*  
+\n$\cdot$ /H. Zhang, Y. Li, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1909.08228 arXiv][data/bibtex/CVPR2020NAS11.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Memory-Efficient+Hierarchical+Neural+Architecture+Search+for+Image+Denoising+Zhang,+Haokui+and+Li,+Ying+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Memory-Efficient+Hierarchical+Neural+Architecture+Search+for+Image+Denoising semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2003.11712.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Zhang3_arXiv.jpg"></a>}}*Mask encoding for single shot instance segmentation*  
+\n$\cdot$ /R. Zhang, Z. Tian, C. Shen, M. You, Y. Yan/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.11712 arXiv][data/bibtex/CVPR2020Zhang3.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Mask+Encoding+for+Single+Shot+Instance+Segmentation+Zhang,+Rufeng+and+Tian,+Zhi+and+Shen,+Chunhua+and+You,+Mingyu+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q=Mask+Encoding+for+Single+Shot+Instance+Segmentation semantic scholar][https://github.com/aim-uofa/AdelaiDet/   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1903.11236.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2020Zhuang5_arXiv.jpg"></a>}}*Training quantized neural networks with a full-precision auxiliary module*  
+\n$\cdot$ /B. Zhuang, L. Liu, M. Tan, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1903.11236 arXiv][data/bibtex/CVPR2020Zhuang5.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Training+Quantized+Neural+Networks+with+a+Full-precision+Auxiliary+Module+Zhuang,+Bohan+and+Liu,+Lingqiao+and+Tan,+Mingkui+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Training+Quantized+Neural+Networks+with+a+Full-precision+Auxiliary+Module semantic scholar]
+        .. Oral presentation.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1903.04688.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19He8_arXiv.jpg"></a>}}*Knowledge adaptation for efficient semantic segmentation*  
+\n$\cdot$ /T. He, C. Shen, Z. Tian, D. Gong, C. Sun, Y. Yan/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1903.04688 arXiv][data/bibtex/CVPR19He8.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Knowledge+Adaptation+for+Efficient+Semantic+Segmentation+He,+Tong+and+Shen,+Chunhua+and+Tian,+Zhi+and+Gong,+Dong+and+Sun,+Changming+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q=Knowledge+Adaptation+for+Efficient+Semantic+Segmentation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1811.11903.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19HuiLi2_arXiv.jpg"></a>}}*Visual question answering as reading comprehension*  
+\n$\cdot$ /H. Li, P. Wang, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1811.11903 arXiv][data/bibtex/CVPR19HuiLi2.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Visual+Question+Answering+as+Reading+Comprehension+Li,+Hui+and+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Visual+Question+Answering+as+Reading+Comprehension semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1810.10804.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Nekrasov1_arXiv.jpg"></a>}}*Fast neural architecture search of compact semantic segmentation models via auxiliary cells*  
+\n$\cdot$ /V. Nekrasov, H. Chen, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1810.10804 arXiv][data/bibtex/CVPR19Nekrasov1.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Fast+Neural+Architecture+Search+of+Compact+Semantic+Segmentation+Models+via+Auxiliary+Cells+Nekrasov,+Vladimir+and+Chen,+Hao+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Fast+Neural+Architecture+Search+of+Compact+Semantic+Segmentation+Models+via+Auxiliary+Cells semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1903.02120.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Tian7_arXiv.jpg"></a>}}*Decoders matter for semantic segmentation: data-dependent decoding enables flexible feature aggregation*  
+\n$\cdot$ /Z. Tian, T. He, C. Shen, Y. Yan/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1903.02120 arXiv][data/bibtex/CVPR19Tian7.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Decoders+Matter+for+Semantic+Segmentation:+Data-Dependent+Decoding+Enables+Flexible+Feature+Aggregation+Tian,+Zhi+and+He,+Tong+and+Shen,+Chunhua+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q=Decoders+Matter+for+Semantic+Segmentation:+Data-Dependent+Decoding+Enables+Flexible+Feature+Aggregation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1812.04794.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19PengWang0_arXiv.jpg"></a>}}*Neighbourhood watch: referring expression comprehension via language-guided graph attention networks*  
+\n$\cdot$ /P. Wang, Q. Wu, J. Cao, C. Shen, L. Gao, A. vanden Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1812.04794 arXiv][data/bibtex/CVPR19PengWang0.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Neighbourhood+Watch:+Referring+Expression+Comprehension+via+Language-guided+Graph+Attention+Networks+Wang,+Peng+and+Wu,+Qi+and+Cao,+Jiewei+and+Shen,+Chunhua+and+Gao,+Lianli+and+{vanden+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Neighbourhood+Watch:+Referring+Expression+Comprehension+via+Language-guided+Graph+Attention+Networks semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1902.09852.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Wang4_arXiv.jpg"></a>}}*Associatively segmenting instances and semantics in point clouds*  
+\n$\cdot$ /X. Wang, S. Liu, X. Shen, C. Shen, J. Jia/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1902.09852 arXiv][data/bibtex/CVPR19Wang4.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Associatively+Segmenting+Instances+and+Semantics+in+Point+Clouds+Wang,+Xinlong+and+Liu,+Shu+and+Shen,+Xiaoyong+and+Shen,+Chunhua+and+Jia,+Jiaya google scholar][https://www.semanticscholar.org/search?q=Associatively+Segmenting+Instances+and+Semantics+in+Point+Clouds semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1904.10293.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Yan9_arXiv.jpg"></a>}}*Attention-guided network for ghost-free high dynamic range imaging*  
+\n$\cdot$ /Q. Yan, D. Gong, Q. Shi, A. van den Hengel, C. Shen, I. Reid, Y. Zhang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1904.10293 arXiv][data/bibtex/CVPR19Yan9.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Attention-guided+Network+for+Ghost-free+High+Dynamic+Range+Imaging+Yan,+Qingsen+and+Gong,+Dong+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Shen,+Chunhua+and+Reid,+Ian+and+Zhang,+Yanning google scholar][https://www.semanticscholar.org/search?q=Attention-guided+Network+for+Ghost-free+High+Dynamic+Range+Imaging semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1903.02351.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Zhang5_arXiv.jpg"></a>}}*CANet: class-agnostic segmentation networks with iterative refinement and attentive few-shot learning*  
+\n$\cdot$ /C. Zhang, G. Lin, F. Liu, R. Yao, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1903.02351 arXiv][data/bibtex/CVPR19Zhang5.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={CANet}:+Class-Agnostic+Segmentation+Networks+with+Iterative+Refinement+and+Attentive+Few-Shot+Learning+Zhang,+Chi+and+Lin,+Guosheng+and+Liu,+Fayao+and+Yao,+Rui+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={CANet}:+Class-Agnostic+Segmentation+Networks+with+Iterative+Refinement+and+Attentive+Few-Shot+Learning semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR19Zhang6_PDF.jpg">}}*Mind your neighbours: image annotation with metadata neighbourhood graph co-attention networks*  
+\n$\cdot$ /J. Zhang, Q. Wu, J. Zhang, C. Shen, J. Lu/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Mind_Your_Neighbours_Image_Annotation_With_Metadata_Neighbourhood_Graph_Co-Attention_CVPR_2019_paper.pdf  link][data/bibtex/CVPR19Zhang6.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Mind+Your+Neighbours:+Image+Annotation+with+Metadata+Neighbourhood+Graph+Co-Attention+Networks+Zhang,+Junjie+and+Wu,+Qi+and+Zhang,+Jian+and+Shen,+Chunhua+and+Lu,+Jianfeng google scholar][https://www.semanticscholar.org/search?q=Mind+Your+Neighbours:+Image+Annotation+with+Metadata+Neighbourhood+Graph+Co-Attention+Networks semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1811.10413.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR19Zhuang3_arXiv.jpg"></a>}}*Structured binary neural networks for accurate image classification and semantic segmentation*  
+\n$\cdot$ /B. Zhuang, C. Shen, M. Tan, L. Liu, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1811.10413 arXiv][data/bibtex/CVPR19Zhuang3.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Structured+Binary+Neural+Networks+for+Accurate+Image+Classification+and+Semantic+Segmentation+Zhuang,+Bohan+and+Shen,+Chunhua+and+Tan,+Mingkui+and+Liu,+Lingqiao+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Structured+Binary+Neural+Networks+for+Accurate+Image+Classification+and+Semantic+Segmentation semantic scholar][https://bitbucket.org/jingruixiaozhuang/group-net-image-classification/   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1711.10703.pdf"><img class="imgP  right"   src="data/thumbnail/Chen2018CVPR_arXiv.jpg"></a>}}*FSRNet: end-to-end learning face super-resolution with facial priors*  
+\n$\cdot$ /Y. Chen, Y. Tai, X. Liu, C. Shen, J. Yang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.10703 arXiv][data/bibtex/Chen2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FSRNet}:+End-to-End+Learning+Face+Super-Resolution+with+Facial+Priors+Chen,+Yu+and+Tai,+Ying+and+Liu,+Xiaoming+and+Shen,+Chunhua+and+Yang,+Jian google scholar][https://www.semanticscholar.org/search?q={FSRNet}:+End-to-End+Learning+Face+Super-Resolution+with+Facial+Priors semantic scholar][https://github.com/tyshiwo/FSRNet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/He2018CVPR_arXiv.jpg">}}*An end-to-end textspotter with explicit alignment and attention*  
+\n$\cdot$ /T. He, Z. Tian, W. Huang, C. Shen, Y. Qiao, C. Sun/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1803.03474 arXiv][data/bibtex/He2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=An+end-to-end+TextSpotter+with+Explicit+Alignment+and+Attention+He,+Tong+and+Tian,+Zhi+and+Huang,+Weilin+and+Shen,+Chunhua+and+Qiao,+Yu+and+Sun,+Changming google scholar][https://www.semanticscholar.org/search?q=An+end-to-end+TextSpotter+with+Explicit+Alignment+and+Attention semantic scholar][https://github.com/tonghe90/textspotter   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Ma2018CVPR_a_arXiv.jpg">}}*Visual question answering with memory-augmented networks*  
+\n$\cdot$ /C. Ma, C. Shen, A. Dick, Q. Wu, P. Wang, A. van den Hengel, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1707.04968 arXiv][data/bibtex/Ma2018CVPR_a.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Visual+Question+Answering+with+Memory-Augmented+Networks+Ma,+Chao+and+Shen,+Chunhua+and+Dick,+Anthony+and+Wu,+Qi+and+Wang,+Peng+and+{van+den+Hengel},+Anton+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Visual+Question+Answering+with+Memory-Augmented+Networks semantic scholar]
+. *Bootstrapping the performance of webly supervised semantic segmentation*  
+\n$\cdot$ /T. Shen, G. Lin, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [data/bibtex/TongShen2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Bootstrapping+the+Performance+of+Webly+Supervised+Semantic+Segmentation+Shen,+Tong+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Bootstrapping+the+Performance+of+Webly+Supervised+Semantic+Segmentation semantic scholar][https://github.com/ascust/BDWSS   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Song2018CVPR_arXiv.jpg">}}*VITAL: visual tracking via adversarial learning*  
+\n$\cdot$ /Y. Song, C. Ma, X. Wu, L. Gong, L. Bao, W. Zuo, C. Shen, R. Lau, M. Yang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1804.04273 arXiv][data/bibtex/Song2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={VITAL}:+VIsual+Tracking+via+Adversarial+Learning+Song,+Yibing+and+Ma,+Chao+and+Wu,+Xiaohe+and+Gong,+Lijun+and+Bao,+Linchao+and+Zuo,+Wangmeng+and+Shen,+Chunhua+and+Lau,+Rynson+and+Yang,+Ming-Hsuan google scholar][https://www.semanticscholar.org/search?q={VITAL}:+VIsual+Tracking+via+Adversarial+Learning semantic scholar][https://ybsong00.github.io/cvpr18_tracking/index   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2018CVPR_arXiv.jpg">}}*Repulsion loss: detecting pedestrians in a crowd*  
+\n$\cdot$ /X. Wang, T. Xiao, Y. Jiang, S. Shao, J. Sun, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.07752 arXiv][data/bibtex/Wang2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Repulsion+Loss:+Detecting+Pedestrians+in+a+Crowd+Wang,+Xinlong+and+Xiao,+Tete+and+Jiang,+Yuning+and+Shao,+Shuai+and+Sun,+Jian+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Repulsion+Loss:+Detecting+Pedestrians+in+a+Crowd semantic scholar]
+        .. Others have implemented our paper: [https://github.com/bailvwangzi/repulsion_loss_ssd Repulsion loss in SSD] and [https://github.com/rainofmine/Repulsion_Loss Repulsion loss in RetinaNet].
+. {{<img class="imgP  right"   src="data/thumbnail/QWu2018CVPR_arXiv.jpg">}}*Are you talking to me? reasoned visual dialog generation through adversarial learning*  
+\n$\cdot$ /Q. Wu, P. Wang, C. Shen, I. Reid, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.07613 arXiv][data/bibtex/QWu2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Are+You+Talking+to+Me?+Reasoned+Visual+Dialog+Generation+through+Adversarial+Learning+Wu,+Qi+and+Wang,+Peng+and+Shen,+Chunhua+and+Reid,+Ian+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Are+You+Talking+to+Me?+Reasoned+Visual+Dialog+Generation+through+Adversarial+Learning semantic scholar]
+. *Monocular relative depth perception with web stereo data supervision*  
+\n$\cdot$ /K. Xian, C. Shen, Z. Cao, H. Lu, Y. Xiao, R. Li, Z. Luo/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [data/bibtex/Xian2018CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Monocular+Relative+Depth+Perception+with+Web+Stereo+Data+Supervision+Xian,+Ke+and+Shen,+Chunhua+and+Cao,+Zhiguo+and+Lu,+Hao+and+Xiao,+Yang+and+Li,+Ruibo+and+Luo,+Zhenbo google scholar][https://www.semanticscholar.org/search?q=Monocular+Relative+Depth+Perception+with+Web+Stereo+Data+Supervision semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhuang2018CVPR_b_arXiv.jpg">}}*Towards effective low-bitwidth convolutional neural networks*  
+\n$\cdot$ /B. Zhuang, C. Shen, M. Tan, L. Liu, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.00205 arXiv][data/bibtex/Zhuang2018CVPR_b.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+Effective+Low-bitwidth+Convolutional+Neural+Networks+Zhuang,+Bohan+and+Shen,+Chunhua+and+Tan,+Mingkui+and+Liu,+Lingqiao+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Towards+Effective+Low-bitwidth+Convolutional+Neural+Networks semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhuang2018CVPR_a_arXiv.jpg">}}*Parallel attention: a unified framework for visual object discovery through dialogs and queries*  
+\n$\cdot$ /B. Zhuang, Q. Wu, C. Shen, I. Reid, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.06370 arXiv][data/bibtex/Zhuang2018CVPR_a.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Parallel+Attention:+A+Unified+Framework+for+Visual+Object+Discovery+through+Dialogs+and+Queries+Zhuang,+Bohan+and+Wu,+Qi+and+Shen,+Chunhua+and+Reid,+Ian+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Parallel+Attention:+A+Unified+Framework+for+Visual+Object+Discovery+through+Dialogs+and+Queries semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1612.02583.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2017Gong_arXiv.jpg"></a>}}*From motion blur to motion flow: a deep learning solution for removing heterogeneous motion blur*  
+\n$\cdot$ /D. Gong, J. Yang, L. Liu, Y. Zhang, I. Reid, C. Shen, A. van den Hengel, Q. Shi/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1612.02583 arXiv][data/bibtex/CVPR2017Gong.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=From+Motion+Blur+to+Motion+Flow:+a+Deep+Learning+Solution+for+Removing+Heterogeneous+Motion+Blur+Gong,+Dong+and+Yang,+Jie+and+Liu,+Lingqiao+and+Zhang,+Yanning+and+Reid,+Ian+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng google scholar][https://www.semanticscholar.org/search?q=From+Motion+Blur+to+Motion+Flow:+a+Deep+Learning+Solution+for+Removing+Heterogeneous+Motion+Blur semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1611.09967.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2017YaoLi_arXiv.jpg"></a>}}*Sequential person recognition in photo albums with a recurrent network*  
+\n$\cdot$ /Y. Li, G. Lin, B. Zhuang, L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1611.09967 arXiv][data/bibtex/CVPR2017YaoLi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Sequential+Person+Recognition+in+Photo+Albums+with+a+Recurrent+Network+Li,+Yao+and+Lin,+Guosheng+and+Zhuang,+Bohan+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Sequential+Person+Recognition+in+Photo+Albums+with+a+Recurrent+Network semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1611.06612.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2017Lin_arXiv.jpg"></a>}}*RefineNet: multi-path refinement networks for high-resolution semantic segmentation*  
+\n$\cdot$ /G. Lin, A. Milan, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1611.06612 arXiv][data/bibtex/CVPR2017Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={RefineNet}:+Multi-Path+Refinement+Networks+for+High-Resolution+Semantic+Segmentation+Lin,+Guosheng+and+Milan,+Anton+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q={RefineNet}:+Multi-Path+Refinement+Networks+for+High-Resolution+Semantic+Segmentation semantic scholar][https://github.com/guosheng/refinenet   project webpage]
+        .. [https://github.com/DrSleep/light-weight-refinenet Light-weight RefineNet with Pytorch code].
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR2017WangAttend_PDF.jpg">}}*Multi-attention network for one shot learning*  
+\n$\cdot$ /P. Wang, L. Liu, C. Shen, Z. Huang, A. van den Hengel, H. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Multi-Attention_Network_for_CVPR_2017_paper.pdf  pdf][data/bibtex/CVPR2017WangAttend.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Multi-attention+Network+for+One+Shot+Learning+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Huang,+Zi+and+{van+den+Hengel},+Anton+and+Shen,+Heng+Tao google scholar][https://www.semanticscholar.org/search?q=Multi-attention+Network+for+One+Shot+Learning semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1612.05386.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2017WangVQA_arXiv.jpg"></a>}}*The VQA-machine: learning how to use existing vision algorithms to answer new questions*  
+\n$\cdot$ /P. Wang, Q. Wu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1612.05386 arXiv][data/bibtex/CVPR2017WangVQA.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=The+{VQA}-Machine:+Learning+How+to+Use+Existing+Vision+Algorithms+to+Answer+New+Questions+Wang,+Peng+and+Wu,+Qi+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=The+{VQA}-Machine:+Learning+How+to+Use+Existing+Vision+Algorithms+to+Answer+New+Questions semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1611.09960.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR2017Zhuang_arXiv.jpg"></a>}}*Attend in groups: a weakly-supervised deep learning framework for learning from web data*  
+\n$\cdot$ /B. Zhuang, L. Liu, Y. Li, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1611.09960 arXiv][data/bibtex/CVPR2017Zhuang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Attend+in+groups:+a+weakly-supervised+deep+learning+framework+for+learning+from+web+data+Zhuang,+Bohan+and+Liu,+Lingqiao+and+Li,+Yao+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Attend+in+groups:+a+weakly-supervised+deep+learning+framework+for+learning+from+web+data semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1504.01013.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16labelling_arXiv.jpg"></a>}}*Efficient piecewise training of deep structured models for semantic segmentation*  
+\n$\cdot$ /G. Lin, C. Shen, A. van dan Hengel, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1504.01013 arXiv][data/bibtex/CVPR16labelling.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+piecewise+training+of+deep+structured+models+for+semantic+segmentation+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+dan+Hengel},+Anton+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Efficient+piecewise+training+of+deep+structured+models+for+semantic+segmentation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1604.01146.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16Zeroshot_arXiv.jpg"></a>}}*Less is more: zero-shot learning from online textual documents with noise suppression*  
+\n$\cdot$ /R. Qiao, L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1604.01146 arXiv][data/bibtex/CVPR16Zeroshot.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Less+is+More:+Zero-shot+Learning+from+Online+Textual+Documents+with+Noise+Suppression+Qiao,+Ruizhi+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Less+is+More:+Zero-shot+Learning+from+Online+Textual+Documents+with+Noise+Suppression semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1602.04422.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16Irregular_arXiv.jpg"></a>}}*What's wrong with that object? identifying irregular object from images by modelling the detection score distribution*  
+\n$\cdot$ /P. Wang, L. Liu, C. Shen, Z. Huang, A. van den Hengel, H. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1602.04422 arXiv][data/bibtex/CVPR16Irregular.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=What's+Wrong+with+that+Object?+Identifying+Irregular+Object+From+Images+by+Modelling+the+Detection+Score+Distribution+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Huang,+Zi+and+{van+den+Hengel},+Anton+and+Shen,+Heng+Tao google scholar][https://www.semanticscholar.org/search?q=What's+Wrong+with+that+Object?+Identifying+Irregular+Object+From+Images+by+Modelling+the+Detection+Score+Distribution semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1506.01144.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16What_arXiv.jpg"></a>}}*What value do explicit high level concepts have in vision to language problems*  
+\n$\cdot$ /Q. Wu, C. Shen, L. Liu, A. Dick, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1506.01144 arXiv][data/bibtex/CVPR16What.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=What+Value+Do+Explicit+High+Level+Concepts+Have+in+Vision+to+Language+Problems+Wu,+Qi+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=What+Value+Do+Explicit+High+Level+Concepts+Have+in+Vision+to+Language+Problems semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1511.06973.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16AMA_arXiv.jpg"></a>}}*Ask me anything: free-form visual question answering based on knowledge from external sources*  
+\n$\cdot$ /Q. Wu, P. Wang, C. Shen, A. Dick, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1511.06973 arXiv][data/bibtex/CVPR16AMA.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Ask+Me+Anything:+Free-form+Visual+Question+Answering+Based+on+Knowledge+from+External+Sources+Wu,+Qi+and+Wang,+Peng+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Ask+Me+Anything:+Free-form+Visual+Question+Answering+Based+on+Knowledge+from+External+Sources semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1603.02844.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR16Binary_arXiv.jpg"></a>}}*Fast training of triplet-based deep binary embedding networks*  
+\n$\cdot$ /B. Zhuang, G. Lin, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1603.02844 arXiv][data/bibtex/CVPR16Binary.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Fast+Training+of+Triplet-based+Deep+Binary+Embedding+Networks+Zhuang,+Bohan+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Fast+Training+of+Triplet-based+Deep+Binary+Embedding+Networks semantic scholar][https://bitbucket.org/jingruixiaozhuang/fast-training-of-triplet-based-deep-binary-embedding-networks   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR15h_PDF.jpg">}}*Depth and surface normal estimation from monocular images using regression on deep features and hierarchical CRFs*  
+\n$\cdot$ /B. Li, C. Shen, Y. Dai, A. van den Hengel, M. He/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Li_Depth_and_Surface_2015_CVPR_paper.pdf  pdf][data/bibtex/CVPR15h.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Depth+and+Surface+Normal+Estimation+from+Monocular+Images+Using+Regression+on+Deep+Features+and+Hierarchical+{CRFs}+Li,+Bo+and+Shen,+Chunhua+and+Dai,+Yuchao+and+{van+den+Hengel},+Anton+and+He,+Mingyi google scholar][https://www.semanticscholar.org/search?q=Depth+and+Surface+Normal+Estimation+from+Monocular+Images+Using+Regression+on+Deep+Features+and+Hierarchical+{CRFs} semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1411.6382.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR15a_arXiv.jpg"></a>}}*Mid-level deep pattern mining*  
+\n$\cdot$ /Y. Li, L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1411.6382 arXiv][data/bibtex/CVPR15a.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Mid-level+Deep+Pattern+Mining+Li,+Yao+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Mid-level+Deep+Pattern+Mining semantic scholar][https://github.com/yaoliUoA/MDPM   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1411.6387.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR15b_arXiv.jpg"></a>}}*Deep convolutional neural fields for depth estimation from a single image*  
+\n$\cdot$ /F. Liu, C. Shen, G. Lin/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1411.6387 arXiv][data/bibtex/CVPR15b.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Deep+Convolutional+Neural+Fields+for+Depth+Estimation+from+a+Single+Image+Liu,+Fayao+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Deep+Convolutional+Neural+Fields+for+Depth+Estimation+from+a+Single+Image semantic scholar][http://goo.gl/rAKWrS   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1411.7466.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR15d_arXiv.jpg"></a>}}*The treasure beneath convolutional layers: cross convolutional layer pooling for image classification*  
+\n$\cdot$ /L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1411.7466 arXiv][data/bibtex/CVPR15d.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=The+Treasure+beneath+Convolutional+Layers:+Cross+convolutional+layer+Pooling+for+Image+Classification+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=The+Treasure+beneath+Convolutional+Layers:+Cross+convolutional+layer+Pooling+for+Image+Classification semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1503.01543.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR15f_arXiv.jpg"></a>}}*Learning to rank in person re-identification with metric ensembles*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1503.01543 arXiv][data/bibtex/CVPR15f.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+to+rank+in+person+re-identification+with+metric+ensembles+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Learning+to+rank+in+person+re-identification+with+metric+ensembles semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR15c_PDF.jpg">}}*Supervised discrete hashing*  
+\n$\cdot$ /F. Shen, C. Shen, W. Liu, H. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shen_Supervised_Discrete_Hashing_2015_CVPR_paper.pdf  pdf][data/bibtex/CVPR15c.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Supervised+Discrete+Hashing+Shen,+Fumin+and+Shen,+Chunhua+and+Liu,+Wei+and+Shen,+Heng+Tao google scholar][https://www.semanticscholar.org/search?q=Supervised+Discrete+Hashing semantic scholar][https://github.com/bd622/DiscretHashing/   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR15g_PDF.jpg">}}*Learning graph structure for multi-label image classification via clique generation*  
+\n$\cdot$ /M. Tan, Q. Shi, A. van den Hengel, C. Shen, J. Gao, F. Hu, Z. Zhang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Tan_Learning_Graph_Structure_2015_CVPR_paper.pdf  pdf][data/bibtex/CVPR15g.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Graph+Structure+for+Multi-label+Image+Classification+via+Clique+Generation+Tan,+Mingkui+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Shen,+Chunhua+and+Gao,+Junbin+and+Hu,+Fuyuan+and+Zhang,+Zhen google scholar][https://www.semanticscholar.org/search?q=Learning+Graph+Structure+for+Multi-label+Image+Classification+via+Clique+Generation semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1504.01492.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR15e_arXiv.jpg"></a>}}*Efficient SDP inference for fully-connected CRFs based on low-rank decomposition*  
+\n$\cdot$ /P. Wang, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1504.01492 arXiv][data/bibtex/CVPR15e.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+{SDP}+Inference+for+Fully-connected+{CRFs}+Based+on+Low-rank+Decomposition+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Efficient+{SDP}+Inference+for+Fully-connected+{CRFs}+Based+on+Low-rank+Decomposition semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1404.1561.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR14Lin_arXiv.jpg"></a>}}*Fast supervised hashing with decision trees for high-dimensional data*  
+\n$\cdot$ /G. Lin, C. Shen, Q. Shi, A. van den Hengel, D. Suter/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'14), 2014/.
+\n$\cdot$ [http://arxiv.org/abs/1404.1561 arXiv][https://bitbucket.org/chhshen/fasthash/src  link][data/bibtex/CVPR14Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Fast+Supervised+Hashing+with+Decision+Trees+for+High-Dimensional+Data+Lin,+Guosheng+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Suter,+David google scholar][https://www.semanticscholar.org/search?q=Fast+Supervised+Hashing+with+Decision+Trees+for+High-Dimensional+Data semantic scholar][https://bitbucket.org/chhshen/fasthash/   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR13bLi_PDF.jpg">}}*Learning compact binary codes for visual tracking*  
+\n$\cdot$ /X. Li, C. Shen, A. Dick, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'13), 2013/.
+\n$\cdot$ [http://hdl.handle.net/2440/77412  link][http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Li_Learning_Compact_Binary_2013_CVPR_paper.pdf  pdf][data/bibtex/CVPR13bLi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Compact+Binary+Codes+for+Visual+Tracking+Li,+Xi+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Learning+Compact+Binary+Codes+for+Visual+Tracking semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1303.7043.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR13aShen_arXiv.jpg"></a>}}*Inductive hashing on manifolds*  
+\n$\cdot$ /F. Shen, C. Shen, Q. Shi, A. van den Hengel, Z. Tang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1303.7043 arXiv][data/bibtex/CVPR13aShen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Inductive+Hashing+on+Manifolds+Shen,+Fumin+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Tang,+Zhenmin google scholar][https://www.semanticscholar.org/search?q=Inductive+Hashing+on+Manifolds semantic scholar][https://github.com/chhshen/Hashing-on-Nonlinear-Manifolds   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1304.0840.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR13dWang_arXiv.jpg"></a>}}*A fast semidefinite approach to solving binary quadratic problems*  
+\n$\cdot$ /P. Wang, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1304.0840 arXiv][data/bibtex/CVPR13dWang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Fast+Semidefinite+Approach+to+Solving+Binary+Quadratic+Problems+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=A+Fast+Semidefinite+Approach+to+Solving+Binary+Quadratic+Problems semantic scholar][./projects/BQP/   project webpage]
+        .. Oral presentation, 60 out of 1870 submissions.
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR13cWang_PDF.jpg">}}*Bilinear programming for human activity recognition with unknown MRF graphs*  
+\n$\cdot$ /Z. Wang, Q. Shi, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'13), 2013/.
+\n$\cdot$ [http://hdl.handle.net/2440/77411  link][http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Wang_Bilinear_Programming_for_2013_CVPR_paper.pdf  pdf][data/bibtex/CVPR13cWang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Bilinear+Programming+for+Human+Activity+Recognition+with+unknown+{MRF}+graphs+Wang,+Zhenhua+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Bilinear+Programming+for+Human+Activity+Recognition+with+unknown+{MRF}+graphs semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/CVPR13eYao_PDF.jpg">}}*Part-based visual tracking with online latent structural learning*  
+\n$\cdot$ /R. Yao, Q. Shi, C. Shen, Y. Zhang, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'13), 2013/.
+\n$\cdot$ [http://hdl.handle.net/2440/77413  link][http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.pdf  pdf][data/bibtex/CVPR13eYao.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Part-based+Visual+Tracking+with+Online+Latent+Structural+Learning+Yao,+Rui+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Part-based+Visual+Tracking+with+Online+Latent+Structural+Learning semantic scholar][https://github.com/chhshen/PartTracking   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1204.2912.pdf"><img class="imgP  right"   src="data/thumbnail/CVPR12a_arXiv.jpg"></a>}}*Non-sparse linear representations for visual tracking with online reservoir metric learning*  
+\n$\cdot$ /X. Li, C. Shen, Q. Shi, A. Dick, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'12), 2012/.
+\n$\cdot$ [http://arxiv.org/abs/1204.2912 arXiv][http://hdl.handle.net/2440/70244  pdf][data/bibtex/CVPR12a.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Non-sparse+Linear+Representations+for+Visual+Tracking+with+Online+Reservoir+Metric+Learning+Li,+Xi+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Non-sparse+Linear+Representations+for+Visual+Tracking+with+Online+Reservoir+Metric+Learning semantic scholar]
+. *Sharing features in multi-class boosting via group sparsity*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'12), 2012/.
+\n$\cdot$ [http://hdl.handle.net/2440/69851  pdf][data/bibtex/CVPR12b.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Sharing+Features+in+Multi-class+Boosting+via+Group+Sparsity+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Sharing+Features+in+Multi-class+Boosting+via+Group+Sparsity semantic scholar]
+. *Real-time visual tracking using compressive sensing*  
+\n$\cdot$ /H. Li, C. Shen, Q. Shi/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'11), 2011/.
+\n$\cdot$ [http://goo.gl/dsjsoM  pdf][data/bibtex/Li2011CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Real-time+visual+tracking+Using+compressive+sensing+Li,+Hanxi+and+Shen,+Chunhua+and+Shi,+Qinfeng google scholar][https://www.semanticscholar.org/search?q=Real-time+visual+tracking+Using+compressive+sensing semantic scholar]
+. *A generalized probabilistic framework for compact codebook creation*  
+\n$\cdot$ /L. Liu, L. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'11), 2011/.
+\n$\cdot$ [http://hdl.handle.net/2440/63014  pdf][data/bibtex/Liu2011CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+generalized+probabilistic+framework+for+compact+codebook+creation+Liu,+Lingqiao+and+Wang,+Lei+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=A+generalized+probabilistic+framework+for+compact+codebook+creation semantic scholar]
+. *A direct formulation for totally-corrective multi-class boosting*  
+\n$\cdot$ /C. Shen, Z. Hao/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'11), 2011/.
+\n$\cdot$ [http://hdl.handle.net/2440/62919  pdf][data/bibtex/Shen2011CVPRa.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+direct+formulation+for+totally-corrective+multi-class+boosting+Shen,+Chunhua+and+Hao,+Zhihui google scholar][https://www.semanticscholar.org/search?q=A+direct+formulation+for+totally-corrective+multi-class+boosting semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2011CVPRb_PDF.jpg">}}*A scalable dual approach to semidefinite metric learning*  
+\n$\cdot$ /C. Shen, J. Kim, L. Wang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'11), 2011/.
+\n$\cdot$ [http://goo.gl/UyVdEc  pdf][data/bibtex/Shen2011CVPRb.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Scalable+Dual+Approach+to+Semidefinite+Metric+Learning+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei google scholar][https://www.semanticscholar.org/search?q=A+Scalable+Dual+Approach+to+Semidefinite+Metric+Learning semantic scholar]
+. *Is face recognition really a compressive sensing problem?*  
+\n$\cdot$ /Q. Shi, A. Eriksson, A. van den Hengel, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'11), 2011/.
+\n$\cdot$ [http://hdl.handle.net/2440/67036  pdf][data/bibtex/Shi2011CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Is+face+recognition+really+a+Compressive+Sensing+problem?+Shi,+Qinfeng+and+Eriksson,+Anders+and+van+den+Hengel,+Anton+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Is+face+recognition+really+a+Compressive+Sensing+problem? semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Shi2010CVPR_PDF.jpg">}}*Rapid face recognition using hashing*  
+\n$\cdot$ /Q. Shi, H. Li, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'10), 2010/.
+\n$\cdot$ [http://sites.google.com/site/chhshen/publication/cvpr10.pdf?attredirects=1  pdf][data/bibtex/Shi2010CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Rapid+face+recognition+using+hashing+Shi,+Qinfeng+and+Li,+Hanxi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Rapid+face+recognition+using+hashing semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Paisitkriangkrai2009CVPR_PDF.jpg">}}*Efficiently training a better visual detector with sparse eigenvectors*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, J. Zhang/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'09), 2009/.
+\n$\cdot$ [http://arxiv.org/abs/0903.3103 arXiv][http://sites.google.com/site/chhshen/publication/CVPR2009GSLDA.pdf?attredirects=1  link][data/bibtex/Paisitkriangkrai2009CVPR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficiently+Training+a+Better+Visual+Detector+with+Sparse+Eigenvectors+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+Zhang,+Jian google scholar][https://www.semanticscholar.org/search?q=Efficiently+Training+a+Better+Visual+Detector+with+Sparse+Eigenvectors semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Kernel2007Quang_PDF.jpg">}}*Kernel-based tracking from a probabilistic viewpoint*  
+\n$\cdot$ /Q. Nguyen, A. Robles-Kelly, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'07), 2007/.
+\n$\cdot$ [http://dx.doi.org/10.1109/CVPR.2007.383240  link][http://goo.gl/1QNmaq  pdf][data/bibtex/Kernel2007Quang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Kernel-based+tracking+from+a+probabilistic+viewpoint+Nguyen,+Quang+and+Robles-Kelly,+Antonio+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Kernel-based+tracking+from+a+probabilistic+viewpoint semantic scholar]
+. *Efficient decoder-free object detection with transformers*  
+\n$\cdot$ /P. Chen, M. Zhang, Y. Shen, K. Sheng, Y. Gao, X. Sun, K. Li, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2206.06829 arXiv][data/bibtex/Peixian2022Detection.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+Decoder-free+Object+Detection+with+Transformers+Chen,+Peixian+and+Zhang,+Mengdan+and+Shen,+Yunhang+and+Sheng,+Kekai+and+Gao,+Yuting+and+Sun,+Xing+and+Li,+Ke+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Efficient+Decoder-free+Object+Detection+with+Transformers semantic scholar]
+. *DisCo: remedying self-supervised learning on lightweight models with distilled contrastive learning*  
+\n$\cdot$ /Y. Gao, J. Zhuang, S. Lin, H. Cheng, X. Sun, K. Li, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'22), 2022/.
+\n$\cdot$ [data/bibtex/Gao2022DisCO.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DisCo}:+Remedying+Self-supervised+Learning+on+Lightweight+Models+with+Distilled+Contrastive+Learning+Gao,+Yuting+and+Zhuang,+Jia-Xin+and+Lin,+Shaohui+and+Cheng,+Hao+and+Sun,+Xing+and+Li,+Ke+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DisCo}:+Remedying+Self-supervised+Learning+on+Lightweight+Models+with+Distilled+Contrastive+Learning semantic scholar][https://github.com/Yuting-Gao/DisCo-pytorch   project webpage]
+        .. Oral presentation.
+. *PointInst3D: segmenting 3D instances by points*  
+\n$\cdot$ /T. He, W. Yin, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2204.11402 arXiv][data/bibtex/Tong2022Detection.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PointInst3D}:+Segmenting+{3D}+Instances+by+Points+He,+Tong+and+Yin,+Wei+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={PointInst3D}:+Segmenting+{3D}+Instances+by+Points semantic scholar]
+. *Poseur: direct human pose regression with transformers*  
+\n$\cdot$ /W. Mao, Y. Ge, C. Shen, Z. Tian, X. Wang, Z. Wang, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'22), 2022/.
+\n$\cdot$ [http://arxiv.org/abs/2201.07412 arXiv][data/bibtex/Poseur2022Detection.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={Poseur}:+Direct+Human+Pose+Regression+with+Transformers+Mao,+Weian+and+Ge,+Yongtao+and+Shen,+Chunhua+and+Tian,+Zhi+and+Wang,+Xinlong+and+Wang,+Zhibin+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q={Poseur}:+Direct+Human+Pose+Regression+with+Transformers semantic scholar][https://github.com/aim-uofa/Poseur   project webpage]
+. *Learning and memorizing representative prototypes for 3D point cloud semantic and instance segmentation*  
+\n$\cdot$ /T. He, D. Gong, Z. Tian, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [data/bibtex/He2020PC1.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+and+Memorizing+Representative+Prototypes+for+{3D}+Point+Cloud+Semantic+and+Instance+Segmentation+He,+Tong+and+Gong,+Dong+and+Tian,+Zhi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Learning+and+Memorizing+Representative+Prototypes+for+{3D}+Point+Cloud+Semantic+and+Instance+Segmentation semantic scholar]
+. *Instance-aware embedding for point cloud instance segmentation*  
+\n$\cdot$ /T. He, Y. Liu, C. Shen, X. Wang, C. Sun/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [data/bibtex/He2020InstanceAware.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Instance-Aware+Embedding+for+Point+Cloud+Instance+Segmentation+He,+Tong+and+Liu,+Yifan+and+Shen,+Chunhua+and+Wang,+Xinlong+and+Sun,+Changming google scholar][https://www.semanticscholar.org/search?q=Instance-Aware+Embedding+for+Point+Cloud+Instance+Segmentation semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2020WeightingRL_arXiv.jpg">}}*Weighing counts: sequential crowd counting by reinforcement learning*  
+\n$\cdot$ /L. Liu, H. Lu, H. Zou, H. Xiong, Z. Cao, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2007.08260 arXiv][data/bibtex/Liu2020WeightingRL.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Weighing+Counts:+Sequential+Crowd+Counting+by+Reinforcement+Learning+Liu,+Liang+and+Lu,+Hao+and+Zou,+Hongwei+and+Xiong,+Haipeng+and+Cao,+Zhiguo+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Weighing+Counts:+Sequential+Crowd+Counting+by+Reinforcement+Learning semantic scholar][https://github.com/poppinace/libranet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2020EfficientSemantic_arXiv.jpg">}}*Efficient semantic video segmentation with per-frame inference*  
+\n$\cdot$ /Y. Liu, C. Shen, C. Yu, J. Wang/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2002.11433 arXiv][data/bibtex/Liu2020EfficientSemantic.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+Semantic+Video+Segmentation+with+Per-frame+Inference+Liu,+Yifan+and+Shen,+Chunhua+and+Yu,+Changqian+and+Wang,+Jingdong google scholar][https://www.semanticscholar.org/search?q=Efficient+Semantic+Video+Segmentation+with+Per-frame+Inference semantic scholar][https://tinyurl.com/segment-video   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Tian2020CondInst_arXiv.jpg">}}*Conditional convolutions for instance segmentation*  
+\n$\cdot$ /Z. Tian, C. Shen, H. Chen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.05664 arXiv][data/bibtex/Tian2020CondInst.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Conditional+Convolutions+for+Instance+Segmentation+Tian,+Zhi+and+Shen,+Chunhua+and+Chen,+Hao google scholar][https://www.semanticscholar.org/search?q=Conditional+Convolutions+for+Instance+Segmentation semantic scholar][https://github.com/aim-uofa/adet   project webpage]
+        .. Oral presentation.
+. *Soft expert reward learning for vision-and-language navigation*  
+\n$\cdot$ /H. Wang, Q. Wu, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [data/bibtex/Wang2020Soft.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Soft+Expert+Reward+Learning+for+Vision-and-Language+Navigation+Wang,+Hu+and+Wu,+Qi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Soft+Expert+Reward+Learning+for+Vision-and-Language+Navigation semantic scholar]
+. *AE TextSpotter: learning visual and linguistic representation for ambiguous text spotting*  
+\n$\cdot$ /W. Wang, X. Liu, X. Ji, E. Xie, D. Liang, Z. Yang, T. Lu, C. Shen, P. Luo/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [data/bibtex/Wang2020AET.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={AE+TextSpotter}:+Learning+Visual+and+Linguistic+Representation+for+Ambiguous+Text+Spotting+Wang,+Wenhai+and+Liu,+Xuebo+and+Ji,+Xiaozhong+and+Xie,+Enze+and+Liang,+Ding+and+Yang,+ZhiBo+and+Lu,+Tong+and+Shen,+Chunhua+and+Luo,+Ping google scholar][https://www.semanticscholar.org/search?q={AE+TextSpotter}:+Learning+Visual+and+Linguistic+Representation+for+Ambiguous+Text+Spotting semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2020SuperRes_arXiv.jpg">}}*Scene text image super-resolution in the wild*  
+\n$\cdot$ /W. Wang, E. Xie, X. Liu, W. Wang, D. Liang, C. Shen, X. Bai/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2005.03341 arXiv][data/bibtex/Wang2020SuperRes.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Scene+Text+Image+Super-Resolution+in+the+Wild+Wang,+Wenjia+and+Xie,+Enze+and+Liu,+Xuebo+and+Wang,+Wenhai+and+Liang,+Ding+and+Shen,+Chunhua+and+Bai,+Xiang google scholar][https://www.semanticscholar.org/search?q=Scene+Text+Image+Super-Resolution+in+the+Wild semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Wang2020SOLO_arXiv.jpg">}}*SOLO: segmenting objects by locations*  
+\n$\cdot$ /X. Wang, T. Kong, C. Shen, Y. Jiang, L. Li/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/1912.04488 arXiv][data/bibtex/Wang2020SOLO.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SOLO}:+Segmenting+Objects+by+Locations+Wang,+Xinlong+and+Kong,+Tao+and+Shen,+Chunhua+and+Jiang,+Yuning+and+Li,+Lei google scholar][https://www.semanticscholar.org/search?q={SOLO}:+Segmenting+Objects+by+Locations semantic scholar][https://github.com/aim-uofa/adet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Xie2020Segtransp_arXiv.jpg">}}*Segmenting transparent objects in the wild*  
+\n$\cdot$ /E. Xie, W. Wang, W. Wang, M. Ding, C. Shen, P. Luo/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.13948 arXiv][data/bibtex/Xie2020Segtransp.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Segmenting+Transparent+Objects+in+the+Wild+Xie,+Enze+and+Wang,+Wenjia+and+Wang,+Wenhai+and+Ding,+Mingyu+and+Shen,+Chunhua+and+Luo,+Ping google scholar][https://www.semanticscholar.org/search?q=Segmenting+Transparent+Objects+in+the+Wild semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Yu2020RepGraphNet_arXiv.jpg">}}*Representative graph neural network*  
+\n$\cdot$ /C. Yu, Y. Liu, C. Gao, C. Shen, N. Sang/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2008.05202 arXiv][data/bibtex/Yu2020RepGraphNet.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Representative+Graph+Neural+Network+Yu,+Changqian+and+Liu,+Yifan+and+Gao,+Changxin+and+Shen,+Chunhua+and+Sang,+Nong google scholar][https://www.semanticscholar.org/search?q=Representative+Graph+Neural+Network semantic scholar][https://github.com/ycszen/RepGraph   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1807.10097.pdf"><img class="imgP  right"   src="data/thumbnail/Deng2018ECCV_arXiv.jpg"></a>}}*Learning to predict crisp boundaries*  
+\n$\cdot$ /R. Deng, C. Shen, S. Liu, H. Wang, X. Liu/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1807.10097 arXiv][data/bibtex/Deng2018ECCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+to+Predict+Crisp+Boundaries+Deng,+Ruoxi+and+Shen,+Chunhua+and+Liu,+Shengjun+and+Wang,+Huibing+and+Liu,+Xinru google scholar][https://www.semanticscholar.org/search?q=Learning+to+Predict+Crisp+Boundaries semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Zhang2018ECCV_arXiv.jpg">}}*Goal-oriented visual question generation via intermediate rewards*  
+\n$\cdot$ /J. Zhang, Q. Wu, C. Shen, J. Zhang, J. Lu, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1711.07614 arXiv][data/bibtex/Zhang2018ECCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Goal-Oriented+Visual+Question+Generation+via+Intermediate+Rewards+Zhang,+Junjie+and+Wu,+Qi+and+Shen,+Chunhua+and+Zhang,+Jian+and+Lu,+Jianfeng+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Goal-Oriented+Visual+Question+Generation+via+Intermediate+Rewards semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ECCV16Li_arXiv.jpg">}}*Image co-localization by mimicking a good detector's confidence score distribution*  
+\n$\cdot$ /Y. Li, L. Liu, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1603.04619 arXiv][data/bibtex/ECCV16Li.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Image+Co-localization+by+Mimicking+a+Good+Detector's+Confidence+Score+Distribution+Li,+Yao+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Image+Co-localization+by+Mimicking+a+Good+Detector's+Confidence+Score+Distribution semantic scholar]
+. *Cluster sparsity field for hyperspectral imagery denoising*  
+\n$\cdot$ /L. Zhang, W. Wei, Y. Zhang, C. Shen, A. van den Hengel, Q. Shi/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'16), 2016/.
+\n$\cdot$ [data/bibtex/ECCV16hyperspectral.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Cluster+Sparsity+Field+for+Hyperspectral+Imagery+Denoising+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng google scholar][https://www.semanticscholar.org/search?q=Cluster+Sparsity+Field+for+Hyperspectral+Imagery+Denoising semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1407.1151.pdf"><img class="imgP  right"   src="data/thumbnail/ECCV14Lin_arXiv.jpg"></a>}}*Optimizing ranking measures for compact binary code learning*  
+\n$\cdot$ /G. Lin, C. Shen, J. Wu/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'14), 2014/.
+\n$\cdot$ [http://arxiv.org/abs/1407.1151 arXiv][data/bibtex/ECCV14Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Optimizing+Ranking+Measures+for+Compact+Binary+Code+Learning+Lin,+Guosheng+and+Shen,+Chunhua+and+Wu,+Jianxin google scholar][https://www.semanticscholar.org/search?q=Optimizing+Ranking+Measures+for+Compact+Binary+Code+Learning semantic scholar][https://bitbucket.org/guosheng/structhash   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1407.0786.pdf"><img class="imgP  right"   src="data/thumbnail/ECCV14Paul_arXiv.jpg"></a>}}*Strengthening the effectiveness of pedestrian detection with spatially pooled features*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'14), 2014/.
+\n$\cdot$ [http://arxiv.org/abs/1407.0786 arXiv][data/bibtex/ECCV14Paul.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Strengthening+the+Effectiveness+of+Pedestrian+Detection+with+Spatially+Pooled+Features+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Strengthening+the+Effectiveness+of+Pedestrian+Detection+with+Spatially+Pooled+Features semantic scholar][https://github.com/chhshen/pedestrian-detection   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/ECCV12_PDF.jpg">}}*Robust tracking with weighted online structured learning*  
+\n$\cdot$ /R. Yao, Q. Shi, C. Shen, Y. Zhang, A. van den Hengel/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'12), 2012/.
+\n$\cdot$ [https://sites.google.com/site/chhshen/publication/weighted_tracking_eccv12.pdf?attredirects=1  pdf][data/bibtex/ECCV12.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Robust+Tracking+with+Weighted+Online+Structured+Learning+Yao,+Rui+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Robust+Tracking+with+Weighted+Online+Structured+Learning semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2010ECCV_arXiv.jpg">}}*LACBoost and FisherBoost: optimally building cascade classifiers*  
+\n$\cdot$ /C. Shen, P. Wang, H. Li/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'10), 2010/.
+\n$\cdot$ [http://arxiv.org/abs/1005.4103 arXiv][http://dx.doi.org/10.1007/978-3-642-15552-9_44  link][data/bibtex/Shen2010ECCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={LACBoost}+and+{FisherBoost}:+Optimally+Building+Cascade+Classifiers+Shen,+Chunhua+and+Wang,+Peng+and+Li,+Hanxi google scholar][https://www.semanticscholar.org/search?q={LACBoost}+and+{FisherBoost}:+Optimally+Building+Cascade+Classifiers semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Fast2008Wang_PDF.jpg">}}*A fast algorithm for creating a compact and discriminative visual codebook*  
+\n$\cdot$ /L. Wang, L. Zhou, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'08), 2008/.
+\n$\cdot$ [http://dx.doi.org/10.1007/978-3-540-88693-8_53  link][http://sites.google.com/site/chhshen/publication/ECCV2008Wang.pdf?attredirects=1  pdf][data/bibtex/Fast2008Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Fast+Algorithm+for+Creating+a+Compact+and+Discriminative+Visual+Codebook+Wang,+Lei+and+Zhou,+Luping+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=A+Fast+Algorithm+for+Creating+a+Compact+and+Discriminative+Visual+Codebook semantic scholar]
+. *Zolly: zoom focal length correctly for perspective-distorted human mesh reconstruction*  
+\n$\cdot$ /W. Wang, Y. Ge, H. Mei, Z. Cai, Q. Sun, C. Shen, Y. Wang, L. Yang, T. Komura/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [data/bibtex/WangW2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Zolly:+Zoom+Focal+Length+Correctly+for+Perspective-Distorted+Human+Mesh+Reconstruction+Wang,+Wenjia+and+Ge,+Yongtao+and+Mei,+Haiyi+and+Cai,+Zhongang+and+Sun,+Qingping+and+Shen,+Chunhua+and+Wang,+Yanjun+and+Yang,+Lei+and+Komura,+Taku google scholar][https://www.semanticscholar.org/search?q=Zolly:+Zoom+Focal+Length+Correctly+for+Perspective-Distorted+Human+Mesh+Reconstruction semantic scholar]
+        .. Oral presentation.
+. *SegGPT: towards segmenting everything in context*  
+\n$\cdot$ /X. Wang, X. Zhang, Y. Cao, W. Wang, C. Shen, T. Huang/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2304.03284 arXiv][data/bibtex/SegGPT2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SegGPT}:+Towards+Segmenting+Everything+In+Context+Wang,+Xinlong+and+Zhang,+Xiaosong+and+Cao,+Yue+and+Wang,+Wen+and+Shen,+Chunhua+and+Huang,+Tiejun google scholar][https://www.semanticscholar.org/search?q={SegGPT}:+Towards+Segmenting+Everything+In+Context semantic scholar]
+. *Diffumask: synthesizing images with pixel-level annotations for semantic segmentation using diffusion models*  
+\n$\cdot$ /W. Wu, Y. Zhao, M. Shou, H. Zhou, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2303.11681 arXiv][data/bibtex/DiffuMask2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Diffumask:+Synthesizing+images+with+pixel-level+annotations+for+semantic+segmentation+using+diffusion+models+Wu,+Weijia+and+Zhao,+Yuzhong+and+Shou,+Mike+Zheng+and+Zhou,+Hong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Diffumask:+Synthesizing+images+with+pixel-level+annotations+for+semantic+segmentation+using+diffusion+models semantic scholar]
+. *Pose-free 3d scene reconstruction with frozen depth models*  
+\n$\cdot$ /G. Xu, W. Yin, H. Chen, C. Shen, K. Cheng, F. Zhao/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [data/bibtex/XuG2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Pose-free+3D+Scene+Reconstruction+with+Frozen+Depth+Models+Xu,+Guangkai+and+Yin,+Wei+and+Chen,+Hao+and+Shen,+Chunhua+and+Cheng,+Kai+and+Zhao,+Feng google scholar][https://www.semanticscholar.org/search?q=Pose-free+3D+Scene+Reconstruction+with+Frozen+Depth+Models semantic scholar]
+. *Metric3D: towards zero-shot metric 3d prediction from a single image*  
+\n$\cdot$ /W. Yin, C. Zhang, H. Chen, Z. Cai, G. Yu, K. Wang, X. Chen, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2307.10984 arXiv][data/bibtex/Yinwei2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={Metric3D}:+Towards+Zero-shot+Metric+3D+Prediction+from+A+Single+Image+Yin,+Wei+and+Zhang,+Chi+and+Chen,+Hao+and+Cai,+Zhipeng+and+Yu,+Gang+and+Wang,+Kaixuan+and+Chen,+Xiaozhi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={Metric3D}:+Towards+Zero-shot+Metric+3D+Prediction+from+A+Single+Image semantic scholar]
+. *CTVIS: consistent training for online video instance segmentation*  
+\n$\cdot$ /K. Ying, Q. Zhong, W. Mao, Z. Wang, H. Chen, L. Wu, Y. Liu, C. Fan, Y. Zhuge, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2307.12616 arXiv][data/bibtex/KYQZ2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={CTVIS}:+Consistent+Training+for+Online+Video+Instance+Segmentation+Ying,+Kaining+and+Zhong,+Qing+and+Mao,+Weian+and+Wang,+Zhenhua+and+Chen,+Hao+and+Wu,+Lin+Yuanbo+and+Liu,+Yifan+and+Fan,+Chengxiang+and+Zhuge,+Yunzhi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={CTVIS}:+Consistent+Training+for+Online+Video+Instance+Segmentation semantic scholar][https://github.com/KainingYing/CTVIS   project webpage]
+. *Robust geometry-preserving depth estimation using differentiable rendering*  
+\n$\cdot$ /C. Zhang, W. Yin, G. Yu, Z. Wang, T. Chen, B. Fu, J. Zhou, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [data/bibtex/ZhangC2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Robust+Geometry-Preserving+Depth+Estimation+Using+Differentiable+Rendering+Zhang,+Chi+and+Yin,+Wei+and+Yu,+Gang+and+Wang,+Zhibin+and+Chen,+Tao+and+Fu,+Bin+and+Zhou,+Joey+Tianyi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Robust+Geometry-Preserving+Depth+Estimation+Using+Differentiable+Rendering semantic scholar]
+. *Generative prompt model for weakly supervised object localization*  
+\n$\cdot$ /Y. Zhao, Q. Ye, W. Wu, C. Shen, F. Wan/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2307.09756 arXiv][data/bibtex/YZhao2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Generative+Prompt+Model+for+Weakly+Supervised+Object+Localization+Zhao,+Yuzhong+and+Ye,+Qixiang+and+Wu,+Weijia+and+Shen,+Chunhua+and+Wan,+Fang google scholar][https://www.semanticscholar.org/search?q=Generative+Prompt+Model+for+Weakly+Supervised+Object+Localization semantic scholar]
+. *Segprompt: boosting open-world segmentation via category-level prompt learning*  
+\n$\cdot$ /M. Zhu, H. Li, H. Chen, C. Fan, W. Mao, C. Jing, Y. Liu, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
+\n$\cdot$ [data/bibtex/Zhu2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=SegPrompt:+Boosting+Open-World+Segmentation+via+Category-level+Prompt+Learning+Zhu,+Muzhi+and+Li,+Hengtao+and+Chen,+Hao+and+Fan,+Chengxiang+and+Mao,+Weian+and+Jing,+Chenchen+and+Liu,+Yifan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=SegPrompt:+Boosting+Open-World+Segmentation+via+Category-level+Prompt+Learning semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2008.05101.pdf"><img class="imgP  right"   src="data/thumbnail/Chen2021ICCV_arXiv.jpg"></a>}}*FATNN: fast and accurate ternary neural networks*  
+\n$\cdot$ /P. Chen, B. Zhuang, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2008.05101 arXiv][data/bibtex/Chen2021ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FATNN}:+Fast+and+Accurate+Ternary+Neural+Networks+Chen,+Peng+and+Zhuang,+Bohan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FATNN}:+Fast+and+Accurate+Ternary+Neural+Networks semantic scholar]
+. *Channel-wise knowledge distillation for dense prediction*  
+\n$\cdot$ /C. Shu, Y. Liu, J. Gao, L. Xu, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2011.13256 arXiv][data/bibtex/Shu2021ICCVKD.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Channel-wise+Knowledge+Distillation+for+Dense+Prediction+Shu,+Changyong+and+Liu,+Yifan+and+Gao,+Jianfei+and+Xu,+Lin+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Channel-wise+Knowledge+Distillation+for+Dense+Prediction semantic scholar]
+. *Occluded person re-identification with single-scale global representations*  
+\n$\cdot$ /C. Yan, G. Pang, J. Jiao, X. Bai, X. Feng, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [data/bibtex/Yan2021ICCVOccl.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Occluded+Person+Re-Identification+with+Single-scale+Global+Representations+Yan,+Cheng+and+Pang,+Guansong+and+Jiao,+Jile+and+Bai,+Xiao+and+Feng,+Xuetao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Occluded+Person+Re-Identification+with+Single-scale+Global+Representations semantic scholar]
+        .. Oral presentation.
+. *BV-Person: a large-scale dataset for bird-view person re-identification*  
+\n$\cdot$ /C. Yan, G. Pang, L. Wang, J. Jiao, X. Feng, C. Shen, J. Li/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [data/bibtex/Yan2021ICCVBVPerson.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={BV-Person}:+A+Large-scale+Dataset+for+Bird-view+Person+Re-identification+Yan,+Cheng+and+Pang,+Guansong+and+Wang,+Lei+and+Jiao,+Jile+and+Feng,+Xuetao+and+Shen,+Chunhua+and+Li,+Jingjing google scholar][https://www.semanticscholar.org/search?q={BV-Person}:+A+Large-scale+Dataset+for+Bird-view+Person+Re-identification semantic scholar]
+. *A simple baseline for semi-supervised semantic segmentation with strong data augmentation*  
+\n$\cdot$ /J. Yuan, Y. Liu, C. Shen, Z. Wang, H. Li/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2104.07256 arXiv][data/bibtex/Yuan2021ICCVSimple.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+Simple+Baseline+for+Semi-supervised+Semantic+Segmentation+with+Strong+Data+Augmentation+Yuan,+Jianlong+and+Liu,+Yifan+and+Shen,+Chunhua+and+Wang,+Zhibin+and+Li,+Hao google scholar][https://www.semanticscholar.org/search?q=A+Simple+Baseline+for+Semi-supervised+Semantic+Segmentation+with+Strong+Data+Augmentation semantic scholar]
+. *Meta navigator: search for a good adaptation policy for few-shot learning*  
+\n$\cdot$ /C. Zhang, H. Ding, G. Lin, R. Li, C. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2109.05749 arXiv][data/bibtex/Chizhang2021ICCVMeta.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Meta+Navigator:+Search+for+a+Good+Adaptation+Policy+for+Few-shot+Learning+Zhang,+Chi+and+Ding,+Henghui+and+Lin,+Guosheng+and+Li,+Ruibo+and+Wang,+Changhu+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Meta+Navigator:+Search+for+a+Good+Adaptation+Policy+for+Few-shot+Learning semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Matting2019Lu_arXiv.jpg">}}*Indices matter: learning to index for deep image matting*  
+\n$\cdot$ /H. Lu, Y. Dai, C. Shen, S. Xu/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1908.00672 arXiv][data/bibtex/Matting2019Lu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Indices+Matter:+Learning+to+Index+for+Deep+Image+Matting+Lu,+Hao+and+Dai,+Yutong+and+Shen,+Chunhua+and+Xu,+Songcen google scholar][https://www.semanticscholar.org/search?q=Indices+Matter:+Learning+to+Index+for+Deep+Image+Matting semantic scholar]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1904.01355.pdf"><img class="imgP  right"   src="data/thumbnail/FCOS2019Tian_arXiv.jpg"></a>}}*FCOS: fully convolutional one-stage object detection*  
+\n$\cdot$ /Z. Tian, C. Shen, H. Chen, T. He/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1904.01355 arXiv][data/bibtex/FCOS2019Tian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FCOS}:+Fully+Convolutional+One-Stage+Object+Detection+Tian,+Zhi+and+Shen,+Chunhua+and+Chen,+Hao+and+He,+Tong google scholar][https://www.semanticscholar.org/search?q={FCOS}:+Fully+Convolutional+One-Stage+Object+Detection semantic scholar][https://tinyurl.com/FCOSv1   project webpage]
+. *Efficient and accurate arbitrary-shaped text detection with pixel aggregation network*  
+\n$\cdot$ /W. Wang, E. Xie, X. Song, Y. Zang, W. Wang, T. Lu, G. Yu, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [data/bibtex/TextDet2019Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+and+Accurate+Arbitrary-Shaped+Text+Detection+with+Pixel+Aggregation+Network+Wang,+Wenhai+and+Xie,+Enze+and+Song,+Xiaoge+and+Zang,+Yuhang+and+Wang,+Wenjia+and+Lu,+Tong+and+Yu,+Gang+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Efficient+and+Accurate+Arbitrary-Shaped+Text+Detection+with+Pixel+Aggregation+Network semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/OpenSet2019Xiong_arXiv.jpg">}}*From open set to closed set: counting objects by spatial divide-and-conquer*  
+\n$\cdot$ /H. Xiong, H. Lu, C. Liu, L. Liu, Z. Cao, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1908.06473 arXiv][data/bibtex/OpenSet2019Xiong.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=From+Open+Set+to+Closed+Set:+Counting+Objects+by+Spatial+Divide-and-Conquer+Xiong,+Haipeng+and+Lu,+Hao+and+Liu,+Chengxin+and+Liu,+Liang+and+Cao,+Zhiguo+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=From+Open+Set+to+Closed+Set:+Counting+Objects+by+Spatial+Divide-and-Conquer semantic scholar][https://github.com/xhp-hust-2018-2011/S-DCNet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/VNL2019Yin_arXiv.jpg">}}*Enforcing geometric constraints of virtual normal for depth prediction*  
+\n$\cdot$ /W. Yin, Y. Liu, C. Shen, Y. Yan/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1907.12209 arXiv][data/bibtex/VNL2019Yin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Enforcing+geometric+constraints+of+virtual+normal+for+depth+prediction+Yin,+Wei+and+Liu,+Yifan+and+Shen,+Chunhua+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q=Enforcing+geometric+constraints+of+virtual+normal+for+depth+prediction semantic scholar][https://github.com/YvanYin/VNL_Monocular_Depth_Prediction   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Temporal2019Zhang_arXiv.jpg">}}*Exploiting temporal consistency for real-time video depth estimation*  
+\n$\cdot$ /H. Zhang, C. Shen, Y. Li, Y. Cao, Y. Liu, Y. Yan/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1908.03706 arXiv][data/bibtex/Temporal2019Zhang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Exploiting+temporal+consistency+for+real-time+video+depth+estimation+Zhang,+Haokui+and+Shen,+Chunhua+and+Li,+Ying+and+Cao,+Yuanzhouhan+and+Liu,+Yu+and+Yan,+Youliang google scholar][https://www.semanticscholar.org/search?q=Exploiting+temporal+consistency+for+real-time+video+depth+estimation semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/PersonReID2019Zhang_arXiv.jpg">}}*Self-training with progressive augmentation for unsupervised cross-domain person re-identification*  
+\n$\cdot$ /X. Zhang, J. Cao, C. Shen, M. You/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1907.13315 arXiv][data/bibtex/PersonReID2019Zhang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-Training+with+Progressive+Augmentation+for+Unsupervised+Cross-Domain+Person+Re-Identification+Zhang,+Xinyu+and+Cao,+Jiewei+and+Shen,+Chunhua+and+You,+Mingyu google scholar][https://www.semanticscholar.org/search?q=Self-Training+with+Progressive+Augmentation+for+Unsupervised+Cross-Domain+Person+Re-Identification semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2017Chen_arXiv.jpg">}}*Adversarial PoseNet: a structure-aware convolutional network for human pose estimation*  
+\n$\cdot$ /Y. Chen, C. Shen, X. Wei, L. Liu, J. Yang/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1705.00389 arXiv][data/bibtex/ICCV2017Chen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adversarial+{PoseNet}:+A+Structure-aware+Convolutional+Network+for+Human+Pose+Estimation+Chen,+Yu+and+Shen,+Chunhua+and+Wei,+Xiu-Shen+and+Liu,+Lingqiao+and+Yang,+Jian google scholar][https://www.semanticscholar.org/search?q=Adversarial+{PoseNet}:+A+Structure-aware+Convolutional+Network+for+Human+Pose+Estimation semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2017HuiLi_arXiv.jpg">}}*Towards end-to-end text spotting with convolutional recurrent neural networks*  
+\n$\cdot$ /H. Li, P. Wang, C. Shen/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1707.03985 arXiv][data/bibtex/ICCV2017HuiLi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+End-to-end+Text+Spotting+with+Convolutional+Recurrent+Neural+Networks+Li,+Hui+and+Wang,+Peng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Towards+End-to-end+Text+Spotting+with+Convolutional+Recurrent+Neural+Networks semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2017WeiLiu_arXiv.jpg">}}*Semi-global weighted least squares in image filtering*  
+\n$\cdot$ /W. Liu, X. Chen, C. Shen, Z. Liu, J. Yang/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1705.01674 arXiv][data/bibtex/ICCV2017WeiLiu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Semi-Global+Weighted+Least+Squares+in+Image+Filtering+Liu,+Wei+and+Chen,+Xiaogang+and+Shen,+Chuanhua+and+Liu,+Zhi+and+Yang,+Jie google scholar][https://www.semanticscholar.org/search?q=Semi-Global+Weighted+Least+Squares+in+Image+Filtering semantic scholar]
+. *When unsupervised domain adaptation meets tensor representations*  
+\n$\cdot$ /H. Lu, L. Zhang, Z. Cao, W. Wei, K. Xian, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'17), 2017/.
+\n$\cdot$ [data/bibtex/ICCV2017Haolu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=When+Unsupervised+Domain+Adaptation+Meets+Tensor+Representations+Lu,+Hao+and+Zhang,+Lei+and+Cao,+Zhiguo+and+Wei,+Wei+and+Xian,+Ke+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=When+Unsupervised+Domain+Adaptation+Meets+Tensor+Representations semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2017Zhuang_arXiv.jpg">}}*Towards context-aware interaction recognition*  
+\n$\cdot$ /B. Zhuang, L. Liu, C. Shen, I. Reid/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'17), 2017/.
+\n$\cdot$ [http://arxiv.org/abs/1703.06246 arXiv][data/bibtex/ICCV2017Zhuang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+Context-aware+Interaction+Recognition+Zhuang,+Bohan+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Towards+Context-aware+Interaction+Recognition semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV15Zhang_PDF.jpg">}}*Hyperspectral compressive sensing using manifold-structured sparsity prior*  
+\n$\cdot$ /L. Zhang, W. Wei, Y. Zhang, F. Li, C. Shen, Q. Shi/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'15), 2015/.
+\n$\cdot$ [http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhang_Hyperspectral_Compressive_Sensing_ICCV_2015_paper.pdf  pdf][data/bibtex/ICCV15Zhang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Hyperspectral+Compressive+Sensing+Using+Manifold-Structured+Sparsity+Prior+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Li,+Fei+and+Shen,+Chunhua+and+Shi,+Qinfeng google scholar][https://www.semanticscholar.org/search?q=Hyperspectral+Compressive+Sensing+Using+Manifold-Structured+Sparsity+Prior semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV13Li_arXiv.jpg">}}*Contextual hypergraph modeling for salient object detection*  
+\n$\cdot$ /X. Li, Y. Li, C. Shen, A. Dick, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1310.5767 arXiv][data/bibtex/ICCV13Li.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Contextual+Hypergraph+Modeling+for+Salient+Object+Detection+Li,+Xi+and+Li,+Yao+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Contextual+Hypergraph+Modeling+for+Salient+Object+Detection semantic scholar][https://bitbucket.org/chhshen/saliency-detection   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV13Lin_arXiv.jpg">}}*A general two-step approach to learning-based hashing*  
+\n$\cdot$ /G. Lin, C. Shen, D. Suter, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1309.1853 arXiv][data/bibtex/ICCV13Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=A+General+Two-step+Approach+to+Learning-Based+Hashing+Lin,+Guosheng+and+Shen,+Chunhua+and+Suter,+David+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=A+General+Two-step+Approach+to+Learning-Based+Hashing semantic scholar][https://bitbucket.org/guosheng/two-step-hashing/   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV13Pai_arXiv.jpg">}}*Efficient pedestrian detection by directly optimizing the partial area under the ROC curve*  
+\n$\cdot$ /S. Paisitkriangkrai, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1310.0900 arXiv][http://hdl.handle.net/2440/83158  pdf][data/bibtex/ICCV13Pai.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Efficient+pedestrian+detection+by+directly+optimizing+the+partial+area+under+the+{ROC}+curve+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Efficient+pedestrian+detection+by+directly+optimizing+the+partial+area+under+the+{ROC}+curve semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2013Harandi_arXiv.jpg">}}*Dictionary learning and sparse coding on Grassmann manifolds: an extrinsic solution*  
+\n$\cdot$ /M. Harandi, C. Sanderson, C. Shen, B. Lovell/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1310.4891 arXiv][data/bibtex/ICCV2013Harandi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Dictionary+Learning+and+Sparse+Coding+on+{G}rassmann+Manifolds:+An+Extrinsic+Solution+{Harandi},+Mehrtash+and+{Sanderson},+Conrad+and+Shen,+Chunhua+and+Lovell,+Brian google scholar][https://www.semanticscholar.org/search?q=Dictionary+Learning+and+Sparse+Coding+on+{G}rassmann+Manifolds:+An+Extrinsic+Solution semantic scholar][https://github.com/chhshen/Grassmann/   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/ICCV2011_PDF.jpg">}}*Graph mode-based contextual kernels for robust SVM tracking*  
+\n$\cdot$ /X. Li, A. Dick, H. Wang, C. Shen, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'11), 2011/.
+\n$\cdot$ [http://goo.gl/GzpBVb  pdf][data/bibtex/ICCV2011.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Graph+mode-based+contextual+kernels+for+robust+{SVM}+tracking+Li,+Xi+and+Dick,+Anthony+and+Wang,+Hanzi+and+Shen,+Chunhua+and+van+den+Hengel,+Anton google scholar][https://www.semanticscholar.org/search?q=Graph+mode-based+contextual+kernels+for+robust+{SVM}+tracking semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2005Fast_PDF.jpg">}}*Fast global kernel density mode seeking with application to localisation and tracking*  
+\n$\cdot$ /C. Shen, M. Brooks, A. van den Hengel/.
+\n$\cdot$ /Proc. IEEE International Conference on Computer Vision (ICCV'05), 2005/.
+\n$\cdot$ [http://dx.doi.org/10.1109/ICCV.2005.94  link][http://goo.gl/UHzjWW  pdf][data/bibtex/Shen2005Fast.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Fast+global+kernel+density+mode+seeking+with+application+to+localisation+and+tracking+Shen,+Chunhua+and+Brooks,+Michael+J.+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Fast+global+kernel+density+mode+seeking+with+application+to+localisation+and+tracking semantic scholar]
+        .. Oral presentation, 45 out of 1200 submissions.
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1806.04895.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2018ICML_arXiv.jpg"></a>}}*Adversarial learning with local coordinate coding*  
+\n$\cdot$ /J. Cao, Y. Guo, Q. Wu, C. Shen, J. Huang, M. Tan/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'18), 2018/.
+\n$\cdot$ [http://arxiv.org/abs/1806.04895 arXiv][data/bibtex/Cao2018ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adversarial+Learning+with+Local+Coordinate+Coding+Cao,+Jiezhang+and+Guo,+Yong+and+Wu,+Qingyao+and+Shen,+Chunhua+and+Huang,+Junzhou+and+Tan,+Mingkui google scholar][https://www.semanticscholar.org/search?q=Adversarial+Learning+with+Local+Coordinate+Coding semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/ICML13a_PDF.jpg">}}*Learning hash functions using column generation*  
+\n$\cdot$ /X. Li, G. Lin, C. Shen, A. van den Hengel, A. Dick/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'13), 2013/.
+\n$\cdot$ [http://arxiv.org/abs/1303.0339 arXiv][http://jmlr.csail.mit.edu/proceedings/papers/v28/li13a.pdf  pdf][data/bibtex/ICML13a.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Learning+Hash+Functions+Using+Column+Generation+Li,+Xi+and+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Dick,+Anthony google scholar][https://www.semanticscholar.org/search?q=Learning+Hash+Functions+Using+Column+Generation semantic scholar][https://bitbucket.org/guosheng/column-generation-hashing/   project webpage]
+        .. Oral presentation.
+. {{<img class="imgP  right"   src="data/thumbnail/ICML12_arXiv.jpg">}}*Is margin preserved after random projection?*  
+\n$\cdot$ /Q. Shi, C. Shen, R. Hill, A. van den Hengel/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'12), 2012/.
+\n$\cdot$ [http://arxiv.org/abs/1206.4651 arXiv][http://hdl.handle.net/2440/71063  link][data/bibtex/ICML12.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Is+margin+preserved+after+random+projection?+Shi,+Qinfeng+and+Shen,+Chunhua+and+Hill,+Rhys+and+van+den+Hengel,+Anton google scholar][https://www.semanticscholar.org/search?q=Is+margin+preserved+after+random+projection? semantic scholar]
+        .. This work provides an analysis of margin distortion under random projections, the conditions under which margins are preserved, and presents bounds on the margin distortion.
+. *DatasetDM: synthesizing data with perception annotations using diffusion models*  
+\n$\cdot$ /W. Wu, Y. Zhao, H. Chen, Y. Gu, R. Zhao, Y. He, H. Zhou, M. Shou, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2308.06160 arXiv][data/bibtex/Weijia2023DDM.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DatasetDM}:+Synthesizing+Data+with+Perception+Annotations+Using+Diffusion+Models+Wu,+Weijia+and+Zhao,+Yuzhong+and+Chen,+Hao+and+Gu,+Yuchao+and+Zhao,+Rui+and+He,+Yefei+and+Zhou,+Hong+and+Shou,+Mike+Zheng+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DatasetDM}:+Synthesizing+Data+with+Perception+Annotations+Using+Diffusion+Models semantic scholar][https://weijiawu.github.io/DatasetDM_page/   project webpage]
+. *PyramidCLIP: hierarchical feature alignment for vision-language model pretraining*  
+\n$\cdot$ /Y. Gao, J. Liu, Z. Xu, J. Zhang, K. Li, R. Ji, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Gao2022CLIP.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PyramidCLIP}:+Hierarchical+Feature+Alignment+for+Vision-language+Model+Pretraining+Gao,+Yuting+and+Liu,+Jinfeng+and+Xu,+Zihan+and+Zhang,+Jun+and+Li,+Ke+and+Ji,+Rongrong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={PyramidCLIP}:+Hierarchical+Feature+Alignment+for+Vision-language+Model+Pretraining semantic scholar]
+. *Adv-attribute: inconspicuous and transferable adversarial attack on face recognition*  
+\n$\cdot$ /S. Jia, B. Yin, T. Yao, S. Ding, C. Shen, X. Yang, C. Ma/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Jia2022AdvA.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adv-Attribute:+Inconspicuous+and+Transferable+Adversarial+Attack+on+Face+Recognition+Jia,+Shuai+and+Yin,+Bangjie+and+Yao,+Taiping+and+Ding,+Shouhong+and+Shen,+Chunhua+and+Yang,+Xiaokang+and+Ma,+Chao google scholar][https://www.semanticscholar.org/search?q=Adv-Attribute:+Inconspicuous+and+Transferable+Adversarial+Attack+on+Face+Recognition semantic scholar]
+. *Multi-dataset training of transformers for robust action recognition*  
+\n$\cdot$ /J. Liang, E. Zhang, J. Zhang, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Liang2022Action.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Multi-dataset+Training+of+Transformers+for+Robust+Action+Recognition+Liang,+Junwei+and+Zhang,+Enwei+and+Zhang,+Jun+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Multi-dataset+Training+of+Transformers+for+Robust+Action+Recognition semantic scholar]
+. *Text-adaptive multiple visual prototype matching for video-text retrieval*  
+\n$\cdot$ /C. Lin, A. Wu, J. Liang, J. Zhang, W. Ge, W. Zheng, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Lin2022TVRc.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Text-Adaptive+Multiple+Visual+Prototype+Matching+for+Video-Text+Retrieval+Lin,+Chengzhi+and+Wu,+Ancong+and+Liang,+Junwei+and+Zhang,+Jun+and+Ge,+Wenhang+and+Zheng,+Wei-Shi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Text-Adaptive+Multiple+Visual+Prototype+Matching+for+Video-Text+Retrieval semantic scholar]
+. *Fully convolutional one-stage 3D object detection on LiDAR range images*  
+\n$\cdot$ /Z. Tian, X. Chu, X. Wang, X. Wei, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Tian2022FCOSLidar.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Fully+Convolutional+One-Stage+{3D}+Object+Detection+on+{LiDAR}+Range+Images+Tian,+Zhi+and+Chu,+Xiangxiang+and+Wang,+Xiaoming+and+Wei,+Xiaolin+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Fully+Convolutional+One-Stage+{3D}+Object+Detection+on+{LiDAR}+Range+Images semantic scholar]
+. *SegViT: semantic segmentation with plain vision transformers*  
+\n$\cdot$ /B. Zhang, Z. Tian, Q. Tang, X. Chu, X. Wei, C. Shen, Y. Liu/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Zhang2022ViTb.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SegViT}:+Semantic+Segmentation+with+Plain+Vision+Transformers+Zhang,+Bowen+and+Tian,+Zhi+and+Tang,+Quan+and+Chu,+Xiangxiang+and+Wei,+Xiaolin+and+Shen,+Chunhua+and+Liu,+Yifan google scholar][https://www.semanticscholar.org/search?q={SegViT}:+Semantic+Segmentation+with+Plain+Vision+Transformers semantic scholar]
+. *Hierarchical normalization for robust monocular depth estimation*  
+\n$\cdot$ /C. Zhang, W. Yin, Z. Wang, G. Yu, B. Fu, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Chi2022Depth.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Hierarchical+Normalization+for+Robust+Monocular+Depth+Estimation+Zhang,+Chi+and+Yin,+Wei+and+Wang,+Zhibin+and+Yu,+Gang+and+Fu,+Bin+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Hierarchical+Normalization+for+Robust+Monocular+Depth+Estimation semantic scholar]
+. *DENSE: data-free one-shot federated learning*  
+\n$\cdot$ /J. Zhang, C. Chen, B. Li, L. Lyu, S. Wu, S. Ding, C. Shen, C. Wu/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'22), 2022/.
+\n$\cdot$ [data/bibtex/Zhang2022DENSE.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DENSE}:+Data-Free+One-Shot+Federated+Learning+Zhang,+Jie+and+Chen,+Chen+and+Li,+Bo+and+Lyu,+Lingjuan+and+Wu,+Shuang+and+Ding,+Shouhong+and+Shen,+Chunhua+and+Wu,+Chao google scholar][https://www.semanticscholar.org/search?q={DENSE}:+Data-Free+One-Shot+Federated+Learning semantic scholar]
+. *Twins: revisiting the design of spatial attention in vision transformers*  
+\n$\cdot$ /X. Chu, Z. Tian, Y. Wang, B. Zhang, H. Ren, X. Wei, H. Xia, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2104.13840 arXiv][data/bibtex/Twins2021Chu.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Twins:+Revisiting+the+Design+of+Spatial+Attention+in+Vision+Transformers+Chu,+Xiangxiang+and+Tian,+Zhi+and+Wang,+Yuqing+and+Zhang,+Bo+and+Ren,+Haibing+and+Wei,+Xiaolin+and+Xia,+Huaxia+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Twins:+Revisiting+the+Design+of+Spatial+Attention+in+Vision+Transformers semantic scholar][https://github.com/Meituan-AutoML/Twins   project webpage]
+. *Dynamic neural representational decoders for high-resolution semantic segmentation*  
+\n$\cdot$ /B. Zhang, Y. Liu, Z. Tian, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'21), 2021/.
+\n$\cdot$ [http://arxiv.org/abs/2107.14428 arXiv][data/bibtex/DNRD2021Zhang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Dynamic+Neural+Representational+Decoders+for+High-Resolution+Semantic+Segmentation+Zhang,+Bowen+and+Liu,+Yifan+and+Tian,+Zhi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Dynamic+Neural+Representational+Decoders+for+High-Resolution+Semantic+Segmentation semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/SoloV22020_arXiv.jpg">}}*SOLOv2: dynamic and fast instance segmentation*  
+\n$\cdot$ /X. Wang, R. Zhang, T. Kong, L. Li, C. Shen/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'20), 2020/.
+\n$\cdot$ [http://arxiv.org/abs/2003.10152 arXiv][data/bibtex/SoloV22020.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={SOLOv2}:+Dynamic+and+Fast+Instance+Segmentation+Wang,+Xinlong+and+Zhang,+Rufeng+and+Kong,+Tao+and+Li,+Lei+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={SOLOv2}:+Dynamic+and+Fast+Instance+Segmentation semantic scholar][https://git.io/AdelaiDet   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Scale2019Bian_arXiv.jpg">}}*Unsupervised scale-consistent depth and ego-motion learning from monocular video*  
+\n$\cdot$ /J. Bian, Z. Li, N. Wang, H. Zhan, C. Shen, M. Cheng, I. Reid/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1908.10553 arXiv][data/bibtex/Scale2019Bian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Unsupervised+Scale-consistent+Depth+and+Ego-motion+Learning+from+Monocular+Video+Bian,+Jia-Wang+and+Li,+Zhichao+and+Wang,+Naiyan+and+Zhan,+Huangying+and+Shen,+Chunhua+and+Cheng,+Ming-Ming+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Unsupervised+Scale-consistent+Depth+and+Ego-motion+Learning+from+Monocular+Video semantic scholar][https://github.com/JiawangBian/SC-SfMLearner-Release   project webpage]
+. {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1911.00888.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2019GAN_arXiv.jpg"></a>}}*Multi-marginal wasserstein GAN*  
+\n$\cdot$ /J. Cao, L. Mo, Y. Zhang, K. Jia, C. Shen, M. Tan/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'19), 2019/.
+\n$\cdot$ [http://arxiv.org/abs/1911.00888 arXiv][data/bibtex/Cao2019GAN.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Multi-marginal+Wasserstein+{GAN}+Cao,+Jiezhang+and+Mo,+Langyuan+and+Zhang,+Yifan+and+Jia,+Kui+and+Shen,+Chunhua+and+Tan,+Mingkui google scholar][https://www.semanticscholar.org/search?q=Multi-marginal+Wasserstein+{GAN} semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/NeurIPS2016_PDF.jpg">}}*Image restoration using very deep fully convolutional encoder-decoder networks with symmetric skip connections*  
+\n$\cdot$ /X. Mao, C. Shen, Y. Yang/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'16), 2016/.
+\n$\cdot$ [http://arxiv.org/abs/1603.09056 arXiv][http://papers.NeurIPS.cc/paper/6172-image-restoration-using-very-deep-convolutional-encoder-decoder-networks-with-symmetric-skip-connections.pdf  link][data/bibtex/NeurIPS2016.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Image+Restoration+Using+Very+Deep+Fully+Convolutional+Encoder-Decoder+Networks+with+Symmetric+Skip+Connections+Mao,+Xiao-Jiao+and+Shen,+Chunhua+and+Yang,+Yu-Bin google scholar][https://www.semanticscholar.org/search?q=Image+Restoration+Using+Very+Deep+Fully+Convolutional+Encoder-Decoder+Networks+with+Symmetric+Skip+Connections semantic scholar][https://bitbucket.org/chhshen/image-denoising/   project webpage]
+        .. Others have [https://github.com/titu1994/Image-Super-Resolution implemented our paper].
+. {{<img class="imgP  right"   src="data/thumbnail/NeurIPS15Lin_PDF.jpg">}}*Deeply learning the messages in message passing inference*  
+\n$\cdot$ /G. Lin, C. Shen, I. Reid, A. van den Hengel/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'15), 2015/.
+\n$\cdot$ [http://arxiv.org/abs/1506.02108 arXiv][http://papers.NeurIPS.cc/paper/5791-deeply-learning-the-messages-in-message-passing-inference.pdf  pdf][data/bibtex/NeurIPS15Lin.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Deeply+Learning+the+Messages+in+Message+Passing+Inference+Lin,+Guosheng+and+Shen,+Chunhua+and+Reid,+Ian+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Deeply+Learning+the+Messages+in+Message+Passing+Inference semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Liu2014Fisher_arXiv.jpg">}}*Encoding high dimensional local features by sparse coding based Fisher vectors*  
+\n$\cdot$ /L. Liu, C. Shen, L. Wang, A. van den Hengel, C. Wang/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'14), 2014/.
+\n$\cdot$ [http://arxiv.org/abs/1411.6406 arXiv][data/bibtex/Liu2014Fisher.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Encoding+High+Dimensional+Local+Features+by+Sparse+Coding+Based+{F}isher+Vectors+Liu,+Lingqiao+and+Shen,+Chunhua+and+Wang,+Lei+and+{van+den+Hengel},+Anton+and+Wang,+Chao google scholar][https://www.semanticscholar.org/search?q=Encoding+High+Dimensional+Local+Features+by+Sparse+Coding+Based+{F}isher+Vectors semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2009PSD_PDF.jpg">}}*Positive semidefinite metric learning with boosting*  
+\n$\cdot$ /C. Shen, J. Kim, L. Wang, A. van den Hengel/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'09), 2009/.
+\n$\cdot$ [http://arxiv.org/abs/0910.2279 arXiv][http://papers.NeurIPS.cc/paper/3658-positive-semidefinite-metric-learning-with-boosting.pdf  pdf][data/bibtex/Shen2009PSD.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Positive+semidefinite+metric+learning+with+Boosting+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Positive+semidefinite+metric+learning+with+Boosting semantic scholar][https://code.google.com/archive/p/boosting/downloads   project webpage]
+. {{<img class="imgP  right"   src="data/thumbnail/Shen2008PSD_PDF.jpg">}}*PSDBoost: matrix-generation linear programming for positive semidefinite matrices learning*  
+\n$\cdot$ /C. Shen, A. Welsh, L. Wang/.
+\n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'08), 2008/.
+\n$\cdot$ [http://papers.NeurIPS.cc/paper/3611-psdboost-matrix-generation-linear-programming-for-positive-semidefinite-matrices-learning.pdf  pdf][data/bibtex/Shen2008PSD.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PSDB}oost:+Matrix-generation+linear+programming+for+positive+semidefinite+matrices+learning+Shen,+Chunhua+and+Welsh,+Alan+and+Wang,+Lei google scholar][https://www.semanticscholar.org/search?q={PSDB}oost:+Matrix-generation+linear+programming+for+positive+semidefinite+matrices+learning semantic scholar]

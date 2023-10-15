@@ -1,0 +1,69 @@
+# jemdoc: addpackage{xcolor},eqsize{100},title{Chunhua Shen | The University of Adelaide},addcss{css/full_publication.css},addcss{css/proj_index.css}
+= Grants
+
+My recent research is mainly funded by the Australian Research Council (ARC) and a few industrial partners.
+
+I am a Chief Investigator (CI) of the following projects (in total \$AU *3.1M*). 
+
+~~~
+{}{table}{FundingTab}
+Project title                | Project ID  | Value (\$AU,000) | Funding source  |  Year awarded  | Comments    ||
+####
+*Semantic change detection through  
+ large-scale learning*         | LP130100156 |  527            | [http://www.arc.gov.au/ ARC], [http://www.baesystems.com BAE Systems] | 2013 | \$AU 377,000  from ARC; 2nd CI||
+####
+*Dynamic scene understanding 
+with applications to 
+traffic monitoring*           |             |  110          | [http://www.nicta.com.au NICTA] | 2013        | lead CI    ||
+###
+* Computational 
+infrastructure for machine 
+learning in computer vision* | LE130100156 | 210      | [http://www.arc.gov.au/ ARC] | 2012        | ARC LIEF   ||  
+###
+*Continuously learning to see* | FT120100969 | 650     | [http://www.arc.gov.au/ ARC] |    2012        | ARC Future Fellowship; sole CI   || 
+###
+*Scalable classification 
+for massive datasets: 
+randomised algorithms*       | LP120200485 |    983 |  [http://www.arc.gov.au/ ARC], [http://www.lbtinnovations.com/ LBT Innovations] |2012 | \$AU 510,000  from ARC; 2nd CI ||
+###
+*Big data intel platform: 
+Entity resolution and   
+ relationship extraction*    |               | 250   | [http://www.dsic.com.au DSIC] |     2012 |  2nd CI ||
+###
+*Automated production of 
+GeoSpatial information: 
+Learning system for feature 
+extraction and classification  
+from imagery*               |               | 90  |  [http://www.dsic.com.au DSIC]  |   2012     | 2nd CI ||
+###
+*Accelerating Australia's  
+large scale video 
+surveillance research 
+programmes*                 | LE100100235   | 280 |  [http://www.arc.gov.au/ ARC] | 2010  | ARC LIEF
+~~~
+
+
+
+
+
+
+
+= I highligh the following projects
+
+== Large-Scale Computing and Organisation of Data (Indexing, Search ...)
+- [./projects/inductive_hashing/  Inductive Hashing on Manifolds]
+- [.   Learning Hashing Functions Using Column Generation] 
+- [./projects/BQP/   Scalable Semidefinite Programming: Binary Quadratic Problems]
+- [.   Scalable Semidefinite Programming: Quadratic Metric Learning]
+
+== Boosting
+- [. On the Dual Formulation of Boosting Algorithms]
+
+
+
+== (Near) Real-Time Object Detection 
+- [./projects/./fisherboost/  Training Effective Node Classifiers for Cascade Classification]
+
+
+== Fun with Computational Imaging
+-  [./projects/./N9/  All-in-focus Imaging on a Mobile Phone Platform]
