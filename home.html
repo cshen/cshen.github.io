@@ -161,12 +161,126 @@
 <div id="footer-text">
 &copy; <b>Chunhua Shen</b>
 &bull;
-last update: 2023-10-15 15:15:15 ACDT
+last update: 2023-10-15 15:18:30 ACDT
 &bull;
 <a href="#" onClick="changewidth(1);return false" title="Expand page width"><b>&larr;&rarr;</b></a>
 &bull;
 <a href="#" onClick="changewidth(-1);return false" title="Reduce page width"><b>&rarr;&larr;</b></a>
 <!-- Javascript -->
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+<script
+    src="./script/jquery-1.6.2.min.js"
+    type="text/javascript">
+</script>
+<script
+    src="./script/jquery.flot.min.js"
+    type="text/javascript">
+</script>
+<script
+    src="./script/jquery-scroll.js"
+    type="text/javascript">
+</script>
+<script
+    src="./script/width_change.js"
+    type="text/javascript">
+</script>
+<script
+    src="./script/reverse_ol.js"
+    type="text/javascript">
+</script>
+<script
+    src="./script/jquery.highlight.js"
+    type="text/javascript">
+</script>
+<!-- Required for the jQuery.LocalScroll Plug-in -->
+<script type="text/javascript">
+    $(document).ready(function(){
+    //
+    $.localScroll();
+    //
+    // Round images
+    //
+	$(".rounded-img, .rounded-img2").load(function() {
+	$(this).wrap(function(){
+	return '<span class="' + $(this).attr('class')
+                + '" style="background:url(' + $(this).attr('src')
+                + ') no-repeat center center; width: '
+                + $(this).width() + 'px; height: '
+                + $(this).height() + 'px;" />';
+		});
+		$(this).css("opacity","0");
+	});
+      //
+      //
+      //  nav tab animation
+        var navDuration = 150; //time in miliseconds
+        $('#nav li a').hover(function() {
+          $(this).animate({ paddingTop:"50px"  }, navDuration);
+        }, function() {
+             $(this).animate({ paddingTop:"31px"}, navDuration);
+        });
+        //
+        // plot citation figure using jquery flot, 2012 July, CS
+        //
+        var flot_options = {
+        legend: {
+            show: false,
+            margin: 10,
+            backgroundOpacity: 0.5
+                },
+        bars:  {
+            show: true,
+            barWidth: 0.6,
+            align: "center"
+        },
+        yaxis: {
+            min: -20,
+            tickFormatter: function(val, axis) {
+                if (val < 50)
+                    return " &nbsp; ";  // some string
+                else
+                    return val < axis.max ? val.toFixed(0) :   "  &nbsp;  ";
+            }
+        },
+        grid: {
+            borderWidth: 0
+        }
+    };  // end of flot_options
+    $.getJSON("./data/cs_cite.json", function(json) {
+       //succes - data loaded, now use plot:
+       var plotarea = $("#citation_plot_holder");
+       var data=[json.data];
+       $.plot(plotarea , data, flot_options);
+    });
+//
+// end of jquery flot
+//
+    changewidth( 0.9 );
+//
+//
+//  highlight ``Shen''
+    $("body p").highlight(['C. Shen', 'Chunhua Shen']);
+//  highlight selected publication venues
+    $("body p").highlight(['CVPR', 'ICCV', 'ECCV', 'ICML', 'NeurIPS',
+    'TPAMI', 'IJCV', 'JMLR'],  { element: 'span', className: 'selected_venue' } );
+//
+    });
+</script>
+<!-- News ticker -->
+<script type="text/javascript">
+    function tick(){
+        $('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
+    }
+    setInterval(function(){ tick () }, 5000);
+</script>
 </div>
 </div>
 </div>
