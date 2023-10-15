@@ -227,7 +227,9 @@ for key, value in bib_sorted:
     bibentry=bib_sorted[idx][0].encode('ascii','ignore')
 
 
-    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + '_arXiv.jpg'
+#    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + '_arXiv.jpg'
+    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + 'xxxarXiv.jpg'
+
     tfile = Path( "../"  +  imgURL )
     if tfile.is_file():     # if the img file exists
     #    t0 =    ' {{<img class="imgP  right"   src="'   +   imgURL    +  '">}}'
@@ -239,7 +241,9 @@ for key, value in bib_sorted:
 
 
 
-    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + '_PDF.jpg'
+#    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + '_PDF.jpg'
+    imgURL = 'data/thumbnail/' + bibentry.decode("UTF-8") + 'xxxPDF.jpg'
+
     tfile = Path( "../"  +  imgURL )
     if tfile.is_file():     # if the img file exists
     #    t0 =    ' {{<img class="imgP  right"   src="'   +   imgURL    +  '">}}'

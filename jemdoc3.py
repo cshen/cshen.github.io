@@ -3,6 +3,10 @@
 # CS: Python3 compatible
 # Oct 15, 2023.
 # https://github.com/wsshin/jemdoc_mathjax/tree/master
+#
+# 2023.  _xxx_ ---> <u> xxx </u> disabled. and do not use it as it causes problems
+
+
 
 """jemdoc version 0.7.3, 2012-11-27."""
 
@@ -752,10 +756,14 @@ def br(b, f, tableblock=False):
   r = re.compile(r'(?<!\\)\*(.*?)(?<!\\)\*', re.M + re.S)
   b = re.sub(r, r'<b>\1</b>', b)
 
+  # 2023.10
+  # CS: Disable <u> </u>
+  #
   # Deal with _underscore_.
-  r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
-  b = re.sub(r, r'<u>\1</u>', b)
-  b = mathjaxusresub(b)
+  # r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
+  # b = re.sub(r, r'<u>\1</u>', b)
+  # b = mathjaxusresub(b)
+  #
 
   # Deal with +monospace+.
   r = re.compile(r'(?<!\\)\+(.*?)(?<!\\)\+', re.M + re.S)
