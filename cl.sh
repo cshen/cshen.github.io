@@ -40,7 +40,7 @@ cd bin
 ./gcite.sh
 ./gcite_chart.sh
 
-./count_era.sh
+# ./count_era.sh
 cd ..
 
 
