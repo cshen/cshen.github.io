@@ -51,10 +51,9 @@
 #
      {{<img src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" style="width:1em;margin-right:.5em;">}} | {{<a href="https://orcid.org/0000-0002-8648-8718" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">orcid</a>}}  ||
 ~~~
-#
 
 
-
+#include{index/team.jemdoc} 
 
 
 # #include{index/former_stu.jemdoc}
