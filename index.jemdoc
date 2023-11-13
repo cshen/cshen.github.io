@@ -3,12 +3,6 @@
 
 
 
-#
-# {{<img  class="rounded-img2 right"  width="250" height="auto" src="CShen-small.png">}}
-#
-
-
-
 # I joined Zhejiang University  in Dec. 2021 as a University Chair Professor
 浙江大学求是讲席教授、计算机辅助设计与图形系统全国重点实验室副主任
  
@@ -48,69 +42,24 @@
 
 
 
-
-#
-# - [https://csrankings.org/\#/index?vision&world  Adelaide’s Computer Vision is highly ranked by CSRankings]
-# - [https://blogs.adelaide.edu.au/machine-learning/ Statistical Machine Learning Group]
-#
-
-
-#
-# {{<i class="fa fa-bell-o" aria-hidden="true"></i>}} Recruiting PhD students
-# 
-#
-#
-# - *For students from China:*
-#        University of Adelaide and the [https://www.csc.edu.cn/ China Scholarship Council]
-#        (CSC) have entered
-#        [https://www.adelaide.edu.au/graduatecentre/scholarships/research-international/china-scholarship/   a collaborative arrangement]
-#        to provide
-#        research opportunities to  high-quality research
-#        students from China.
-# }
-# }
-#
-
 = Contact
 ~~~
 {}{table}{contact}
-#     {{<i class="fa fa-map" aria-hidden="true"></i>}} | postal address: [https://ecms.adelaide.edu.au/computer-science/  School of Computer Science, The University of Adelaide], North Terrace,  Adelaide, SA 5005, [https://www.australia.com/  Australia] ||
     {{<i class="fa fa-map-marker" aria-hidden="true"></i>}} | office: [https://map.baidu.com/mobile/webapp/place/detail/foo=bar&qt=ninf&wd=%E6%99%AF%E7%82%B9&c=131&searchFlag=sort&center_rank=1&nb_x=13369235.00&nb_y=3521664.00&da_src=unifynearbyclick&uid=34f68ab0c0191b778f55ecc3&industry=&qid=&pos=&da_ref=&da_qrtp=&da_adquery=&da_adtitle=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6(%E7%B4%AB%E9%87%91%E6%B8%AF%E6%A0%A1%E5%8C%BA)-%E8%92%99%E6%B0%91%E4%BC%9F%E6%A5%BC&da_adindus=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD;%E5%85%B6%E4%BB%96&detail_from=list&vt=map 浙江大学紫金港校区蒙民伟楼] ||
-#     {{<i class="fa fa-fax" aria-hidden="true"></i>}} | fax: +61 8 8303 4366 ||
-#     {{<i class="fa fa-volume-control-phone" aria-hidden="true"></i>}} | ph: +61 8 8313 6745 ||
-     {{<i class="fa fa-envelope-o" aria-hidden="true"></i>}} | {{<a href="mailto:xChxuxxxxnxhxuxxaxxxxxx@xxixxcxlxxouxxdx.xxxcxxoxxmxx" onmouseover="this.href=this.href.replace(/x/g,'');">email</a>}}    ||
-#     {{<i class="fa fa-globe" aria-hidden="true"></i>}} | [https://person.zju.edu.cn/0021199   webpage 大学网站上的个人介绍] ||
 #
-#     {{<i class="fa fa-calendar-times-o" aria-hidden="true"></i>}} | [https://www.google.com/calendar/embed?src=Cxxxxxxxxxxx%40gmail.com&ctz=Australia/Adelaide  calendar]  ||
+     {{<i class="fa fa-envelope-o" aria-hidden="true"></i>}} | {{<a href="mailto:xChxuxxxxnxhxuxxaxxxxxx@xxixxcxlxxouxxdx.xxxcxxoxxmxx" onmouseover="this.href=this.href.replace(/x/g,'');">email</a>}}    ||
 #
      {{<img src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" style="width:1em;margin-right:.5em;">}} | {{<a href="https://orcid.org/0000-0002-8648-8718" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">orcid</a>}}  ||
 ~~~
 #
-    # If you are a student of University of Adelaide and want to speak to me, please check the calendar:
-    # --  {{
-    #     <p style="margin-top:20px">
-    #     <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffccff&amp;src=chhshen%40gmail.com&amp;color=%23A32929&amp;ctz=Australia%2FAdelaide" style=" border-width:0 " width="96%" height="250" frameborder="0" scrolling="no"></iframe>
-    #     </p>
-    #     }}
-# ~~~
-# {}{raw}
-#      <div class="mygmap"><div class="gmap_canvas"><iframe width="100%" height="350px"  id="gmap_canvas"
-#      src="https://maps.google.com/maps?q=The%20Australian%20Institute%20for%20Machine%20Learning%20Adelaide&t=&z=17&ie=UTF8&iwloc=&output=embed"
-#      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-#          </div>
-#          <style>.mygmap{overflow:hidden;height:350px;width:100%;   	margin-top:10px;			 border-radius: 6px;  }
-#                .gmap_canvas {background:none!important;  height:150px;width:100%;   border-radius: 6px;  }
-#          </style>
-#          </div>
-# ~~~
-#
-# {{<br/>}}
 
 
 
-#include{index/former_stu.jemdoc}
-#include{index/visit_stu.jemdoc}
-#include{index/former_postdoc.jemdoc}
+
+
+# #include{index/former_stu.jemdoc}
+# #include{index/visit_stu.jemdoc}
+# #include{index/former_postdoc.jemdoc}
 
 
 
