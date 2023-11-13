@@ -1222,17 +1222,12 @@ def codeblock(f, g):
               out(f.outf, l)
       else:
         #
-        # CS: Tue 14 Nov 2023 09:28:23 ACDT.
-        #     It's not a good idea to use #inlcude as # is comment. Better use something else
-        # .   Here we can now use @include
         #
         if l.startswith('\\#include{') or l.startswith('\\#includeraw{'):
           out(f.outf, l[1:])
         elif l.startswith('#') and doincludes(f, l[1:]):
           continue
 
-        elif l.startswith('@') and doincludes(f, l[1:]):
-          continue
 
         elif g[1] in ('python', 'py') and l.strip().startswith('"""'):
           out(f.outf, '<span class="string">' + l)

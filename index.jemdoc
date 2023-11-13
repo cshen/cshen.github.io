@@ -57,8 +57,7 @@
 
 
 
-@include{index/former_stu.jemdoc}
-
+# #include{index/former_stu.jemdoc}
 # #include{index/visit_stu.jemdoc}
 # #include{index/former_postdoc.jemdoc}
 
