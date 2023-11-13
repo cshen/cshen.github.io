@@ -1227,7 +1227,7 @@ def codeblock(f, g):
         # .   Here we can now use @include
         #
         if l.startswith('\\#include{') or l.startswith('\\#includeraw{') or \
-                l.startswith('\\@include{') or l.startswith('\\@includeraw{'):
+                l.startswith('@include{') or l.startswith('@includeraw{'):
           out(f.outf, l[1:])
         elif l.startswith('#') and doincludes(f, l[1:]):
           continue
