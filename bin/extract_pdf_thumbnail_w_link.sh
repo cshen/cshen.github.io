@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # Compared with extract_pdf_thumbnail.sh,  this script also generate the PDF files' links in an
 # associated text file
@@ -6,7 +6,6 @@
 
 
 
-brew install coreutils
 
 if ! hash pdfseparate 2>/dev/null
 then
@@ -25,7 +24,7 @@ _LinkFile="_PDFLink.txt"
 
 WorkD=$HOME/Downloads/00_download_my_papers
 
-# [  -d $WorkD  ] && rm -fr   $WorkD
+[  -d $WorkD  ] && rm -fr   $WorkD
 mkdir -p $WorkD
 
 echo $WorkD"  is the temp working dir."
@@ -39,7 +38,7 @@ kk=0
 
 # echo "" > $_LinkFile
 
-for ff in `ls -1 $BIBDir/*.bib | shuf`
+for ff in `ls -1 $BIBDir/*.bib`
 do
     PDF=''
     PDFURL=''
@@ -54,26 +53,23 @@ do
 
     [ x"$eURL" != 'x'  ] && PDFURL=https://arxiv.org/pdf/$eURL.pdf
 
-    F1=`basename $ff  .bib`xxxPDF.pdf
-    F2=`basename $ff  .bib`xxxarXiv.pdf
+    F1=`basename $ff  .bib`_PDF.pdf
+    F2=`basename $ff  .bib`_arXiv.pdf
 
-    J1=`basename $ff  .bib`xxxPDF.jpg
-    J2=`basename $ff  .bib`xxxarXiv.jpg
-
-
+    J1=`basename $ff  .bib`_PDF.jpg
+    J2=`basename $ff  .bib`_arXiv.jpg
 
 
     echo $PDF | grep http 2>/dev/null
 
-    [  $?  ] && [  x$PDF != 'x'  ]  && [ ! -f  $TD/`basename $ff  .bib`_PDF.jpg  ]  &&  [ ! -f  $WorkD/$F1 ] &&  \
+    [  $?  ] && [  x$PDF != 'x'  ]  && [ ! -f  $TD/`basename $ff  .bib`_PDF.jpg  ]  &&  \
                 echo "PDF downloading:  $PDF"   &&  curl -L -o     $WorkD/$F1  $PDF
-
 
                 # &&  \
                 # echo -n -e $J1" \t | " >> $_LinkFile    && echo "$PDF" >> $_LinkFile
 
 
-    [ ! -f  $TD/`basename $ff  .bib`_arXiv.jpg    ]   &&    [ x$PDFURL != 'x' ]  && [ ! -f  $WorkD/$F2 ] &&  \
+    [ ! -f  $TD/`basename $ff  .bib`_arXiv.jpg    ]   &&    [ x$PDFURL != 'x' ]           &&  \
                 echo "arXiv downloading:  $PDFURL" &&  curl -L -o     $WorkD/$F2  $PDFURL
 #
 #                &&  \
