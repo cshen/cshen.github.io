@@ -2,11 +2,11 @@
 #
 # Author:        Chunhua Shen
 # Creation:      Wednesday 13/08/2008 12:06.
-# Last Revision: Saturday 18/05/2022 18:48.
+# Last Revision: Saturday 18/10/2023 18:48.
 
 
 
-jemdoc="./jemdoc.py"
+jemdoc="./jemdoc3.py"
 
 
 rm -f eqs/*
@@ -40,7 +40,7 @@ cd bin
 ./gcite.sh
 ./gcite_chart.sh
 
-./count_era.sh
+# ./count_era.sh
 cd ..
 
 
