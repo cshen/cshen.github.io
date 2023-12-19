@@ -7,12 +7,16 @@
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 64
+== Journal: 65
 ===  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI): 40
-===  International Journal of Computer Vision (IJCV): 22
+===  International Journal of Computer Vision (IJCV): 23
 ===  Journal of Machine Learning Research (JMLR): 1
 ===  ACM Transactions on Graphics (TOG): 1
 \n
+. *Towards robust monocular depth estimation: a new baseline and benchmark*  
+\n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Depth2024Xian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark semantic scholar]
 . {{<img class="imgP  right"   src="data/thumbnail/Lin2023IJCVSuperxxxarXiv.jpg">}}*Super vision transformer*  
 \n$\cdot$ /M. Lin, M. Chen, Y. Zhang, C. Shen, R. Ji, L. Cao/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.

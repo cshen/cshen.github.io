@@ -1,12 +1,28 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *421*  papers.  
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *424*  papers.  
 
 [https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (64422 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
 
+
+= 2024
+== Journal
+. *Towards robust monocular depth estimation: a new baseline and benchmark*   
+\n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Depth2024Xian.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark semantic scholar]
+== Conference
+. *PointAttN: you only need attention for point cloud completion*   
+\n$\cdot$ /J. Wang, Y. Cui, D. Guo, J. Li, Q. Liu, C. Shen/.
+\n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
+\n$\cdot$ [data/bibtex/Wang2024AAAI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PointAttN}:+You+Only+Need+Attention+for+Point+Cloud+Completion+Wang,+Jun+and+Cui,+Ying+and+Guo,+Dongyan+and+Li,+Junxia+and+Liu,+Qingshan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={PointAttN}:+You+Only+Need+Attention+for+Point+Cloud+Completion semantic scholar]
+. *Retrieval-augmented primitive representations for compositional zero-shot learning*   
+\n$\cdot$ /C. Jing, Y. Li, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
+\n$\cdot$ [data/bibtex/Jing2024AAAI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning+Jing,+Chenchen+and+Li,+Yukun+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning semantic scholar]
 
 = 2023
 == Journal

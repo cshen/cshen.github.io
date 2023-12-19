@@ -1,6 +1,6 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *421*  papers.
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *424*  papers.
  
 [https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (64422 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
@@ -9,6 +9,10 @@
 
   
 == Journal
+. *Towards robust monocular depth estimation: a new baseline and benchmark*   
+\n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Depth2024Xian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua+and+Lin,+Guosheng search]
 . {{<img class="imgP  right"   src="data/thumbnail/Zhang2023SegVITv2xxxarXiv.jpg">}}*SegViT v2: exploring efficient and continual semantic segmentation with plain vision transformers*   
 \n$\cdot$ /B. Zhang, L. Liu, M. Phan, Z. Tian, C. Shen, Y. Liu/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
@@ -703,6 +707,14 @@
 \n$\cdot$ [http://dx.doi.org/10.1121/1.1529665  link][http://sites.google.com/site/chhshen/publication/Lattice2003JASA.pdf?attredirects=1  pdf][data/bibtex/Lu2003Lattice.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Lattice+form+adaptive+infinite+impulse+response+filtering+algorithm+for+active+noise+control+Lu,+Jing+and+Shen,+Chunhua+and+Qiu,+Xiaojun+and+Xu,+Boling search]
   
 == Conference
+. *PointAttN: you only need attention for point cloud completion*   
+\n$\cdot$ /J. Wang, Y. Cui, D. Guo, J. Li, Q. Liu, C. Shen/.
+\n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
+\n$\cdot$ [data/bibtex/Wang2024AAAI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={PointAttN}:+You+Only+Need+Attention+for+Point+Cloud+Completion+Wang,+Jun+and+Cui,+Ying+and+Guo,+Dongyan+and+Li,+Junxia+and+Liu,+Qingshan+and+Shen,+Chunhua search]
+. *Retrieval-augmented primitive representations for compositional zero-shot learning*   
+\n$\cdot$ /C. Jing, Y. Li, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
+\n$\cdot$ [data/bibtex/Jing2024AAAI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning+Jing,+Chenchen+and+Li,+Yukun+and+Chen,+Hao+and+Shen,+Chunhua search]
 . *FoPro: few-shot guided robust webly-supervised prototypical learning*   
 \n$\cdot$ /Y. Qin, X. Chen, C. Chen, Y. Shen, B. Ren, Y. Gu, J. Yang, C. Shen/.
 \n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'23), 2023/.
