@@ -15,7 +15,8 @@ venuefull = {'icml': 'Proc. International Conference on Machine Learning (ICML)'
              'ijcv':  'International Journal of Computer Vision (IJCV)',
              'tpami': 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)',
              'jmlr' : 'Journal of Machine Learning Research (JMLR)',
-	     'tog'  : 'ACM Transactions on Graphics (TOG)',
+	         'tog'  : 'ACM Transactions on Graphics (TOG)',
+             'iclr' : 'Proc. International Conference on Learning Represenations (ICLR)',
 }
 
 

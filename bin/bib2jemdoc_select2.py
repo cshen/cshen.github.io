@@ -63,7 +63,7 @@ print ( "[https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x
 
 
 
-Selected_Conf_List=[ "cvpr", "iccv", "eccv", "icml", "neurips", "tpami", "ijcv", "jmlr", "tog"]
+Selected_Conf_List=[ "cvpr", "iccv", "eccv", "icml", "iclr", "neurips", "tpami", "ijcv", "jmlr", "tog"]
 headerinfo.init( mybibtexfile, Selected_Conf_List  )
 
 

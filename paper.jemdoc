@@ -3,7 +3,7 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (65419 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (65786 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
@@ -276,11 +276,12 @@
 \n$\cdot$ [http://dx.doi.org/10.1109/TPAMI.2007.1112  link][http://goo.gl/6rQTA1  pdf][data/bibtex/Adaptive2007Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Adaptive+object+tracking+based+on+an+effective+appearance+filter semantic scholar]
         .. Featured article of September issue 2007.
   
-== Conference: 170
+== Conference: 171
 ===  Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR): 90
 ===  Proc. IEEE International Conference on Computer Vision (ICCV): 34
 ===  Proc. European Conference on Computer Vision (ECCV): 24
 ===  Proc. International Conference on Machine Learning (ICML): 3
+===  Proc. International Conference on Learning Represenations (ICLR): 1
 ===  Proc. Advances in Neural Information Processing Systems (NeurIPS): 19
 \n
 . *Learning conditional attributes for compositional zero-shot learning*  
@@ -328,6 +329,10 @@
 \n$\cdot$ /M. Zhu, H. Li, H. Chen, C. Fan, W. Mao, C. Jing, Y. Liu, C. Shen/.
 \n$\cdot$  /Proc. IEEE International Conference on Computer Vision (ICCV'23), 2023/.
 \n$\cdot$ [data/bibtex/Zhu2023ICCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=SegPrompt:+Boosting+Open-World+Segmentation+via+Category-level+Prompt+Learning+Zhu,+Muzhi+and+Li,+Hengtao+and+Chen,+Hao+and+Fan,+Chengxiang+and+Mao,+Weian+and+Jing,+Chenchen+and+Liu,+Yifan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=SegPrompt:+Boosting+Open-World+Segmentation+via+Category-level+Prompt+Learning semantic scholar]
+. {{<img class="imgP  right"   src="data/thumbnail/CPE2023ICLRxxxarXiv.jpg">}}*Conditional positional encodings for vision transformers*  
+\n$\cdot$ /X. Chu, Z. Tian, B. Zhang, X. Wang, X. Wei, H. Xia, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'23), 2023/.
+\n$\cdot$ [http://arxiv.org/abs/2102.10882 arXiv][data/bibtex/CPE2023ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Conditional+Positional+Encodings+for+Vision+Transformers+Chu,+Xiangxiang+and+Tian,+Zhi+and+Zhang,+Bo+and+Wang,+Xinlong+and+Wei,+Xiaolin+and+Xia,+Huaxia+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Conditional+Positional+Encodings+for+Vision+Transformers semantic scholar]
 . {{<img class="imgP  right"   src="data/thumbnail/Weijia2023DDMxxxarXiv.jpg">}}*DatasetDM: synthesizing data with perception annotations using diffusion models*  
 \n$\cdot$ /W. Wu, Y. Zhao, H. Chen, Y. Gu, R. Zhao, Y. He, H. Zhou, M. Shou, C. Shen/.
 \n$\cdot$  /Proc. Advances in Neural Information Processing Systems (NeurIPS'23), 2023/.
