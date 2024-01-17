@@ -276,14 +276,26 @@
 \n$\cdot$ [http://dx.doi.org/10.1109/TPAMI.2007.1112  link][http://goo.gl/6rQTA1  pdf][data/bibtex/Adaptive2007Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Adaptive+object+tracking+based+on+an+effective+appearance+filter semantic scholar]
         .. Featured article of September issue 2007.
   
-== Conference: 171
+== Conference: 174
 ===  Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR): 90
 ===  Proc. IEEE International Conference on Computer Vision (ICCV): 34
 ===  Proc. European Conference on Computer Vision (ECCV): 24
 ===  Proc. International Conference on Machine Learning (ICML): 3
-===  Proc. International Conference on Learning Represenations (ICLR): 1
+===  Proc. International Conference on Learning Represenations (ICLR): 4
 ===  Proc. Advances in Neural Information Processing Systems (NeurIPS): 19
 \n
+. *Matcher: segment anything with one shot using all-purpose feature matching*  
+\n$\cdot$ /Y. Liu, M. Zhu, H. Li, H. Chen, X. Wang, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2305.13310 arXiv][https://openreview.net/forum?id=yzRXdhk2he  link][data/bibtex/Liu2024ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Matcher:+Segment+Anything+with+One+Shot+Using+All-Purpose+Feature+Matching+Liu,+Yang+and+Zhu,+Muzhi+and+Li,+Hengtao+and+Chen,+Hao+and+Wang,+Xinlong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Matcher:+Segment+Anything+with+One+Shot+Using+All-Purpose+Feature+Matching semantic scholar]
+. *De novo protein design using geometric vector field networks*  
+\n$\cdot$ /W. Mao, M. Zhu, Z. Sun, S. Shen, L. Wu, H. Chen, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2310.11802 arXiv][https://openreview.net/forum?id=9UIGyJJpay  link][data/bibtex/Mao2024ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=De+novo+protein+design+using+geometric+vector+field+networks+Mao,+Weian+and+Zhu,+Muzhi+and+Sun,+Zheng+and+Shen,+Shuaike+and+Wu,+Lin+Yuanbo+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=De+novo+protein+design+using+geometric+vector+field+networks semantic scholar]
+. *Object-aware inversion and reassembly for image editing*  
+\n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2310.12149 arXiv][https://openreview.net/forum?id=dpcVXiMlcv  link][data/bibtex/Yang2024ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Object-aware+Inversion+and+Reassembly+for+Image+Editing+Yang,+Zhen+and+Gui,+Dinggang+and+Wang,+Wen+and+Chen,+Hao+and+Zhuang,+Bohan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Object-aware+Inversion+and+Reassembly+for+Image+Editing semantic scholar][https://aim-uofa.github.io/OIR-Diffusion/   project webpage]
 . *Learning conditional attributes for compositional zero-shot learning*  
 \n$\cdot$ /Q. Wang, L. Liu, C. Jing, H. Chen, G. Liang, P. Wang, C. Shen/.
 \n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'23), 2023/.
