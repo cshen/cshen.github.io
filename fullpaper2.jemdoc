@@ -1,6 +1,6 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *427*  papers.
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *428*  papers.
  
 [https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (66957 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
@@ -81,6 +81,10 @@
 \n$\cdot$ /Z. Tian, B. Zhang, H. Chen, C. Shen/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
 \n$\cdot$ [http://arxiv.org/abs/2102.03026    arXiv][data/bibtex/CondInst2022Tian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Instance+and+Panoptic+Segmentation+Using+Conditional+Convolutions+Tian,+Zhi+and+Zhang,+Bowen+and+Chen,+Hao+and+Shen,+Chunhua search][https://github.com/aim-uofa/AdelaiDet/   project webpage]
+. *FCOS: a simple and strong anchor-free object detector*   
+\n$\cdot$ /Z. Tian, C. Shen, H. Chen, T. He/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [https://doi.org/10.1109/TPAMI.2020.3032166  link][data/bibtex/TianSCH22.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FCOS:}+A+Simple+and+Strong+Anchor-Free+Object+Detector+Tian,+Zhi+and+Shen,+Chunhua+and+Chen,+Hao+and+He,+Tong search][https://github.com/aim-uofa/AdelaiDet/   project webpage]
 . *Dynamic convolution for 3D point cloud instance segmentation*   
 \n$\cdot$ /T. He, C. Shen, A. van den Hengel/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.

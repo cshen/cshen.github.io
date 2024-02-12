@@ -7,8 +7,8 @@
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 65
-===  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI): 40
+== Journal: 66
+===  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI): 41
 ===  International Journal of Computer Vision (IJCV): 23
 ===  Journal of Machine Learning Research (JMLR): 1
 ===  ACM Transactions on Graphics (TOG): 1
@@ -133,6 +133,10 @@
 \n$\cdot$ /T. He, C. Shen, A. van den Hengel/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
 \n$\cdot$ [http://arxiv.org/abs/2107.08392 arXiv][data/bibtex/Tong2022TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Dynamic+Convolution+for+{3D}+Point+Cloud+Instance+Segmentation+He,+Tong+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Dynamic+Convolution+for+{3D}+Point+Cloud+Instance+Segmentation semantic scholar]
+. *FCOS: a simple and strong anchor-free object detector*  
+\n$\cdot$ /Z. Tian, C. Shen, H. Chen, T. He/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
+\n$\cdot$ [https://doi.org/10.1109/TPAMI.2020.3032166  link][data/bibtex/TianSCH22.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FCOS:}+A+Simple+and+Strong+Anchor-Free+Object+Detector+Tian,+Zhi+and+Shen,+Chunhua+and+Chen,+Hao+and+He,+Tong google scholar][https://www.semanticscholar.org/search?q={FCOS:}+A+Simple+and+Strong+Anchor-Free+Object+Detector semantic scholar][https://github.com/aim-uofa/AdelaiDet/   project webpage]
 . {{<img class="imgP  right"   src="data/thumbnail/CondInst2022TianxxxarXiv.jpg">}}*Instance and panoptic segmentation using conditional convolutions*  
 \n$\cdot$ /Z. Tian, B. Zhang, H. Chen, C. Shen/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022/.
