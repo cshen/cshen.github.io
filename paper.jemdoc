@@ -3,7 +3,7 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (66957 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (67205 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
@@ -296,6 +296,7 @@
 \n$\cdot$ /W. Mao, M. Zhu, Z. Sun, S. Shen, L. Wu, H. Chen, C. Shen/.
 \n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
 \n$\cdot$ [http://arxiv.org/abs/2310.11802 arXiv][https://openreview.net/forum?id=9UIGyJJpay  link][data/bibtex/Mao2024ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=De+novo+protein+design+using+geometric+vector+field+networks+Mao,+Weian+and+Zhu,+Muzhi+and+Sun,+Zheng+and+Shen,+Shuaike+and+Wu,+Lin+Yuanbo+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=De+novo+protein+design+using+geometric+vector+field+networks semantic scholar]
+        .. Spotlight presentation.
 . *Object-aware inversion and reassembly for image editing*  
 \n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
 \n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
