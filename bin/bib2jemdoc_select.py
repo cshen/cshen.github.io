@@ -135,8 +135,7 @@ def load_citekey(citekey):
 
 def gen_citefields(citekey):
 # Rearrange the bib entries into something more useful.
-#    entry = load_citekey(citekey)
-    entry = bib_data.entries[citekey]
+    entry = load_citekey(citekey)
     D = entry.fields
 
     authors = [" ".join( p.first()  + p.prelast() + p.last()  ) for p in entry.persons['author']]

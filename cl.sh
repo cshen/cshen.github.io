@@ -93,6 +93,14 @@ if [  -z "$1"  ]; then
 	  ./scp2srv
 fi
 
+pandoc data/cs.bib -s -f biblatex -t markdown > data/cs.yaml
+
+pandoc data/cs.bib -s -f biblatex -t csljson > data/cs.json
+
+
+
+
+
 
 
 
