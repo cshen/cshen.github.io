@@ -2,7 +2,7 @@
 = Publications (Full List)
 == Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *428*  papers.
  
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (67308 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (67653 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -792,7 +792,7 @@
 . *Deep weakly-supervised anomaly detection*   
 \n$\cdot$ /G. Pang, C. Shen, H. Jin, A. van den Hengel/.
 \n$\cdot$ /Proc. ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'23), 2023/.
-\n$\cdot$ [data/bibtex/Pang2023KDD.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Deep+Weakly-supervised+Anomaly+Detection+Pang,+Guansong+and+Shen,+Chunhua+and+Jin,+Huidong+and+{van+den+Hengel},+Anton search]
+\n$\cdot$ [data/bibtex/Pang2023KDD.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Deep+Weakly-supervised+Anomaly+Detection+Pang,+Guansong+and+Shen,+Chunhua+and+Jin,+Huidong+and+{van+den+Hengel},+Anton search][https://github.com/mala-lab/PReNet   project webpage]
 . {{<img class="imgP  right"   src="data/thumbnail/Weijia2023DDMxxxarXiv.jpg">}}*DatasetDM: synthesizing data with perception annotations using diffusion models*   
 \n$\cdot$ /W. Wu, Y. Zhao, H. Chen, Y. Gu, R. Zhao, Y. He, H. Zhou, M. Shou, C. Shen/.
 \n$\cdot$ /Proc. Advances in Neural Information Processing Systems (NeurIPS'23), 2023/.
