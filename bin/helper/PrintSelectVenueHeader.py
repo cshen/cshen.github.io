@@ -8,7 +8,7 @@ from pathlib import  Path
 
 
 venuefull = {'icml': 'Proc. International Conference on Machine Learning (ICML)',
-             'neurips' : 'Proc. Advances in Neural Information Processing Systems (NeurIPS)',
+             'neurips': '[https://papers.nips.cc/papers/search?q=chunhua+shen Proc. Advances in Neural Information Processing Systems (NeurIPS)]',
              'eccv': 'Proc. European Conference on Computer Vision (ECCV)',
              'iccv': 'Proc. IEEE International Conference on Computer Vision (ICCV)',
              'cvpr': 'Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)',
