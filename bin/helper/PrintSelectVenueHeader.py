@@ -7,16 +7,16 @@ import re
 from pathlib import  Path
 
 
-venuefull = {'icml': 'Proc. International Conference on Machine Learning (ICML)',
+venuefull = {'icml': '[https://dblp.org/search/publ?q=author:Chunhua_Shen:venue:ICML Proc. International Conference on Machine Learning (ICML)]',
              'neurips': '[https://papers.nips.cc/papers/search?q=chunhua+shen Proc. Advances in Neural Information Processing Systems (NeurIPS)]',
-             'eccv': 'Proc. European Conference on Computer Vision (ECCV)',
-             'iccv': 'Proc. IEEE International Conference on Computer Vision (ICCV)',
-             'cvpr': 'Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)',
-             'ijcv':  'International Journal of Computer Vision (IJCV)',
-             'tpami': 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)',
-             'jmlr' : 'Journal of Machine Learning Research (JMLR)',
-	         'tog'  : 'ACM Transactions on Graphics (TOG)',
-             'iclr' : 'Proc. International Conference on Learning Represenations (ICLR)',
+             'eccv': '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AECCV Proc. European Conference on Computer Vision (ECCV)]',
+             'iccv': '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICCV Proc. IEEE International Conference on Computer Vision (ICCV)]',
+             'cvpr': '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3ACVPR Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)]',
+             'ijcv': '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]',
+             'tpami': '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]',
+             'jmlr' : '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AJ%20Mach%20Learn%20Res Journal of Machine Learning Research (JMLR)]',
+	         'tog'  : '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AACM%20Trans%20Graph ACM Transactions on Graphics (TOG)]',
+             'iclr' : '[https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICLR Proc. International Conference on Learning Represenations (ICLR)]',
 }
 
 

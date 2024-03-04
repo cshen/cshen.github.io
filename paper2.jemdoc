@@ -8,10 +8,10 @@
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
 == Journal: 66
-===  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI): 41
-===  International Journal of Computer Vision (IJCV): 23
-===  Journal of Machine Learning Research (JMLR): 1
-===  ACM Transactions on Graphics (TOG): 1
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 41
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 23
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AJ%20Mach%20Learn%20Res Journal of Machine Learning Research (JMLR)]: 1
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AACM%20Trans%20Graph ACM Transactions on Graphics (TOG)]: 1
 \n
 . *Towards robust monocular depth estimation: a new baseline and benchmark*  
 \n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
@@ -281,11 +281,11 @@
         .. Featured article of September issue 2007.
   
 == Conference: 174
-===  Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR): 90
-===  Proc. IEEE International Conference on Computer Vision (ICCV): 34
-===  Proc. European Conference on Computer Vision (ECCV): 24
-===  Proc. International Conference on Machine Learning (ICML): 3
-===  Proc. International Conference on Learning Represenations (ICLR): 4
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3ACVPR Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)]: 90
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICCV Proc. IEEE International Conference on Computer Vision (ICCV)]: 34
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AECCV Proc. European Conference on Computer Vision (ECCV)]: 24
+===  [https://dblp.org/search/publ?q=author:Chunhua_Shen:venue:ICML Proc. International Conference on Machine Learning (ICML)]: 3
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICLR Proc. International Conference on Learning Represenations (ICLR)]: 4
 ===  [https://papers.nips.cc/papers/search?q=chunhua+shen Proc. Advances in Neural Information Processing Systems (NeurIPS)]: 19
 \n
 . *Learning conditional attributes for compositional zero-shot learning*  
