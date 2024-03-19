@@ -3,16 +3,20 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (67775 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (68438 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 66
+== Journal: 67
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 41
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 23
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 24
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AJ%20Mach%20Learn%20Res Journal of Machine Learning Research (JMLR)]: 1
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AACM%20Trans%20Graph ACM Transactions on Graphics (TOG)]: 1
 \n
+. *End-to-end video text spotting with Transformer*  
+\n$\cdot$ /W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou/.
+\n$\cdot$  /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Wu2022transdetr.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=End-to-End+Video+Text+Spotting+with+{T}ransformer+Wu,+Weijia+and+Shen,+Chunhua+and+Cai,+Yuanqiang+and+Zhang,+Debing+and+Fu,+Ying+and+Luo,+Ping+and+Zhou,+Hong google scholar][https://www.semanticscholar.org/search?q=End-to-End+Video+Text+Spotting+with+{T}ransformer semantic scholar]
 . *Towards robust monocular depth estimation: a new baseline and benchmark*  
 \n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
 \n$\cdot$  /International Journal of Computer Vision (IJCV), 2024/.

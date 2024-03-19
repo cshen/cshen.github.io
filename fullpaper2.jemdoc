@@ -1,8 +1,8 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *428*  papers.
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *429*  papers.
  
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (67775 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (68438 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -13,6 +13,10 @@
 \n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
 \n$\cdot$ [data/bibtex/Depth2024Xian.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua+and+Lin,+Guosheng search]
+. *End-to-end video text spotting with Transformer*   
+\n$\cdot$ /W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Wu2022transdetr.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=End-to-End+Video+Text+Spotting+with+{T}ransformer+Wu,+Weijia+and+Shen,+Chunhua+and+Cai,+Yuanqiang+and+Zhang,+Debing+and+Fu,+Ying+and+Luo,+Ping+and+Zhou,+Hong search]
 . {{<img class="imgP  right"   src="data/thumbnail/Zhang2023SegVITv2xxxarXiv.jpg">}}*SegViT v2: exploring efficient and continual semantic segmentation with plain vision transformers*   
 \n$\cdot$ /B. Zhang, L. Liu, M. Phan, Z. Tian, C. Shen, Y. Liu/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2023/.
