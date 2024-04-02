@@ -79,7 +79,7 @@ rm -f _year
 
 
 # generate a PDF plot of the citation from the JSON file
-./pdf_cite_chart.py
+./python3 pdf_cite_chart.py
 
 [ -f ./cs_cite.pdf  ] && mv -f ./cs_cite.pdf ../data/
 
