@@ -267,7 +267,7 @@ for key, value in bib_sorted:
     t2 = remove_curly_bracket( instance_fields('authors', citef) )
     t2 = initialize_name( t2 )
 
-    print ( "\\n$\cdot$ /" + t2 + "/." )
+    print ( "\\n$\\cdot$ /" + t2 + "/." )
 
 
     # strvol = instance_field('volume') + instance_field('number') + instance_field('pages')
@@ -277,16 +277,16 @@ for key, value in bib_sorted:
 
     if 'journal' in value.fields:
         # print "\\n    /"  + value.fields['journal']  + ", " + strvol + value.fields['year'] + "/."
-        print ( "\\n$\cdot$ /"       + value.fields['journal']  + " (" + value.fields['venue']  +  "), " + strvol + value.fields['year'] + "/." )
+        print ( "\\n$\\cdot$ /"       + value.fields['journal']  + " (" + value.fields['venue']  +  "), " + strvol + value.fields['year'] + "/." )
     if 'booktitle' in value.fields:
-        print ( "\\n$\cdot$ /Proc. "  + value.fields['booktitle']  + ", " + strvol + value.fields['year'] + "/." )
+        print ( "\\n$\\cdot$ /Proc. "  + value.fields['booktitle']  + ", " + strvol + value.fields['year'] + "/." )
 
     if  value.fields['venue'] == "book":
         _tmp=""
         if 'publisher' in value.fields and  len( value.fields['publisher'] ) >0:
             _tmp = value.fields['publisher']  + ", "
 
-        print ( "\\n$\cdot$   /"  + _tmp + value.fields['year'] + "/." )
+        print ( "\\n$\\cdot$   /"  + _tmp + value.fields['year'] + "/." )
 
 
     # print arXiv, if any
@@ -294,25 +294,25 @@ for key, value in bib_sorted:
     s = ''
     if 'eprint' in value.fields and len(value.fields['eprint']) > 0:
         arXiv_link = "http://arxiv.org/abs/" + value.fields['eprint']
-        s = s + "\\n$\cdot$ [" + arXiv_link + "    arXiv]"
+        s = s + "\\n$\\cdot$ [" + arXiv_link + "    arXiv]"
         printreturn = 0
 
     if 'url' in value.fields and len(value.fields['url']) > 0:
         if printreturn:
-            s = s + "\\n$\cdot$ "
+            s = s + "\\n$\\cdot$ "
             printreturn = 0
         s = s + "[" + value.fields['url'] + "  link]"
 
     if 'pdf' in value.fields and len(value.fields['pdf']) > 0:
         if printreturn:
-            s = s + "\\n$\cdot$ "
+            s = s + "\\n$\\cdot$ "
             printreturn = 0
         s = s + "[" + value.fields['pdf'] + "  pdf]"
 
     # print bibtex link
     bibentry=bib_sorted[idx][0].encode('ascii','ignore')
     if printreturn:
-        s = s + "\\n$\cdot$ "
+        s = s + "\\n$\\cdot$ "
         printreturn = 0
     s = s + "[data/bibtex/" + bibentry.decode("UTF-8") + ".bib  " + "  bibtex]"
 
@@ -321,7 +321,7 @@ for key, value in bib_sorted:
 
     # print google search
     if printreturn:
-        s = s + "\\n$\cdot$"
+        s = s + "\\n$\\cdot$"
         printreturn = 0
 
     # google scholar
@@ -346,7 +346,7 @@ for key, value in bib_sorted:
     if 'project' in value.fields and len(value.fields['project']) > 0:
         if printreturn:
         #    s = s + "\\n"
-            s = s + "\\n$\cdot$ "
+            s = s + "\\n$\\cdot$ "
             printreturn = 0
         s = s + "[" + value.fields['project'] + "   project webpage]"
 

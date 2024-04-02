@@ -30,7 +30,6 @@
 # latexmath2png, by Kamil Kisiel (kamil@kamikisiel.net).
 #
 
-from __future__ import print_function
 import sys
 import os
 import re
@@ -43,7 +42,7 @@ import tempfile
 def info():
   print(__doc__)
   print('Platform: ' + sys.platform + '.')
-  print('Python: %s, located at %s.' % (sys.version[:5], sys.executable))
+  print('Python: {}, located at {}.'.format(sys.version[:5], sys.executable))
   print('Equation support:', end=' ')
   (supported, message) = testeqsupport()
   if supported:
@@ -72,7 +71,7 @@ def testeqsupport():
 
   return (supported, msg[:-1])
 
-class controlstruct(object):
+class controlstruct:
   def __init__(self, infile, outfile=None, conf=None, inname=None, eqs=True,
          eqdir='eqs', eqdpi=130):
     self.inname = inname
@@ -95,7 +94,7 @@ class controlstruct(object):
 
   def pushfile(self, newfile):
     self.otherfiles.insert(0, self.inf)
-    self.inf = io.open(newfile, 'rb')
+    self.inf = open(newfile, 'rb')
 
   def nextfile(self):
     self.inf.close()
@@ -307,7 +306,7 @@ def parseconf(cns):
   # manually add the defaults as a file handle.
   fs = [io.BytesIO(standardconf().encode('utf-8'))]
   for sname in cns:
-    fs.append(io.open(sname, 'rb'))
+    fs.append(open(sname, 'rb'))
 
   for f in fs:
     while pc(controlstruct(f)) != '':
@@ -330,7 +329,7 @@ def parseconf(cns):
   return syntax
 
 def insertmenuitems(f, mname, current, prefix):
-  m = io.open(mname, 'rb')
+  m = open(mname, 'rb')
   while pc(controlstruct(m)) != '':
     l = readnoncomment(m)
     l = l.strip()
@@ -477,7 +476,7 @@ def doincludes(f, l):
   i = 'include{'
   l = l.rstrip()
   if l.startswith(ir):
-    nf = io.open(l[len(ir):-1], 'rb')
+    nf = open(l[len(ir):-1], 'rb')
     f.outf.write(nf.read().decode('utf-8'))
     nf.close()
   elif l.startswith(i):
@@ -707,7 +706,7 @@ def replacelinks(b):
       # remove any mailto before labelling.
       linkname = re.sub('^mailto:', '', link)
 
-    b = b[:m.start()] + r'<a href=\"%s\"%s>%s<\/a>' % (link, option, linkname) + b[m.end():]
+    b = b[:m.start()] + r'<a href=\"{}\"{}>{}<\/a>'.format(link, option, linkname) + b[m.end():]
 
     m = r.search(b, m.start())
 
@@ -722,9 +721,9 @@ def br(b, f, tableblock=False):
   for m in r.findall(b):
     repl = os.environ.get(m)
     if repl == None:
-      b = re.sub("!\$%s\$!" % m, 'FAILED_MATCH_' + m, b)
+      b = re.sub(r"!\$%s\$!" % m, 'FAILED_MATCH_' + m, b)
     else:
-      b = re.sub("!\$%s\$!" % m, repl, b)
+      b = re.sub(r"!\$%s\$!" % m, repl, b)
 
   # Deal with literal backspaces.
   if f.eqs and f.eqsupport:
@@ -904,7 +903,7 @@ def gethl(lang):
     d['special'] = ['cols', 'optvar', 'param', 'problem', 'norm2', 'norm1',
             'value', 'minimize', 'maximize', 'rows', 'rand',
             'randn', 'printval', 'matrix']
-    d['error'] = ['\w*Error',]
+    d['error'] = [r'\w*Error',]
     d['commentuntilend'] = '#'
     d['strings'] = True
   elif lang in ['c', 'c++', 'cpp']:
@@ -913,7 +912,7 @@ def gethl(lang):
             'clock_t', 'struct', 'long', 'extern', 'char']
     d['operator'] = ['#include.*', '#define', '@pyval{', '}@', '@pyif{',
              '@py{']
-    d['error'] = ['\w*Error',]
+    d['error'] = [r'\w*Error',]
     d['commentuntilend'] = ['//', '/*', ' * ', '*/']
   elif lang in ('rb', 'ruby'):
     d['statement'] = putbsbs(['while', 'until', 'unless', 'if', 'elsif',
@@ -922,7 +921,7 @@ def gethl(lang):
     d['operator'] = putbsbs(['and', 'not', 'or'])
     d['builtin'] = putbsbs(['true', 'false', 'require', 'warn'])
     d['special'] = putbsbs(['IO'])
-    d['error'] = putbsbs(['\w*Error',])
+    d['error'] = putbsbs([r'\w*Error',])
     d['commentuntilend'] = '#'
     d['strings'] = True
     d['strings'] = True
@@ -940,13 +939,13 @@ def gethl(lang):
     d['builtin'] = putbsbs(['gem', 'gcc', 'python', 'curl', 'wget', 'ssh',
                 'latex', 'find', 'sed', 'gs', 'grep', 'tee',
                 'gzip', 'killall', 'echo', 'touch',
-                'ifconfig', 'git', '(?<!\.)tar(?!\.)'])
+                'ifconfig', 'git', r'(?<!\.)tar(?!\.)'])
     d['commentuntilend'] = '#'
     d['strings'] = True
   elif lang == 'matlab':
     d['statement'] = putbsbs(['max', 'min', 'find', 'rand', 'cumsum', 'randn', 'help',
                      'error', 'if', 'end', 'for'])
-    d['operator'] = ['&gt;', 'ans =', '>>', '~', '\.\.\.']
+    d['operator'] = ['&gt;', 'ans =', '>>', '~', r'\.\.\.']
     d['builtin'] = putbsbs(['csolve'])
     d['commentuntilend'] = '%'
     d['strings'] = True
@@ -1021,7 +1020,7 @@ def geneq(f, eq, dpi, wl, outname):
   eqdepths = {}
   if f.eqcache:
     try:
-      dc = io.open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
       for l in dc:
         a = l.split()
         eqdepths[a[0]] = int(a[1])
@@ -1029,7 +1028,7 @@ def geneq(f, eq, dpi, wl, outname):
 
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
-    except IOError:
+    except OSError:
       print('eqdepthcache read failed.')
 
   # Open tex file.
@@ -1038,14 +1037,14 @@ def geneq(f, eq, dpi, wl, outname):
   basefile = texfile[:-4]
   g = os.fdopen(fd, 'wb')
 
-  preamble = '\documentclass{article}\n'
+  preamble = '\\documentclass{article}\n'
   for p in f.eqpackages:
     preamble += '\\usepackage{%s}\n' % p
   for p in f.texlines:
     # Replace \{ and \} in p with { and }.
     # XXX hack.
     preamble += re.sub(r'\\(?=[{}])', '', p + '\n')
-  preamble += '\pagestyle{empty}\n\\begin{document}\n'
+  preamble += '\\pagestyle{empty}\n\\begin{document}\n'
   g.write(preamble)
 
   # Write the equation itself.
@@ -1055,14 +1054,14 @@ def geneq(f, eq, dpi, wl, outname):
     g.write('$%s$' % eq)
 
   # Finish off the tex file.
-  g.write('\n\\newpage\n\end{document}')
+  g.write('\n\\newpage\n\\end{document}')
   g.close()
 
   exts = ['.tex', '.aux', '.dvi', '.log']
   try:
     # Generate the DVI file
     latexcmd = 'latex -file-line-error-style -interaction=nonstopmode ' + \
-         '-output-directory %s %s' % (tempdir, texfile)
+         '-output-directory {} {}'.format(tempdir, texfile)
     p = Popen(latexcmd, shell=True, stdout=PIPE)
     rc = p.wait()
     if rc != 0:
@@ -1090,10 +1089,10 @@ def geneq(f, eq, dpi, wl, outname):
   # Update the cache if we're using it.
   if f.eqcache and eqname not in eqdepths:
     try:
-      dc = io.open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
       dc.write(eqname + ' ' + str(depth) + '\n')
       dc.close()
-    except IOError:
+    except OSError:
       print('eqdepthcache update failed.')
   return (depth, eqname)
 
@@ -1205,7 +1204,7 @@ def codeblock(f, g):
         out(f.outf, l)
       elif g[1] == 'jemdoc':
         # doing this more nicely needs python 2.5.
-        for x in ('#', '~', '>>>', '\~', '{'):
+        for x in ('#', '~', '>>>', r'\~', '{'):
           if str(l).lstrip().startswith(x):
             out(f.outf, '</tt><pre class="tthl">')
             out(f.outf, l + '</pre><tt class="tthl">')
@@ -1434,13 +1433,13 @@ def procfile(f):
       # Quickly pull out the equation here:
       # Check we don't already have the terminating character in a whole-line
       # equation without linebreaks, eg \( Ax=b \):
-      if not s.strip().endswith('\)'):
+      if not s.strip().endswith(r'\)'):
         while True:
           l = nl(f, codemode=True)
           if not l:
             break
           s += l
-          if l.strip() == '\)':
+          if l.strip() == r'\)':
             break
       r = br(s.strip(), f)
       r = mathjaxeqresub(r)
@@ -1643,8 +1642,8 @@ def main():
     else:
       thisout = outname
 
-    infile = io.open(inname, 'rb')
-    outfile = io.open(thisout, 'w')
+    infile = open(inname, 'rb')
+    outfile = open(thisout, 'w')
 
 #    print(infile.read())
     f = controlstruct(infile, outfile, conf, inname)
