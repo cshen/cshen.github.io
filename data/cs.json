@@ -1,5 +1,49 @@
 [
   {
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Weijia"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Cai",
+        "given": "Yuanqiang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Debing"
+      },
+      {
+        "family": "Fu",
+        "given": "Ying"
+      },
+      {
+        "family": "Luo",
+        "given": "Ping"
+      },
+      {
+        "family": "Zhou",
+        "given": "Hong"
+      }
+    ],
+    "container-title": "International Journal of Computer Vision",
+    "event-place": "IJCV",
+    "id": "Wu2022transdetr",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "End-to-end video text spotting with Transformer",
+    "type": "article-journal"
+  },
+  {
     "URL": "https://openreview.net/forum?id=9UIGyJJpay",
     "author": [
       {
