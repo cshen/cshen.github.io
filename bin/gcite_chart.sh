@@ -78,12 +78,18 @@ rm -f _chart _ycite
 rm -f _year
 
 
+#
 # generate a PDF plot of the citation from the JSON file
 # python3 pdf_cite_chart.py
-/opt/homebrew/bin/python3.11 pdf_cite_chart.py
+#
 
+source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
+conda activate scholar;
+sleep 1;
+python  pdf_cite_chart.py;
 
 [ -f ./cs_cite.pdf  ] && mv -f ./cs_cite.pdf ../data/
 
+conda deactivate
 
 
