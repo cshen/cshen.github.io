@@ -1,14 +1,18 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *429*  papers.
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *430*  papers.
  
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (69440 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70594 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
 
   
 == Journal
+. *Scaling up multi-domain semantic segmentation with sentence embeddings*   
+\n$\cdot$ /W. Yin, Y. Liu, C. Shen, B. Sun, A. van den Hengel/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Yin2024SIW.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Scaling+Up+Multi-domain+Semantic+Segmentation+with+Sentence+Embeddings+Yin,+Wei+and+Liu,+Yifan+and+Shen,+Chunhua+and+Sun,+Baichuan+and+{van+den+Hengel},+Anton search]
 . *Towards robust monocular depth estimation: a new baseline and benchmark*   
 \n$\cdot$ /K. Xian, Z. Cao, C. Shen, G. Lin/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
