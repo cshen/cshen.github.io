@@ -3,7 +3,7 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70594 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70652 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
@@ -288,14 +288,26 @@
 \n$\cdot$ [http://dx.doi.org/10.1109/TPAMI.2007.1112  link][http://goo.gl/6rQTA1  pdf][data/bibtex/Adaptive2007Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Adaptive+object+tracking+based+on+an+effective+appearance+filter semantic scholar]
         .. Featured article of September issue 2007.
   
-== Conference: 174
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3ACVPR Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)]: 90
+== Conference: 180
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3ACVPR Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)]: 93
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICCV Proc. IEEE International Conference on Computer Vision (ICCV)]: 34
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AECCV Proc. European Conference on Computer Vision (ECCV)]: 24
-===  [https://dblp.org/search/publ?q=author:Chunhua_Shen:venue:ICML Proc. International Conference on Machine Learning (ICML)]: 3
+===  [https://dblp.org/search/publ?q=author:Chunhua_Shen:venue:ICML Proc. International Conference on Machine Learning (ICML)]: 6
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICLR Proc. International Conference on Learning Represenations (ICLR)]: 4
 ===  [https://papers.nips.cc/papers/search?q=chunhua+shen Proc. Advances in Neural Information Processing Systems (NeurIPS)]: 19
 \n
+. *FreeCustom: tuning-free customized image generation for multi-concept composition*  
+\n$\cdot$ /G. Ding, C. Zhao, W. Wang, Z. Yang, Z. Liu, H. Chen, C. Shen/.
+\n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/DingCVPR2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition+Ding,+Ganggui+and+Zhao,+Canyu+and+Wang,+Wen+and+Yang,+Zhen+and+Liu,+Zide+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition semantic scholar]
+. *DiverGen: improving instance segmentation by learning wider data distribution with more diverse generative data*  
+\n$\cdot$ /C. Fan, M. Zhu, H. Chen, Y. Liu, W. Wu, H. Zhang, C. Shen/.
+\n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/FanCVPR2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DiverGen}:+Improving+Instance+Segmentation+by+Learning+Wider+Data+Distribution+with+More+Diverse+Generative+Data+Fan,+Chengxiang+and+Zhu,+Muzhi+and+Chen,+Hao+and+Liu,+Yang+and+Wu,+Weijia+and+Zhang,+Huaqi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DiverGen}:+Improving+Instance+Segmentation+by+Learning+Wider+Data+Distribution+with+More+Diverse+Generative+Data semantic scholar]
+. *Traffic scene parsing through the tsp6k dataset*  
+\n$\cdot$ /P. Jiang, Y. Yang, Y. Cao, Q. Hou, M. Cheng, C. Shen/.
+\n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/JiangCVPR2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset+Jiang,+Peng-Tao+and+Yang,+Yuqi+and+Cao,+Yang+and+Hou,+Qibin+and+Cheng,+Ming-Ming+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset semantic scholar]
 . *Matcher: segment anything with one shot using all-purpose feature matching*  
 \n$\cdot$ /Y. Liu, M. Zhu, H. Li, H. Chen, X. Wang, C. Shen/.
 \n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
@@ -309,6 +321,18 @@
 \n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
 \n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
 \n$\cdot$ [http://arxiv.org/abs/2310.12149 arXiv][https://openreview.net/forum?id=dpcVXiMlcv  link][data/bibtex/Yang2024ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Object-aware+Inversion+and+Reassembly+for+Image+Editing+Yang,+Zhen+and+Gui,+Dinggang+and+Wang,+Wen+and+Chen,+Hao+and+Zhuang,+Bohan+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Object-aware+Inversion+and+Reassembly+for+Image+Editing semantic scholar][https://aim-uofa.github.io/OIR-Diffusion/   project webpage]
+. *On the sampling structure of diffusion models*  
+\n$\cdot$ /D. Chen, Z. Zhou, C. Wang, C. Shen, S. Lyu/.
+\n$\cdot$  /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Chen2024ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Sampling+Structure+of+Diffusion+Models+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Sampling+Structure+of+Diffusion+Models semantic scholar]
+. *Floating anchor diffusion model for multi-motif scaffolding*  
+\n$\cdot$ /K. Liu, S. Shen, W. Mao, X. Jiao, Z. Sun, H. Chen, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Liu2024ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding+Liu,+Ke+and+Shen,+Shuaike+and+Mao,+Weian+and+Jiao,+Xiaoran+and+Sun,+Zheng+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding semantic scholar]
+. *Generative active learning for long-tailed instance segmentation*  
+\n$\cdot$ /M. Zhu, C. Fan, H. Chen, Y. Liu, W. Mao, X. Xu, C. Shen/.
+\n$\cdot$  /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Zhu2024ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Generative+Active+Learning+for+Long-tailed+Instance+Segmentation+Zhu,+Muzhi+and+Fan,+Chengxiang+and+Chen,+Hao+and+Liu,+Yang+and+Mao,+Weian+and+Xu,+Xiaogang+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Generative+Active+Learning+for+Long-tailed+Instance+Segmentation semantic scholar]
 . *Learning conditional attributes for compositional zero-shot learning*  
 \n$\cdot$ /Q. Wang, L. Liu, C. Jing, H. Chen, G. Liang, P. Wang, C. Shen/.
 \n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'23), 2023/.

@@ -44,6 +44,43 @@
     "type": "article-journal"
   },
   {
+    "author": [
+      {
+        "family": "Yin",
+        "given": "Wei"
+      },
+      {
+        "family": "Liu",
+        "given": "Yifan"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Sun",
+        "given": "Baichuan"
+      },
+      {
+        "family": "Hengel",
+        "given": "Anton",
+        "non-dropping-particle": "van den"
+      }
+    ],
+    "container-title": "International Journal of Computer Vision",
+    "event-place": "IJCV",
+    "id": "Yin2024SIW",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Scaling up multi-domain semantic segmentation with sentence embeddings",
+    "type": "article-journal"
+  },
+  {
     "URL": "https://openreview.net/forum?id=9UIGyJJpay",
     "author": [
       {

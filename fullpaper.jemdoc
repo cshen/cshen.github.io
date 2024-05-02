@@ -1,8 +1,8 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *430*  papers.  
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *436*  papers.  
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70594 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70652 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -31,6 +31,18 @@
 \n$\cdot$ /C. Jing, Y. Li, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
 \n$\cdot$ [data/bibtex/Jing2024AAAI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning+Jing,+Chenchen+and+Li,+Yukun+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning semantic scholar]
+. *Traffic scene parsing through the tsp6k dataset*   
+\n$\cdot$ /P. Jiang, Y. Yang, Y. Cao, Q. Hou, M. Cheng, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/JiangCVPR2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset+Jiang,+Peng-Tao+and+Yang,+Yuqi+and+Cao,+Yang+and+Hou,+Qibin+and+Cheng,+Ming-Ming+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset semantic scholar]
+. *DiverGen: improving instance segmentation by learning wider data distribution with more diverse generative data*   
+\n$\cdot$ /C. Fan, M. Zhu, H. Chen, Y. Liu, W. Wu, H. Zhang, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/FanCVPR2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={DiverGen}:+Improving+Instance+Segmentation+by+Learning+Wider+Data+Distribution+with+More+Diverse+Generative+Data+Fan,+Chengxiang+and+Zhu,+Muzhi+and+Chen,+Hao+and+Liu,+Yang+and+Wu,+Weijia+and+Zhang,+Huaqi+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={DiverGen}:+Improving+Instance+Segmentation+by+Learning+Wider+Data+Distribution+with+More+Diverse+Generative+Data semantic scholar]
+. *FreeCustom: tuning-free customized image generation for multi-concept composition*   
+\n$\cdot$ /G. Ding, C. Zhao, W. Wang, Z. Yang, Z. Liu, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
+\n$\cdot$ [data/bibtex/DingCVPR2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition+Ding,+Ganggui+and+Zhao,+Canyu+and+Wang,+Wen+and+Yang,+Zhen+and+Liu,+Zide+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition semantic scholar]
 . *Object-aware inversion and reassembly for image editing*   
 \n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
@@ -44,6 +56,18 @@
 \n$\cdot$ /Y. Liu, M. Zhu, H. Li, H. Chen, X. Wang, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
 \n$\cdot$ [http://arxiv.org/abs/2305.13310    arXiv][https://openreview.net/forum?id=yzRXdhk2he  link][data/bibtex/Liu2024ICLR.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Matcher:+Segment+Anything+with+One+Shot+Using+All-Purpose+Feature+Matching+Liu,+Yang+and+Zhu,+Muzhi+and+Li,+Hengtao+and+Chen,+Hao+and+Wang,+Xinlong+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Matcher:+Segment+Anything+with+One+Shot+Using+All-Purpose+Feature+Matching semantic scholar]
+. *Generative active learning for long-tailed instance segmentation*   
+\n$\cdot$ /M. Zhu, C. Fan, H. Chen, Y. Liu, W. Mao, X. Xu, C. Shen/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Zhu2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Generative+Active+Learning+for+Long-tailed+Instance+Segmentation+Zhu,+Muzhi+and+Fan,+Chengxiang+and+Chen,+Hao+and+Liu,+Yang+and+Mao,+Weian+and+Xu,+Xiaogang+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Generative+Active+Learning+for+Long-tailed+Instance+Segmentation semantic scholar]
+. *Floating anchor diffusion model for multi-motif scaffolding*   
+\n$\cdot$ /K. Liu, S. Shen, W. Mao, X. Jiao, Z. Sun, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Liu2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding+Liu,+Ke+and+Shen,+Shuaike+and+Mao,+Weian+and+Jiao,+Xiaoran+and+Sun,+Zheng+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding semantic scholar]
+. *On the sampling structure of diffusion models*   
+\n$\cdot$ /D. Chen, Z. Zhou, C. Wang, C. Shen, S. Lyu/.
+\n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
+\n$\cdot$ [data/bibtex/Chen2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Sampling+Structure+of+Diffusion+Models+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Sampling+Structure+of+Diffusion+Models semantic scholar]
 
 = 2023
 == Journal
