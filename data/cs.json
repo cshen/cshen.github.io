@@ -81,6 +81,272 @@
     "type": "article-journal"
   },
   {
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Defang"
+      },
+      {
+        "family": "Zhou",
+        "given": "Zhenyu"
+      },
+      {
+        "family": "Wang",
+        "given": "Can"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Lyu",
+        "given": "Siwei"
+      }
+    ],
+    "container-title": "International conference on machine learning (ICML’24)",
+    "event-place": "ICML",
+    "id": "Chen2024ICML",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "",
+    "title": "On the sampling structure of diffusion models",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Ke"
+      },
+      {
+        "family": "Shen",
+        "given": "Shuaike"
+      },
+      {
+        "family": "Mao",
+        "given": "Weian"
+      },
+      {
+        "family": "Jiao",
+        "given": "Xiaoran"
+      },
+      {
+        "family": "Sun",
+        "given": "Zheng"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "International conference on machine learning (ICML’24)",
+    "event-place": "ICML",
+    "id": "Liu2024ICML",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "",
+    "title": "Floating anchor diffusion model for multi-motif scaffolding",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "Muzhi"
+      },
+      {
+        "family": "Fan",
+        "given": "Chengxiang"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Mao",
+        "given": "Weian"
+      },
+      {
+        "family": "Xu",
+        "given": "Xiaogang"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "International conference on machine learning (ICML’24)",
+    "event-place": "ICML",
+    "id": "Zhu2024ICML",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "",
+    "title": "Generative active learning for long-tailed instance segmentation",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "URL": "",
+    "author": [
+      {
+        "family": "Jiang",
+        "given": "Peng-Tao"
+      },
+      {
+        "family": "Yang",
+        "given": "Yuqi"
+      },
+      {
+        "family": "Cao",
+        "given": "Yang"
+      },
+      {
+        "family": "Hou",
+        "given": "Qibin"
+      },
+      {
+        "family": "Cheng",
+        "given": "Ming-Ming"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "IEEE conference on computer vision and pattern recognition (CVPR’24)",
+    "event-place": "CVPR",
+    "id": "JiangCVPR2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Traffic scene parsing through the TSP6K dataset",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "URL": "",
+    "author": [
+      {
+        "family": "Fan",
+        "given": "Chengxiang"
+      },
+      {
+        "family": "Zhu",
+        "given": "Muzhi"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Wu",
+        "given": "Weijia"
+      },
+      {
+        "family": "Zhang",
+        "given": "Huaqi"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "IEEE conference on computer vision and pattern recognition (CVPR’24)",
+    "event-place": "CVPR",
+    "id": "FanCVPR2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "DiverGen: Improving instance segmentation by learning wider data distribution with more diverse generative data",
+    "title-short": "DiverGen",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "URL": "",
+    "author": [
+      {
+        "family": "Ding",
+        "given": "Ganggui"
+      },
+      {
+        "family": "Zhao",
+        "given": "Canyu"
+      },
+      {
+        "family": "Wang",
+        "given": "Wen"
+      },
+      {
+        "family": "Yang",
+        "given": "Zhen"
+      },
+      {
+        "family": "Liu",
+        "given": "Zide"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "IEEE conference on computer vision and pattern recognition (CVPR’24)",
+    "event-place": "CVPR",
+    "id": "DingCVPR2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "FreeCustom: Tuning-free customized image generation for multi-concept composition",
+    "title-short": "FreeCustom",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
     "URL": "https://openreview.net/forum?id=9UIGyJJpay",
     "author": [
       {
