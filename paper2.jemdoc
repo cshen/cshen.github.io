@@ -3,12 +3,12 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70848 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70966 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 68
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 41
+== Journal: 69
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 42
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 25
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AJ%20Mach%20Learn%20Res Journal of Machine Learning Research (JMLR)]: 1
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AACM%20Trans%20Graph ACM Transactions on Graphics (TOG)]: 1
@@ -121,6 +121,10 @@
 \n$\cdot$ /W. Liu, P. Zhang, X. Huang, J. Yang, C. Shen, I. Reid/.
 \n$\cdot$ /ACM Transactions on Graphics (TOG), 2020/.
 \n$\cdot$ [http://arxiv.org/abs/2003.07504 arXiv][https://doi.org/10.1145/3388887  link][data/bibtex/Liu2020TOG.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Real-time+image+smoothing+via+iterative+least+squares+Liu,+Wei+and+Zhang,+Pingping+and+Huang,+Xiaolin+and+Yang,+Jie+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Real-time+image+smoothing+via+iterative+least+squares semantic scholar][https://github.com/wliusjtu/Real-time-Image-Smoothing-via-Iterative-Least-Squares   project webpage]
+. *Self-supervised 3d scene flow estimation and motion prediction using local rigidity prior*  
+\n$\cdot$ /R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2310.11284 arXiv][data/bibtex/Ruibo2024TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Wang,+Zhe+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior semantic scholar]
 . {{<img class="imgP  right"   src="data/thumbnail/Liu2023TPAMIxxxarXiv.jpg">}}*Single-path bit sharing for automatic loss-aware model compression*  
 \n$\cdot$ /J. Liu, B. Zhuang, P. Chen, C. Shen, J. Cai, M. Tan/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023/.
@@ -935,10 +939,10 @@
 \n$\cdot$ /X. Chu, Z. Tian, B. Zhang, X. Wang, X. Wei, H. Xia, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Learning Representations (ICLR'23), 2023/.
 \n$\cdot$ [http://arxiv.org/abs/2102.10882 arXiv][data/bibtex/CPE2023ICLR.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Conditional+Positional+Encodings+for+Vision+Transformers+Chu,+Xiangxiang+and+Tian,+Zhi+and+Zhang,+Bo+and+Wang,+Xinlong+and+Wei,+Xiaolin+and+Xia,+Huaxia+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Conditional+Positional+Encodings+for+Vision+Transformers semantic scholar]
-. *On the sampling structure of diffusion models*  
+. *On the trajectory regularity of ODE-based diffusion sampling*  
 \n$\cdot$ /D. Chen, Z. Zhou, C. Wang, C. Shen, S. Lyu/.
 \n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
-\n$\cdot$ [data/bibtex/Chen2024ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Sampling+Structure+of+Diffusion+Models+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Sampling+Structure+of+Diffusion+Models semantic scholar]
+\n$\cdot$ [data/bibtex/Chen2024ICML.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Trajectory+Regularity+of+{ODE}-based+Diffusion+Sampling+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Trajectory+Regularity+of+{ODE}-based+Diffusion+Sampling semantic scholar]
 . *Floating anchor diffusion model for multi-motif scaffolding*  
 \n$\cdot$ /K. Liu, S. Shen, W. Mao, X. Jiao, Z. Sun, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.

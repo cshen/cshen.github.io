@@ -1,8 +1,8 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *436*  papers.  
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *437*  papers.  
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70848 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70966 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -22,6 +22,10 @@
 \n$\cdot$ /W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
 \n$\cdot$ [data/bibtex/Wu2022transdetr.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=End-to-End+Video+Text+Spotting+with+{T}ransformer+Wu,+Weijia+and+Shen,+Chunhua+and+Cai,+Yuanqiang+and+Zhang,+Debing+and+Fu,+Ying+and+Luo,+Ping+and+Zhou,+Hong google scholar][https://www.semanticscholar.org/search?q=End-to-End+Video+Text+Spotting+with+{T}ransformer semantic scholar]
+. *Self-supervised 3d scene flow estimation and motion prediction using local rigidity prior*   
+\n$\cdot$ /R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2310.11284    arXiv][data/bibtex/Ruibo2024TPAMI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Wang,+Zhe+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior semantic scholar]
 == Conference
 . *PointAttN: you only need attention for point cloud completion*   
 \n$\cdot$ /J. Wang, Y. Cui, D. Guo, J. Li, Q. Liu, C. Shen/.
@@ -64,10 +68,10 @@
 \n$\cdot$ /K. Liu, S. Shen, W. Mao, X. Jiao, Z. Sun, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
 \n$\cdot$ [data/bibtex/Liu2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding+Liu,+Ke+and+Shen,+Shuaike+and+Mao,+Weian+and+Jiao,+Xiaoran+and+Sun,+Zheng+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Floating+Anchor+Diffusion+Model+for+Multi-motif+Scaffolding semantic scholar]
-. *On the sampling structure of diffusion models*   
+. *On the trajectory regularity of ODE-based diffusion sampling*   
 \n$\cdot$ /D. Chen, Z. Zhou, C. Wang, C. Shen, S. Lyu/.
 \n$\cdot$ /Proc. International Conference on Machine Learning (ICML'24), 2024/.
-\n$\cdot$ [data/bibtex/Chen2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Sampling+Structure+of+Diffusion+Models+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Sampling+Structure+of+Diffusion+Models semantic scholar]
+\n$\cdot$ [data/bibtex/Chen2024ICML.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=On+the+Trajectory+Regularity+of+{ODE}-based+Diffusion+Sampling+Chen,+Defang+and+Zhou,+Zhenyu+and+Wang,+Can+and+Shen,+Chunhua+and+Lyu,+Siwei google scholar][https://www.semanticscholar.org/search?q=On+the+Trajectory+Regularity+of+{ODE}-based+Diffusion+Sampling semantic scholar]
 
 = 2023
 == Journal
