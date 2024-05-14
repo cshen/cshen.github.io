@@ -114,7 +114,7 @@
       ]
     },
     "note": "",
-    "title": "On the sampling structure of diffusion models",
+    "title": "On the trajectory regularity of ODE-based diffusion sampling",
     "type": "paper-conference",
     "volume": ""
   },
@@ -588,6 +588,42 @@
     "title": "Retrieval-augmented primitive representations for compositional zero-shot learning",
     "type": "paper-conference",
     "volume": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Ruibo"
+      },
+      {
+        "family": "Zhang",
+        "given": "Chi"
+      },
+      {
+        "family": "Wang",
+        "given": "Zhe"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Lin",
+        "given": "Guosheng"
+      }
+    ],
+    "container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "event-place": "TPAMI",
+    "id": "Ruibo2024TPAMI",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Self-supervised 3D scene flow estimation and motion prediction using local rigidity prior",
+    "type": "article-journal"
   },
   {
     "author": [

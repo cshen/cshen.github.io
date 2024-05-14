@@ -3,15 +3,13 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (70966 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (71249 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 69
+== Journal: 67
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 42
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 25
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AJ%20Mach%20Learn%20Res Journal of Machine Learning Research (JMLR)]: 1
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AACM%20Trans%20Graph ACM Transactions on Graphics (TOG)]: 1
 \n
 . *End-to-end video text spotting with Transformer*  
 \n$\cdot$ /W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou/.
@@ -149,10 +147,6 @@
 \n$\cdot$ /C. Luo, Q. Lin, Y. Liu, L. Jin, C. Shen/.
 \n$\cdot$  /International Journal of Computer Vision (IJCV), 2020/.
 \n$\cdot$ [http://arxiv.org/abs/2001.04189 arXiv][data/bibtex/Luo2020IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild+Luo,+Canjie+and+Lin,+Qingxiang+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild semantic scholar]
-. {{<img class="imgP  right"   src="data/thumbnail/Liu2020TOGxxxarXiv.jpg">}}*Real-time image smoothing via iterative least squares*  
-\n$\cdot$ /W. Liu, P. Zhang, X. Huang, J. Yang, C. Shen, I. Reid/.
-\n$\cdot$  /ACM Transactions on Graphics (TOG), 2020/.
-\n$\cdot$ [http://arxiv.org/abs/2003.07504 arXiv][https://doi.org/10.1145/3388887  link][data/bibtex/Liu2020TOG.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Real-time+image+smoothing+via+iterative+least+squares+Liu,+Wei+and+Zhang,+Pingping+and+Huang,+Xiaolin+and+Yang,+Jie+and+Shen,+Chunhua+and+Reid,+Ian google scholar][https://www.semanticscholar.org/search?q=Real-time+image+smoothing+via+iterative+least+squares semantic scholar][https://github.com/wliusjtu/Real-time-Image-Smoothing-via-Iterative-Least-Squares   project webpage]
 . {{<a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2008.00942.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2020GANxxxarXiv.jpg"></a>}}*Improving generative adversarial networks with local coordinate coding*  
 \n$\cdot$ /J. Cao, Y. Guo, Q. Wu, C. Shen, J. Huang, M. Tan/.
 \n$\cdot$  /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020/.
@@ -274,10 +268,6 @@
 \n$\cdot$ /X. Li, A. Dick, C. Shen, A. van den Hengel, H. Wang/.
 \n$\cdot$  /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2013/.
 \n$\cdot$ [http://arxiv.org/abs/1207.3389 arXiv][http://dx.doi.org/10.1109/TPAMI.2012.166  link][https://sites.google.com/site/chhshen/publication/tpami12xi.pdf?attredirects=1  pdf][data/bibtex/TPAMI2013Xi.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Incremental+Learning+of+{3D-DCT}+Compact+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Dick,+Anthony+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Wang,+Hanzi google scholar][https://www.semanticscholar.org/search?q=Incremental+Learning+of+{3D-DCT}+Compact+Representations+for+Robust+Visual+Tracking semantic scholar][https://github.com/chhshen/DCT-Tracking/   project webpage]
-. {{<img class="imgP  right"   src="data/thumbnail/JMLR2012ShenxxxarXiv.jpg">}}*Positive semidefinite metric learning using boosting-like algorithms*  
-\n$\cdot$ /C. Shen, J. Kim, L. Wang, A. van den Hengel/.
-\n$\cdot$  /Journal of Machine Learning Research (JMLR), 2012/.
-\n$\cdot$ [http://arxiv.org/abs/1104.4704 arXiv][http://jmlr.csail.mit.edu/papers/v13/shen12a.html  link][data/bibtex/JMLR2012Shen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Positive+Semidefinite+Metric+Learning+Using+Boosting-like+Algorithms+Shen,+Chunhua+and+Kim,+Junae+and+Wang,+Lei+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Positive+Semidefinite+Metric+Learning+Using+Boosting-like+Algorithms semantic scholar][https://code.google.com/archive/p/boosting/downloads   project webpage]
 . *UBoost: Boosting with the Universum*  
 \n$\cdot$ /C. Shen, P. Wang, F. Shen, H. Wang/.
 \n$\cdot$  /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2012/.
