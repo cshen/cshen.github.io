@@ -3,14 +3,18 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (72348 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (74159 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 67
+== Journal: 68
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 42
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 25
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 26
 \n
+. *Masked channel modeling for bootstrapping visual pre-training*  
+\n$\cdot$ /Y. Liu, X. Wang, M. Zhu, Y. Cao, T. Huang, C. Shen/.
+\n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
+\n$\cdot$ [data/bibtex/Liuyang2024Masked.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Masked+Channel+Modeling+for+Bootstrapping+Visual+Pre-training+Liu,+Yang+and+Wang,+Xinlong+and+Zhu,+Muzhi+and+Cao,+Yue+and+Huang,+Tiejun+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Masked+Channel+Modeling+for+Bootstrapping+Visual+Pre-training semantic scholar]
 . *End-to-end video text spotting with Transformer*  
 \n$\cdot$ /W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
