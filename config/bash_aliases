@@ -120,77 +120,6 @@ function cmdfreq()
         | sort -nr | nl |  head -n20
 }
 
-function svnci()
-{
-    model=`system_profiler SPHardwareDataType | grep "Model Name" | awk '{ print $3 $4 $5 }'`
-
-    location="Unknown location"
-    ifconfig | grep inet | grep 192.168.0  > /dev/null
-    if [[ $? == 0 ]]
-    then
-        location=Home
-    fi
-    ifconfig | grep inet | grep 129.127  > /dev/null
-    if [[ $? == 0 ]]
-    then
-        location=Office
-    fi
-
-
-    machine="macOS@"$model", from "$location
-    user=`whoami | tr '[:lower:]' '[:upper:]'`
-
-    f_curp=$(pwd)
-    curp=${f_curp##*/}
-
-
-    msg=" @`date '+%d/%m/%Y %H:%M:%S'` by $user, $machine:$curp"
-
-    if [[ ! -z "$1" ]]
-    then
-        msg="NOTE:""$@"$msg
-    fi
-
-    echo "check in message: ""$msg"
-    svn ci -m"$msg"
-}
-
-function gitci()
-{
-    model=`system_profiler SPHardwareDataType | grep "Model Name" | awk '{ print $3 $4 $5 }'`
-
-    location="Unknown location"
-    ifconfig | grep inet | grep 192.168.0  > /dev/null
-    if [[ $? == 0 ]]
-    then
-        location=Home
-    fi
-    ifconfig | grep inet | grep 129.127  > /dev/null
-    if [[ $? == 0 ]]
-    then
-        location=Office
-    fi
-
-
-    machine="macOS@"$model", from "$location
-    user=`whoami | tr '[:lower:]' '[:upper:]'`
-
-    f_curp=$(pwd)
-    curp=${f_curp##*/}
-
-
-    msg=" @`date '+%d/%m/%Y %H:%M:%S'` by $user, $machine:$curp"
-
-    if [[ ! -z "$1" ]]
-    then
-        msg="NOTE:""$@"$msg
-    fi
-
-    echo "check in message: ""$msg"
-    git commit -a -m"$msg"
-    git push
-}
-
 
 function pdfmerge()
 {
@@ -244,21 +173,6 @@ else
     echo "'$1' is not a file."
 fi
 }
-
-
-
-# Expand shortened URL
-function longurl() {
-  curl -sIL $1 2>&1 | awk '/^Location/ {print $2}' | tail -n1
-}
-
-
-
-
-
-
-
-
 
 
 # Terminal app, Profiles -> Keyboard -> + then press the keyboard shortcut you're after
