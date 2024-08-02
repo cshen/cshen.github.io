@@ -3,7 +3,7 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-list-ul' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list (PDF) {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (74159 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (74947 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
@@ -286,10 +286,10 @@
 \n$\cdot$ [http://dx.doi.org/10.1109/TPAMI.2007.1112  link][http://goo.gl/6rQTA1  pdf][data/bibtex/Adaptive2007Wang.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Adaptive+object+tracking+based+on+an+effective+appearance+filter+Wang,+Hanzi+and+Suter,+David+and+Schindler,+Konrad+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Adaptive+object+tracking+based+on+an+effective+appearance+filter semantic scholar]
         .. Featured article of September issue 2007.
   
-== Conference: 180
+== Conference: 182
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3ACVPR Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)]: 93
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICCV Proc. IEEE International Conference on Computer Vision (ICCV)]: 34
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AECCV Proc. European Conference on Computer Vision (ECCV)]: 24
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AECCV Proc. European Conference on Computer Vision (ECCV)]: 26
 ===  [https://dblp.org/search/publ?q=author:Chunhua_Shen:venue:ICML Proc. International Conference on Machine Learning (ICML)]: 6
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3AICLR Proc. International Conference on Learning Represenations (ICLR)]: 4
 ===  [https://papers.nips.cc/papers/search?q=chunhua+shen Proc. Advances in Neural Information Processing Systems (NeurIPS)]: 19
@@ -306,6 +306,14 @@
 \n$\cdot$ /P. Jiang, Y. Yang, Y. Cao, Q. Hou, M. Cheng, C. Shen/.
 \n$\cdot$  /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
 \n$\cdot$ [data/bibtex/JiangCVPR2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset+Jiang,+Peng-Tao+and+Yang,+Yuqi+and+Cao,+Yang+and+Hou,+Qibin+and+Cheng,+Ming-Ming+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Traffic+Scene+Parsing+through+the+TSP6K+Dataset semantic scholar]
+. *FreeCompose: generic zero-shot image composition with diffusion prior*  
+\n$\cdot$ /Z. Chen, W. Wang, Z. Yang, Z. Yuan, H. Chen, C. Shen/.
+\n$\cdot$  /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2407.04947 arXiv][data/bibtex/FreeComp2024Chen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCompose}:+Generic+Zero-Shot+Image+Composition+with+Diffusion+Prior+Chen,+Zhekai+and+Wang,+Wen+and+Yang,+Zhen+and+Yuan,+Zeqing+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCompose}:+Generic+Zero-Shot+Image+Composition+with+Diffusion+Prior semantic scholar]
+. *VisionLLaMA: a unified llama backbone for vision tasks*  
+\n$\cdot$ /X. Chu, J. Su, B. Zhang, C. Shen/.
+\n$\cdot$  /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2403.00522 arXiv][data/bibtex/VisionLLaMA2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={VisionLLaMA}:+A+Unified+LLaMA+Backbone+for+Vision+Tasks+Chu,+Xiangxiang+and+Su,+Jianlin+and+Zhang,+Bo+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={VisionLLaMA}:+A+Unified+LLaMA+Backbone+for+Vision+Tasks semantic scholar][https://github.com/Meituan-AutoML/VisionLLaMA   project webpage]
 . *Matcher: segment anything with one shot using all-purpose feature matching*  
 \n$\cdot$ /Y. Liu, M. Zhu, H. Li, H. Chen, X. Wang, C. Shen/.
 \n$\cdot$  /Proc. International Conference on Learning Representations (ICLR'24), 2024/.

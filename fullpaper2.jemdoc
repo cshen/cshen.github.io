@@ -1,8 +1,8 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *440*  papers.
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *442*  papers.
  
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (74159 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (74947 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -755,6 +755,14 @@
 \n$\cdot$ /G. Ding, C. Zhao, W. Wang, Z. Yang, Z. Liu, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
 \n$\cdot$ [data/bibtex/DingCVPR2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition+Ding,+Ganggui+and+Zhao,+Canyu+and+Wang,+Wen+and+Yang,+Zhen+and+Liu,+Zide+and+Chen,+Hao+and+Shen,+Chunhua search]
+. *VisionLLaMA: a unified llama backbone for vision tasks*   
+\n$\cdot$ /X. Chu, J. Su, B. Zhang, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2403.00522    arXiv][data/bibtex/VisionLLaMA2024.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={VisionLLaMA}:+A+Unified+LLaMA+Backbone+for+Vision+Tasks+Chu,+Xiangxiang+and+Su,+Jianlin+and+Zhang,+Bo+and+Shen,+Chunhua search][https://github.com/Meituan-AutoML/VisionLLaMA   project webpage]
+. *FreeCompose: generic zero-shot image composition with diffusion prior*   
+\n$\cdot$ /Z. Chen, W. Wang, Z. Yang, Z. Yuan, H. Chen, C. Shen/.
+\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2407.04947    arXiv][data/bibtex/FreeComp2024Chen.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCompose}:+Generic+Zero-Shot+Image+Composition+with+Diffusion+Prior+Chen,+Zhekai+and+Wang,+Wen+and+Yang,+Zhen+and+Yuan,+Zeqing+and+Chen,+Hao+and+Shen,+Chunhua search]
 . *Object-aware inversion and reassembly for image editing*   
 \n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
