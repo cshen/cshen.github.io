@@ -1,5 +1,87 @@
 [
   {
+    "URL": "",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Zhekai"
+      },
+      {
+        "family": "Wang",
+        "given": "Wen"
+      },
+      {
+        "family": "Yang",
+        "given": "Zhen"
+      },
+      {
+        "family": "Yuan",
+        "given": "Zeqing"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "European conference on computer vision (ECCV’24)",
+    "event-place": "ECCV",
+    "id": "FreeComp2024Chen",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "",
+    "page": "",
+    "title": "FreeCompose: Generic zero-shot image composition with diffusion prior",
+    "title-short": "FreeCompose",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
+    "URL": "",
+    "author": [
+      {
+        "family": "Chu",
+        "given": "Xiangxiang"
+      },
+      {
+        "family": "Su",
+        "given": "Jianlin"
+      },
+      {
+        "family": "Zhang",
+        "given": "Bo"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "European conference on computer vision (ECCV’24)",
+    "event-place": "ECCV",
+    "id": "VisionLLaMA2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "",
+    "page": "",
+    "title": "VisionLLaMA: A unified LLaMA backbone for vision tasks",
+    "title-short": "VisionLLaMA",
+    "type": "paper-conference",
+    "volume": ""
+  },
+  {
     "author": [
       {
         "family": "Wu",
