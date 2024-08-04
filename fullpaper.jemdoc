@@ -39,14 +39,6 @@
 \n$\cdot$ /C. Jing, Y. Li, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
 \n$\cdot$ [data/bibtex/Jing2024AAAI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning+Jing,+Chenchen+and+Li,+Yukun+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning semantic scholar]
-. *LoRAPrune: structured pruning meets low-rank parameter-efficient fine-tuning*   
-\n$\cdot$ /M. Zhang, H. Chen, C. Shen, Z. Yang, L. Ou, X. Yu, B. Zhuang/.
-\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
-\n$\cdot$ [data/bibtex/LoRAPrune2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning+Zhang,+Mingyang+and+Chen,+Hao+and+Shen,+Chunhua+and+Yang,+Zhen+and+Ou,+Linlin+and+Yu,+Xinyi+and+Zhuang,+Bohan google scholar][https://www.semanticscholar.org/search?q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning semantic scholar]
-. *StableLLaVA: enhanced visual instruction tuning with synthesized image-dialogue data*   
-\n$\cdot$ /Y. Li, C. Zhang, G. Yu, Z. Wang, B. Fu, G. Lin, C. Shen, L. Chen, Y. Wei/.
-\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
-\n$\cdot$ [data/bibtex/Chi2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data+Li,+Yanda+and+Zhang,+Chi+and+Yu,+Gang+and+Wang,+Zhibin+and+Fu,+Bin+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Chen,+Ling+and+Wei,+Yunchao google scholar][https://www.semanticscholar.org/search?q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data semantic scholar]
 . *Traffic scene parsing through the tsp6k dataset*   
 \n$\cdot$ /P. Jiang, Y. Yang, Y. Cao, Q. Hou, M. Cheng, C. Shen/.
 \n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
@@ -59,6 +51,14 @@
 \n$\cdot$ /G. Ding, C. Zhao, W. Wang, Z. Yang, Z. Liu, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
 \n$\cdot$ [data/bibtex/DingCVPR2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition+Ding,+Ganggui+and+Zhao,+Canyu+and+Wang,+Wen+and+Yang,+Zhen+and+Liu,+Zide+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition semantic scholar]
+. *LoRAPrune: structured pruning meets low-rank parameter-efficient fine-tuning*   
+\n$\cdot$ /M. Zhang, H. Chen, C. Shen, Z. Yang, L. Ou, X. Yu, B. Zhuang/.
+\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
+\n$\cdot$ [data/bibtex/LoRAPrune2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning+Zhang,+Mingyang+and+Chen,+Hao+and+Shen,+Chunhua+and+Yang,+Zhen+and+Ou,+Linlin+and+Yu,+Xinyi+and+Zhuang,+Bohan google scholar][https://www.semanticscholar.org/search?q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning semantic scholar]
+. *StableLLaVA: enhanced visual instruction tuning with synthesized image-dialogue data*   
+\n$\cdot$ /Y. Li, C. Zhang, G. Yu, Z. Wang, B. Fu, G. Lin, C. Shen, L. Chen, Y. Wei/.
+\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
+\n$\cdot$ [data/bibtex/Chi2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data+Li,+Yanda+and+Zhang,+Chi+and+Yu,+Gang+and+Wang,+Zhibin+and+Fu,+Bin+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Chen,+Ling+and+Wei,+Yunchao google scholar][https://www.semanticscholar.org/search?q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data semantic scholar]
 . *VisionLLaMA: a unified llama backbone for vision tasks*   
 \n$\cdot$ /X. Chu, J. Su, B. Zhang, C. Shen/.
 \n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
