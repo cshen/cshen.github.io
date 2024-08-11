@@ -51,7 +51,7 @@ Information is believed to be accurate when entered in 11/2020.
 <div id="footer-text">
 &copy; <b>Chunhua Shen</b>
 &bull;
-last update: 2024-08-11 16:50:29 ACST
+last update: 2024-08-11 17:07:09 ACST
 &bull;
 <a href="#" onClick="changewidth(1);return false" title="Expand page width"><b>&larr;&rarr;</b></a>
 &bull;
@@ -156,11 +156,19 @@ MathJax.Hub.Config({
     changewidth( 0.9 );
 //
 //
+// Only if it is not Safari, highlight words because Safari does not render highlighted words properly. 2023/08
+var is_Safari = window.safari !== undefined;
+if (is_Safari)
+{}
+else
+{
 //  highlight ``Shen''
     $("body p").highlight(['C. Shen', 'Chunhua Shen']);
 //  highlight selected publication venues
     $("body p").highlight(['CVPR', 'ICCV', 'ECCV', 'ICML', 'NeurIPS',
     'TPAMI', 'IJCV', 'JMLR'],  { element: 'span', className: 'selected_venue' } );
+}
+//
 //
     });
 </script>
