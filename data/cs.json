@@ -46,6 +46,63 @@
   {
     "author": [
       {
+        "family": "Hu",
+        "given": "Mu"
+      },
+      {
+        "family": "Yin",
+        "given": "Wei"
+      },
+      {
+        "family": "Zhang",
+        "given": "Chi"
+      },
+      {
+        "family": "Cai",
+        "given": "Zhipeng"
+      },
+      {
+        "family": "Long",
+        "given": "Xiaoxiao"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Wang",
+        "given": "Kaixuan"
+      },
+      {
+        "family": "Yu",
+        "given": "Gang"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Shen",
+        "given": "Shaojie"
+      }
+    ],
+    "container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "event-place": "TPAMI",
+    "id": "Metric3Dv22024TPAMI",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Metric3D v2: A versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation",
+    "title-short": "Metric3D v2",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Yin",
         "given": "Wei"
       },
