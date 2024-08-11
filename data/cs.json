@@ -1,87 +1,5 @@
 [
   {
-    "URL": "",
-    "author": [
-      {
-        "family": "Chen",
-        "given": "Zhekai"
-      },
-      {
-        "family": "Wang",
-        "given": "Wen"
-      },
-      {
-        "family": "Yang",
-        "given": "Zhen"
-      },
-      {
-        "family": "Yuan",
-        "given": "Zeqing"
-      },
-      {
-        "family": "Chen",
-        "given": "Hao"
-      },
-      {
-        "family": "Shen",
-        "given": "Chunhua"
-      }
-    ],
-    "container-title": "European conference on computer vision (ECCV’24)",
-    "event-place": "ECCV",
-    "id": "FreeComp2024Chen",
-    "issued": {
-      "date-parts": [
-        [
-          2024
-        ]
-      ]
-    },
-    "note": "",
-    "page": "",
-    "title": "FreeCompose: Generic zero-shot image composition with diffusion prior",
-    "title-short": "FreeCompose",
-    "type": "paper-conference",
-    "volume": ""
-  },
-  {
-    "URL": "",
-    "author": [
-      {
-        "family": "Chu",
-        "given": "Xiangxiang"
-      },
-      {
-        "family": "Su",
-        "given": "Jianlin"
-      },
-      {
-        "family": "Zhang",
-        "given": "Bo"
-      },
-      {
-        "family": "Shen",
-        "given": "Chunhua"
-      }
-    ],
-    "container-title": "European conference on computer vision (ECCV’24)",
-    "event-place": "ECCV",
-    "id": "VisionLLaMA2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024
-        ]
-      ]
-    },
-    "note": "",
-    "page": "",
-    "title": "VisionLLaMA: A unified LLaMA backbone for vision tasks",
-    "title-short": "VisionLLaMA",
-    "type": "paper-conference",
-    "volume": ""
-  },
-  {
     "author": [
       {
         "family": "Wu",
@@ -13576,7 +13494,7 @@
     "volume": ""
   },
   {
-    "abstract": "Minimization of the L_\\infty norm, which can be viewed as approximately solving the non-convex least median estimation problem, is a powerful method for outlier removal and hence robust regression. However, current techniques for solving the problem at the heart of L_\\infty norm minimization are slow, and therefore cannot scale to large problems. A new method for the minimization of the L_\\infty norm is presented here, which provides a speedup of multiple orders of magnitude for data with high dimension. This method, termed Fast L_\\infty Minimization, allows robust regression to be applied to a class of problems which were previously inaccessible. It is shown how the L_\\infty norm minimization problem can be broken up into smaller sub-problems, which can then be solved extremely efficiently. Experimental results demonstrate the radical reduction in computation time, along with robustness against large numbers of outliers in a few model-fitting problems.",
+    "abstract": "Minimization of the $L_\\infty$ norm, which can be viewed as approximately solving the non-convex least median estimation problem, is a powerful method for outlier removal and hence robust regression. However, current techniques for solving the problem at the heart of $L_\\infty$ norm minimization are slow, and therefore cannot scale to large problems. A new method for the minimization of the $L_\\infty$ norm is presented here, which provides a speedup of multiple orders of magnitude for data with high dimension. This method, termed Fast $L_\\infty$ Minimization, allows robust regression to be applied to a class of problems which were previously inaccessible. It is shown how the $L_\\infty$ norm minimization problem can be broken up into smaller sub-problems, which can then be solved extremely efficiently. Experimental results demonstrate the radical reduction in computation time, along with robustness against large numbers of outliers in a few model-fitting problems.",
     "author": [
       {
         "family": "Shen",
@@ -13613,8 +13531,8 @@
     },
     "note": "",
     "page": "25-37",
-    "title": "Fast approximate L_\\infty minimization: Speeding up robust regression",
-    "title-short": "Fast approximate L_\\infty minimization",
+    "title": "Fast approximate $L_\\infty$ minimization: Speeding up robust regression",
+    "title-short": "Fast approximate $L_\\infty$ minimization",
     "type": "article-journal",
     "volume": "77"
   },
@@ -13656,7 +13574,7 @@
   },
   {
     "URL": "http://dx.doi.org/10.1109/JBHI.2013.2285378",
-    "abstract": "To achieve effective and efficient detection of Alzheimer’s disease (AD), many machine learning methods have been introduced into this realm. However, the general case of limited training samples, as well as different feature representations typically makes this problem challenging. In this work, we propose a novel multiple kernel learning framework to combine multi-modal features for AD classification, which is scalable and easy to implement. Contrary to the usual way of solving the problem in the dual space, we look at the optimization from a new perspective. By conducting Fourier transform on the Gaussian kernel, we explicitly compute the mapping function, which leads to a more straightforward solution of the problem in the primal space. Furthermore, we impose the mixed L_{21} norm constraint on the kernel weights, known as the group lasso regularization, to enforce group sparsity among different feature modalities. This actually acts as a role of feature modality selection, while at the same time exploiting complementary information among different kernels. Therefore it is able to extract the most discriminative features for classification. Experiments on the ADNI data set demonstrate the effectiveness of the proposed method.",
+    "abstract": "To achieve effective and efficient detection of Alzheimer’s disease (AD), many machine learning methods have been introduced into this realm. However, the general case of limited training samples, as well as different feature representations typically makes this problem challenging. In this work, we propose a novel multiple kernel learning framework to combine multi-modal features for AD classification, which is scalable and easy to implement. Contrary to the usual way of solving the problem in the dual space, we look at the optimization from a new perspective. By conducting Fourier transform on the Gaussian kernel, we explicitly compute the mapping function, which leads to a more straightforward solution of the problem in the primal space. Furthermore, we impose the mixed $L_{21}$ norm constraint on the kernel weights, known as the group lasso regularization, to enforce group sparsity among different feature modalities. This actually acts as a role of feature modality selection, while at the same time exploiting complementary information among different kernels. Therefore it is able to extract the most discriminative features for classification. Experiments on the ADNI data set demonstrate the effectiveness of the proposed method.",
     "author": [
       {
         "family": "Liu",
@@ -16248,7 +16166,7 @@
     "page": "339-346",
     "publisher": "IEEE Press",
     "publisher-place": "Melbourne, Australia",
-    "title": "Smooth approximation of L_\\infty-norm for multi-view geometry",
+    "title": "Smooth approximation of $L_\\infty$-norm for multi-view geometry",
     "type": "paper-conference",
     "volume": ""
   },

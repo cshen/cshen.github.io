@@ -1,8 +1,8 @@
 # jemdoc: title{Chunhua Shen}, addcss{css/full_publication.css}
 = Publications (Full List)
-== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *442*  papers.  
+== Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *441*  papers.  
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75075 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75394 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -30,6 +30,10 @@
 \n$\cdot$ /R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
 \n$\cdot$ [http://arxiv.org/abs/2310.11284    arXiv][data/bibtex/Ruibo2024TPAMI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Wang,+Zhe+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior semantic scholar]
+. *Metric3d v2: a versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation*   
+\n$\cdot$ /M. Hu, W. Yin, C. Zhang, Z. Cai, X. Long, H. Chen, K. Wang, G. Yu, C. Shen, S. Shen/.
+\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
+\n$\cdot$ [http://arxiv.org/abs/2404.15506    arXiv][data/bibtex/Metric3Dv22024TPAMI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation+Hu,+Mu+and+Yin,+Wei+and+Zhang,+Chi+and+Cai,+Zhipeng+and+Long,+Xiaoxiao+and+Chen,+Hao+and+Wang,+Kaixuan+and+Yu,+Gang+and+Shen,+Chunhua+and+Shen,+Shaojie google scholar][https://www.semanticscholar.org/search?q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation semantic scholar][https://jugghm.github.io/Metric3Dv2/   project webpage]
 == Conference
 . *PointAttN: you only need attention for point cloud completion*   
 \n$\cdot$ /J. Wang, Y. Cui, D. Guo, J. Li, Q. Liu, C. Shen/.
@@ -39,6 +43,14 @@
 \n$\cdot$ /C. Jing, Y. Li, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. AAAI Conference on Artificial Intelligence (AAAI'24), 2024/.
 \n$\cdot$ [data/bibtex/Jing2024AAAI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning+Jing,+Chenchen+and+Li,+Yukun+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Retrieval-augmented+Primitive+Representations+for+Compositional+Zero-shot+Learning semantic scholar]
+. *LoRAPrune: structured pruning meets low-rank parameter-efficient fine-tuning*   
+\n$\cdot$ /M. Zhang, H. Chen, C. Shen, Z. Yang, L. Ou, X. Yu, B. Zhuang/.
+\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
+\n$\cdot$ [data/bibtex/LoRAPrune2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning+Zhang,+Mingyang+and+Chen,+Hao+and+Shen,+Chunhua+and+Yang,+Zhen+and+Ou,+Linlin+and+Yu,+Xinyi+and+Zhuang,+Bohan google scholar][https://www.semanticscholar.org/search?q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning semantic scholar]
+. *StableLLaVA: enhanced visual instruction tuning with synthesized image-dialogue data*   
+\n$\cdot$ /Y. Li, C. Zhang, G. Yu, Z. Wang, B. Fu, G. Lin, C. Shen, L. Chen, Y. Wei/.
+\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
+\n$\cdot$ [data/bibtex/Chi2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data+Li,+Yanda+and+Zhang,+Chi+and+Yu,+Gang+and+Wang,+Zhibin+and+Fu,+Bin+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Chen,+Ling+and+Wei,+Yunchao google scholar][https://www.semanticscholar.org/search?q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data semantic scholar]
 . *Traffic scene parsing through the tsp6k dataset*   
 \n$\cdot$ /P. Jiang, Y. Yang, Y. Cao, Q. Hou, M. Cheng, C. Shen/.
 \n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
@@ -51,22 +63,6 @@
 \n$\cdot$ /G. Ding, C. Zhao, W. Wang, Z. Yang, Z. Liu, H. Chen, C. Shen/.
 \n$\cdot$ /Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR'24), 2024/.
 \n$\cdot$ [data/bibtex/DingCVPR2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition+Ding,+Ganggui+and+Zhao,+Canyu+and+Wang,+Wen+and+Yang,+Zhen+and+Liu,+Zide+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCustom}:+Tuning-Free+Customized+Image+Generation+for+Multi-Concept+Composition semantic scholar]
-. *LoRAPrune: structured pruning meets low-rank parameter-efficient fine-tuning*   
-\n$\cdot$ /M. Zhang, H. Chen, C. Shen, Z. Yang, L. Ou, X. Yu, B. Zhuang/.
-\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
-\n$\cdot$ [data/bibtex/LoRAPrune2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning+Zhang,+Mingyang+and+Chen,+Hao+and+Shen,+Chunhua+and+Yang,+Zhen+and+Ou,+Linlin+and+Yu,+Xinyi+and+Zhuang,+Bohan google scholar][https://www.semanticscholar.org/search?q={LoRAPrune}:+Structured+Pruning+Meets+Low-Rank+Parameter-Efficient+Fine-Tuning semantic scholar]
-. *StableLLaVA: enhanced visual instruction tuning with synthesized image-dialogue data*   
-\n$\cdot$ /Y. Li, C. Zhang, G. Yu, Z. Wang, B. Fu, G. Lin, C. Shen, L. Chen, Y. Wei/.
-\n$\cdot$ /Proc. Findings of the Association for Computational Linguistics (EACL'24), 2024/.
-\n$\cdot$ [data/bibtex/Chi2024ACL.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data+Li,+Yanda+and+Zhang,+Chi+and+Yu,+Gang+and+Wang,+Zhibin+and+Fu,+Bin+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Chen,+Ling+and+Wei,+Yunchao google scholar][https://www.semanticscholar.org/search?q={StableLLaVA}:+Enhanced+Visual+Instruction+Tuning+with+Synthesized+Image-Dialogue+Data semantic scholar]
-. *VisionLLaMA: a unified llama backbone for vision tasks*   
-\n$\cdot$ /X. Chu, J. Su, B. Zhang, C. Shen/.
-\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
-\n$\cdot$ [http://arxiv.org/abs/2403.00522    arXiv][data/bibtex/VisionLLaMA2024.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={VisionLLaMA}:+A+Unified+LLaMA+Backbone+for+Vision+Tasks+Chu,+Xiangxiang+and+Su,+Jianlin+and+Zhang,+Bo+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={VisionLLaMA}:+A+Unified+LLaMA+Backbone+for+Vision+Tasks semantic scholar][https://github.com/Meituan-AutoML/VisionLLaMA   project webpage]
-. *FreeCompose: generic zero-shot image composition with diffusion prior*   
-\n$\cdot$ /Z. Chen, W. Wang, Z. Yang, Z. Yuan, H. Chen, C. Shen/.
-\n$\cdot$ /Proc. European Conference on Computer Vision (ECCV'24), 2024/.
-\n$\cdot$ [http://arxiv.org/abs/2407.04947    arXiv][data/bibtex/FreeComp2024Chen.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q={FreeCompose}:+Generic+Zero-Shot+Image+Composition+with+Diffusion+Prior+Chen,+Zhekai+and+Wang,+Wen+and+Yang,+Zhen+and+Yuan,+Zeqing+and+Chen,+Hao+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q={FreeCompose}:+Generic+Zero-Shot+Image+Composition+with+Diffusion+Prior semantic scholar]
 . *Object-aware inversion and reassembly for image editing*   
 \n$\cdot$ /Z. Yang, D. Gui, W. Wang, H. Chen, B. Zhuang, C. Shen/.
 \n$\cdot$ /Proc. International Conference on Learning Representations (ICLR'24), 2024/.
