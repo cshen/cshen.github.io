@@ -83,6 +83,47 @@
   {
     "author": [
       {
+        "family": "Li",
+        "given": "Hanxi"
+      },
+      {
+        "family": "Hu",
+        "given": "Jianfei"
+      },
+      {
+        "family": "Li",
+        "given": "Bo"
+      },
+      {
+        "family": "Chen",
+        "given": "Hao"
+      },
+      {
+        "family": "Zheng",
+        "given": "Yongbin"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      }
+    ],
+    "container-title": "IEEE Transactions on Image Processing",
+    "event-place": "TIP",
+    "id": "Li2024TIP",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Target before shooting: Accurate anomaly detection and localization under one millisecond via cascade patch retrieval",
+    "title-short": "Target before shooting",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Liu",
         "given": "Yang"
       },

@@ -1,0 +1,269 @@
+#---------------------------
+# Chunhua Shen, 2013; 2020
+# vim: set ft=sh :
+#---------------------------
+
+echo "loading ~/.bash_aliases (by "$SHELL") ..."
+
+
+alias _f="unset -f ::"
+
+NORMAL=$(tput sgr0)
+GREEN=$(tput setaf 2; tput bold)
+YELLOW=$(tput setaf 3)
+RED=$(tput setaf 1)
+function red() {
+    echo -e "$RED$*$NORMAL"
+}
+
+function green() {
+    echo -e "$GREEN$*$NORMAL"
+}
+
+function yellow() {
+    echo -e "$YELLOW$*$NORMAL"
+}
+
+function command_exists()
+{
+    type "$1" > /dev/null 2>/dev/null;
+}
+
+
+
+# funtion arguments ->  filename to comapre against curr time; and hours
+function compare_date() {
+
+    file=$1
+    [ -z $2 ] && hrs=12 || hrs=$2
+
+    if [ ! -f $file ]; then
+        echo "file $file does not exist"
+	    return 10
+    fi
+
+    MAXAGE=$(bc <<< $hrs'*60*60') # seconds in how many (default 12) hours
+    # file age in seconds = current_time - file_modification_time.
+    FILEAGE=$(($(date +%s) - $(gstat -c '%Y' "$file")))
+    test $FILEAGE -lt $MAXAGE && {
+        echo "... $file is less than "$hrs" hours old."
+        return 0
+    }
+    echo "... $file is older than "$hrs" hours seconds."
+    return 1
+}
+
+
+abbrev-alias calc='::(){ bc -l <<< "$@"; _f;}; ::'
+
+abbrev-alias mv='mv -iv'
+abbrev-alias cp='cp -iv'
+
+abbrev-alias kk='ls -lF'
+abbrev-alias wget='wget -c '
+abbrev-alias mkdir="mkdir -pv "
+
+abbrev-alias -ce cat="`which bat` -P "
+
+
+abbrev-alias -ce brewi="`which brew` install "
+abbrev-alias -ce bi="`which brew` install "
+abbrev-alias -ce brews="`which brew` search "
+abbrev-alias -ce bs="`which brew` search "
+abbrev-alias -ce cheat="`which cht.sh` "
+abbrev-alias -ce c="`which cht.sh` "
+
+abbrev-alias ip="echo 'Your outer IP:' && curl icanhazip.com"
+
+abbrev-alias -g s='search '
+abbrev-alias -g i='install '
+abbrev-alias -g D='~/Downloads'
+abbrev-alias -g d='~/Desktop'
+
+
+abbrev-alias rscp='rsync -v -P -e ssh'
+
+
+abbrev-alias -ce compress="$(which rar) a -v98M -R ~/Downloads/_archive_$(date +%Y-%m-%d_%H.%M.%S).rar  "
+abbrev-alias -ce rar="$(which rar) a -v98M -R ~/Downloads/_archive_$(date +%Y-%m-%d_%H.%M.%S).rar  "
+
+
+
+command_exists nvim  && abbrev-alias vim='nvim'
+
+
+command_exists brew  && abbrev-alias update='brew update && brew outdated | xargs brew upgrade'
+
+
+abbrev-alias ..='cd ..'
+
+
+alias svnup='echo "svn update ..." & svn update'
+alias svnp='svn propset svn:keywords "Id Author Date Rev URL"'
+
+
+abbrev-alias rsync='rsync -axvz --rsh=ssh --progress'
+
+
+
+
+
+function google() {
+    open -na "Google Chrome" --args "https://www.google.com/search?q=$*"
+}
+
+
+function cmdfreq()
+{
+    history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' \
+        | grep -v "cd" | grep -v "ll" | column -c3 -s " " -t \
+        | sort -nr | nl |  head -n20
+}
+
+function svnci()
+{
+    model=`system_profiler SPHardwareDataType | grep "Model Name" | awk '{ print $3 $4 $5 }'`
+
+    location="Unknown location"
+    ifconfig | grep inet | grep 192.168.0  > /dev/null
+    if [[ $? == 0 ]]
+    then
+        location=Home
+    fi
+    ifconfig | grep inet | grep 129.127  > /dev/null
+    if [[ $? == 0 ]]
+    then
+        location=Office
+    fi
+
+
+    machine="macOS@"$model", from "$location
+    user=`whoami | tr '[:lower:]' '[:upper:]'`
+
+    f_curp=$(pwd)
+    curp=${f_curp##*/}
+
+
+    msg=" @`date '+%d/%m/%Y %H:%M:%S'` by $user, $machine:$curp"
+
+    if [[ ! -z "$1" ]]
+    then
+        msg="NOTE:""$@"$msg
+    fi
+
+    echo "check in message: ""$msg"
+    svn ci -m"$msg"
+}
+
+function gitci()
+{
+    model=`system_profiler SPHardwareDataType | grep "Model Name" | awk '{ print $3 $4 $5 }'`
+
+    location="Unknown location"
+    ifconfig | grep inet | grep 192.168.0  > /dev/null
+    if [[ $? == 0 ]]
+    then
+        location=Home
+    fi
+    ifconfig | grep inet | grep 129.127  > /dev/null
+    if [[ $? == 0 ]]
+    then
+        location=Office
+    fi
+
+
+    machine="macOS@"$model", from "$location
+    user=`whoami | tr '[:lower:]' '[:upper:]'`
+
+    f_curp=$(pwd)
+    curp=${f_curp##*/}
+
+
+    msg=" @`date '+%d/%m/%Y %H:%M:%S'` by $user, $machine:$curp"
+
+    if [[ ! -z "$1" ]]
+    then
+        msg="NOTE:""$@"$msg
+    fi
+
+    echo "check in message: ""$msg"
+    git commit -a -m"$msg"
+    git push
+}
+
+
+function pdfmerge()
+{
+    curtime=`date | sed s/" "/"-"/g | sed s/:/"_"/g`
+    pdftk "$@" cat output CombinedPDF_$curtime.pdf
+
+    echo 'The merged PDF is CombinedPDF_'$curtime'.pdf'
+}
+
+
+function tarz()
+{
+    if [ -z $1 ]; then
+            echo "you need to provide a file or dir to zip."
+            return
+    fi
+
+    DIR="$1"
+    filename=${DIR%/*}
+
+    DATE=$(date +%m%d-%H%M)
+
+    f="$filename""-"$DATE.tar.gz
+    echo "... Compressing files into:  ""$f"
+    tar cvfz  "$f"  $DIR
+
+    echo "Done. The compressed file is: ""$f"
+
+}
+
+function extract()
+{
+    if [[ -f "$1" ]] ; then
+        case "$1" in
+            *.tar.bz2)  tar xjf "$1" ;;
+            *.tar.gz)   tar xzf "$1" ;;
+            *.tar.Z)    tar xzf "$1" ;;
+            *.bz2)      bunzip2 "$1" ;;
+            *.rar)      unrar x "$1" ;;
+            *.gz)       gunzip "$1" ;;
+            *.jar)      unzip "$1" ;;
+            *.tar)      tar xf "$1" ;;
+            *.tbz2)     tar xjf "$1" ;;
+            *.tgz)      tar xzf "$1" ;;
+            *.zip)      unzip "$1" ;;
+            *.Z)        uncompress "$1" ;;
+            *7z)        7zip e "$1" ;;
+            *)          echo "'$1' cannot be extracted." ;;
+    esac
+else
+    echo "'$1' is not a file."
+fi
+}
+
+
+
+# Expand shortened URL
+function longurl() {
+  curl -sIL $1 2>&1 | awk '/^Location/ {print $2}' | tail -n1
+}
+
+
+
+
+
+
+
+
+
+
+# Terminal app, Profiles -> Keyboard -> + then press the keyboard shortcut you're after
+# For me Ctrl+B resulted in \002 which i successfully bound to command
+# bind '"\002":"echo command"'
+
+# Ctrl f to exe fcc
+bind '"\006":  "fcc\n"'
