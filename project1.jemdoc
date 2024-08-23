@@ -1,9 +1,0 @@
-# jemdoc: addpackage{xcolor},eqsize{100},title{Chunhua Shen | The University of Adelaide}
-= Projects
- 
--  [./projects/./BQP/  A Fast Semidefinite Approach to Solving Binary Quadratic Problems]
--  [./projects/./fisherboost/  Training Effective Node Classifiers for Cascade Classification]
--  [./projects/./idct_track/  Incremental Learning of 3D-DCT Compact Representations for Robust Visual Tracking]
--  [./projects/./ ]
--  [./projects/./inductive_hashing/  Inductive Hashing on Manifolds]
--  [./projects/./N9/  All-in-focus Imaging on a Mobile Phone Platform]
