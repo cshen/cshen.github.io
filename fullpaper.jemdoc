@@ -2,7 +2,7 @@
 = Publications (Full List)
 == Categorised [fullpaper2.html by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}],  [fullpaper.html by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}]. *441*  papers.  
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75394 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75858 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html    DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html    arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
 {{<div id="citation_plot_holder"></div>}}
@@ -26,14 +26,14 @@
 \n$\cdot$ /Y. Liu, X. Wang, M. Zhu, Y. Cao, T. Huang, C. Shen/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2024/.
 \n$\cdot$ [data/bibtex/Liuyang2024Masked.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Masked+Channel+Modeling+for+Bootstrapping+Visual+Pre-training+Liu,+Yang+and+Wang,+Xinlong+and+Zhu,+Muzhi+and+Cao,+Yue+and+Huang,+Tiejun+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Masked+Channel+Modeling+for+Bootstrapping+Visual+Pre-training semantic scholar]
+. *Target before shooting: accurate anomaly detection and localization under one millisecond via cascade patch retrieval*   
+\n$\cdot$ /H. Li, J. Hu, B. Li, H. Chen, Y. Zheng, C. Shen/.
+\n$\cdot$ /IEEE Transactions on Image Processing (TIP), 2024/.
+\n$\cdot$ [data/bibtex/Li2024TIP.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Target+before+Shooting:+Accurate+Anomaly+Detection+and+Localization+under+One+Millisecond+via+Cascade+Patch+Retrieval+Li,+Hanxi+and+Hu,+Jianfei+and+Li,+Bo+and+Chen,+Hao+and+Zheng,+Yongbin+and+Shen,+Chunhua google scholar][https://www.semanticscholar.org/search?q=Target+before+Shooting:+Accurate+Anomaly+Detection+and+Localization+under+One+Millisecond+via+Cascade+Patch+Retrieval semantic scholar]
 . *Self-supervised 3d scene flow estimation and motion prediction using local rigidity prior*   
 \n$\cdot$ /R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
 \n$\cdot$ [http://arxiv.org/abs/2310.11284    arXiv][data/bibtex/Ruibo2024TPAMI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Wang,+Zhe+and+Shen,+Chunhua+and+Lin,+Guosheng google scholar][https://www.semanticscholar.org/search?q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior semantic scholar]
-. *Metric3d v2: a versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation*   
-\n$\cdot$ /M. Hu, W. Yin, C. Zhang, Z. Cai, X. Long, H. Chen, K. Wang, G. Yu, C. Shen, S. Shen/.
-\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
-\n$\cdot$ [http://arxiv.org/abs/2404.15506    arXiv][data/bibtex/Metric3Dv22024TPAMI.bib    bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation+Hu,+Mu+and+Yin,+Wei+and+Zhang,+Chi+and+Cai,+Zhipeng+and+Long,+Xiaoxiao+and+Chen,+Hao+and+Wang,+Kaixuan+and+Yu,+Gang+and+Shen,+Chunhua+and+Shen,+Shaojie google scholar][https://www.semanticscholar.org/search?q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation semantic scholar][https://jugghm.github.io/Metric3Dv2/   project webpage]
 == Conference
 . *PointAttN: you only need attention for point cloud completion*   
 \n$\cdot$ /J. Wang, Y. Cui, D. Guo, J. Li, Q. Liu, C. Shen/.

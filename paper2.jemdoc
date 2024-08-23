@@ -3,12 +3,12 @@
 == Categorised [paper.html  by year {{<i class='fa fa-clock-o' aria-hidden='true'></i>}}], [paper2.html  by venue {{<i class='fa fa-location-arrow' aria-hidden='true'></i>}}].  
 [fullpaper.html Full publication list {{<i class='fa fa-code' aria-hidden='true'></i>}}]. [cshen_papers.pdf Full list in PDF {{<i class='fa fa-file-pdf-o' aria-hidden='true'></i>}}].
 
-[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75394 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
+[https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ&view_op=list_works&pagesize=100 Google scholar (75858 citations)  {{<i class='ai ai-google-scholar'   aria-hidden='true'></i>}}],
 [https://dblp.org/pid/56/1673.html  DBLP {{<i class='ai ai-dblp ai-1x'></i>}}],
 [https://arxiv.org/a/shen_c_1.html  arXiv {{<i class='ai ai-arxiv ai-1x'></i>}}].
   
-== Journal: 69
-===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 43
+== Journal: 68
+===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Trans%20Pattern%20Anal%20Mach%20Intell%20 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)]: 42
 ===  [https://dblp.org/search/publ?q=author%3AChunhua_Shen%3Avenue%3A%20Int%20J%20Comput%20Vis%20 International Journal of Computer Vision (IJCV)]: 26
 \n
 . *Masked channel modeling for bootstrapping visual pre-training*  
@@ -115,10 +115,6 @@
 \n$\cdot$ /C. Shen, P. Wang, S. Paisitkriangkrai, A. van den Hengel/.
 \n$\cdot$ /International Journal of Computer Vision (IJCV), 2013/.
 \n$\cdot$ [http://arxiv.org/abs/1301.2032 arXiv][http://link.springer.com/article/10.1007%2Fs11263-013-0608-1  link][data/bibtex/FisherBoost2013IJCV.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Training+Effective+Node+Classifiers+for+Cascade+Classification+Shen,+Chunhua+and+Wang,+Peng+and+Paisitkriangkrai,+Sakrapee+and+{van+den+Hengel},+Anton google scholar][https://www.semanticscholar.org/search?q=Training+Effective+Node+Classifiers+for+Cascade+Classification semantic scholar]
-. *Metric3d v2: a versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation*  
-\n$\cdot$ /M. Hu, W. Yin, C. Zhang, Z. Cai, X. Long, H. Chen, K. Wang, G. Yu, C. Shen, S. Shen/.
-\n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
-\n$\cdot$ [http://arxiv.org/abs/2404.15506 arXiv][data/bibtex/Metric3Dv22024TPAMI.bib     bibtex][https://scholar.google.com/scholar?lr&ie=UTF-8&oe=UTF-8&q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation+Hu,+Mu+and+Yin,+Wei+and+Zhang,+Chi+and+Cai,+Zhipeng+and+Long,+Xiaoxiao+and+Chen,+Hao+and+Wang,+Kaixuan+and+Yu,+Gang+and+Shen,+Chunhua+and+Shen,+Shaojie google scholar][https://www.semanticscholar.org/search?q=Metric3D+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation semantic scholar][https://jugghm.github.io/Metric3Dv2/   project webpage]
 . *Self-supervised 3d scene flow estimation and motion prediction using local rigidity prior*  
 \n$\cdot$ /R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin/.
 \n$\cdot$ /IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024/.
