@@ -2,6 +2,62 @@
   {
     "author": [
       {
+        "family": "Hu",
+        "given": "Mu"
+      },
+      {
+        "family": "Yin",
+        "suffix": "Wei"
+      },
+      {
+        "family": "Zhang",
+        "given": "Chi"
+      },
+      {
+        "family": "Cai",
+        "given": "Zhipeng"
+      },
+      {
+        "family": "Long",
+        "given": "Xiaoxiao"
+      },
+      {
+        "family": "Chen",
+        "suffix": "Hao"
+      },
+      {
+        "family": "Wang",
+        "given": "Kaixuan"
+      },
+      {
+        "family": "Yu",
+        "given": "Gang"
+      },
+      {
+        "family": "Shen",
+        "given": "Chunhua"
+      },
+      {
+        "family": "Shen",
+        "given": "Shaojie"
+      }
+    ],
+    "container-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "event-place": "TPAMI",
+    "id": "hu2024metric3dv2",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "A versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
         "family": "Wu",
         "given": "Weijia"
       },
