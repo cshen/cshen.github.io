@@ -9,136 +9,1374 @@
 <!-- font family -->
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-<title></title>
+<link rel="stylesheet" href="css/full_publication.css" type="text/css" />
+<title>Chunhua Shen</title>
 </head>
 <body>
 <div id="layout-content">
-<div id="footer">
-<div id="footer-text">
-&copy; <b>Chunhua Shen</b>
-&bull;
-last update: 2025-08-17 13:05:12 CST
-&bull;
-<a href="#" onClick="changewidth(1);return false" title="Expand page width"><b>&larr;&rarr;</b></a>
-&bull;
-<a href="#" onClick="changewidth(-1);return false" title="Reduce page width"><b>&rarr;&larr;</b></a>
-<!-- Javascript -->
-<!-- MathJax -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-	  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<!-- End MathJax -->
-<script
-    src="./script/jquery-1.6.2.min.js"
-    type="text/javascript">
-</script>
-<script
-    src="./script/jquery.flot.min.js"
-    type="text/javascript">
-</script>
-<script
-    src="./script/jquery-scroll.js"
-    type="text/javascript">
-</script>
-<script
-    src="./script/width_change.js"
-    type="text/javascript">
-</script>
-<script
-    src="./script/reverse_ol.js"
-    type="text/javascript">
-</script>
-<script
-    src="./script/jquery.highlight.js"
-    type="text/javascript">
-</script>
-<!-- Required for the jQuery.LocalScroll Plug-in -->
-<script type="text/javascript">
-    $(document).ready(function(){
-    //
-    $.localScroll();
-    //
-    // Round images
-    //
-	$(".rounded-img, .rounded-img2").load(function() {
-	$(this).wrap(function(){
-	return '<span class="' + $(this).attr('class')
-                + '" style="background:url(' + $(this).attr('src')
-                + ') no-repeat center center; width: '
-                + $(this).width() + 'px; height: '
-                + $(this).height() + 'px;" />';
-		});
-		$(this).css("opacity","0");
-	});
-      //
-      //
-      //  nav tab animation
-        var navDuration = 150; //time in miliseconds
-        $('#nav li a').hover(function() {
-          $(this).animate({ paddingTop:"50px"  }, navDuration);
-        }, function() {
-             $(this).animate({ paddingTop:"31px"}, navDuration);
-        });
-        //
-        // plot citation figure using jquery flot, 2012 July, CS
-        //
-        var flot_options = {
-        legend: {
-            show: false,
-            margin: 10,
-            backgroundOpacity: 0.5
-                },
-        bars:  {
-            show: true,
-            barWidth: 0.6,
-            align: "center"
-        },
-        yaxis: {
-            min: -20,
-            tickFormatter: function(val, axis) {
-                if (val < 50)
-                    return " &nbsp; ";  // some string
-                else
-                    return val < axis.max ? val.toFixed(0) :   "  &nbsp;  ";
-            }
-        },
-        grid: {
-            borderWidth: 0
-        }
-    };  // end of flot_options
-    $.getJSON("./data/cs_cite.json", function(json) {
-       //succes - data loaded, now use plot:
-       var plotarea = $("#citation_plot_holder");
-       var data=[json.data];
-       $.plot(plotarea , data, flot_options);
-    });
-//
-// end of jquery flot
-//
-    changewidth( 0.9 );
-//
-//
-//  highlight ``Shen''
-    $("body p").highlight(['C. Shen', 'Chunhua Shen']);
-//  highlight selected publication venues
-    $("body p").highlight(['CVPR', 'ICCV', 'ECCV', 'ICML', 'NeurIPS',
-    'TPAMI', 'IJCV', 'JMLR'],  { element: 'span', className: 'selected_venue' } );
-//
-    });
-</script>
-<!-- News ticker -->
-<script type="text/javascript">
-    function tick(){
-        $('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
-    }
-    setInterval(function(){ tick () }, 5000);
-</script>
+<div id="menu">
+    <div id="menucontainer">
+<ul id="nav">
+   <li><a href="index.html" target="_self">Home</a></li>
+   <li><a href="paper.html" target="_self">Publications</a></li>
+   <li><a href="teaching.html" target="_self">Teaching</a></li>
+</ul>
 </div>
 </div>
+<div id="toptitle">
+<h1>Publications (Full List)</h1>
+<div id="subtitle">Categorised <a href="fullpaper2.html" target=&ldquo;blank&rdquo;>by venue <i class='fa fa-location-arrow' aria-hidden='true'></i></a>,  <a href="fullpaper.html" target=&ldquo;blank&rdquo;>by year <i class='fa fa-clock-o' aria-hidden='true'></i></a>. <b>470</b>  papers.
 </div>
-</body>
-</html>
+</div>
+<p><a href="https://scholar.google.com/citations?hl=en&amp;user=Ljk2BvIAAAAJ&amp;view_op=list_works&amp;pagesize=100" target=&ldquo;blank&rdquo;>Google scholar (92823 citations)  <i class='ai ai-google-scholar'   aria-hidden='true'></i></a>,
+<a href="https://dblp.org/pid/56/1673.html" target=&ldquo;blank&rdquo;>DBLP <i class='ai ai-dblp ai-1x'></i></a>,
+<a href="https://arxiv.org/a/shen_c_1.html" target=&ldquo;blank&rdquo;>arXiv <i class='ai ai-arxiv ai-1x'></i></a>.
+</p>
+<p><div id="citation_plot_holder"></div>
+</p>
+<h2>Journal</h2>
+<ol reversed>
+<li><p><b>Paragraph-to-image generation with information-enriched diffusion model</b>   
+<br />\(\cdot\) <i>W. Wu, Z. Li, Y. He, M. Shou, C. Shen, L. Cheng, Y. Li, T. Gao, Z. Di</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2025</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wuwj2025IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Paragraph-to-Image+Generation+with+Information-Enriched+Diffusion+Model+Wu,+Weijia+and+Li,+Zhuang+and+He,+Yefei+and+Shou,+Mike+Zheng+and+Shen,+Chunhua+and+Cheng,+Lele+and+Li,+Yan+and+Gao,+Tingting+and+Di,+Zhang" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Segment anything in context with vision foundation models</b>   
+<br />\(\cdot\) <i>Y. Liu, M. Zhu, H. Chen, X. Wang, B. Feng, H. Wang, S. Li, R. Vemulapalli, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2025</i>.
+<br />\(\cdot\) <a href="data/bibtex/YLiu2025IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Segment+Anything+in+Context+with+Vision+Foundation+Models+Liu,+Yang+and+Zhu,+Muzhi+and+Chen,+Hao+and+Wang,+Xinlong+and+Feng,+Bo+and+Wang,+Hao+and+Li,+Shiyu+and+Vemulapalli,+Raviteja+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>PonderV2: pave the way for 3D foundation model with a universal pre-training paradigm</b>   
+<br />\(\cdot\) <i>H. Zhu, H. Yang, X. Wu, D. Huang, S. Zhang, X. He, H. Zhao, C. Shen, Y. Qiao, T. He, W. Ouyang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhu2025TPAMIPonderV2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={PonderV2}:+Pave+the+Way+for+{3D}+Foundation+Model+with+A+Universal+Pre-training+Paradigm+Zhu,+Haoyi+and+Yang,+Honghui+and+Wu,+Xiaoyang+and+Huang,+Di+and+Zhang,+Sha+and+He,+Xianglong+and+Zhao,+Hengshuang+and+Shen,+Chunhua+and+Qiao,+Yu+and+He,+Tong+and+Ouyang,+Wanli" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Leaning dual-stream conditional concepts in compositional zero-shot learning</b>   
+<br />\(\cdot\) <i>Q. Wang, L. Liu, C. Jing, P. Wang, Y. Zhang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wang2025TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Leaning+Dual-Stream+Conditional+Concepts+in+Compositional+Zero-Shot+Learning+Wang,+Qingsheng+and+Liu,+Lingqiao+and+Jing,+Chenchen+and+Wang,+Peng+and+Zhang,+Yanning+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>VimTS: a unified video and image text spotter for enhancing the cross-domain generalization</b>   
+<br />\(\cdot\) <i>Y. Liu, M. Huang, H. Yan, L. Deng, W. Wu, H. Lu, C. Shen, L. Jin, X. Bai</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2404.19652" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Liu2025VIMTS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={VimTS}:+A+Unified+Video+and+Image+Text+Spotter+for+Enhancing+the+Cross-domain+Generalization+Liu,+Yuliang+and+Huang,+Mingxin+and+Yan,+Hao+and+Deng,+Linger+and+Wu,+Weijia+and+Lu,+Hao+and+Shen,+Chunhua+and+Jin,+Lianwen+and+Bai,+Xiang" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Scaling up multi-domain semantic segmentation with sentence embeddings</b>   
+<br />\(\cdot\) <i>W. Yin, Y. Liu, C. Shen, B. Sun, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/Yin2024SIW.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scaling+Up+Multi-domain+Semantic+Segmentation+with+Sentence+Embeddings+Yin,+Wei+and+Liu,+Yifan+and+Shen,+Chunhua+and+Sun,+Baichuan+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Towards robust monocular depth estimation: a new baseline and benchmark</b>   
+<br />\(\cdot\) <i>K. Xian, Z. Cao, C. Shen, G. Lin</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/Depth2024Xian.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+robust+monocular+depth+estimation:+a+new+baseline+and+benchmark+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua+and+Lin,+Guosheng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>End-to-end video text spotting with Transformer</b>   
+<br />\(\cdot\) <i>W. Wu, C. Shen, Y. Cai, D. Zhang, Y. Fu, P. Luo, H. Zhou</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wu2022transdetr.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=End-to-End+Video+Text+Spotting+with+{T}ransformer+Wu,+Weijia+and+Shen,+Chunhua+and+Cai,+Yuanqiang+and+Zhang,+Debing+and+Fu,+Ying+and+Luo,+Ping+and+Zhou,+Hong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>AutoStory: generating diverse storytelling images with minimal human effort</b>   
+<br />\(\cdot\) <i>W. Wang, C. Zhao, H. Chen, Z. Chen, K. Zheng, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/AutoStory2024Wang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={AutoStory}:+Generating+Diverse+Storytelling+Images+with+Minimal+Human+Effort+Wang,+Wen+and+Zhao,+Canyu+and+Chen,+Hao+and+Chen,+Zhekai+and+Zheng,+Kecheng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Masked channel modeling for bootstrapping visual pre-training</b>   
+<br />\(\cdot\) <i>Y. Liu, X. Wang, M. Zhu, Y. Cao, T. Huang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/Liuyang2024Masked.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Masked+Channel+Modeling+for+Bootstrapping+Visual+Pre-training+Liu,+Yang+and+Wang,+Xinlong+and+Zhu,+Muzhi+and+Cao,+Yue+and+Huang,+Tiejun+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Target before shooting: accurate anomaly detection and localization under one millisecond via cascade patch retrieval</b>   
+<br />\(\cdot\) <i>H. Li, J. Hu, B. Li, H. Chen, Y. Zheng, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2024</i>.
+<br />\(\cdot\) <a href="data/bibtex/Li2024TIP.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Target+before+Shooting:+Accurate+Anomaly+Detection+and+Localization+under+One+Millisecond+via+Cascade+Patch+Retrieval+Li,+Hanxi+and+Hu,+Jianfei+and+Li,+Bo+and+Chen,+Hao+and+Zheng,+Yongbin+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Self-supervised 3d scene flow estimation and motion prediction using local rigidity prior</b>   
+<br />\(\cdot\) <i>R. Li, C. Zhang, Z. Wang, C. Shen, G. Lin</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2310.11284" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Ruibo2024TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Self-Supervised+3D+Scene+Flow+Estimation+and+Motion+Prediction+using+Local+Rigidity+Prior+Li,+Ruibo+and+Zhang,+Chi+and+Wang,+Zhe+and+Shen,+Chunhua+and+Lin,+Guosheng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Metric3D v2: a versatile monocular geometric foundation model for zero-shot metric depth and surface normal estimation</b>   
+<br />\(\cdot\) <i>M. Hu, W. Yin, C. Zhang, Z. Cai, X. Long, H. Chen, K. Wang, G. Yu, C. Shen, S. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2404.15506" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/hu2024metric3dv2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={Metric3D}+v2:+A+Versatile+Monocular+Geometric+Foundation+Model+for+Zero-shot+Metric+Depth+and+Surface+Normal+Estimation+Hu,+Mu+and+Yin,+Wei+and+Zhang,+Chi+and+Cai,+Zhipeng+and+Long,+Xiaoxiao+and+Chen,+Hao+and+Wang,+Kaixuan+and+Yu,+Gang+and+Shen,+Chunhua+and+Shen,+Shaojie" target=&ldquo;blank&rdquo;>search</a><a href="https://jugghm.github.io/Metric3Dv2/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhang2023SegVITv2xxxarXiv.jpg"><b>SegViT v2: exploring efficient and continual semantic segmentation with plain vision transformers</b>   
+<br />\(\cdot\) <i>B. Zhang, L. Liu, M. Phan, Z. Tian, C. Shen, Y. Liu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2306.06289" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhang2023SegVITv2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SegViT}+v2:+Exploring+Efficient+and+Continual+Semantic+Segmentation+with+Plain+Vision+Transformers+Zhang,+Bowen+and+Liu,+Liyang+and+Phan,+Minh+Hieu+and+Tian,+Zhi+and+Shen,+Chunhua+and+Liu,+Yifan" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/zbwxp/SegVit" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>SPL-Net: spatial-semantic patch learning network for facial attribute recognition with limited labeled data</b>   
+<br />\(\cdot\) <i>Y. Yan, Y. Shu, S. Chen, J. Xue, C. Shen, H. Wang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2023</i>.
+<br />\(\cdot\) <a href="data/bibtex/YAN2023IJCVSPL.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SPL-Net}:+Spatial-Semantic+Patch+Learning+Network+for+Facial+Attribute+Recognition+with+Limited+Labeled+Data+Yan,+Yan+and+Shu,+Ying+and+Chen,+Si+and+Xue,+Jing-Hao+and+Shen,+Chunhua+and+Wang,+Hanzi" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Lu2023IJCVCountingxxxarXiv.jpg"><b>From open set to closed set: supervised spatial divide-and-conquer for object counting</b>   
+<br />\(\cdot\) <i>H. Xiong, H. Lu, C. Liu, L. Liu, C. Shen, Z. Cao</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2001.01886" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Lu2023IJCVCounting.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=From+Open+Set+to+Closed+Set:+Supervised+Spatial+Divide-and-Conquer+for+Object+Counting+Xiong,+Haipeng+and+Lu,+Hao+and+Liu,+Chengxin+and+Liu,+Liang+and+Shen,+Chunhua+and+Cao,+Zhiguo" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>A dynamic feature interaction framework for multi-task visual perception</b>   
+<br />\(\cdot\) <i>Y. Xi, H. Chen, N. Wang, P. Wang, Y. Zhang, C. Shen, Y. Liu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2023</i>.
+<br />\(\cdot\) <a href="data/bibtex/XiY2023IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Dynamic+Feature+Interaction+Framework+for+Multi-task+Visual+Perception+Xi,+Yuling+and+Chen,+Hao+and+Wang,+Ning+and+Wang,+Peng+and+Zhang,+Yanning+and+Shen,+Chunhua+and+Liu,+Yifan" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Lin2023IJCVSuperxxxarXiv.jpg"><b>Super vision transformer</b>   
+<br />\(\cdot\) <i>M. Lin, M. Chen, Y. Zhang, C. Shen, R. Ji, L. Cao</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2205.11397" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Lin2023IJCVSuper.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Super+Vision+Transformer+Lin,+Mingbao+and+Chen,+Mengzhao+and+Zhang,+Yuxin+and+Shen,+Chunhua+and+Ji,+Rongrong+and+Cao,+Liujuan" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/lmbxmu/SuperViT" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>SAI: an efficient and user-friendly tool for measurement of stomatal pores and density using deep computer vision</b>   
+<br />\(\cdot\) <i>N. Sai, J. Bockman, H. Chen, N. Watson-Haigh, B. Xu, X. Feng, A. Piechatzek, C. Shen, M. Gilliham</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>New Phytologist (NPH), 2023</i>.
+<br />\(\cdot\) <a href="https://doi.org/10.1101/2022.02.07.479482" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Sai2023NPJ.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SAI}:+An+efficient+and+user-friendly+tool+for+measurement+of+stomatal+pores+and+density+using+deep+computer+vision+Sai,+Na+and+Bockman,+James+Paul+and+Chen,+Hao+and+Watson-Haigh,+Nathan+and+Xu,+Bo+and+Feng,+Xueying+and+Piechatzek,+Adriane+and+Shen,+Chunhua+and+Gilliham,+Matthew" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Xie2023DodNetxxxarXiv.jpg"><b>Learning from partially labeled data for multi-organ and tumor segmentation</b>   
+<br />\(\cdot\) <i>Y. Xie, J. Zhang, Y. Xia, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2211.06894" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Xie2023DodNet.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+from+partially+labeled+data+for+multi-organ+and+tumor+segmentation+Xie,+Yutong+and+Zhang,+Jianpeng+and+Xia,+Yong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/DoDNet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Sun2023TPAMIxxxarXiv.jpg"><b>SC-DepthV3: robust self-supervised monocular depth estimation for dynamic scenes</b>   
+<br />\(\cdot\) <i>L. Sun, J. Bian, H. Zhan, W. Yin, I. Reid, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2211.03660" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Sun2023TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SC-DepthV3}:+Robust+Self-supervised+Monocular+Depth+Estimation+for+Dynamic+Scenes+Sun,+Libo+and+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Yin,+Wei+and+Reid,+Ian+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/JiawangBian/sc_depth_pl" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/SPTSv2xxxarXiv.jpg"><b>SPTS v2: single-point scene text spotting</b>   
+<br />\(\cdot\) <i>Y. Liu, J. Zhang, D. Peng, M. Huang, X. Wang, J. Tang, C. Huang, D. Lin, C. Shen, X. Bai, L. Jin</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2301.01635" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/SPTSv2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SPTS+v2}:+Single-Point+Scene+Text+Spotting+Liu,+Yuliang+and+Zhang,+Jiaxin+and+Peng,+Dezhi+and+Huang,+Mingxin+and+Wang,+Xinyu+and+Tang,+Jingqun+and+Huang,+Can+and+Lin,+Dahua+and+Shen,+Chunhua+and+Bai,+Xiang+and+Jin,+Lianwen" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/Yuliang-Liu/SPTSv2" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2023TPAMIxxxarXiv.jpg"><b>Single-path bit sharing for automatic loss-aware model compression</b>   
+<br />\(\cdot\) <i>J. Liu, B. Zhuang, P. Chen, C. Shen, J. Cai, M. Tan</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2101.04935" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Liu2023TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Single-path+Bit+Sharing+for+Automatic+Loss-aware+Model+Compression+Liu,+Jing+and+Zhuang,+Bohan+and+Chen,+Peng+and+Shen,+Chunhua+and+Cai,+Jianfei+and+Tan,+Mingkui" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Effective eyebrow matting with domain adaptation</b>   
+<br />\(\cdot\) <i>L. Wang, H. Zhang, Q. Xiao, H. Xu, C. Shen, X. Jin</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Computer Graphics Forum (CGF), 2022</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wang2022CGF.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Effective+Eyebrow+Matting+with+Domain+Adaptation+Wang,+Luyuan+and+Zhang,+Hanyuan+and+Xiao,+Qinjie+and+Xu,+Hao+and+Shen,+Chunhua+and+Jin,+Xiaogang" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhuang2022IJCVxxxarXiv.jpg"><b>Structured binary neural networks for image recognition</b>   
+<br />\(\cdot\) <i>B. Zhuang, C. Shen, M. Tan, P. Chen, L. Liu, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2022</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1909.09934" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhuang2022IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+Binary+Neural+Networks+for+Image+Recognition+Zhuang,+Bohan+and+Shen,+Chunhua+and+Tan,+Mingkui+and+Chen,+Peng+and+Liu,+Lingqiao+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Arbitrarily shaped scene text detection with dynamic convolution</b>   
+<br />\(\cdot\) <i>Y. Cai, Y. Liu, C. L. Jin, Y. Li, D. Ergu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2022</i>.
+<br />\(\cdot\) <a href="data/bibtex/Cai2022PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Arbitrarily+shaped+scene+text+detection+with+dynamic+convolution+Cai,+Ying+and+Liu,+Yuliang+and+ChunhuaShen+and+Jin,+Lianwen+and+Li,+Yidong+and+Ergu,+Daji" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>TSGB: target-selective gradient backprop for probing CNN visual saliency</b>   
+<br />\(\cdot\) <i>L. Cheng, P. Fang, Y. Liang, L. Zhang, C. Shen, H. Wang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2022</i>.
+<br />\(\cdot\) <a href="data/bibtex/TSGB2022TIP.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={TSGB}:+Target-selective+gradient+backprop+for+probing+{CNN}+visual+saliency+Cheng,+Lin+and+Fang,+Pengfei+and+Liang,+Yanjie+and+Zhang,+Liao+and+Shen,+Chunhua+and+Wang,+Hanzi" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Chi2022TPAMIxxxarXiv.jpg"><b>DeepEMD: differentiable earth mover's distance for few-shot learning</b>   
+<br />\(\cdot\) <i>C. Zhang, Y. Cai, G. Lin, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2003.06777" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Chi2022TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={DeepEMD}:+Differentiable+Earth+Mover's+Distance+for+Few-Shot+Learning+Zhang,+Chi+and+Cai,+Yujun+and+Lin,+Guosheng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Weiyin2022TPAMIxxxarXiv.jpg"><b>Towards accurate reconstruction of 3D scene shape from a single monocular image</b>   
+<br />\(\cdot\) <i>W. Yin, J. Zhang, O. Wang, S. Niklaus, S. Chen, Y. Liu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2208.13241" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Weiyin2022TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+Accurate+Reconstruction+of+{3D}+Scene+Shape+from+A+Single+Monocular+Image+Yin,+Wei+and+Zhang,+Jianming+and+Wang,+Oliver+and+Niklaus,+Simon+and+Chen,+Simon+and+Liu,+Yifan+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/aim-uofa/depth/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/CondInst2022TianxxxarXiv.jpg"><b>Instance and panoptic segmentation using conditional convolutions</b>   
+<br />\(\cdot\) <i>Z. Tian, B. Zhang, H. Chen, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2102.03026" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/CondInst2022Tian.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Instance+and+Panoptic+Segmentation+Using+Conditional+Convolutions+Tian,+Zhi+and+Zhang,+Bowen+and+Chen,+Hao+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/aim-uofa/AdelaiDet/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>FCOS: a simple and strong anchor-free object detector</b>   
+<br />\(\cdot\) <i>Z. Tian, C. Shen, H. Chen, T. He</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</i>.
+<br />\(\cdot\) <a href="https://doi.org/10.1109/TPAMI.2020.3032166" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/TianSCH22.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={FCOS:}+A+Simple+and+Strong+Anchor-Free+Object+Detector+Tian,+Zhi+and+Shen,+Chunhua+and+Chen,+Hao+and+He,+Tong" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/aim-uofa/AdelaiDet/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Dynamic convolution for 3D point cloud instance segmentation</b>   
+<br />\(\cdot\) <i>T. He, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2107.08392" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Tong2022TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamic+Convolution+for+{3D}+Point+Cloud+Instance+Segmentation+He,+Tong+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Improving monocular visual odometry using learned depth</b>   
+<br />\(\cdot\) <i>L. Sun, W. Yin, E. Xie, Z. Li, C. Sun, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Robotics (TRO), 2022</i>.
+<br />\(\cdot\) <a href="data/bibtex/Sun2022TRO.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improving+Monocular+Visual+Odometry+Using+Learned+Depth+Sun,+Libo+and+Yin,+Wei+and+Xie,+Enze+and+Li,+Zhengrong+and+Sun,+Changming+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>DenseCL: a simple framework for self-supervised dense visual pre-training</b>   
+<br />\(\cdot\) <i>X. Wang, R. Zhang, C. Shen, T. Kong</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Visual Informatics (VI), 2022</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wang2022VI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={DenseCL}:+A+simple+framework+for+self-supervised+dense+visual+pre-training+Wang,+Xinlong+and+Zhang,+Rufeng+and+Shen,+Chunhua+and+Kong,+Tao" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Haokui2021NASxxxarXiv.jpg"><b>Memory-efficient hierarchical neural architecture search for image restoration</b>   
+<br />\(\cdot\) <i>H. Zhang, Y. Li, H. Chen, C. Gong, Z. Bai, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2012.13212" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Haokui2021NAS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Memory-Efficient+Hierarchical+Neural+Architecture+Search+for+Image+Restoration+Zhang,+Haokui+and+Li,+Ying+and+Chen,+Hao+and+Gong,+Chengrong+and+Bai,+Zongwen+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/hkzhang91/HiNAS" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Yu2021BiSegV2xxxarXiv.jpg"><b>BiSeNet v2: bilateral network with guided aggregation for real-time semantic segmentation</b>   
+<br />\(\cdot\) <i>C. Yu, C. Gao, J. Wang, G. Yu, C. Shen, N. Sang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2004.02147" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Yu2021BiSegV2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={BiSeNet}+v2:+Bilateral+Network+with+Guided+Aggregation+for+Real-time+Semantic+Segmentation+Yu,+Changqian+and+Gao,+Changxin+and+Wang,+Jingbo+and+Yu,+Gang+and+Shen,+Chunhua+and+Sang,+Nong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>A dual-attention-guided network for ghost-free high dynamic range imaging</b>   
+<br />\(\cdot\) <i>Q. Yan, D. Gong, Q. Shi, A. van den Hengel, C. Shen, I. Reid, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Yan2021Ghostfree.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Dual-Attention-guided+network+for+ghost-free+high+dynamic+range+imaging+Yan,+Qingsen+and+Gong,+Dong+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Shen,+Chunhua+and+Reid,+Ian+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/qingsenyangit/AHDRNet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>NAS-FCOS: efficient search for object detection architectures</b>   
+<br />\(\cdot\) <i>N. Wang, Y. Gao, H. Chen, P. Wang, Z. Tian, C. Shen, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wang2021IJCV_NAS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={NAS-FCOS}:+Efficient+Search+for+Object+Detection+Architectures+Wang,+Ning+and+Gao,+Yang+and+Chen,+Hao+and+Wang,+Peng+and+Tian,+Zhi+and+Shen,+Chunhua+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/Lausannen/NAS-FCOS" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/IJCV2021LiuylxxxarXiv.jpg"><b>Exploring the capacity of an orderless box discretization network for multi-orientation scene text detection</b>   
+<br />\(\cdot\) <i>Y. Liu, T. He, H. Chen, X. Wang, C. Luo, S. Zhang, C. Shen, L. Jin</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1912.09629" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/IJCV2021Liuyl.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploring+the+Capacity+of+an+Orderless+Box+Discretization+Network+for+Multi-orientation+Scene+Text+Detection+Liu,+Yuliang+and+He,+Tong+and+Chen,+Hao+and+Wang,+Xinyu+and+Luo,+Canjie+and+Zhang,+Shuaitao+and+Shen,+Chunhua+and+Jin,+Lianwen" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/TextDet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Joint classification and regression for visual tracking with fully convolutional Siamese networks</b>   
+<br />\(\cdot\) <i>Y. Cui, D. Guo, Y. Shao, Z. Wang, C. Shen, L. Zhang, S. Chen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Cui2021Joint.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Joint+classification+and+regression+for+visual+tracking+with+fully+convolutional+{S}iamese+networks+Cui,+Ying+and+Guo,+Dongyan+and+Shao,+Yanyan+and+Wang,+Zhenhua+and+Shen,+Chunhua+and+Zhang,+Liyan+and+Chen,+Shengyong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2105.11610.pdf"><img class="imgP  right"   src="data/thumbnail/Bian2021IJCVxxxarXiv.jpg"></a><b>Unsupervised scale-consistent depth learning from video</b>   
+<br />\(\cdot\) <i>J. Bian, H. Zhan, N. Wang, Z. Li, L. Zhang, C. Shen, M. Cheng, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2105.11610" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Bian2021IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Scale-consistent+Depth+Learning+from+Video+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Wang,+Naiyan+and+Li,+Zhichao+and+Zhang,+Le+and+Shen,+Chunhua+and+Cheng,+Ming-Ming+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/JiawangBian/SC-SfMLearner-Release" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Learning discriminative region representation for person retrieval</b>   
+<br />\(\cdot\) <i>Y. Zhao, X. Yu, Y. Gao, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhao2021PRLearning.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+Discriminative+Region+Representation+for+Person+Retrieval+Zhao,+Yang+and+Yu,+Xiaohan+and+Gao,+Yongsheng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Learning deep part-aware embedding for person retrieval</b>   
+<br />\(\cdot\) <i>Y. Zhao, C. Shen, X. Yu, H. Chen, Y. Gao, S. Xiong</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhao2021PR1.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+Deep+Part-Aware+Embedding+for+Person+Retrieval+Zhao,+Yang+and+Shen,+Chunhua+and+Yu,+Xiaohan+and+Chen,+Hao+and+Gao,+Yongsheng+and+Xiong,+Shengwu" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>An adversarial human pose estimation network injected with graph structure</b>   
+<br />\(\cdot\) <i>L. Tian, P. Wang, G. Liang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Tian2021Adversarial.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Adversarial+Human+Pose+Estimation+Network+Injected+with+Graph+Structure+Tian,+Lei+and+Wang,+Peng+and+Liang,+Guoqiang+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Intra- and inter-pair consistency for semi-supervised gland segmentation</b>   
+<br />\(\cdot\) <i>Y. Xie, J. Zhang, Z. Liao, J. Verjans, C. Shen, Y. Xia</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Xie2021Intra.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Intra-+and+Inter-pair+Consistency+for+Semi-supervised+Gland+Segmentation+Xie,+Yutong+and+Zhang,+Jianpeng+and+Liao,+Zhibin+and+Verjans,+Johan+and+Shen,+Chunhua+and+Xia,+Yong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhuang2021QuantizationxxxarXiv.jpg"><b>Effective training of convolutional neural networks with low-bitwidth weights and activations</b>   
+<br />\(\cdot\) <i>B. Zhuang, J. Liu, M. Tan, L. Liu, I. Reid, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1908.04680" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhuang2021Quantization.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Effective+Training+of+Convolutional+Neural+Networks+with+Low-bitwidth+Weights+and+Activations+Zhuang,+Bohan+and+Liu,+Jing+and+Tan,+Mingkui+and+Liu,+Lingqiao+and+Reid,+Ian+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Yin2021PAMIvnxxxarXiv.jpg"><b>Virtual normal: enforcing geometric constraints for accurate and robust depth prediction</b>   
+<br />\(\cdot\) <i>W. Yin, Y. Liu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2103.04216" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Yin2021PAMIvn.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Virtual+Normal:+Enforcing+Geometric+Constraints+for+Accurate+and+Robust+Depth+Prediction+Yin,+Wei+and+Liu,+Yifan+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/Depth" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/WXL2021SOLOxxxarXiv.jpg"><b>SOLO: a simple framework for instance segmentation</b>   
+<br />\(\cdot\) <i>X. Wang, R. Zhang, C. Shen, T. Kong, L. Li</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2106.15947" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/WXL2021SOLO.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SOLO}:+A+Simple+Framework+for+Instance+Segmentation+Wang,+Xinlong+and+Zhang,+Rufeng+and+Shen,+Chunhua+and+Kong,+Tao+and+Li,+Lei" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/AdelaiDet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wang2021PANplusxxxarXiv.jpg"><b>PAN++: towards efficient and accurate end-to-end spotting of arbitrarily-shaped text</b>   
+<br />\(\cdot\) <i>W. Wang, E. Xie, X. Li, X. Liu, D. Liang, Z. Yang, T. Lu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2105.00405" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wang2021PANplus.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={PAN++}:+Towards+Efficient+and+Accurate+End-to-End+Spotting+of+Arbitrarily-Shaped+Text+Wang,+Wenhai+and+Xie,+Enze+and+Li,+Xiang+and+Liu,+Xuebo+and+Liang,+Ding+and+Yang,+Zhibo+and+Lu,+Tong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Li2021TextxxxarXiv.jpg"><b>Towards end-to-end text spotting in natural scenes</b>   
+<br />\(\cdot\) <i>P. Wang, H. Li, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1906.06013" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Li2021Text.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+End-to-End+Text+Spotting+in+Natural+Scenes+Wang,+Peng+and+Li,+Hui+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2021ABCNetv2xxxarXiv.jpg"><b>ABCNet v2: adaptive bezier-curve network for real-time end-to-end text spotting</b>   
+<br />\(\cdot\) <i>Y. Liu, C. Shen, L. Jin, T. He, P. Chen, C. Liu, H. Chen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2105.03620" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Liu2021ABCNetv2.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={ABCNet}+v2:+Adaptive+Bezier-Curve+Network+for+Real-time+End-to-end+Text+Spotting+Liu,+Yuliang+and+Shen,+Chunhua+and+Jin,+Lianwen+and+He,+Tong+and+Chen,+Peng+and+Liu,+Chongyu+and+Chen,+Hao" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/AdelaiDet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Auto-rectify network for unsupervised indoor depth estimation</b>   
+<br />\(\cdot\) <i>J. Bian, H. Zhan, N. Wang, T. Chin, C. Shen, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i>.
+<br />\(\cdot\) <a href="data/bibtex/Autorectify2021Bian.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Auto-Rectify+Network+for+Unsupervised+Indoor+Depth+Estimation+Bian,+Jia-Wang+and+Zhan,+Huangying+and+Wang,+Naiyan+and+Chin,+Tat-Jun+and+Shen,+Chunhua+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Pan2020ACMSurveyxxxarXiv.jpg"><b>Deep learning for anomaly detection: a review</b>   
+<br />\(\cdot\) <i>G. Pang, C. Shen, L. Cao, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>ACM Computing Surveys (ACMSurvey), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2007.02500" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Pan2020ACMSurvey.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Deep+Learning+for+Anomaly+Detection:+A+Review+Pang,+Guansong+and+Shen,+Chunhua+and+Cao,+Longbing+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Towards light-weight portrait matting via parameter sharing</b>   
+<br />\(\cdot\) <i>Y. Dai, H. Lu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Computer Graphics Forum (CGF), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Daiyt2020.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+Light-Weight+Portrait+Matting+via+Parameter+Sharing+Dai,+Yutong+and+Lu,+Hao+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Luo2020IJCVxxxarXiv.jpg"><b>Separating content from style using adversarial learning for recognizing text in the wild</b>   
+<br />\(\cdot\) <i>C. Luo, Q. Lin, Y. Liu, L. Jin, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2001.04189" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Luo2020IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Separating+Content+from+Style+Using+Adversarial+Learning+for+Recognizing+Text+in+the+Wild+Luo,+Canjie+and+Lin,+Qingxiang+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>TasselNetv2: in-field counting of wheat spikes with context-augmented local regression networks</b>   
+<br />\(\cdot\) <i>H. Xiong, Z. Cao, H. Lu, S. Madec, L. Liu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Plant Methods (PLME), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/TasselNet2020.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={TasselNetv2}:+in-field+counting+of+wheat+spikes+with+context-augmented+local+regression+networks+Xiong,+Haipeng+and+Cao,+Zhiguo+and+Lu,+Hao+and+Madec,+Simon+and+Liu,+Liang+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/MobileFAN2020xxxarXiv.jpg"><b>MobileFAN: transferring deep hidden representation for face alignment</b>   
+<br />\(\cdot\) <i>Y. Zhao, Y. Liu, C. Shen, Y. Gao, S. Xiong</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1908.03839" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/MobileFAN2020.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={MobileFAN}:+Transferring+Deep+Hidden+Representation+for+Face+Alignment+Zhao,+Yang+and+Liu,+Yifan+and+Shen,+Chunhua+and+Gao,+Yongsheng+and+Xiong,+Shengwu" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhangx2020T-ITSxxxarXiv.jpg"><b>Part-guided attention learning for vehicle instance retrieval</b>   
+<br />\(\cdot\) <i>X. Zhang, R. Zhang, J. Cao, D. Gong, M. You, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1909.06023" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhangx2020T-ITS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Part-Guided+Attention+Learning+for+Vehicle+Instance+Retrieval+Zhang,+Xinyu+and+Zhang,+Rufeng+and+Cao,+Jiewei+and+Gong,+Dong+and+You,+Mingyu+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>A robust attentional framework for license plate recognition in the wild</b>   
+<br />\(\cdot\) <i>L. Zhang, P. Wang, H. Li, Z. Li, C. Shen, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Li2020Carlicense.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+robust+attentional+framework+for+license+plate+recognition+in+the+wild+Zhang,+Linjiang+and+Wang,+Peng+and+Li,+Hui+and+Li,+Zhen+and+Shen,+Chunhua+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Real-time high-performance semantic image segmentation of urban street scenes</b>   
+<br />\(\cdot\) <i>G. Dong, Y. Yan, C. Shen, H. Wang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Dong2020segmentation.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Real-time+high-performance+semantic+image+segmentation+of+urban+street+scenes+Dong,+Genshun+and+Yan,+Yan+and+Shen,+Chunhua+and+Wang,+Hanzi" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Towards effective deep embedding for zero-shot learning</b>   
+<br />\(\cdot\) <i>L. Zhang, P. Wang, L. Liu, C. Shen, W. Wei, Y. Zhang, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2020Zeroshot.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+Effective+Deep+Embedding+for+Zero-Shot+Learning+Zhang,+Lei+and+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Wei,+Wei+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>NSSNet: scale-aware object counting with non-scale suppression</b>   
+<br />\(\cdot\) <i>L. Liu, Z. Cao, H. Lu, H. Xiong, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/LiuL2020CSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={NSSNet}:+Scale-aware+object+counting+with+non-scale+suppression+Liu,+Liang+and+Cao,+Zhiguo+and+Lu,+Hao+and+Xiong,+Haipeng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhang2020CovidxxxarXiv.jpg"><b>Viral pneumonia screening on chest x-ray images using confidence-aware anomaly detection</b>   
+<br />\(\cdot\) <i>J. Zhang, Y. Xie, Z. Liao, G. Pang, J. Verjans, W. Li, Z. Sun, J. He, Y. Li, C. Shen, Y. Xia</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Medical Imaging (TMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2003.12338" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhang2020Covid.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Viral+Pneumonia+Screening+on+Chest+X-ray+Images+Using+Confidence-Aware+Anomaly+Detection+Zhang,+Jianpeng+and+Xie,+Yutong+and+Liao,+Zhibin+and+Pang,+Guansong+and+Verjans,+Johan+and+Li,+Wenxin+and+Sun,+Zongji+and+He,+Jian+and+Li,+Yi+and+Shen,+Chunhua+and+Xia,+Yong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Xie2020TMIaxxxarXiv.jpg"><b>A mutual bootstrapping model for automated skin lesion segmentation and classification</b>   
+<br />\(\cdot\) <i>Y. Xie, J. Zhang, Y. Xia, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Medical Imaging (TMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1903.03313" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Xie2020TMIa.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Mutual+Bootstrapping+Model+for+Automated+Skin+Lesion+Segmentation+and+Classification+Xie,+Yutong+and+Zhang,+Jianpeng+and+Xia,+Yong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>SESV: accurate medical image segmentation by predicting and correcting errors</b>   
+<br />\(\cdot\) <i>Y. Xie, J. Zhang, H. Lu, C. Shen, Y. Xia</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Medical Imaging (TMI), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Xie2020TMIb.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={SESV}:+Accurate+Medical+Image+Segmentation+by+Predicting+and+Correcting+Errors+Xie,+Yutong+and+Zhang,+Jianpeng+and+Lu,+Hao+and+Shen,+Chunhua+and+Xia,+Yong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>OPMP: an omni-directional pyramid mask proposal network for arbitrary-shape scene text detection</b>   
+<br />\(\cdot\) <i>S. Zhang, Y. Liu, L. Jin, Z. Wei, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Multimedia (TMM), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/ShengZhang2020TMM.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={OPMP}:+An+Omni-directional+Pyramid+Mask+Proposal+Network+for+Arbitrary-shape+Scene+Text+Detection+Zhang,+Sheng+and+Liu,+Yuliang+and+Jin,+Lianwen+and+Wei,+Zhongrong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Joint deep learning of facial expression synthesis and recognition</b>   
+<br />\(\cdot\) <i>Y. Yan, Y. Huang, S. Chen, C. Shen, H. Wang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Multimedia (TMM), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Yan2020TMM.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Joint+deep+learning+of+facial+expression+synthesis+and+recognition+Yan,+Yan+and+Huang,+Ying+and+Chen,+Si+and+Shen,+Chunhua+and+Wang,+Hanzi" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Accurate tensor completion via adaptive low-rank representation</b>   
+<br />\(\cdot\) <i>L. Zhang, W. Wei, Q. Shi, C. Shen, A. van den Hengel, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Neural Networks and Learning Systems (TNN), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2020TNNLS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Accurate+Tensor+Completion+via+Adaptive+Low-Rank+Representation+Zhang,+Lei+and+Wei,+Wei+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Deep clustering with sample-assignment invariance prior</b>   
+<br />\(\cdot\) <i>X. Peng, H. Zhu, J. Feng, C. Shen, H. Zhang, J. Zhou</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Neural Networks and Learning Systems (TNN), 2020</i>.
+<br />\(\cdot\) <a href="data/bibtex/Peng2020TNNLS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Deep+Clustering+with+Sample-Assignment+Invariance+Prior+Peng,+Xi+and+Zhu,+Hongyuan+and+Feng,+Jiashi+and+Shen,+Chunhua+and+Zhang,+Haixian+and+Zhou,+Joey" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Gong2020TNNLSxxxarXiv.jpg"><b>Learning deep gradient descent optimization for image deconvolution</b>   
+<br />\(\cdot\) <i>D. Gong, Z. Zhang, Q. Shi, A. van den Hengel, C. Shen, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Neural Networks and Learning Systems (TNN), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1804.03368" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Gong2020TNNLS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+Deep+Gradient+Descent+Optimization+for+Image+Deconvolution+Gong,+Dong+and+Zhang,+Zhen+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Shen,+Chunhua+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2020TOGxxxarXiv.jpg"><b>Real-time image smoothing via iterative least squares</b>   
+<br />\(\cdot\) <i>W. Liu, P. Zhang, X. Huang, J. Yang, C. Shen, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>ACM Transactions on Graphics (TOG), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2003.07504" target=&ldquo;blank&rdquo;>arXiv</a><a href="https://doi.org/10.1145/3388887" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Liu2020TOG.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Real-time+image+smoothing+via+iterative+least+squares+Liu,+Wei+and+Zhang,+Pingping+and+Huang,+Xiaolin+and+Yang,+Jie+and+Shen,+Chunhua+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/wliusjtu/Real-time-Image-Smoothing-via-Iterative-Least-Squares" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Plenty is plague: fine-grained learning for visual question answering</b>   
+<br />\(\cdot\) <i>Y. Zhou, R. Ji, J. Su, X. Sun, D. Meng, Y. Gao, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://doi.org/10.1109/TPAMI.2019.2956699" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Zhou2020TPAMIZhou.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Plenty+Is+Plague:+Fine-Grained+Learning+for+Visual+Question+Answering+Zhou,+Yiyi+and+Ji,+Rongrong+and+Su,+Jinsong+and+Sun,+Xiaoshuai+and+Meng,+Deyu+and+Gao,+Yue+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhang2020OrderlessReIDxxxarXiv.jpg"><b>Ordered or orderless: a revisit for video based person re-identification</b>   
+<br />\(\cdot\) <i>L. Zhang, Z. Shi, J. Zhou, M. Cheng, Y. Liu, J. Bian, Z. Zeng, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1912.11236" target=&ldquo;blank&rdquo;>arXiv</a><a href="https://doi.org/10.1109/TPAMI.2020.2976969" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Zhang2020OrderlessReID.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ordered+or+Orderless:+A+Revisit+for+Video+based+Person+Re-Identification+Zhang,+Le+and+Shi,+Zenglin+and+Zhou,+Joey+Tianyi+and+Cheng,+Ming-Ming+and+Liu,+Yun+and+Bian,+Jia-Wang+and+Zeng,+Zeng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/ZhangLeUestc/VideoReid-TPAMI2020" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Lu2020PAMIIndexNetxxxarXiv.jpg"><b>Index networks</b>   
+<br />\(\cdot\) <i>H. Lu, Y. Dai, C. Shen, S. Xu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1908.09895" target=&ldquo;blank&rdquo;>arXiv</a><a href="https://doi.org/10.1109/TPAMI.2020.3004474" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Lu2020PAMIIndexNet.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Index+Networks+Lu,+Hao+and+Dai,+Yutong+and+Shen,+Chunhua+and+Xu,+Songcen" target=&ldquo;blank&rdquo;>search</a><a href="https://git.io/IndexNet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2020PAMIxxxarXiv.jpg"><b>Structured knowledge distillation for dense prediction</b>   
+<br />\(\cdot\) <i>Y. Liu, C. Shun, J. Wang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1903.04197" target=&ldquo;blank&rdquo;>arXiv</a><a href="https://ieeexplore.ieee.org/document/9115859" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Liu2020PAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+Knowledge+Distillation+for+Dense+Prediction+Liu,+Yifan+and+Shun,+Changyong+and+Wang,+Jingdong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/irfanICMLL/structure_knowledge_distillation" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1711.00253.pdf"><img class="imgP  right"   src="data/thumbnail/Chen2019PAMIxxxarXiv.jpg"></a><b>Adversarial learning of structure-aware fully convolutional networks for landmark localization</b>   
+<br />\(\cdot\) <i>Y. Chen, C. Shen, H. Chen, X. Wei, L. Liu, J. Yang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1711.00253" target=&ldquo;blank&rdquo;>arXiv</a><a href="https://doi.org/10.1109/TPAMI.2019.2901875" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Chen2019PAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Adversarial+Learning+of+Structure-Aware+Fully+Convolutional+Networks+for+Landmark+Localization+Chen,+Yu+and+Shen,+Chunhua+and+Chen,+Hao+and+Wei,+Xiu-Shen+and+Liu,+Lingqiao+and+Yang,+Jian" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/2008.00942.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2020GANxxxarXiv.jpg"></a><b>Improving generative adversarial networks with local coordinate coding</b>   
+<br />\(\cdot\) <i>J. Cao, Y. Guo, Q. Wu, C. Shen, J. Huang, M. Tan</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/2008.00942" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Cao2020GAN.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improving+Generative+Adversarial+Networks+with+Local+Coordinate+Coding+Cao,+Jiezhang+and+Guo,+Yong+and+Wu,+Qingyao+and+Shen,+Chunhua+and+Huang,+Junzhou+and+Tan,+Mingkui" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/SCUTjinchengli/LCCGAN-v2" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1806.01576.pdf"><img class="imgP  right"   src="data/thumbnail/Adaptive2019ZhangxxxarXiv.jpg"></a><b>Adaptive importance learning for improving lightweight image super-resolution network</b>   
+<br />\(\cdot\) <i>L. Zhang, P. Wang, C. Shen, L. Liu, W. Wei, Y. Zhang, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2019</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1806.01576" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Adaptive2019Zhang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Adaptive+Importance+Learning+for+Improving+Lightweight+Image+Super-resolution+Network+Zhang,+Lei+and+Wang,+Peng+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Wei,+Wei+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a><a href="https://tinyurl.com/Super-resolution-Network" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Accurate imagery recovery using a multi-observation patch model</b>   
+<br />\(\cdot\) <i>L. Zhang, W. Wei, Q. Shen, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Information Sciences (IS), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2019Accurate.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Accurate+Imagery+Recovery+Using+a+Multi-Observation+Patch+Model+Zhang,+Lei+and+Wei,+Wei+and+Shen,+Qiang+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Heritage image annotation via collective knowledge</b>   
+<br />\(\cdot\) <i>J. Zhang, Q. Wu, J. Zhang, C. Shen, J. Lu, Q. Wu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2019PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Heritage+Image+Annotation+via+Collective+Knowledge+Zhang,+Junjie+and+Wu,+Qi+and+Zhang,+Jian+and+Shen,+Chunhua+and+Lu,+Jianfeng+and+Wu,+Qiang" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wu2019PRxxxarXiv.jpg"><b>Wider or deeper: revisiting the ResNet model for visual recognition</b>   
+<br />\(\cdot\) <i>Z. Wu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2019</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1611.10080" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wu2019PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Wider+or+Deeper:+Revisiting+the+{ResNet}+Model+for+Visual+Recognition+Wu,+Zifeng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Order-aware convolutional pooling for video based action recognition</b>   
+<br />\(\cdot\) <i>P. Wang, L. Liu, C. Shen, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wang2019PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Order-aware+Convolutional+Pooling+for+Video+Based+Action+Recognition+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Structural analysis of attributes for vehicle re-identification and retrieval</b>   
+<br />\(\cdot\) <i>Y. Zhao, C. Shen, H. Wang, S. Chen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhao2019Structural.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structural+Analysis+of+Attributes+for+Vehicle+Re-identification+and+Retrieval+Zhao,+Yanzhu+and+Shen,+Chunhua+and+Wang,+Huibing+and+Chen,+Shengyong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Human detection aided by deeply learned semantic masks</b>   
+<br />\(\cdot\) <i>X. Wang, C. Shen, H. Li, S. Xu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wangxy2019CSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Human+Detection+Aided+by+Deeply+Learned+Semantic+Masks+Wang,+Xinyu+and+Shen,+Chunhua+and+Li,+Hanxi+and+Xu,+Shugong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Embedding bilateral filter in least squares for efficient edge-preserving image smoothing</b>   
+<br />\(\cdot\) <i>W. Liu, P. Zhang, X. Chen, C. Shen, X. Huang, J. Yang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Liu2019CSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Embedding+Bilateral+Filter+in+Least+Squares+for+Efficient+Edge-preserving+Image+Smoothing+Liu,+Wei+and+Zhang,+Pingping+and+Chen,+Xiaogang+and+Shen,+Chunhua+and+Huang,+Xiaolin+and+Yang,+Jie" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Counting objects by blockwise classification</b>   
+<br />\(\cdot\) <i>L. Liu, H. Lu, H. Xiong, K. Xian, Z. Cao, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Counting2019CSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Counting+Objects+by+Blockwise+Classification+Liu,+Liang+and+Lu,+Hao+and+Xiong,+Haipeng+and+Xian,+Ke+and+Cao,+Zhiguo+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Hyperspectral classification based on lightweight 3D-CNN with transfer learning</b>   
+<br />\(\cdot\) <i>H. Zhang, Y. Li, Y. Jiang, P. Wang, Q. Shen, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2019Lightweight.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hyperspectral+Classification+Based+on+Lightweight+{3D-CNN}+With+Transfer+Learning+Zhang,+Haokui+and+Li,+Ying+and+Jiang,+Yenan+and+Wang,+Peng+and+Shen,+Qiang+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Salient object detection with lossless feature reflection and weighted structural loss</b>   
+<br />\(\cdot\) <i>P. Zhang, W. Liu, H. Lu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2019Salient.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Salient+Object+Detection+with+Lossless+Feature+Reflection+and+Weighted+Structural+Loss+Zhang,+Pingping+and+Liu,+Wei+and+Lu,+Huchuan+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wei2019TIPxxxarXiv.jpg"><b>Piecewise classifier mappings: learning fine-grained learners for novel categories with few examples</b>   
+<br />\(\cdot\) <i>X. Wei, P. Wang, L. Liu, C. Shen, J. Wu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2019</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1805.04288" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wei2019TIP.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Piecewise+classifier+mappings:+Learning+fine-grained+learners+for+novel+categories+with+few+examples+Wei,+Xiu-Shen+and+Wang,+Peng+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+Wu,+Jianxin" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Multiple instance learning with emerging novel class</b>   
+<br />\(\cdot\) <i>X. Wei, H. Ye, X. Mu, J. Wu, C. Shen, Z. Zhou</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Knowledge and Data Engineering (TKDE), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wei2019TKDE.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multiple+Instance+Learning+with+Emerging+Novel+Class+Wei,+Xiu-Shen+and+Ye,+Han-Jia+and+Mu,+Xin+and+Wu,+Jianxin+and+Shen,+Chunhua+and+Zhou,+Zhi-Hua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Attention residual learning for skin lesion classification</b>   
+<br />\(\cdot\) <i>J. Zhang, Y. Xie, Y. Xia, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Medical Imaging (TMI), 2019</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2019Attn.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Attention+residual+learning+for+skin+lesion+classification+Zhang,+Jianpeng+and+Xie,+Yutong+and+Xia,+Yong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TZhang2019TMMxxxarXiv.jpg"><b>Decoupled spatial neural attention for weakly supervised semantic segmentation</b>   
+<br />\(\cdot\) <i>T. Zhang, G. Lin, J. Cai, T. Shen, C. Shen, A. Kot</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Multimedia (TMM), 2019</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1803.02563" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TZhang2019TMM.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Decoupled+Spatial+Neural+Attention+for+Weakly+Supervised+Semantic+Segmentation+Zhang,+Tianyi+and+Lin,+Guosheng+and+Cai,+Jianfei+and+Shen,+Tong+and+Shen,+Chunhua+and+Kot,+Alex+C." target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>RefineNet: multi-path refinement networks for dense prediction</b>   
+<br />\(\cdot\) <i>G. Lin, F. Liu, A. Milan, C. Shen, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019</i>.
+<br />\(\cdot\) <a href="https://doi.org/10.1109/TPAMI.2019.2893630" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Fayao2019PAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={RefineNet}:+Multi-Path+Refinement+Networks+for+Dense+Prediction+Lin,+Guosheng+and+Liu,+Fayao+and+Milan,+Anton+and+Shen,+Chunhua+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/guosheng/refinenet" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+
+<ol reversed>
+<li>
+<ol reversed>
+<li><p>Pytorch code is <a href="https://github.com/DrSleep/refinenet-pytorch" target=&ldquo;blank&rdquo;>here</a>.
+</p>
+</li></ol>
+</li>
+<li><p><b>Cluster sparsity field: an internal hyperspectral imagery prior for reconstruction</b>   
+<br />\(\cdot\) <i>L. Zhang, W. Wei, Y. Zhang, C. Shen, A. van den Hengel, Q. Shi</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2018</i>.
+<br />\(\cdot\) <a href="https://www.researchgate.net/publication/323914969_Cluster_Sparsity_Field_An_Internal_Hyperspectral_Imagery_Prior_for_Reconstruction" target=&ldquo;blank&rdquo;>pdf</a><a href="data/bibtex/Zhang2018IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cluster+Sparsity+Field:+An+Internal+Hyperspectral+Imagery+Prior+for+Reconstruction+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Li2018IVCxxxarXiv.jpg"><b>Reading car license plates using deep neural networks</b>   
+<br />\(\cdot\) <i>H. Li, P. Wang, M. You, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Image and Vision Computing (IVC), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1601.05610" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Li2018IVC.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Reading+Car+License+Plates+Using+Deep+Neural+Networks+Li,+Hui+and+Wang,+Peng+and+You,+Mingyu+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhuang2018PRxxxarXiv.jpg"><b>Multi-label learning based deep transfer neural network for facial attribute classification</b>   
+<br />\(\cdot\) <i>N. Zhuang, Y. Yan, S. Chen, H. Wang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1805.01282" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhuang2018PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multi-label+Learning+Based+Deep+Transfer+Neural+Network+for+Facial+Attribute+Classification+Zhuang,+Ni+and+Yan,+Yan+and+Chen,+Si+and+Wang,+Hanzi+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wei2018PRxxxarXiv.jpg"><b>Unsupervised object discovery and co-localization by deep descriptor transforming</b>   
+<br />\(\cdot\) <i>X. Wei, C. Zhang, J. Wu, C. Shen, Z. Zhou</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1707.06397" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wei2018PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Object+Discovery+and+Co-Localization+by+Deep+Descriptor+Transforming+Wei,+Xiu-Shen+and+Zhang,+Chen-Lin+and+Wu,+Jianxin+and+Shen,+Chunhua+and+Zhou,+Zhi-Hua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>An extended filtered channel framework for pedestrian detection</b>   
+<br />\(\cdot\) <i>M. You, Y. Zhang, C. Shen, X. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2018</i>.
+<br />\(\cdot\) <a href="data/bibtex/You2018T-ITS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+extended+filtered+channel+framework+for+pedestrian+detection+You,+Minyu+and+Zhang,+Yubin+and+Shen,+Chunhua+and+Zhang,+Xinyu" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Towards end-to-end car license plates detection and recognition with deep neural networks</b>   
+<br />\(\cdot\) <i>H. Li, P. Wang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2018</i>.
+<br />\(\cdot\) <a href="data/bibtex/Li2018T-ITSa.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+End-to-End+Car+License+Plates+Detection+and+Recognition+with+Deep+Neural+Networks+Li,+Hui+and+Wang,+Peng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Unsupervised domain adaptation using robust class-wise matching</b>   
+<br />\(\cdot\) <i>L. Zhang, P. Wang, W. Wei, H. Lu, C. Shen, A. van den Hengel, Y. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2018</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2018TCSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Domain+Adaptation+Using+Robust+Class-Wise+Matching+Zhang,+Lei+and+Wang,+Peng+and+Wei,+Wei+and+Lu,+Hao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Zhang,+Yanning" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Semantics-aware visual object tracking</b>   
+<br />\(\cdot\) <i>R. Yao, G. Lin, C. Shen, Y. Zhang, Q. Shi</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2018</i>.
+<br />\(\cdot\) <a href="data/bibtex/Yao2018TCSVT.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Semantics-Aware+Visual+Object+Tracking+Yao,+Rui+and+Lin,+Guosheng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+Shi,+Qinfeng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TCSVT2017HuxxxarXiv.jpg"><b>Pushing the limits of deep CNNs for pedestrian detection</b>   
+<br />\(\cdot\) <i>Q. Hu, P. Wang, C. Shen, A. van den Hengel, F. Porikli</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1603.04525" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TCSVT2017Hu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pushing+the+Limits+of+Deep+{CNNs}+for+Pedestrian+Detection+Hu,+Qichang+and+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Porikli,+Fatih" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>An embarrassingly simple approach to visual domain adaptation</b>   
+<br />\(\cdot\) <i>H. Lu, C. Shen, Z. Cao, Y. Xiao, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2018</i>.
+<br />\(\cdot\) <a href="data/bibtex/Lu2018TIP.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Embarrassingly+Simple+Approach+to+Visual+Domain+Adaptation+Lu,+Hao+and+Shen,+Chunhua+and+Cao,+Zhiguo+and+Xiao,+Yang+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/poppinace/ldada" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhang2018TMMxxxarXiv.jpg"><b>Multi-label image classification with regional latent semantic dependencies</b>   
+<br />\(\cdot\) <i>J. Zhang, Q. Wu, C. Shen, J. Zhang, J. Lu</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Multimedia (TMM), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1612.01082" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhang2018TMM.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multi-Label+Image+Classification+with+Regional+Latent+Semantic+Dependencies+Zhang,+Junjie+and+Wu,+Qi+and+Shen,+Chunhua+and+Zhang,+Jian+and+Lu,+Jianfeng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1712.09048.pdf"><img class="imgP  right"   src="data/thumbnail/Guo2018TMMxxxarXiv.jpg"></a><b>Automatic image cropping for visual aesthetic enhancement using deep neural networks and cascaded regression</b>   
+<br />\(\cdot\) <i>G. Guo, H. Wang, C. Shen, Y. Yan, H. Liao</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Multimedia (TMM), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1712.09048" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Guo2018TMM.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatic+image+cropping+for+visual+aesthetic+enhancement+using+deep+neural+networks+and+cascaded+regression+Guo,+Guanjun+and+Wang,+Hanzi+and+Shen,+Chunhua+and+Yan,+Yan+and+Liao,+Hong-Yuan" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wang2017FVQAxxxarXiv.jpg"><b>FVQA: fact-based visual question answering</b>   
+<br />\(\cdot\) <i>P. Wang, Q. Wu, C. Shen, A. Dick, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1606.05433" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wang2017FVQA.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={FVQA}:+Fact-based+Visual+Question+Answering+Wang,+Peng+and+Wu,+Qi+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Ordinal constraint binary coding for approximate nearest neighbor search</b>   
+<br />\(\cdot\) <i>H. Liu, R. Ji, J. Wang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018</i>.
+<br />\(\cdot\) <a href="https://www.researchgate.net/publication/324053386_Ordinal_Constraint_Binary_Coding_for_Approximate_Nearest_Neighbor_Search" target=&ldquo;blank&rdquo;>pdf</a><a href="data/bibtex/HLiu2018TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ordinal+Constraint+Binary+Coding+for+Approximate+Nearest+Neighbor+Search+Liu,+Hong+and+Ji,+Rongrong+and+Wang,+Jingdong+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1607.05910.pdf"><img class="imgP  right"   src="data/thumbnail/CVIU2017VQAxxxarXiv.jpg"></a><b>Visual question answering: a survey of methods and datasets</b>   
+<br />\(\cdot\) <i>Q. Wu, D. Teney, P. Wang, C. Shen, A. Dick, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Computer Vision and Image Understanding (CVIU), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1607.05910" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/CVIU2017VQA.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Visual+question+answering:+A+survey+of+methods+and+datasets+Wu,+Qi+and+Teney,+Damien+and+Wang,+Peng+and+Shen,+Chunhua+and+Dick,+Anthony+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/IJCV2017LinxxxarXiv.jpg"><b>Structured learning of binary codes with column generation for optimizing ranking measures</b>   
+<br />\(\cdot\) <i>G. Lin, F. Liu, C. Shen, J. Wu, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1602.06654" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/IJCV2017Lin.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+Learning+of+Binary+Codes+with+Column+Generation+for+Optimizing+Ranking+Measures+Lin,+Guosheng+and+Liu,+Fayao+and+Shen,+Chunhua+and+Wu,+Jianxin+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a><a href="https://bitbucket.org/guosheng/structhash" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><b>Removal of optically thick clouds from high-resolution satellite imagery using dictionary group learning and interdictionary nonlocal joint sparse coding</b>   
+<br />\(\cdot\) <i>Y. Li, W. Li, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTAEORS), 2017</i>.
+<br />\(\cdot\) <a href="data/bibtex/Li2017Removal.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Removal+of+Optically+Thick+Clouds+From+High-resolution+Satellite+Imagery+Using+Dictionary+Group+Learning+and+Interdictionary+Nonlocal+Joint+Sparse+Coding+Li,+Ying+and+Li,+Wenbo+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Lu2017CountingxxxarXiv.jpg"><b>TasselNet: counting maize tassels in the wild via local counts regression network</b>   
+<br />\(\cdot\) <i>H. Lu, Z. Cao, Y. Xiao, B. Zhuang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Plant Methods (PLME), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1707.02290" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Lu2017Counting.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={TasselNet}:+Counting+maize+tassels+in+the+wild+via+local+counts+regression+network+Lu,+Hao+and+Cao,+Zhiguo+and+Xiao,+Yang+and+Zhuang,+Bohan+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wu2017PRxxxarXiv.jpg"><b>Deep linear discriminant analysis on Fisher networks: a hybrid architecture for person re-identification</b>   
+<br />\(\cdot\) <i>L. Wu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1606.01595" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wu2017PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Deep+Linear+Discriminant+Analysis+on+{F}isher+Networks:+A+Hybrid+Architecture+for+Person+Re-identification+Wu,+Lin+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Mask-CNN: localizing parts and selecting descriptors for bird species categorization</b>   
+<br />\(\cdot\) <i>X. Wei, C. Xie, J. Wu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2017</i>.
+<br />\(\cdot\) <a href="data/bibtex/Wei2017PR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mask-{CNN}:+Localizing+parts+and+selecting+descriptors+for+bird+species+categorization+Wei,+Xiu-Shen+and+Xie,+Chen-Wei+and+Wu,+Jianxin+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/PR2017QiaoxxxarXiv.jpg"><b>Learning discriminative trajectorylet detector sets for accurate skeleton-based action recognition</b>   
+<br />\(\cdot\) <i>R. Qiao, L. Liu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1504.04923" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/PR2017Qiao.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+discriminative+trajectorylet+detector+sets+for+accurate+skeleton-based+action+recognition+Qiao,+Ruizhi+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Deep CNNs with spatially weighted pooling for fine-grained car recognition</b>   
+<br />\(\cdot\) <i>Q. Hu, H. Wang, T. Li, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2017</i>.
+<br />\(\cdot\) <a href="data/bibtex/SWP2017Hu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Deep+{CNNs}+with+Spatially+Weighted+Pooling+for+Fine-grained+Car+Recognition+Hu,+Qichang+and+Wang,+Huibing+and+Li,+Teng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TCSVT2017ShengxxxarXiv.jpg"><b>Crowd counting via weighted VLAD on dense attribute feature maps</b>   
+<br />\(\cdot\) <i>B. Sheng, C. Shen, G. Lin, J. Li, W. Yang, C. Sun</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1604.08660" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TCSVT2017Sheng.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Crowd+Counting+via+Weighted+{VLAD}+on+Dense+Attribute+Feature+Maps+Sheng,+Biyun+and+Shen,+Chunhua+and+Lin,+Guosheng+and+Li,+Jun+and+Yang,+Wankou+and+Sun,+Changyin" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1605.02305.pdf"><img class="imgP  right"   src="data/thumbnail/Cao2017xxxarXiv.jpg"></a><b>Estimating depth from monocular images as classification using deep fully convolutional residual networks</b>   
+<br />\(\cdot\) <i>Y. Cao, Z. Wu, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1605.02305" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Cao2017.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Estimating+Depth+from+Monocular+Images+as+Classification+Using+Deep+Fully+Convolutional+Residual+Networks+Cao,+Yuanzhouhan+and+Wu,+Zifeng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TIP2017LiuxxxarXiv.jpg"><b>Discriminative training of deep fully-connected continuous CRF with task-specific loss</b>   
+<br />\(\cdot\) <i>F. Liu, G. Lin, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1601.07649" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TIP2017Liu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Discriminative+Training+of+Deep+Fully-connected+Continuous+{CRF}+with+Task-specific+Loss+Liu,+Fayao+and+Lin,+Guosheng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TIP2016CaoxxxarXiv.jpg"><b>Exploiting depth from single monocular images for object detection and semantic segmentation</b>   
+<br />\(\cdot\) <i>Y. Cao, C. Shen, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1610.01706" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TIP2016Cao.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploiting+Depth+from+Single+Monocular+Images+for+Object+Detection+and+Semantic+Segmentation+Cao,+Yuanzhouhan+and+Shen,+Chunhua+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TNNLS2017LiuxxxarXiv.jpg"><b>Structured learning of tree potentials in CRF for image segmentation</b>   
+<br />\(\cdot\) <i>F. Liu, G. Lin, R. Qiao, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Neural Networks and Learning Systems (TNN), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1703.08764" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TNNLS2017Liu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+Learning+of+Tree+Potentials+in+{CRF}+for+Image+Segmentation+Liu,+Fayao+and+Lin,+Guosheng+and+Qiao,+Ruizhi+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Wu2017ExternalxxxarXiv.jpg"><b>Image captioning and visual question answering based on attributes and external knowledge</b>   
+<br />\(\cdot\) <i>Q. Wu, C. Shen, P. Wang, A. Dick, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1603.02814" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Wu2017External.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Image+Captioning+and+Visual+Question+Answering+Based+on+Attributes+and+External+Knowledge+Wu,+Qi+and+Shen,+Chunhua+and+Wang,+Peng+and+Dick,+Anthony+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TPAMI2017LiuxxxarXiv.jpg"><b>Compositional model based Fisher vector coding for image classification</b>   
+<br />\(\cdot\) <i>L. Liu, P. Wang, C. Shen, L. Wang, A. van den Hengel, C. Wang, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1601.04143" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TPAMI2017Liu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Compositional+Model+based+{F}isher+Vector+Coding+for+Image+Classification+Liu,+Lingqiao+and+Wang,+Peng+and+Shen,+Chunhua+and+Wang,+Lei+and+{van+den+Hengel},+Anton+and+Wang,+Chao+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1510.00921.pdf"><img class="imgP  right"   src="data/thumbnail/Cross2017LiuxxxarXiv.jpg"></a><b>Cross-convolutional-layer pooling for image recognition</b>   
+<br />\(\cdot\) <i>L. Liu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1510.00921" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7779086" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Cross2017Liu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cross-convolutional-layer+Pooling+for+Image+Recognition+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Lin2017SemanticxxxarXiv.jpg"><b>Exploring context with deep structured models for semantic segmentation</b>   
+<br />\(\cdot\) <i>G. Lin, C. Shen, A. van den Hengel, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1603.03183" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Lin2017Semantic.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploring+Context+with+Deep+Structured+models+for+Semantic+Segmentation+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1511.08531.pdf"><img class="imgP  right"   src="data/thumbnail/CVIU2016xxxarXiv.jpg"></a><b>Structured learning of metric ensembles with application to person re-identification</b>   
+<br />\(\cdot\) <i>S. Paisitkriangkrai, L. Wu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Computer Vision and Image Understanding (CVIU), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1511.08531" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/CVIU2016.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+learning+of+metric+ensembles+with+application+to+person+re-identification+Paisitkriangkrai,+Sakrapee+and+Wu,+Lin+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Zhang2015IJCVxxxarXiv.jpg"><b>Unsupervised feature learning for dense correspondences across scenes</b>   
+<br />\(\cdot\) <i>C. Zhang, C. Shen, T. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1501.00642" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Zhang2015IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Feature+Learning+for+Dense+Correspondences+across+Scenes+Zhang,+Chao+and+Shen,+Chunhua+and+Shen,+Tingzhi" target=&ldquo;blank&rdquo;>search</a><a href="https://bitbucket.org/chhshen/ufl" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1404.5009.pdf"><img class="imgP  right"   src="data/thumbnail/BnB2015WangxxxarXiv.jpg"></a><b>Efficient semidefinite branch-and-cut for MAP-MRF inference</b>   
+<br />\(\cdot\) <i>P. Wang, C. Shen, A. van den Hengel, P. Torr</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1404.5009" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://doi.org/10.1007/s11263-015-0865-2" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/BnB2015Wang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Semidefinite+Branch-and-Cut+for+{MAP-MRF}+Inference+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Torr,+Philip" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Yao2016IJCVxxxarXiv.jpg"><b>Mining mid-level visual patterns with deep CNN activations</b>   
+<br />\(\cdot\) <i>Y. Li, L. Liu, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1506.06343" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://rdcu.be/j1mA" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Yao2016IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Mid-level+Visual+Patterns+with+Deep+{CNN}+Activations+Li,+Yao+and+Liu,+Lingqiao+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/yaoliUoA/MDPM" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2016TrackingxxxarXiv.jpg"><b>Online unsupervised feature learning for visual tracking</b>   
+<br />\(\cdot\) <i>F. Liu, C. Shen, I. Reid, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Image and Vision Computing (IVC), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1310.1690" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Liu2016Tracking.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online+Unsupervised+Feature+Learning+for+Visual+Tracking+Liu,+Fayao+and+Shen,+Chunhua+and+Reid,+Ian+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Canonical principal angles correlation analysis for two-view data</b>   
+<br />\(\cdot\) <i>S. Wang, J. Lu, X. Gu, C. Shen, R. Xia, J. Yang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Journal of Visual Communication and Image Representation (JVCIR), 2016</i>.
+<br />\(\cdot\) <a href="http://dx.doi.org/10.1016/j.jvcir.2015.12.001" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Canonical2016Wang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Canonical+principal+angles+correlation+analysis+for+two-view+data+Wang,+Sheng+and+Lu,+Jianfeng+and+Gu,+Xingjian+and+Shen,+Chunhua+and+Xia,+Rui+and+Yang,+Jingyu" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/PRFace2016ShenxxxarXiv.jpg"><b>Face image classification by pooling raw features</b>   
+<br />\(\cdot\) <i>F. Shen, C. Shen, X. Zhou, Y. Yang, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1406.6811" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/PRFace2016Shen.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Face+Image+Classification+by+Pooling+Raw+Features+Shen,+Fumin+and+Shen,+Chunhua+and+Zhou,+Xiang+and+Yang,+Yang+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/bd622/FacePooling" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1110.0264.pdf"><img class="imgP  right"   src="data/thumbnail/Face2016LixxxarXiv.jpg"></a><b>Face recognition using linear representation ensembles</b>   
+<br />\(\cdot\) <i>H. Li, F. Shen, C. Shen, Y. Yang, Y. Gao</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1110.0264" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://dx.doi.org/10.1016/j.patcog.2015.12.011" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Face2016Li.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Face+Recognition+Using+Linear+Representation+Ensembles+Li,+Hanxi+and+Shen,+Fumin+and+Shen,+Chunhua+and+Yang,+Yang+and+Gao,+Yongsheng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Fast detection of multiple objects in traffic scenes with a common detection framework</b>   
+<br />\(\cdot\) <i>Q. Hu, S. Paisitkriangkrai, C. Shen, A. van den Hengel, F. Porikli</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2016</i>.
+<br />\(\cdot\) <a href="data/bibtex/Hu2015T-ITS.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fast+Detection+of+Multiple+Objects+in+Traffic+Scenes+with+a+Common+Detection+Framework+Hu,+Qichang+and+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Porikli,+Fatih" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Part-based robust tracking using online latent structured learning</b>   
+<br />\(\cdot\) <i>R. Yao, Q. Shi, C. Shen, Y. Zhang, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2016</i>.
+<br />\(\cdot\) <a href="http://dx.doi.org/10.1109/TCSVT.2016.2527358" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Part2016Yao.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Part-based+robust+tracking+using+online+latent+structured+learning+Yao,+Rui+and+Shi,+Qinfeng+and+Shen,+Chunhua+and+Zhang,+Yanning+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Pooling2016WangxxxarXiv.jpg"><b>Temporal pyramid pooling based convolutional neural network for action recognition</b>   
+<br />\(\cdot\) <i>P. Wang, Y. Cao, C. Shen, L. Liu, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1503.01224" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Pooling2016Wang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Temporal+Pyramid+Pooling+Based+Convolutional+Neural+Network+for+Action+Recognition+Wang,+Peng+and+Cao,+Yuanzhouhan+and+Shen,+Chunhua+and+Liu,+Lingqiao+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Dictionary learning for promoting structured sparsity in hyerpsectral compressive sensing</b>   
+<br />\(\cdot\) <i>L. Zhang, W. Wei, Y. Zhang, C. Shen, A. van den Hengel, Q. Shi</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2016</i>.
+<br />\(\cdot\) <a href="data/bibtex/Zhang2016TGSE.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dictionary+Learning+for+Promoting+Structured+Sparsity+in+Hyerpsectral+Compressive+Sensing+Zhang,+Lei+and+Wei,+Wei+and+Zhang,+Yanning+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Scalable linear visual feature learning via online parallel nonnegative matrix factorization</b>   
+<br />\(\cdot\) <i>X. Zhao, X. Li, Z. Zhang, C. Shen, L. Gao, X. Li</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Neural Networks and Learning Systems (TNN), 2016</i>.
+<br />\(\cdot\) <a href="http://dx.doi.org/10.1109/TNNLS.2015.2499273" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Zhao2015TNN.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Linear+Visual+Feature+Learning+via+Online+Parallel+Nonnegative+Matrix+Factorization+Zhao,+Xueyi+and+Li,+Xi+and+Zhang,+Zhongfei+and+Shen,+Chunhua+and+Gao,+Lixin+and+Li,+Xuelong" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><b>Large-scale binary quadratic optimization using semidefinite relaxation and applications</b>   
+<br />\(\cdot\) <i>P. Wang, C. Shen, A. van den Hengel, P. Torr</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1411.7564" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://dx.doi.org/10.1109/TPAMI.2016.2541146" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/BQP2015Wang.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large-scale+Binary+Quadratic+Optimization+Using+Semidefinite+Relaxation+and+Applications+Wang,+Peng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Torr,+Philip+H.+S." target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Paisitkriangkrai2015TPAMIxxxarXiv.jpg"><b>Pedestrian detection with spatially pooled features and structured ensemble learning</b>   
+<br />\(\cdot\) <i>S. Paisitkriangkrai, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1409.5209" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://doi.org/10.1109/TPAMI.2015.2474388" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Paisitkriangkrai2015TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pedestrian+Detection+with+Spatially+Pooled+Features+and+Structured+Ensemble+Learning+Paisitkriangkrai,+Sakrapee+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/chhshen/pedestrian-detection" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2015TPAMIxxxarXiv.jpg"><b>A generalized probabilistic framework for compact codebook creation</b>   
+<br />\(\cdot\) <i>L. Liu, L. Wang, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1401.7713" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://doi.org/10.1109/TPAMI.2015.2441069" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Liu2015TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Generalized+Probabilistic+Framework+for+Compact+Codebook+Creation+Liu,+Lingqiao+and+Wang,+Lei+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Depth2015LiuxxxarXiv.jpg"><b>Learning depth from single monocular images using deep convolutional neural fields</b>   
+<br />\(\cdot\) <i>F. Liu, C. Shen, G. Lin, I. Reid</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1502.07411" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://dx.doi.org/10.1109/TPAMI.2015.2505283" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/Depth2015Liu.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+Depth+from+Single+Monocular+Images+Using+Deep+Convolutional+Neural+Fields+Liu,+Fayao+and+Shen,+Chunhua+and+Lin,+Guosheng+and+Reid,+Ian" target=&ldquo;blank&rdquo;>search</a><a href="http://goo.gl/rAKWrS" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Xi2015TPAMIxxxarXiv.jpg"><b>Online metric-weighted linear representations for robust visual tracking</b>   
+<br />\(\cdot\) <i>X. Li, C. Shen, A. Dick, Z. Zhang, Y. Zhuang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1507.05737" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Xi2015TPAMI.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online+Metric-Weighted+Linear+Representations+for+Robust+Visual+Tracking+Li,+Xi+and+Shen,+Chunhua+and+Dick,+Anthony+and+Zhang,+Zhongfei+and+Zhuang,+Yueting" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1401.8126.pdf"><img class="imgP  right"   src="data/thumbnail/Harandi2015IJCVxxxarXiv.jpg"></a><b>Extrinsic methods for coding and dictionary learning on Grassmann manifolds</b>   
+<br />\(\cdot\) <i>M. Harandi, R. Hartley, C. Shen, B. Lovell, C. Sanderson</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>International Journal of Computer Vision (IJCV), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1401.8126" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Harandi2015IJCV.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extrinsic+Methods+for+Coding+and+Dictionary+Learning+on+{G}rassmann+Manifolds+Harandi,+Mehrtash+and+Hartley,+Richard+and+Shen,+Chunhua+and+Lovell,+Brian+and+Sanderson,+Conrad" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/chhshen/Grassmann/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Liu2015CRFPRxxxarXiv.jpg"><b>CRF learning with CNN features for image segmentation</b>   
+<br />\(\cdot\) <i>F. Liu, G. Lin, C. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>Pattern Recognition (PR), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1503.08263" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Liu2015CRFPR.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q={CRF}+Learning+with+{CNN}+Features+for+Image+Segmentation+Liu,+Fayao+and+Lin,+Guosheng+and+Shen,+Chunhua" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Hashing2015ShenxxxarXiv.jpg"><b>Hashing on nonlinear manifolds</b>   
+<br />\(\cdot\) <i>F. Shen, C. Shen, Q. Shi, A. van den Hengel, Z. Tang, H. Shen</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1412.0826" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/Hashing2015Shen.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hashing+on+Nonlinear+Manifolds+Shen,+Fumin+and+Shen,+Chunhua+and+Shi,+Qinfeng+and+{van+den+Hengel},+Anton+and+Tang,+Zhenmin+and+Shen,+Heng+Tao" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/chhshen/Hashing-on-Nonlinear-Manifolds" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/TIP2014ShortcutxxxarXiv.jpg"><b>A computational model of the short-cut rule for 2D shape decomposition</b>   
+<br />\(\cdot\) <i>L. Luo, C. Shen, X. Liu, C. Zhang</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1409.2104" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/TIP2014Shortcut.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Computational+Model+of+the+Short-Cut+Rule+for+{2D}+Shape+Decomposition+Luo,+Lei+and+Shen,+Chunhua+and+Liu,+Xinwang+and+Zhang,+Chunyuan" target=&ldquo;blank&rdquo;>search</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/SDP2015LixxxarXiv.jpg"><b>Worst-case linear discriminant analysis as scalable semidefinite feasibility problems</b>   
+<br />\(\cdot\) <i>H. Li, C. Shen, A. van den Hengel, Q. Shi</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Image Processing (TIP), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1411.7450" target=&ldquo;blank&rdquo;>arXiv</a><a href="data/bibtex/SDP2015Li.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Worst-Case+Linear+Discriminant+Analysis+as+Scalable+Semidefinite+Feasibility+Problems+Li,+Hui+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton+and+Shi,+Qinfeng" target=&ldquo;blank&rdquo;>search</a><a href="https://github.com/chhshen/SDP-WLDA" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><a class="imglink"  target="_blank" href="https://arxiv.org/pdf/1408.5574.pdf"><img class="imgP  right"   src="data/thumbnail/FastHash2015LinxxxarXiv.jpg"></a><b>Supervised hashing using graph cuts and boosted decision trees</b>   
+<br />\(\cdot\) <i>G. Lin, C. Shen, A. van den Hengel</i>.
+</p>
+</li>
+</ol>
+<p>\(\cdot\) <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2015</i>.
+<br />\(\cdot\) <a href="https://arxiv.org/abs/1408.5574" target=&ldquo;blank&rdquo;>arXiv</a><a href="http://dx.doi.org/10.1109/TPAMI.2015.2404776" target=&ldquo;blank&rdquo;>link</a><a href="data/bibtex/FastHash2015Lin.bib" target=&ldquo;blank&rdquo;>bibtex</a><a href="https://scholar.google.com/scholar?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Supervised+Hashing+Using+Graph+Cuts+and+Boosted+Decision+Trees+Lin,+Guosheng+and+Shen,+Chunhua+and+{van+den+Hengel},+Anton" target=&ldquo;blank&rdquo;>search</a><a href="https://bitbucket.org/chhshen/fasthash/" target=&ldquo;blank&rdquo;>project webpage</a>
+</p>
+<ol reversed>
+<li><p><img class="imgP  right"   src="data/thumbnail/Shen2014OutlierxxxarXiv.jpg"><b>Fast approximate \(l_\infty\) minimization: Speeding up robust regression</b>   
+<br />\(\cdot\) <i>F. Shen, C. Shen, R. Hill, A. van den Hengel, Z. Tang</i>.
+</p>
+</li>
+</ol>
