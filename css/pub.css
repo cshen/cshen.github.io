@@ -31,7 +31,7 @@
 /*    font-style:italic; */
    font-weight: bold;
    color:#777;
-   font-family:"Bitstream Vera", "Vera", "Trebuchet MS", Trebuchet, Tahoma, sans-serif;
+   font-family: Palatino, Georgia, "Bitstream Vera", "Vera", "Trebuchet MS", Trebuchet, Tahoma, sans-serif;
 }
 
 .number, .volume, .pages
@@ -60,7 +60,7 @@ color: navy;
 .author 
 {
 /* font-weight:bold; */
-font-family:  "Trebuchet MS", Trebuchet, Tahoma, sans-serif, Georgia; 
+font-family: Palatino, Georgia, "Trebuchet MS", Trebuchet, Tahoma, sans-serif, Georgia; 
 color: rgb(90,100,0);
 }
 
@@ -189,7 +189,7 @@ margin-top:3px;
 	padding: 0 24px 0 8px;
 	color: #fff;
 	font-size:   12px/21px;
-    font-family: Trebuchet, Tahoma, sans, Georgia;
+    font-family: Palatino, Georgia, Trebuchet, Tahoma, sans, Georgia;
 	background: url(images/select.gif) no-repeat;
 	overflow: hidden;
 }

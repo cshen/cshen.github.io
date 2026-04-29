@@ -1,0 +1,419 @@
+/* =============================================================
+   dark_theme.css
+   Warm dark theme inspired by whilst.app (#1e1e1e charcoal,
+   warm off-white text, amber accents — no cold blues/purples).
+   (1) Floating dark/light theme-toggle button
+   (2) Mobile hamburger navigation
+   (3) Dark theme overrides via html[data-theme="dark"]
+   ============================================================= */
+
+/* --- Floating theme-toggle button -------------------------------- */
+#theme-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.08);
+  cursor: pointer;
+  background: #FFEBBF;
+  color: #555;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s, color 0.25s, transform 0.22s, box-shadow 0.22s;
+  outline: none;
+  padding: 0;
+  font-size: 15px;
+}
+#theme-toggle:hover {
+  background: #FF6A00;
+  color: #fff;
+  transform: scale(1.12) rotate(20deg);
+  box-shadow: 0 4px 18px rgba(255,106,0,0.42);
+}
+#theme-toggle:focus-visible {
+  outline: 2px solid #FF6A00;
+  outline-offset: 3px;
+}
+
+html[data-theme="dark"] #theme-toggle {
+  background: #2e2c28;
+  color: #c8bfa8;
+  border-color: rgba(255,255,255,0.10);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.55);
+}
+html[data-theme="dark"] #theme-toggle:hover {
+  background: #c8734a;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(200,115,74,0.55);
+}
+
+/* --- Hamburger button -------------------------------------------- */
+.hamburger {
+  display: none;
+  background: #FFEBBF;
+  color: #555;
+  border: none;
+  border-radius: 5px;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+  vertical-align: middle;
+  padding: 0;
+  outline: none;
+  font-size: 16px;
+}
+.hamburger:hover,
+.hamburger.active {
+  background: #FF6A00;
+  color: #fff;
+}
+html[data-theme="dark"] .hamburger {
+  background: #2e2c28;
+  color: #c8bfa8;
+  border: 1px solid rgba(255,255,255,0.10);
+}
+html[data-theme="dark"] .hamburger:hover,
+html[data-theme="dark"] .hamburger.active {
+  background: #c8734a;
+  color: #fff;
+}
+
+/* --- Mobile: hamburger nav --------------------------------------- */
+@media (max-width: 700px) {
+
+  .hamburger {
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001;
+  }
+
+  #menu {
+    height: 52px !important;
+    position: relative;
+    overflow: visible !important;
+  }
+
+  #menucontainer {
+    top: 0 !important;
+    position: relative;
+    height: 52px;
+  }
+
+  /* Nav hidden by default; shown via JS .nav-open */
+  #nav {
+    display: none !important;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    background: #fff7e6;
+    z-index: 1000;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    border-bottom: 3px solid #FF6A00;
+    border-top: 1px solid rgba(255,106,0,0.2);
+    padding: 6px 10px 10px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #nav.nav-open {
+    display: flex !important;
+  }
+
+  html[data-theme="dark"] #nav {
+    background: #222220;
+    border-color: #c8734a;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.55);
+  }
+
+  #nav li {
+    display: block !important;
+    width: 100%;
+    margin: 2px 0;
+  }
+
+  #nav a:link,
+  #nav a:visited {
+    display: block !important;
+    float: none !important;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 16px !important;
+    border-radius: 4px;
+    margin-bottom: 0;
+  }
+}
+
+/* ================================================================
+   DARK THEME COLOUR OVERRIDES
+   Palette: whilst.app-inspired warm charcoal
+     bg        #1e1e1e  – warm dark gray (not cold navy)
+     surface   #252522  – slightly lighter warm surface
+     surface2  #2c2b27  – card / raised surface
+     text      #e8e4db  – warm off-white (not cold white)
+     muted     #9a9690  – warm mid-gray
+     heading   #f0ece3  – bright warm white for headings
+     link      #c8a870  – warm amber-gold
+     hover     #e8bf72  – brighter amber on hover
+     accent    #c8734a  – warm orange (reuse nav hover)
+   ================================================================ */
+
+html[data-theme="dark"] {
+  background-color: #1e1e1e;
+}
+
+html[data-theme="dark"] body {
+  color: #e8e4db;
+  background-color: #1e1e1e;
+}
+
+html[data-theme="dark"] #layout-content {
+  background-color: #1e1e1e;
+}
+
+/* --- Headings ---------------------------------------------------- */
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3 {
+  color: #f0ece3;
+}
+
+html[data-theme="dark"] div#toptitle h1 {
+  color: #f0ece3;
+}
+
+/* --- Links ------------------------------------------------------- */
+html[data-theme="dark"] a:link,
+html[data-theme="dark"] a:visited {
+  color: #c8a870;
+}
+
+html[data-theme="dark"] a:hover {
+  color: #e8bf72;
+}
+
+/* --- Navigation -------------------------------------------------- */
+html[data-theme="dark"] #nav a:link,
+html[data-theme="dark"] #nav a:visited {
+  background: #2c2b27;
+  color: #d8d2c8;
+}
+
+html[data-theme="dark"] #nav a:hover {
+  background: #c8734a;
+  color: #fff;
+}
+
+/* --- List item row backgrounds – uniform in dark mode ------------ */
+html[data-theme="dark"] li:nth-child(odd),
+html[data-theme="dark"] li:nth-child(even) {
+  background: #252522 no-repeat;
+}
+
+/* Nested list items – reset to transparent */
+html[data-theme="dark"] ul ul li:nth-child(odd),
+html[data-theme="dark"] ul ul li:nth-child(even),
+html[data-theme="dark"] ol ol li:nth-child(odd),
+html[data-theme="dark"] ol ol li:nth-child(even) {
+  background: none;
+}
+
+/* News ticker */
+html[data-theme="dark"] #ticker li {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* --- Info / code blocks ------------------------------------------ */
+html[data-theme="dark"] div.infoblock > div.blockcontent {
+  background: #2a2826;
+}
+
+html[data-theme="dark"] div.codeblock > div.blockcontent {
+  background: #181816;
+}
+
+html[data-theme="dark"] div.blocktitle {
+  color: #d4956a;
+}
+
+/* --- Tables ------------------------------------------------------ */
+html[data-theme="dark"] tr.heading {
+  border-bottom-color: rgba(255,255,255,0.12);
+}
+
+html[data-theme="dark"] #GraduatedStu tr:nth-child(odd),
+html[data-theme="dark"] #tabteach tr:nth-child(odd) {
+  background: #252522 no-repeat;
+}
+
+html[data-theme="dark"] #GraduatedStu tr:nth-child(even),
+html[data-theme="dark"] #tabteach tr:nth-child(even) {
+  background: #1e1e1c no-repeat;
+}
+
+/* --- Footer ------------------------------------------------------ */
+html[data-theme="dark"] div#footer {
+  border-top-color: rgba(255,255,255,0.10);
+  color: #6a6a5e;
+}
+
+html[data-theme="dark"] div#footer-text {
+  color: #6a6a5e;
+}
+
+html[data-theme="dark"] div#footer a {
+  color: #6a6058;
+}
+
+html[data-theme="dark"] div#footer a:hover {
+  color: #c8a870;
+}
+
+/* --- b / i elements (different colours in content.css vs full_publication.css) */
+html[data-theme="dark"] b {
+  color: #e8e4db;
+}
+
+html[data-theme="dark"] i {
+  color: #a09888;
+}
+
+/* --- Highlight / selected venue ---------------------------------- */
+html[data-theme="dark"] .highlight {
+  color: #e8e4db;
+}
+
+html[data-theme="dark"] .selected_venue {
+  color: #c8a870;
+}
+
+/* --- ol p colour (full_publication.css sets this to black) ------- */
+html[data-theme="dark"] ol p {
+  color: #e8e4db;
+}
+
+/* --- Publication page (pub.css / full_publication.css) ----------- */
+/* Use one uniform background for ol + all li so the left margin
+   (margin-left: 40px on li) doesn't create a colour mismatch */
+html[data-theme="dark"] ol {
+  background: #252522 no-repeat;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.45);
+}
+
+html[data-theme="dark"] li {
+  background: #252522 no-repeat;
+}
+
+/* override nth-child rules set above for pub pages */
+html[data-theme="dark"] ol li:nth-child(odd) {
+  background: #252522 no-repeat;
+}
+
+html[data-theme="dark"] ol li:nth-child(even) {
+  background: #252522 no-repeat;
+}
+
+/* Also unify the general li nth-child alternating colours – handled above */
+
+html[data-theme="dark"] .title {
+  color: #88b870;
+}
+
+html[data-theme="dark"] .author {
+  color: #b0a860;
+}
+
+html[data-theme="dark"] .booktitle,
+html[data-theme="dark"] .journal,
+html[data-theme="dark"] .institution {
+  color: #9a9688;
+}
+
+html[data-theme="dark"] .note {
+  color: #d88070;
+}
+
+html[data-theme="dark"] .number,
+html[data-theme="dark"] .volume,
+html[data-theme="dark"] .pages {
+  color: #c89a60;
+}
+
+html[data-theme="dark"] .number {
+  color: #a09060;
+}
+
+html[data-theme="dark"] .person a:link,
+html[data-theme="dark"] .person a:visited {
+  color: #b0a860;
+}
+
+html[data-theme="dark"] .pdf,
+html[data-theme="dark"] .dvi,
+html[data-theme="dark"] .ps,
+html[data-theme="dark"] .arxiv {
+  color: #7a7870;
+}
+
+html[data-theme="dark"] .project {
+  color: #c8a870;
+}
+
+html[data-theme="dark"] ol li a:link,
+html[data-theme="dark"] ol li a:visited {
+  color: #c8a870;
+}
+
+html[data-theme="dark"] ol li a:hover {
+  color: #e8bf72;
+}
+
+/* Override blue bracket pseudo-elements on link hover (full_publication.css) */
+html[data-theme="dark"] ol li a[href]:hover::before,
+html[data-theme="dark"] ol li a[href]:hover::after {
+  color: #c8734a;
+}
+
+html[data-theme="dark"] ol ol li:hover {
+  color: #e8e4db;
+}
+
+/* pub.css has its own a:link overrides; ensure dark wins */
+html[data-theme="dark"] a:link,
+html[data-theme="dark"] a:visited {
+  color: #c8a870;
+}
+
+/* --- Chinese name ------------------------------------------------ */
+html[data-theme="dark"] .chinese {
+  color: #88b870;
+}
+
+/* --- Smooth transitions on key elements -------------------------- */
+html,
+body,
+#layout-content {
+  transition: background-color 0.32s ease, color 0.32s ease;
+}
+
+h1, h2, h3 {
+  transition: color 0.32s ease;
+}
+
+div#footer,
+div#footer-text,
+div.infoblock > div.blockcontent,
+div.codeblock > div.blockcontent {
+  transition: background-color 0.32s ease, color 0.32s ease, border-color 0.32s ease;
+}

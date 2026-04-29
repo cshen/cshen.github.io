@@ -75,3 +75,41 @@ tr.heading {
     color:darkgreen;
     pre{font-size:14px; line-height:1.5};
 }
+
+/* ---- Mobile responsive overrides ---- */
+@media (max-width: 600px) {
+  #layout-content {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+
+  td {
+    padding-left: 0.8em;
+    padding-right: 0.4em;
+  }
+
+  .left, .right {
+    float: none;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  .rounded-img2 {
+    width: 100%;
+    max-width: 140px;
+  }
+}
